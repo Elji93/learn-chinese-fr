@@ -1,0 +1,2783 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>汉字Quest — La Voie des Caractères</title>
+<style>
+/* ═══════════════════════════════════════════════
+   CSS CUSTOM PROPERTIES — THÈME XIANXIA
+═══════════════════════════════════════════════ */
+:root {
+  --ink:        #0d0d12;
+  --void:       #12121a;
+  --deep:       #1a1a28;
+  --panel:      #20202f;
+  --surface:    #2a2a3e;
+  --border:     #3a3a55;
+  --muted:      #555580;
+  --soft:       #8888aa;
+  --body:       #c8c8e0;
+  --bright:     #e8e8f8;
+  --gold:       #d4a84b;
+  --gold-glow:  #f0c070;
+  --jade:       #4db88a;
+  --jade-dark:  #2d7a5a;
+  --crimson:    #c44444;
+  --violet:     #8855cc;
+  --violet-lt:  #aa77ee;
+  --azure:      #4488dd;
+  --pearl:      #dde8ff;
+  --locked:     #2a2a3e;
+  --radius:     8px;
+  --radius-lg:  14px;
+  --shadow:     0 4px 24px rgba(0,0,0,0.5);
+  --glow-gold:  0 0 20px rgba(212,168,75,0.35);
+  --glow-jade:  0 0 20px rgba(77,184,138,0.35);
+  --font-main:  'Segoe UI', system-ui, sans-serif;
+  --font-zh:    'Noto Serif SC', 'SimSun', serif;
+  --transition: 0.22s cubic-bezier(0.4,0,0.2,1);
+}
+
+/* ═══════════════════════════════════════════════
+   RESET & BASE
+═══════════════════════════════════════════════ */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: var(--font-main);
+  background: var(--void);
+  color: var(--body);
+  min-height: 100vh;
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+button {
+  cursor: pointer;
+  font-family: inherit;
+  border: none;
+  outline: none;
+  transition: var(--transition);
+}
+input, textarea {
+  font-family: inherit;
+  outline: none;
+  transition: var(--transition);
+}
+a { color: var(--gold); text-decoration: none; }
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--void); }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+
+/* ═══════════════════════════════════════════════
+   SPLASH SCREEN
+═══════════════════════════════════════════════ */
+#splash {
+  position: fixed; inset: 0; z-index: 9999;
+  background: var(--void);
+  display: flex; flex-direction: column;
+  align-items: center; justify-content: center;
+  gap: 24px;
+  transition: opacity 0.6s ease;
+}
+#splash.hidden { opacity: 0; pointer-events: none; }
+.splash-hanzi {
+  font-family: var(--font-zh);
+  font-size: clamp(64px, 15vw, 120px);
+  color: var(--gold);
+  text-shadow: var(--glow-gold);
+  animation: pulse-glow 2s ease-in-out infinite;
+}
+.splash-title {
+  font-size: clamp(20px, 5vw, 32px);
+  color: var(--bright);
+  letter-spacing: 0.15em;
+}
+.splash-sub {
+  color: var(--soft);
+  font-size: 14px;
+  letter-spacing: 0.1em;
+}
+.splash-bar {
+  width: 200px; height: 4px;
+  background: var(--surface);
+  border-radius: 2px;
+  overflow: hidden;
+}
+.splash-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--jade), var(--gold));
+  border-radius: 2px;
+  animation: fill-bar 1.8s ease forwards;
+}
+@keyframes fill-bar { from { width: 0; } to { width: 100%; } }
+@keyframes pulse-glow {
+  0%,100% { text-shadow: 0 0 20px rgba(212,168,75,0.35); }
+  50% { text-shadow: 0 0 40px rgba(212,168,75,0.7), 0 0 80px rgba(212,168,75,0.2); }
+}
+
+/* ═══════════════════════════════════════════════
+   APP SHELL
+═══════════════════════════════════════════════ */
+#app { display: none; flex-direction: column; min-height: 100vh; }
+#app.visible { display: flex; }
+
+/* HEADER */
+#header {
+  background: linear-gradient(135deg, var(--ink) 0%, var(--deep) 100%);
+  border-bottom: 1px solid var(--border);
+  padding: 12px 20px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  position: sticky; top: 0; z-index: 100;
+  flex-wrap: wrap;
+}
+.header-logo {
+  font-family: var(--font-zh);
+  font-size: 22px;
+  color: var(--gold);
+  text-shadow: var(--glow-gold);
+  white-space: nowrap;
+}
+.header-day-info {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.day-badge {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  padding: 4px 14px;
+  font-size: 13px;
+  color: var(--gold);
+}
+.lvl-badge {
+  background: linear-gradient(135deg, var(--violet), var(--azure));
+  border-radius: 20px;
+  padding: 4px 12px;
+  font-size: 12px;
+  color: #fff;
+  font-weight: 600;
+}
+.xp-bar-wrap {
+  flex: 1; max-width: 200px;
+  display: flex; flex-direction: column; gap: 2px;
+}
+.xp-label { font-size: 11px; color: var(--soft); }
+.xp-track {
+  height: 6px; background: var(--surface);
+  border-radius: 3px; overflow: hidden;
+}
+.xp-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--jade), var(--gold));
+  border-radius: 3px;
+  transition: width 0.6s ease;
+}
+.streak-info {
+  display: flex; align-items: center; gap: 6px;
+  font-size: 13px; color: var(--gold-glow);
+}
+
+/* NAV TABS */
+#nav {
+  background: var(--ink);
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  overflow-x: auto;
+  scrollbar-width: none;
+  -webkit-overflow-scrolling: touch;
+}
+#nav::-webkit-scrollbar { display: none; }
+.nav-tab {
+  background: none;
+  color: var(--soft);
+  padding: 12px 18px;
+  font-size: 13px;
+  white-space: nowrap;
+  border-bottom: 2px solid transparent;
+  flex-shrink: 0;
+}
+.nav-tab:hover { color: var(--bright); background: var(--deep); }
+.nav-tab.active {
+  color: var(--gold);
+  border-bottom-color: var(--gold);
+  background: var(--deep);
+}
+
+/* MAIN CONTENT */
+#main { flex: 1; padding: 24px 20px; max-width: 1100px; width: 100%; margin: 0 auto; }
+
+/* ═══════════════════════════════════════════════
+   LOADING STATE
+═══════════════════════════════════════════════ */
+.loading-state {
+  display: flex; flex-direction: column;
+  align-items: center; justify-content: center;
+  min-height: 300px; gap: 20px;
+  color: var(--soft);
+}
+.loading-orb {
+  width: 48px; height: 48px;
+  border: 3px solid var(--border);
+  border-top-color: var(--gold);
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+
+/* ═══════════════════════════════════════════════
+   TAB 1 — MAPPE TEMPORELLE (CALENDAR)
+═══════════════════════════════════════════════ */
+#tab-calendar {
+  display: none;
+}
+#tab-calendar.active { display: block; }
+
+.calendar-header {
+  text-align: center;
+  margin-bottom: 32px;
+}
+.calendar-header h1 {
+  font-size: clamp(22px, 5vw, 32px);
+  color: var(--gold);
+  font-family: var(--font-zh);
+  margin-bottom: 8px;
+}
+.calendar-header p { color: var(--soft); font-size: 14px; }
+
+.month-block { margin-bottom: 40px; }
+.month-title {
+  font-size: 16px;
+  color: var(--violet-lt);
+  margin-bottom: 16px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.month-title span { font-size: 12px; color: var(--soft); }
+
+.day-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(72px, 1fr));
+  gap: 8px;
+}
+.day-cell {
+  aspect-ratio: 1;
+  border-radius: var(--radius);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  cursor: pointer;
+  border: 1px solid transparent;
+  transition: var(--transition);
+  position: relative;
+  overflow: hidden;
+}
+.day-cell.locked {
+  background: var(--locked);
+  color: var(--muted);
+  cursor: not-allowed;
+  border-color: var(--border);
+}
+.day-cell.unlocked {
+  background: var(--surface);
+  color: var(--body);
+  border-color: var(--border);
+}
+.day-cell.unlocked:hover {
+  border-color: var(--gold);
+  color: var(--bright);
+  box-shadow: var(--glow-gold);
+  transform: translateY(-2px);
+}
+.day-cell.completed {
+  background: linear-gradient(135deg, var(--jade-dark), var(--jade));
+  color: #fff;
+  border-color: var(--jade);
+}
+.day-cell.current {
+  background: linear-gradient(135deg, var(--violet), var(--azure));
+  color: #fff;
+  border-color: var(--violet-lt);
+  box-shadow: 0 0 20px rgba(136,85,204,0.4);
+  animation: current-pulse 2s ease-in-out infinite;
+}
+@keyframes current-pulse {
+  0%,100% { box-shadow: 0 0 20px rgba(136,85,204,0.4); }
+  50% { box-shadow: 0 0 30px rgba(136,85,204,0.7); }
+}
+.day-cell.boss {
+  border-width: 2px;
+  border-color: var(--gold) !important;
+}
+.day-cell.boss::after {
+  content: '⚔';
+  position: absolute;
+  top: 2px; right: 4px;
+  font-size: 9px;
+  color: var(--gold);
+}
+.day-cell.tribulation::after {
+  content: '⚡';
+  position: absolute;
+  top: 2px; right: 4px;
+  font-size: 9px;
+  color: var(--violet-lt);
+}
+.day-num { font-size: 16px; font-weight: 700; }
+.day-lvl { font-size: 9px; opacity: 0.7; margin-top: 2px; }
+
+.calendar-legend {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 24px;
+  padding: 16px;
+  background: var(--panel);
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+}
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+  color: var(--soft);
+}
+.legend-dot {
+  width: 14px; height: 14px;
+  border-radius: 3px;
+}
+
+/* ═══════════════════════════════════════════════
+   TAB 2 — FORMULE ORIGINELLE (LESSON)
+═══════════════════════════════════════════════ */
+#tab-lesson { display: none; }
+#tab-lesson.active { display: block; }
+
+.lesson-header {
+  background: linear-gradient(135deg, var(--panel), var(--deep));
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 24px;
+  margin-bottom: 24px;
+}
+.lesson-header h2 {
+  font-size: clamp(18px, 4vw, 26px);
+  color: var(--gold);
+  font-family: var(--font-zh);
+  margin-bottom: 8px;
+}
+.lesson-header .gram-block {
+  background: var(--surface);
+  border-left: 3px solid var(--violet);
+  padding: 12px 16px;
+  border-radius: 0 var(--radius) var(--radius) 0;
+  color: var(--body);
+  font-size: 14px;
+  line-height: 1.7;
+  margin-top: 12px;
+}
+
+.section-title {
+  font-size: 14px;
+  color: var(--violet-lt);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 14px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.section-title::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: var(--border);
+}
+
+.voc-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 32px;
+}
+.voc-row {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 12px 16px;
+  display: grid;
+  grid-template-columns: 80px 100px 1fr auto auto;
+  align-items: center;
+  gap: 12px;
+  transition: var(--transition);
+}
+.voc-row:hover { border-color: var(--border); background: var(--surface); }
+.voc-hanzi {
+  font-family: var(--font-zh);
+  font-size: 24px;
+  color: var(--gold);
+  text-align: center;
+}
+.voc-pinyin { font-size: 13px; color: var(--violet-lt); font-style: italic; }
+.voc-fr { font-size: 14px; color: var(--body); }
+.voc-mnemonic { font-size: 12px; color: var(--soft); grid-column: 2 / 5; font-style: italic; margin-top: 4px; }
+.btn-tts, .btn-srs {
+  width: 32px; height: 32px;
+  border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 15px;
+  flex-shrink: 0;
+}
+.btn-tts {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  color: var(--azure);
+}
+.btn-tts:hover { background: var(--azure); color: #fff; border-color: var(--azure); }
+.btn-srs {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  color: var(--soft);
+}
+.btn-srs.starred { color: var(--gold); border-color: var(--gold); background: rgba(212,168,75,0.1); }
+.btn-srs:hover { border-color: var(--gold); color: var(--gold); }
+
+/* BI BLOCK */
+.bi-block {
+  background: linear-gradient(135deg, var(--panel), var(--deep));
+  border: 1px solid var(--gold);
+  border-radius: var(--radius-lg);
+  padding: 20px;
+  margin-bottom: 24px;
+  position: relative;
+  overflow: hidden;
+}
+.bi-block::before {
+  content: '道';
+  position: absolute;
+  right: 16px; top: 8px;
+  font-family: var(--font-zh);
+  font-size: 80px;
+  color: rgba(212,168,75,0.06);
+  line-height: 1;
+}
+.bi-type {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: var(--gold);
+  margin-bottom: 6px;
+}
+.bi-title {
+  font-family: var(--font-zh);
+  font-size: 20px;
+  color: var(--bright);
+  margin-bottom: 10px;
+}
+.bi-ctx { font-size: 14px; color: var(--soft); line-height: 1.7; }
+
+@media (max-width: 640px) {
+  .voc-row {
+    grid-template-columns: 60px 1fr auto auto;
+    grid-template-rows: auto auto;
+  }
+  .voc-pinyin { grid-column: 2; }
+  .voc-fr { grid-column: 2 / 4; }
+  .voc-mnemonic { grid-column: 1 / -1; }
+}
+
+/* ═══════════════════════════════════════════════
+   TAB 3 — ROMAN IMMERSIF
+═══════════════════════════════════════════════ */
+#tab-novel { display: none; }
+#tab-novel.active { display: block; }
+
+.novel-controls {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.toggle-btn {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  color: var(--soft);
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 13px;
+}
+.toggle-btn.on {
+  background: rgba(77,184,138,0.15);
+  border-color: var(--jade);
+  color: var(--jade);
+}
+.toggle-btn:hover { border-color: var(--soft); color: var(--bright); }
+
+.novel-body {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 28px;
+  line-height: 2;
+}
+.novel-story {
+  font-family: var(--font-zh);
+  font-size: clamp(16px, 3vw, 20px);
+  color: var(--bright);
+  word-break: break-all;
+}
+.novel-translation {
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid var(--border);
+  font-size: 15px;
+  color: var(--soft);
+  line-height: 1.8;
+  font-style: italic;
+  display: none;
+}
+.novel-translation.visible { display: block; }
+
+/* TOKENS */
+.token {
+  position: relative;
+  cursor: pointer;
+  border-bottom: 1px dashed rgba(212,168,75,0.3);
+  transition: color 0.15s;
+}
+.token:hover { color: var(--gold); border-bottom-color: var(--gold); }
+.token.active-karaoke { color: var(--jade); }
+
+.token-tooltip {
+  position: absolute;
+  bottom: calc(100% + 8px);
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--ink);
+  border: 1px solid var(--gold);
+  border-radius: var(--radius);
+  padding: 8px 12px;
+  min-width: 120px;
+  text-align: center;
+  z-index: 200;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.15s;
+  white-space: nowrap;
+  box-shadow: var(--shadow);
+}
+.token:hover .token-tooltip,
+.token.tapped .token-tooltip { opacity: 1; }
+.token-tooltip .tp-pinyin { font-size: 12px; color: var(--violet-lt); font-style: italic; }
+.token-tooltip .tp-fr { font-size: 13px; color: var(--bright); margin-top: 2px; }
+.token-tooltip::after {
+  content: '';
+  position: absolute;
+  top: 100%; left: 50%;
+  transform: translateX(-50%);
+  border: 5px solid transparent;
+  border-top-color: var(--gold);
+}
+
+ruby { display: inline-flex; flex-direction: column-reverse; text-align: center; line-height: 1.2; vertical-align: bottom; }
+rt { font-size: 0.55em; color: var(--violet-lt); font-family: var(--font-main); font-style: italic; }
+
+/* Tokens hors lexique — survolables mais sans définition */
+.token-unknown { border-bottom: 1px dashed rgba(136,136,170,0.2) !important; }
+.token-unknown:hover { color: var(--soft) !important; border-bottom-color: rgba(136,136,170,0.5) !important; }
+.token-tooltip-unknown { min-width: 90px; }
+
+/* ═══════════════════════════════════════════════
+   TAB 4 — BIBLIOTHÈQUE DES ARCANES
+═══════════════════════════════════════════════ */
+#tab-library { display: none; }
+#tab-library.active { display: block; }
+
+.library-controls {
+  display: flex; gap: 10px; margin-bottom: 20px; flex-wrap: wrap;
+}
+.library-body {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 28px;
+  line-height: 2;
+}
+.library-stream {
+  font-family: var(--font-zh);
+  font-size: clamp(16px, 3vw, 20px);
+  color: var(--bright);
+  word-break: break-all;
+}
+.lib-translation-block {
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid var(--border);
+  font-size: 15px;
+  color: var(--soft);
+  line-height: 1.8;
+  font-style: italic;
+  display: none;
+}
+.lib-translation-block.visible { display: block; }
+
+/* ═══════════════════════════════════════════════
+   TAB 5 — PAVILLON DES ÉPREUVES (GAMES)
+═══════════════════════════════════════════════ */
+#tab-games { display: none; }
+#tab-games.active { display: block; }
+
+.games-header { text-align: center; margin-bottom: 32px; }
+.games-header h2 { font-size: 24px; color: var(--gold); font-family: var(--font-zh); margin-bottom: 8px; }
+.games-header p { color: var(--soft); font-size: 14px; }
+
+.games-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 16px;
+  margin-bottom: 32px;
+}
+.game-card {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 20px;
+  cursor: pointer;
+  transition: var(--transition);
+  position: relative;
+  overflow: hidden;
+}
+.game-card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, transparent, rgba(212,168,75,0.04));
+  opacity: 0;
+  transition: var(--transition);
+}
+.game-card:hover {
+  border-color: var(--gold);
+  transform: translateY(-3px);
+  box-shadow: var(--glow-gold);
+}
+.game-card:hover::before { opacity: 1; }
+.game-icon { font-size: 32px; margin-bottom: 10px; }
+.game-name { font-size: 15px; color: var(--bright); font-weight: 600; margin-bottom: 6px; }
+.game-desc { font-size: 12px; color: var(--soft); line-height: 1.5; }
+.game-tag {
+  display: inline-block;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 2px 8px;
+  font-size: 10px;
+  color: var(--muted);
+  margin-top: 8px;
+}
+
+/* GAME ARENA */
+#game-arena {
+  display: none;
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 24px;
+  min-height: 400px;
+}
+#game-arena.active { display: block; }
+
+.arena-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--border);
+}
+.arena-title { font-size: 18px; color: var(--gold); }
+.arena-meta { display: flex; gap: 12px; align-items: center; }
+.arena-counter { font-size: 13px; color: var(--soft); }
+.arena-timer {
+  background: var(--crimson);
+  color: #fff;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 700;
+  min-width: 60px;
+  text-align: center;
+}
+.arena-timer.warning { animation: timer-warn 0.5s ease infinite alternate; }
+@keyframes timer-warn {
+  from { background: var(--crimson); }
+  to { background: #ff6666; }
+}
+.btn-back {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  color: var(--soft);
+  padding: 6px 14px;
+  border-radius: var(--radius);
+  font-size: 13px;
+}
+.btn-back:hover { color: var(--bright); border-color: var(--soft); }
+
+.arena-body { min-height: 300px; }
+
+.source-toggle {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+.src-btn {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  color: var(--soft);
+  padding: 7px 14px;
+  border-radius: var(--radius);
+  font-size: 12px;
+}
+.src-btn.active {
+  background: rgba(136,85,204,0.2);
+  border-color: var(--violet);
+  color: var(--violet-lt);
+}
+
+/* GAME COMPONENTS */
+.q-block {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 20px;
+  margin-bottom: 16px;
+  text-align: center;
+}
+.q-hanzi { font-family: var(--font-zh); font-size: 40px; color: var(--gold); margin-bottom: 8px; }
+.q-text { font-size: 16px; color: var(--bright); }
+.q-sub { font-size: 13px; color: var(--soft); margin-top: 4px; }
+
+.options-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+.opt-btn {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  color: var(--body);
+  padding: 14px;
+  border-radius: var(--radius);
+  font-size: 14px;
+  text-align: center;
+  transition: var(--transition);
+}
+.opt-btn:hover:not(:disabled) { border-color: var(--azure); color: var(--bright); }
+.opt-btn.correct { background: rgba(77,184,138,0.2); border-color: var(--jade); color: var(--jade); }
+.opt-btn.wrong { background: rgba(196,68,68,0.2); border-color: var(--crimson); color: var(--crimson); }
+.opt-btn:disabled { cursor: not-allowed; }
+
+.btn-primary {
+  background: linear-gradient(135deg, var(--jade-dark), var(--jade));
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: var(--radius);
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 16px;
+}
+.btn-primary:hover { opacity: 0.9; transform: translateY(-1px); }
+.btn-primary:disabled { opacity: 0.5; cursor: not-allowed; transform: none; }
+
+.btn-danger {
+  background: rgba(196,68,68,0.15);
+  border: 1px solid var(--crimson);
+  color: var(--crimson);
+  padding: 8px 16px;
+  border-radius: var(--radius);
+  font-size: 13px;
+}
+.btn-danger:hover { background: var(--crimson); color: #fff; }
+
+.result-block {
+  text-align: center;
+  padding: 32px;
+}
+.result-score { font-size: 48px; font-weight: 700; color: var(--gold); }
+.result-label { font-size: 16px; color: var(--soft); margin-top: 8px; }
+.result-detail { font-size: 14px; color: var(--body); margin-top: 16px; }
+
+/* Memory Game */
+.memory-grid {
+  display: grid;
+  gap: 10px;
+}
+.mem-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 12px 8px;
+  text-align: center;
+  cursor: pointer;
+  transition: var(--transition);
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+}
+.mem-card:hover { border-color: var(--violet); color: var(--bright); }
+.mem-card.selected { border-color: var(--gold); background: rgba(212,168,75,0.1); }
+.mem-card.matched { border-color: var(--jade); background: rgba(77,184,138,0.15); color: var(--jade); cursor: default; }
+.mem-card.wrong { border-color: var(--crimson); background: rgba(196,68,68,0.1); animation: shake 0.3s ease; }
+@keyframes shake {
+  0%,100% { transform: translateX(0); }
+  25% { transform: translateX(-6px); }
+  75% { transform: translateX(6px); }
+}
+
+/* Dictée / Input */
+.dictee-sentence {
+  font-family: var(--font-zh);
+  font-size: 22px;
+  color: var(--bright);
+  text-align: center;
+  margin-bottom: 16px;
+  line-height: 1.8;
+}
+.dictee-input {
+  width: 100%;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 12px 16px;
+  color: var(--bright);
+  font-size: 15px;
+}
+.dictee-input:focus { border-color: var(--violet); }
+
+/* Wordle */
+.wordle-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+  margin: 20px 0;
+}
+.wordle-row {
+  display: flex;
+  gap: 8px;
+}
+.wordle-cell {
+  width: 52px; height: 52px;
+  border: 2px solid var(--border);
+  border-radius: var(--radius);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-zh);
+  font-size: 22px;
+  color: var(--bright);
+  transition: var(--transition);
+}
+.wordle-cell.correct { background: var(--jade); border-color: var(--jade); color: #fff; }
+.wordle-cell.present { background: var(--gold); border-color: var(--gold); color: var(--ink); }
+.wordle-cell.absent { background: var(--surface); border-color: var(--muted); color: var(--soft); }
+.wordle-cell.active { border-color: var(--violet); }
+.wordle-input {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 10px 16px;
+  color: var(--bright);
+  font-family: var(--font-zh);
+  font-size: 18px;
+  width: 200px;
+  text-align: center;
+}
+
+/* Train des Mots */
+.train-sentence {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  min-height: 56px;
+  background: var(--surface);
+  border: 1px dashed var(--border);
+  border-radius: var(--radius);
+  padding: 12px;
+  margin-bottom: 16px;
+  align-items: center;
+}
+.word-block {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 8px 14px;
+  font-family: var(--font-zh);
+  font-size: 16px;
+  color: var(--bright);
+  cursor: pointer;
+  transition: var(--transition);
+  user-select: none;
+}
+.word-block:hover { border-color: var(--gold); color: var(--gold); }
+.word-block.placed { border-color: var(--jade); background: rgba(77,184,138,0.1); }
+.word-block.correct-pos { border-color: var(--jade); background: rgba(77,184,138,0.2); color: var(--jade); }
+.word-block.wrong-pos { border-color: var(--crimson); background: rgba(196,68,68,0.1); color: var(--crimson); }
+
+/* Chasseur d'Intrus */
+.intrus-matrix {
+  display: grid;
+  gap: 8px;
+  justify-content: center;
+  margin: 20px 0;
+}
+.intrus-cell {
+  width: 70px; height: 70px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-zh);
+  font-size: 24px;
+  color: var(--bright);
+  cursor: pointer;
+  transition: var(--transition);
+}
+.intrus-cell:hover { border-color: var(--gold); color: var(--gold); }
+.intrus-cell.correct-pick { border-color: var(--jade); background: rgba(77,184,138,0.2); color: var(--jade); }
+.intrus-cell.wrong-pick { border-color: var(--crimson); background: rgba(196,68,68,0.2); color: var(--crimson); }
+
+/* Pont des Nuances */
+.nuance-card {
+  text-align: center;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 32px;
+  margin-bottom: 20px;
+}
+.nuance-word { font-family: var(--font-zh); font-size: 48px; color: var(--bright); }
+.nuance-hint { font-size: 14px; color: var(--soft); margin-top: 8px; }
+.nuance-btns { display: flex; gap: 12px; justify-content: center; }
+.nuance-btn {
+  padding: 14px 32px;
+  border-radius: var(--radius);
+  font-size: 15px;
+  font-weight: 600;
+  border: none;
+}
+.nuance-btn.a { background: linear-gradient(135deg, var(--jade-dark), var(--jade)); color: #fff; }
+.nuance-btn.b { background: linear-gradient(135deg, var(--violet), var(--azure)); color: #fff; }
+.nuance-btn:hover { transform: scale(1.04); }
+
+/* Sprinter */
+.sprinter-text {
+  font-family: var(--font-zh);
+  font-size: 20px;
+  color: var(--bright);
+  line-height: 2;
+  margin-bottom: 20px;
+  background: var(--surface);
+  border-radius: var(--radius);
+  padding: 20px;
+}
+.blank-slot {
+  display: inline-block;
+  border-bottom: 2px solid var(--gold);
+  min-width: 60px;
+  height: 28px;
+  vertical-align: bottom;
+  cursor: pointer;
+  border-radius: 0;
+  background: rgba(212,168,75,0.05);
+  text-align: center;
+  line-height: 28px;
+  color: var(--gold);
+  font-family: var(--font-zh);
+}
+.blank-slot.filled { border-bottom-color: var(--jade); color: var(--jade); background: rgba(77,184,138,0.08); }
+.word-bank {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+/* Sudoku */
+.sudoku-grid {
+  display: grid;
+  gap: 2px;
+  margin: 0 auto;
+  max-width: 360px;
+}
+.sudoku-cell {
+  aspect-ratio: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-zh);
+  font-size: 18px;
+  cursor: pointer;
+  border: 1px solid var(--border);
+  transition: var(--transition);
+  background: var(--surface);
+}
+.sudoku-cell.given { color: var(--gold); cursor: default; font-weight: bold; }
+.sudoku-cell.selected { background: rgba(136,85,204,0.2); border-color: var(--violet); }
+.sudoku-cell.error { color: var(--crimson); }
+.sudoku-cell.filled { color: var(--bright); }
+.sudoku-picker {
+  display: flex; flex-wrap: wrap; gap: 6px; margin-top: 16px; justify-content: center;
+}
+.sudoku-pick {
+  width: 44px; height: 44px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  font-family: var(--font-zh);
+  font-size: 16px;
+  color: var(--bright);
+}
+.sudoku-pick:hover { border-color: var(--gold); color: var(--gold); }
+
+/* Karaoke */
+.karaoke-text {
+  font-family: var(--font-zh);
+  font-size: clamp(18px, 4vw, 26px);
+  color: var(--body);
+  line-height: 2.2;
+  background: var(--surface);
+  border-radius: var(--radius-lg);
+  padding: 24px;
+  margin-bottom: 16px;
+}
+
+/* Chengyu / BI quiz */
+.bi-quiz-img {
+  font-size: 48px;
+  text-align: center;
+  margin-bottom: 12px;
+}
+.pause-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(13,13,18,0.92);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  color: var(--gold);
+  border-radius: var(--radius-lg);
+  z-index: 50;
+  display: none;
+}
+.pause-overlay.active { display: flex; }
+
+/* ═══════════════════════════════════════════════
+   TAB 6 — DECK MÉMOIRE (SRS)
+═══════════════════════════════════════════════ */
+#tab-srs { display: none; }
+#tab-srs.active { display: block; }
+
+.srs-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 12px;
+  margin-bottom: 28px;
+}
+.srs-stat-card {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 16px;
+  text-align: center;
+}
+.srs-stat-num { font-size: 28px; font-weight: 700; color: var(--gold); }
+.srs-stat-lbl { font-size: 12px; color: var(--soft); margin-top: 4px; }
+
+.srs-direction {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+.srs-card-wrap {
+  perspective: 1000px;
+  min-height: 200px;
+  margin-bottom: 20px;
+}
+.srs-card {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 32px;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.4s;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+.srs-front { font-family: var(--font-zh); font-size: 48px; color: var(--gold); }
+.srs-pinyin { font-size: 16px; color: var(--violet-lt); font-style: italic; display: none; }
+.srs-back { font-size: 20px; color: var(--bright); display: none; }
+.srs-card.revealed .srs-pinyin,
+.srs-card.revealed .srs-back { display: block; }
+.srs-card-hint { font-size: 12px; color: var(--muted); margin-top: 8px; }
+
+.srs-rating {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  display: none;
+}
+.srs-rating.visible { display: grid; }
+.rating-btn {
+  padding: 10px;
+  border-radius: var(--radius);
+  font-size: 13px;
+  font-weight: 600;
+  border: none;
+  color: #fff;
+}
+.rating-btn[data-q="0"] { background: var(--crimson); }
+.rating-btn[data-q="1"] { background: #cc6633; }
+.rating-btn[data-q="2"] { background: #aa8833; }
+.rating-btn[data-q="3"] { background: var(--jade); }
+
+.srs-empty {
+  text-align: center;
+  padding: 48px;
+  color: var(--soft);
+}
+.srs-empty-icon { font-size: 48px; margin-bottom: 16px; }
+
+/* ═══════════════════════════════════════════════
+   TOAST
+═══════════════════════════════════════════════ */
+#toast {
+  position: fixed;
+  bottom: 24px; left: 50%;
+  transform: translateX(-50%) translateY(80px);
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 30px;
+  padding: 12px 24px;
+  font-size: 14px;
+  color: var(--bright);
+  z-index: 1000;
+  transition: transform 0.3s ease;
+  pointer-events: none;
+  white-space: nowrap;
+  box-shadow: var(--shadow);
+}
+#toast.show { transform: translateX(-50%) translateY(0); }
+#toast.success { border-color: var(--jade); color: var(--jade); }
+#toast.error { border-color: var(--crimson); color: var(--crimson); }
+
+/* ═══════════════════════════════════════════════
+   MISC UTILITIES
+═══════════════════════════════════════════════ */
+.hidden { display: none !important; }
+.text-center { text-align: center; }
+.mt-8 { margin-top: 8px; }
+.mt-16 { margin-top: 16px; }
+.mt-24 { margin-top: 24px; }
+.gap-8 { gap: 8px; }
+.flex { display: flex; }
+.flex-wrap { flex-wrap: wrap; }
+.items-center { align-items: center; }
+.justify-center { justify-content: center; }
+.w-full { width: 100%; }
+
+@media (max-width: 480px) {
+  #main { padding: 16px 12px; }
+  .options-grid { grid-template-columns: 1fr; }
+  .nuance-btns { flex-direction: column; align-items: stretch; }
+}
+</style>
+</head>
+<body>
+
+<!-- SPLASH -->
+<div id="splash">
+  <div class="splash-hanzi">漢</div>
+  <div class="splash-title">汉字Quest</div>
+  <div class="splash-sub">La Voie des Caractères · HSK1 → HSK4</div>
+  <div class="splash-bar"><div class="splash-fill"></div></div>
+</div>
+
+<!-- APP SHELL -->
+<div id="app">
+
+  <!-- HEADER -->
+  <header id="header">
+    <div class="header-logo">汉字Quest</div>
+    <div class="header-day-info">
+      <div class="day-badge" id="hdr-day">Jour —</div>
+      <div class="lvl-badge" id="hdr-lvl">HSK1</div>
+    </div>
+    <div class="xp-bar-wrap">
+      <div class="xp-label">XP <span id="hdr-xp">0</span></div>
+      <div class="xp-track"><div class="xp-fill" id="xp-fill" style="width:0%"></div></div>
+    </div>
+    <div class="streak-info">🔥 <span id="hdr-streak">0</span></div>
+  </header>
+
+  <!-- NAV -->
+  <nav id="nav">
+    <button class="nav-tab" data-tab="calendar">📅 Mappe Temporelle</button>
+    <button class="nav-tab" data-tab="lesson">📜 Formule Originelle</button>
+    <button class="nav-tab" data-tab="novel">🔮 Roman Immersif</button>
+    <button class="nav-tab" data-tab="library">📚 Bibliothèque des Arcanes</button>
+    <button class="nav-tab" data-tab="games">🎮 Pavillon des Épreuves</button>
+    <button class="nav-tab" data-tab="srs">🎴 Deck Mémoire</button>
+  </nav>
+
+  <!-- MAIN -->
+  <main id="main">
+
+    <!-- TAB 1: CALENDAR -->
+    <div id="tab-calendar">
+      <div class="calendar-header">
+        <h1>📅 Mappe Temporelle</h1>
+        <p>Votre voyage de 180 jours vers la maîtrise des caractères</p>
+      </div>
+      <div id="months-container"></div>
+      <div class="calendar-legend">
+        <div class="legend-item"><div class="legend-dot" style="background:var(--jade)"></div> Complété</div>
+        <div class="legend-item"><div class="legend-dot" style="background:linear-gradient(135deg,var(--violet),var(--azure))"></div> Actuel</div>
+        <div class="legend-item"><div class="legend-dot" style="background:var(--surface);border:1px solid var(--border)"></div> Débloqué</div>
+        <div class="legend-item"><div class="legend-dot" style="background:var(--locked)"></div> Verrouillé</div>
+        <div class="legend-item"><span style="color:var(--gold)">⚔</span> Boss Battle</div>
+        <div class="legend-item"><span style="color:var(--violet-lt)">⚡</span> Tribulation</div>
+      </div>
+    </div>
+
+    <!-- TAB 2: LESSON -->
+    <div id="tab-lesson">
+      <div id="lesson-content"><div class="loading-state"><div class="loading-orb"></div><p>Sélectionnez un jour dans la Mappe Temporelle</p></div></div>
+    </div>
+
+    <!-- TAB 3: NOVEL -->
+    <div id="tab-novel">
+      <div class="novel-controls">
+        <button class="toggle-btn" id="toggle-pinyin">☯ Afficher Pinyin</button>
+        <button class="toggle-btn" id="toggle-trad">📖 Afficher Traduction</button>
+        <button class="toggle-btn" id="btn-karaoke-mode">🎵 Mode Karaoke</button>
+      </div>
+      <div class="novel-body">
+        <div class="novel-story" id="novel-story"><p style="color:var(--soft);text-align:center;padding:48px 0">Sélectionnez un jour pour lire son chapitre.</p></div>
+        <div class="novel-translation" id="novel-translation"></div>
+      </div>
+    </div>
+
+    <!-- TAB 4: LIBRARY -->
+    <div id="tab-library">
+      <div class="library-controls">
+        <button class="toggle-btn" id="lib-toggle-pinyin">☯ Afficher Pinyin</button>
+        <button class="toggle-btn" id="lib-toggle-trad">📖 Afficher Traduction</button>
+      </div>
+      <div class="library-body">
+        <div class="library-stream" id="library-stream"><p style="color:var(--soft);text-align:center;padding:48px 0">Aucun chapitre débloqué pour l'instant.</p></div>
+        <div class="lib-translation-block" id="lib-translation"></div>
+      </div>
+    </div>
+
+    <!-- TAB 5: GAMES -->
+    <div id="tab-games">
+      <div class="games-header">
+        <h2>🎮 Pavillon des Épreuves</h2>
+        <p>Dix arts martiaux de la mémoire pour forger votre cultivation</p>
+      </div>
+      <div class="games-grid" id="games-grid">
+        <div class="game-card" data-game="memory"><div class="game-icon">🃏</div><div class="game-name">Memory des Radicaux</div><div class="game-desc">Associez radicaux et caractères. Jeu libre — terminez à 100%.</div><span class="game-tag">Libre</span></div>
+        <div class="game-card" data-game="dictee"><div class="game-icon">🎧</div><div class="game-name">Dictée Inversée</div><div class="game-desc">Entendez la phrase, rédigez la traduction française. 1/10 questions.</div><span class="game-tag">1/10</span></div>
+        <div class="game-card" data-game="karaoke"><div class="game-icon">🎤</div><div class="game-name">Karaoké Immersif</div><div class="game-desc">Suivez le texte mot par mot en temps réel avec la voix TTS.</div><span class="game-tag">Durée du chapitre</span></div>
+        <div class="game-card" data-game="train"><div class="game-icon">🚂</div><div class="game-name">Train des Mots</div><div class="game-desc">Reconstituez la syntaxe chinoise. 1/5 phrases.</div><span class="game-tag">1/5</span></div>
+        <div class="game-card" data-game="wordle"><div class="game-icon">🀄</div><div class="game-name">Dictée Idéogramme</div><div class="game-desc">Wordle de Hanzi — 6 tentatives, 1/5 caractères.</div><span class="game-tag">1/5 × 6 essais</span></div>
+        <div class="game-card" data-game="intrus"><div class="game-icon">🔍</div><div class="game-name">Chasseur d'Intrus</div><div class="game-desc">Trouvez l'intrus dans la matrice en 5 secondes. 1/20 tentatives.</div><span class="game-tag">5s · 1/20</span></div>
+        <div class="game-card" data-game="nuances"><div class="game-icon">⚖️</div><div class="game-name">Pont des Nuances</div><div class="game-desc">Triez les mots par nuance en 30 secondes chrono.</div><span class="game-tag">30s global</span></div>
+        <div class="game-card" data-game="sprinter"><div class="game-icon">⚡</div><div class="game-name">Sprinter de Lecture</div><div class="game-desc">Remplissez les blancs avec la banque de mots de l'histoire.</div><span class="game-tag">Tokens manquants</span></div>
+        <div class="game-card" data-game="sudoku"><div class="game-icon">🔢</div><div class="game-name">Sudoku des Caractères</div><div class="game-desc">Grille 4×4 ou 9×9 de Hanzi. Jeu libre — saturation complète.</div><span class="game-tag">Libre</span></div>
+        <div class="game-card" data-game="chengyu"><div class="game-icon">🐉</div><div class="game-name">Décodeur Chengyu</div><div class="game-desc">Quiz culturel sur idiomes et mèmes. 15s/question, 1/10. Pausable.</div><span class="game-tag">15s · 1/10</span></div>
+      </div>
+      <div id="game-arena">
+        <div class="arena-header">
+          <div class="arena-title" id="arena-title">—</div>
+          <div class="arena-meta">
+            <div class="source-toggle">
+              <button class="src-btn active" id="src-lesson" onclick="setGameSource('lesson')">📜 Leçon</button>
+              <button class="src-btn" id="src-srs" onclick="setGameSource('srs')">🎴 SRS</button>
+            </div>
+            <div class="arena-counter" id="arena-counter"></div>
+            <div class="arena-timer hidden" id="arena-timer">0</div>
+            <button class="btn-back" onclick="closeArena()">✕ Fermer</button>
+          </div>
+        </div>
+        <div class="arena-body" id="arena-body"></div>
+        <div class="pause-overlay" id="pause-overlay">⏸ PAUSE — Reprenez pour continuer</div>
+      </div>
+    </div>
+
+    <!-- TAB 6: SRS -->
+    <div id="tab-srs">
+      <div class="srs-stats" id="srs-stats"></div>
+      <div class="srs-direction">
+        <button class="src-btn active" id="srs-dir-zh" onclick="setSRSDir('zh')">中文 ➔ Français</button>
+        <button class="src-btn" id="srs-dir-fr" onclick="setSRSDir('fr')">Français ➔ 中文</button>
+      </div>
+      <div class="srs-card-wrap">
+        <div class="srs-card" id="srs-main-card" onclick="revealSRS()">
+          <div class="srs-empty">
+            <div class="srs-empty-icon">🎴</div>
+            <p>Ajoutez des mots via ⭐ dans la leçon</p>
+          </div>
+        </div>
+      </div>
+      <div class="srs-rating" id="srs-rating">
+        <button class="rating-btn" data-q="0" onclick="rateSRS(0)">✗ Oubli</button>
+        <button class="rating-btn" data-q="1" onclick="rateSRS(1)">⚠ Difficile</button>
+        <button class="rating-btn" data-q="2" onclick="rateSRS(2)">○ Correct</button>
+        <button class="rating-btn" data-q="3" onclick="rateSRS(3)">✓ Facile</button>
+      </div>
+    </div>
+
+  </main>
+</div>
+
+<div id="toast"></div>
+
+<script>
+'use strict';
+/* ═══════════════════════════════════════════════════════════════
+   汉字Quest — ENGINE v2.0 — 180 JOURS, 6 MOIS
+═══════════════════════════════════════════════════════════════ */
+
+/* ── STATE ── */
+const State = {
+  currentDay: null,
+  currentData: null,
+  activeTab: 'calendar',
+  xp: 0,
+  streak: 0,
+  lastDate: null,
+  gameSource: 'lesson',
+  srsDir: 'zh',
+  currentSRSIdx: 0,
+  srsQueue: [],
+  karaokeActive: false,
+  karaokeUtterance: null,
+  novelPinyinOn: false,
+  novelTradOn: false,
+  libPinyinOn: false,
+  libTradOn: false,
+  activeGame: null,
+  gameTimer: null,
+  gamePaused: false,
+};
+
+/* ── localStorage helpers ── */
+const LS = {
+  get(k, def=null) { try { const v=localStorage.getItem(k); return v===null?def:JSON.parse(v); } catch(e){return def;} },
+  set(k,v) { try { localStorage.setItem(k,JSON.stringify(v)); } catch(e){} },
+  del(k)   { try { localStorage.removeItem(k); } catch(e){} },
+};
+
+/* ── CONFIG ── */
+const MONTHS = [
+  { label: 'Mois I — L\'Éveil', days: [1,30],   file: 'month1.json', arc: 'HSK1' },
+  { label: 'Mois II — L\'Initiation', days: [31,60],  file: 'month2.json', arc: 'HSK1-2' },
+  { label: 'Mois III — La Voie', days: [61,90],  file: 'month3.json', arc: 'HSK2' },
+  { label: 'Mois IV — Le Flux', days: [91,120],  file: 'month4.json', arc: 'HSK2-3' },
+  { label: 'Mois V — La Percée', days: [121,150], file: 'month5.json', arc: 'HSK3' },
+  { label: 'Mois VI — L\'Ascension', days: [151,180], file: 'month6.json', arc: 'HSK3-4' },
+];
+
+function getMonthFile(day) {
+  for(const m of MONTHS) {
+    if(day >= m.days[0] && day <= m.days[1]) return `data/${m.file}`;
+  }
+  return null;
+}
+
+function isBoss(d)        { return d % 30 === 0; }
+function isTribulation(d) { return d % 7 === 0 && !isBoss(d); }
+
+/* ── INIT ── */
+function init() {
+  loadUserState();
+  buildCalendar();
+  renderSRSStats();
+  loadLibrary();
+
+  // default tab = calendar
+  switchTab('calendar');
+
+  setTimeout(() => {
+    document.getElementById('splash').classList.add('hidden');
+    document.getElementById('app').classList.add('visible');
+  }, 2000);
+
+  // streak check
+  checkStreak();
+}
+
+function loadUserState() {
+  State.xp = LS.get('hq_xp', 0);
+  State.streak = LS.get('hq_streak', 0);
+  State.lastDate = LS.get('hq_lastdate', null);
+  updateHeader();
+}
+
+function checkStreak() {
+  const today = new Date().toDateString();
+  const last  = State.lastDate;
+  if (!last) return;
+  const diff = (new Date(today) - new Date(last)) / 86400000;
+  if (diff > 1) { State.streak = 0; LS.set('hq_streak', 0); updateHeader(); }
+}
+
+function addXP(amount) {
+  State.xp += amount;
+  LS.set('hq_xp', State.xp);
+  updateHeader();
+  showToast(`+${amount} XP ✨`, 'success');
+}
+
+function updateHeader() {
+  document.getElementById('hdr-xp').textContent = State.xp;
+  document.getElementById('hdr-streak').textContent = State.streak;
+  const xpInLevel = State.xp % 500;
+  document.getElementById('xp-fill').style.width = (xpInLevel / 500 * 100) + '%';
+  if (State.currentData) {
+    document.getElementById('hdr-day').textContent = `Jour ${State.currentData.id}`;
+    document.getElementById('hdr-lvl').textContent = State.currentData.lvl;
+  }
+}
+
+/* ── NAVIGATION ── */
+document.querySelectorAll('.nav-tab').forEach(btn => {
+  btn.addEventListener('click', () => switchTab(btn.dataset.tab));
+});
+
+function switchTab(name) {
+  document.querySelectorAll('.nav-tab').forEach(b => b.classList.toggle('active', b.dataset.tab === name));
+  document.querySelectorAll('#main > div[id^="tab-"]').forEach(d => {
+    d.classList.toggle('active', d.id === `tab-${name}`);
+  });
+  State.activeTab = name;
+  if (name === 'library') loadLibrary();
+  if (name === 'srs') { buildSRSQueue(); renderSRSCard(); renderSRSStats(); }
+}
+
+/* ── CALENDAR ── */
+function buildCalendar() {
+  const container = document.getElementById('months-container');
+  container.innerHTML = '';
+  const completed = LS.get('hq_completed', []);
+  const unlocked  = LS.get('hq_unlocked', [1]);
+
+  MONTHS.forEach(month => {
+    const block = document.createElement('div');
+    block.className = 'month-block';
+    block.innerHTML = `<div class="month-title">${month.label} <span>${month.arc}</span></div><div class="day-grid" id="grid-m${month.days[0]}"></div>`;
+    container.appendChild(block);
+
+    const grid = block.querySelector('.day-grid');
+    for (let d = month.days[0]; d <= month.days[1]; d++) {
+      const cell = document.createElement('div');
+      cell.className = 'day-cell';
+      const isCurrent  = (State.currentDay === d);
+      const isComplete = completed.includes(d);
+      const isUnlocked = unlocked.includes(d) || isComplete || isCurrent;
+
+      if (isComplete)       cell.classList.add('completed');
+      else if (isCurrent)   cell.classList.add('current');
+      else if (isUnlocked)  cell.classList.add('unlocked');
+      else                  cell.classList.add('locked');
+
+      if (isBoss(d))        cell.classList.add('boss');
+      else if (isTribulation(d)) cell.classList.add('tribulation');
+
+      // determine lvl for display
+      const lvl = d<=30?'HSK1':d<=60?'HSK1':'HSK2';
+      cell.innerHTML = `<span class="day-num">${d}</span><span class="day-lvl">${lvl}</span>`;
+
+      if (isUnlocked || isComplete || isCurrent) {
+        cell.addEventListener('click', () => selectDay(d));
+      }
+      grid.appendChild(cell);
+    }
+  });
+}
+
+function selectDay(day) {
+  State.currentDay = day;
+  showToast(`Chargement du Jour ${day}…`);
+  const file = getMonthFile(day);
+  if (!file) return;
+
+  document.getElementById('lesson-content').innerHTML = '<div class="loading-state"><div class="loading-orb"></div><p>Invocation du parchemin…</p></div>';
+  switchTab('lesson');
+
+  fetch(file)
+    .then(r => {
+      if (!r.ok) throw new Error(`HTTP ${r.status}`);
+      return r.json();
+    })
+    .then(json => {
+      // Support both array and single-object JSON
+      let data;
+      if (Array.isArray(json)) {
+        data = json.find(d => d.id === day);
+      } else if (json.id === day) {
+        data = json;
+      } else if (json.days) {
+        data = json.days.find(d => d.id === day);
+      } else {
+        data = Object.values(json).find(d => d && d.id === day);
+      }
+      if (!data) throw new Error(`Jour ${day} introuvable dans ${file}`);
+      State.currentData = data;
+      markUnlocked(day);
+      updateHeader();
+      buildCalendar();
+      renderLesson(data);
+      renderNovel(data);
+      showToast(`Jour ${day} chargé !`, 'success');
+    })
+    .catch(err => {
+      console.warn(err);
+      // Demo fallback for days without data files
+      const demo = makeDemoData(day);
+      State.currentData = demo;
+      markUnlocked(day);
+      updateHeader();
+      buildCalendar();
+      renderLesson(demo);
+      renderNovel(demo);
+      showToast(`Données de démo — Jour ${day}`, '');
+    });
+}
+
+function markUnlocked(day) {
+  const unlocked = LS.get('hq_unlocked', [1]);
+  if (!unlocked.includes(day)) unlocked.push(day);
+  if (!unlocked.includes(day + 1)) unlocked.push(day + 1);
+  LS.set('hq_unlocked', unlocked);
+
+  // update streak
+  const today = new Date().toDateString();
+  if (State.lastDate !== today) {
+    State.streak++;
+    State.lastDate = today;
+    LS.set('hq_streak', State.streak);
+    LS.set('hq_lastdate', today);
+  }
+  addXP(isBoss(day) ? 80 : isTribulation(day) ? 50 : 30);
+
+  // store story + full token dictionaries in library
+  if (State.currentData) {
+    const lib = LS.get('hq_library', {});
+    lib[day] = {
+      st:    State.currentData.st    || '',
+      fr_st: State.currentData.fr_st || '',
+      lex:   State.currentData.lex   || [],
+      voc:   (State.currentData.les && State.currentData.les.voc) || [],
+    };
+    LS.set('hq_library', lib);
+  }
+}
+
+/* ── DEMO DATA ── */
+function makeDemoData(day) {
+  return {
+    id: day,
+    lvl: day<=30?'HSK1':day<=60?'HSK1':day<=90?'HSK2':day<=120?'HSK2':day<=150?'HSK3':'HSK4',
+    les: {
+      title: `Leçon du Jour ${day}`,
+      gram: `Grammaire : Structure de base sujet-verbe-objet (主谓宾). En chinois, l'ordre des mots est généralement fixe.`,
+      voc: [
+        { h:'你好', p:'nǐ hǎo', f:'Bonjour', m:'Vous (你) + bien (好) = Bonjour' },
+        { h:'谢谢', p:'xiè xie', f:'Merci', m:'Répétition du caractère "remercier"' },
+        { h:'学习', p:'xué xí', f:'Étudier / apprendre', m:'Apprendre (学) + pratiquer (习)' },
+        { h:'汉字', p:'hàn zì', f:'Caractère chinois', m:'Han (汉) + caractère (字)' },
+      ]
+    },
+    bi: {
+      type: 'chengyu',
+      title: '一石二鸟',
+      ctx: 'Signifie littéralement "une pierre, deux oiseaux" — l\'équivalent de "faire d\'une pierre deux coups". Utilisé pour exprimer l\'efficacité ou l\'astuce.'
+    },
+    st: `林晓雨踏入修炼室，感受到气息的流动。"你好，"她轻声说道。"学习汉字，就是学习天地之道。"她拿起毛笔，开始书写。每一个汉字都蕴含着无尽的力量与智慧。`,
+    fr_st: `Lin Xiaoyu entra dans la salle d'entraînement, ressentant le flux du souffle vital. "Bonjour," dit-elle doucement. "Apprendre les caractères chinois, c'est apprendre la voie du Ciel et de la Terre." Elle prit son pinceau et commença à écrire. Chaque caractère contenait une puissance et une sagesse infinies.`,
+    lex: [
+      { h:'修炼', p:'xiū liàn', f:'Cultivation / entraînement' },
+      { h:'气息', p:'qì xī', f:'Souffle vital / aura' },
+      { h:'毛笔', p:'máo bǐ', f:'Pinceau en poil' },
+      { h:'天地', p:'tiān dì', f:'Ciel et Terre' },
+    ],
+    ex: [
+      { q:'Comment dit-on "Bonjour" en chinois ?', o:['你好','谢谢','学习','汉字'], r:0 },
+      { q:'Que signifie 学习 ?', o:['Bonjour','Merci','Étudier','Caractère'], r:2 },
+      { q:'Que signifie 汉字 ?', o:['Pinceau','Caractère chinois','Bonjour','Terre'], r:1 },
+    ]
+  };
+}
+
+/* ── LESSON RENDER ── */
+function renderLesson(data) {
+  const el = document.getElementById('lesson-content');
+  const voc = data.les.voc || [];
+  const srsStarred = LS.get('hq_srs_words', []);
+
+  let vocHTML = voc.map((v,i) => {
+    const isStarred = srsStarred.some(w => w.h === v.h);
+    return `
+    <div class="voc-row">
+      <div class="voc-hanzi">${v.h}</div>
+      <div>
+        <div class="voc-pinyin">${v.p}</div>
+        <div class="voc-fr">${v.f}</div>
+        ${v.m ? `<div class="voc-mnemonic">💡 ${v.m}</div>` : ''}
+      </div>
+      <div></div>
+      <button class="btn-tts" onclick="tts('${v.h.replace(/'/g,"\\'")}')">🔊</button>
+      <button class="btn-srs ${isStarred?'starred':''}" onclick="toggleSRS(${i})" id="srs-btn-${i}">⭐</button>
+    </div>`;
+  }).join('');
+
+  const exHTML = (data.ex||[]).map((q,i) => `
+    <div id="ex-block-${i}" style="margin-bottom:16px">
+      <div class="q-block"><div class="q-text">${q.q}</div></div>
+      <div class="options-grid">
+        ${q.o.map((opt,j) => `<button class="opt-btn" onclick="answerEx(${i},${j},${q.r})">${opt}</button>`).join('')}
+      </div>
+    </div>`).join('');
+
+  el.innerHTML = `
+    <div class="lesson-header">
+      <h2>${data.les.title}</h2>
+      <div class="gram-block">📖 ${data.les.gram}</div>
+    </div>
+
+    <div class="bi-block">
+      <div class="bi-type">${data.bi.type === 'chengyu' ? '成语 — Chengyu' : '🎭 Mème Culturel'}</div>
+      <div class="bi-title">${data.bi.title}</div>
+      <div class="bi-ctx">${data.bi.ctx}</div>
+    </div>
+
+    <div class="section-title">📚 Vocabulaire</div>
+    <div class="voc-grid">${vocHTML}</div>
+
+    <div class="section-title">✏️ Exercices</div>
+    <div id="ex-container">${exHTML}</div>
+    ${(data.ex||[]).length>0?`<div style="text-align:center;margin-top:24px"><button class="btn-primary" onclick="completeDay()">✅ Terminer la Leçon (+XP)</button></div>`:''}
+  `;
+}
+
+function answerEx(qi, chosen, correct) {
+  const block = document.getElementById(`ex-block-${qi}`);
+  if (!block) return;
+  const btns = block.querySelectorAll('.opt-btn');
+  btns.forEach((b,j) => {
+    b.disabled = true;
+    if (j === correct) b.classList.add('correct');
+    else if (j === chosen) b.classList.add('wrong');
+  });
+  if (chosen === correct) addXP(5);
+}
+
+function completeDay() {
+  if (!State.currentDay) return;
+  const completed = LS.get('hq_completed', []);
+  if (!completed.includes(State.currentDay)) {
+    completed.push(State.currentDay);
+    LS.set('hq_completed', completed);
+    addXP(isBoss(State.currentDay) ? 100 : 50);
+  }
+  buildCalendar();
+  showToast('Leçon complétée ! 🏆', 'success');
+}
+
+function toggleSRS(i) {
+  if (!State.currentData) return;
+  const v = State.currentData.les.voc[i];
+  if (!v) return;
+  const words = LS.get('hq_srs_words', []);
+  const idx = words.findIndex(w => w.h === v.h);
+  if (idx >= 0) {
+    words.splice(idx, 1);
+    document.getElementById(`srs-btn-${i}`)?.classList.remove('starred');
+    showToast(`${v.h} retiré du deck`);
+  } else {
+    words.push({ h: v.h, p: v.p, f: v.f, interval: 1, ef: 2.5, due: Date.now(), reps: 0 });
+    document.getElementById(`srs-btn-${i}`)?.classList.add('starred');
+    showToast(`${v.h} ajouté au deck ⭐`, 'success');
+  }
+  LS.set('hq_srs_words', words);
+  renderSRSStats();
+}
+
+/* ── TTS ── */
+function tts(text, rate=0.7, vol=0.6) {
+  if (!window.speechSynthesis) return;
+  speechSynthesis.cancel();
+  const u = new SpeechSynthesisUtterance(text);
+  u.lang = 'zh-CN';
+  u.rate = rate;
+  u.volume = vol;
+  speechSynthesis.speak(u);
+  return u;
+}
+
+/* ── NOVEL RENDER ── */
+function renderNovel(data) {
+  const dict = buildDict(data);
+  const tokenized = tokenize(data.st || '', dict);
+  document.getElementById('novel-story').innerHTML = tokenized;
+  document.getElementById('novel-translation').innerHTML = data.fr_st || '';
+  document.getElementById('novel-translation').classList.toggle('visible', State.novelTradOn);
+
+  // mobile tap support
+  document.getElementById('novel-story').addEventListener('click', e => {
+    const t = e.target.closest('.token');
+    if (t) {
+      document.querySelectorAll('#novel-story .token.tapped').forEach(x => x !== t && x.classList.remove('tapped'));
+      t.classList.toggle('tapped');
+    }
+  });
+
+  applyPinyinNovel();
+}
+
+document.getElementById('toggle-pinyin').addEventListener('click', () => {
+  State.novelPinyinOn = !State.novelPinyinOn;
+  document.getElementById('toggle-pinyin').classList.toggle('on', State.novelPinyinOn);
+  applyPinyinNovel();
+});
+document.getElementById('toggle-trad').addEventListener('click', () => {
+  State.novelTradOn = !State.novelTradOn;
+  document.getElementById('toggle-trad').classList.toggle('on', State.novelTradOn);
+  document.getElementById('novel-translation').classList.toggle('visible', State.novelTradOn);
+});
+document.getElementById('btn-karaoke-mode').addEventListener('click', startKaraoke);
+
+function applyPinyinNovel() {
+  const container = document.getElementById('novel-story');
+  applyPinyinToContainer(container, State.novelPinyinOn);
+}
+
+function applyPinyinToContainer(container, on) {
+  container.querySelectorAll('.token').forEach(t => {
+    const pinyin = t.dataset.pinyin;
+    if (!pinyin) return;
+    // Remove existing ruby if any
+    const existing = t.querySelector('ruby');
+    if (existing) {
+      t.textContent = t.dataset.original || t.textContent;
+    }
+    if (on) {
+      const original = t.dataset.original || t.textContent;
+      t.dataset.original = original;
+      const tooltip = t.querySelector('.token-tooltip');
+      t.innerHTML = `<ruby>${original}<rt>${pinyin}</rt></ruby>`;
+      if (tooltip) t.appendChild(tooltip.cloneNode(true));
+    }
+  });
+}
+
+/* ── TOKENIZER ── */
+function buildDict(data) {
+  const voc = (data.les && data.les.voc) || [];
+  const lex = data.lex || [];
+  const all = [...voc, ...lex];
+  // Sort by hanzi length descending (greedy match)
+  all.sort((a,b) => b.h.length - a.h.length);
+  return all;
+}
+
+function buildLibDict() {
+  const lib = LS.get('hq_library', {});
+  const srsWords = LS.get('hq_srs_words', []);
+  // Fuse lex + voc from every unlocked day + SRS deck
+  const dayWords = Object.values(lib).flatMap(d => [
+    ...(d.lex || []),
+    ...(d.voc || []),
+  ]);
+  // Deduplicate by hanzi
+  const seen = new Set();
+  const all = [...srsWords, ...dayWords].filter(w => {
+    if (!w || !w.h || seen.has(w.h)) return false;
+    seen.add(w.h);
+    return true;
+  });
+  // Sort longest first for greedy tokenizer
+  return all.sort((a, b) => b.h.length - a.h.length);
+}
+
+function isCJK(ch) {
+  const cp = ch.codePointAt(0);
+  return (cp >= 0x4E00 && cp <= 0x9FFF)   // CJK Unified
+      || (cp >= 0x3400 && cp <= 0x4DBF)   // Extension A
+      || (cp >= 0x20000 && cp <= 0x2A6DF) // Extension B
+      || (cp >= 0xF900 && cp <= 0xFAFF);  // Compatibility
+}
+
+function tokenize(text, dict) {
+  if (!text) return '';
+  let html = '';
+  let i = 0;
+  while (i < text.length) {
+    // 1. Try greedy match against known dictionary (longest first)
+    let matched = false;
+    for (const w of dict) {
+      const h = w.h;
+      if (text.startsWith(h, i)) {
+        const p = w.p || '';
+        const f = w.f || '';
+        html += `<span class="token" data-pinyin="${escHtml(p)}" data-definition="${escHtml(f)}" data-original="${escHtml(h)}">${escHtml(h)}<span class="token-tooltip"><div class="tp-pinyin">${escHtml(p)}</div><div class="tp-fr">${escHtml(f)}</div></span></span>`;
+        i += h.length;
+        matched = true;
+        break;
+      }
+    }
+    if (!matched) {
+      const ch = text[i];
+      if (isCJK(ch)) {
+        // Unknown CJK character — still wrap as token so it's hoverable/tappable
+        // Tooltip shows the character itself; no pinyin/definition available
+        html += `<span class="token token-unknown" data-pinyin="" data-definition="—" data-original="${escHtml(ch)}">${escHtml(ch)}<span class="token-tooltip token-tooltip-unknown"><div class="tp-pinyin" style="color:var(--muted);font-size:11px">—</div><div class="tp-fr" style="color:var(--soft)">Hors lexique</div></span></span>`;
+      } else {
+        // Punctuation, spaces, newlines — render as-is
+        html += escHtml(ch);
+      }
+      i++;
+    }
+  }
+  return html;
+}
+
+function escHtml(s) {
+  if (!s) return '';
+  return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#39;');
+}
+
+/* ── LIBRARY ── */
+function loadLibrary() {
+  const lib = LS.get('hq_library', {});
+  const keys = Object.keys(lib).map(Number).sort((a,b) => a-b);
+  const dict = buildLibDict();
+
+  if (keys.length === 0) {
+    document.getElementById('library-stream').innerHTML = '<p style="color:var(--soft);text-align:center;padding:48px 0">Aucun chapitre débloqué pour l\'instant.</p>';
+    document.getElementById('lib-translation').innerHTML = '';
+    return;
+  }
+
+  let storyHTML = '';
+  let translHTML = '';
+  for (const k of keys) {
+    const entry = lib[k];
+    if (entry.st) storyHTML += tokenize(entry.st, dict);
+    if (entry.fr_st) translHTML += `<p>${escHtml(entry.fr_st)}</p>`;
+  }
+
+  document.getElementById('library-stream').innerHTML = storyHTML || '<p style="color:var(--soft)">Contenu non disponible.</p>';
+  document.getElementById('lib-translation').innerHTML = translHTML;
+  document.getElementById('lib-translation').classList.toggle('visible', State.libTradOn);
+
+  // mobile tap
+  document.getElementById('library-stream').addEventListener('click', e => {
+    const t = e.target.closest('.token');
+    if (t) t.classList.toggle('tapped');
+  });
+
+  applyPinyinLib();
+}
+
+document.getElementById('lib-toggle-pinyin').addEventListener('click', () => {
+  State.libPinyinOn = !State.libPinyinOn;
+  document.getElementById('lib-toggle-pinyin').classList.toggle('on', State.libPinyinOn);
+  applyPinyinLib();
+});
+document.getElementById('lib-toggle-trad').addEventListener('click', () => {
+  State.libTradOn = !State.libTradOn;
+  document.getElementById('lib-toggle-trad').classList.toggle('on', State.libTradOn);
+  document.getElementById('lib-translation').classList.toggle('visible', State.libTradOn);
+});
+
+function applyPinyinLib() {
+  applyPinyinToContainer(document.getElementById('library-stream'), State.libPinyinOn);
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   KARAOKE
+═══════════════════════════════════════════════════════════════ */
+function startKaraoke() {
+  if (!State.currentData) return showToast('Sélectionnez un jour d\'abord', 'error');
+  switchTab('novel');
+  const data = State.currentData;
+  const dict = buildDict(data);
+  const tokenized = tokenize(data.st || '', dict);
+  document.getElementById('novel-story').innerHTML = tokenized;
+  applyPinyinToContainer(document.getElementById('novel-story'), State.novelPinyinOn);
+
+  const tokens = document.querySelectorAll('#novel-story .token');
+  if (!tokens.length) return;
+
+  speechSynthesis.cancel();
+  let idx = 0;
+  const words = Array.from(tokens);
+
+  function highlightNext() {
+    words.forEach(w => w.classList.remove('active-karaoke'));
+    if (idx < words.length) {
+      words[idx].classList.add('active-karaoke');
+      words[idx].scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+      idx++;
+    }
+  }
+
+  const fullText = data.st;
+  const u = new SpeechSynthesisUtterance(fullText);
+  u.lang = 'zh-CN';
+  u.rate = 0.7;
+  u.volume = 0.6;
+
+  const interval = setInterval(highlightNext, 600);
+  u.onend = () => { clearInterval(interval); words.forEach(w => w.classList.remove('active-karaoke')); };
+  speechSynthesis.speak(u);
+  showToast('🎤 Karaoké en cours…');
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   SRS ENGINE (SM-2)
+═══════════════════════════════════════════════════════════════ */
+function buildSRSQueue() {
+  const words = LS.get('hq_srs_words', []);
+  const now = Date.now();
+  State.srsQueue = words.filter(w => w.due <= now);
+  State.currentSRSIdx = 0;
+}
+
+function renderSRSStats() {
+  const words = LS.get('hq_srs_words', []);
+  const due   = words.filter(w => w.due <= Date.now()).length;
+  const el    = document.getElementById('srs-stats');
+  if (!el) return;
+  el.innerHTML = `
+    <div class="srs-stat-card"><div class="srs-stat-num">${words.length}</div><div class="srs-stat-lbl">Total deck</div></div>
+    <div class="srs-stat-card"><div class="srs-stat-num" style="color:var(--crimson)">${due}</div><div class="srs-stat-lbl">À réviser</div></div>
+    <div class="srs-stat-card"><div class="srs-stat-num" style="color:var(--jade)">${words.length - due}</div><div class="srs-stat-lbl">Maîtrisés</div></div>
+    <div class="srs-stat-card"><div class="srs-stat-num">${Math.round(words.reduce((a,w)=>a+w.ef,0)/(words.length||1)*10)/10}</div><div class="srs-stat-lbl">EF moyen</div></div>
+  `;
+}
+
+function renderSRSCard() {
+  const card = document.getElementById('srs-main-card');
+  const rating = document.getElementById('srs-rating');
+  if (!card) return;
+
+  if (State.srsQueue.length === 0) {
+    card.innerHTML = `<div class="srs-empty"><div class="srs-empty-icon">✨</div><p>Aucune carte à réviser maintenant.</p><p style="font-size:12px;color:var(--muted);margin-top:8px">Ajoutez des mots via ⭐ dans la leçon</p></div>`;
+    rating.classList.remove('visible');
+    return;
+  }
+
+  if (State.currentSRSIdx >= State.srsQueue.length) {
+    card.innerHTML = `<div class="srs-empty"><div class="srs-empty-icon">🏆</div><p>Session terminée ! ${State.srsQueue.length} cartes révisées.</p></div>`;
+    rating.classList.remove('visible');
+    addXP(State.srsQueue.length * 3);
+    return;
+  }
+
+  const w = State.srsQueue[State.currentSRSIdx];
+  card.classList.remove('revealed');
+
+  if (State.srsDir === 'zh') {
+    card.innerHTML = `
+      <div class="srs-front">${w.h}</div>
+      <div class="srs-pinyin">${w.p}</div>
+      <div class="srs-back">${w.f}</div>
+      <div class="srs-card-hint">Cliquez pour révéler</div>`;
+  } else {
+    card.innerHTML = `
+      <div class="srs-front" style="font-size:24px;font-family:var(--font-main)">${w.f}</div>
+      <div class="srs-pinyin">${w.p}</div>
+      <div class="srs-back" style="font-family:var(--font-zh);font-size:36px">${w.h}</div>
+      <div class="srs-card-hint">Cliquez pour révéler</div>`;
+  }
+  rating.classList.remove('visible');
+  const counter = `${State.currentSRSIdx + 1} / ${State.srsQueue.length}`;
+  // show counter in stats
+}
+
+function revealSRS() {
+  const card = document.getElementById('srs-main-card');
+  if (!card || !State.srsQueue.length || State.currentSRSIdx >= State.srsQueue.length) return;
+  if (card.classList.contains('revealed')) return;
+  card.classList.add('revealed');
+  card.querySelector('.srs-card-hint').textContent = 'Évaluez votre réponse';
+  document.getElementById('srs-rating').classList.add('visible');
+}
+
+function rateSRS(q) {
+  if (State.currentSRSIdx >= State.srsQueue.length) return;
+  const w = State.srsQueue[State.currentSRSIdx];
+
+  // SM-2 algorithm
+  const newEF = Math.max(1.3, w.ef + 0.1 - (5-q)*(0.08 + (5-q)*0.02));
+  let newInterval, newReps;
+  if (q < 3) {
+    newReps = 0; newInterval = 1;
+  } else {
+    newReps = w.reps + 1;
+    newInterval = w.reps === 0 ? 1 : w.reps === 1 ? 6 : Math.round(w.interval * newEF);
+  }
+
+  // Update in storage
+  const words = LS.get('hq_srs_words', []);
+  const idx = words.findIndex(x => x.h === w.h);
+  if (idx >= 0) {
+    words[idx] = { ...w, ef: newEF, interval: newInterval, reps: newReps, due: Date.now() + newInterval * 86400000 };
+    LS.set('hq_srs_words', words);
+  }
+
+  State.currentSRSIdx++;
+  renderSRSCard();
+  renderSRSStats();
+}
+
+function setSRSDir(dir) {
+  State.srsDir = dir;
+  document.getElementById('srs-dir-zh').classList.toggle('active', dir === 'zh');
+  document.getElementById('srs-dir-fr').classList.toggle('active', dir === 'fr');
+  buildSRSQueue();
+  renderSRSCard();
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   GAME ENGINE
+═══════════════════════════════════════════════════════════════ */
+function setGameSource(src) {
+  State.gameSource = src;
+  document.getElementById('src-lesson').classList.toggle('active', src === 'lesson');
+  document.getElementById('src-srs').classList.toggle('active', src === 'srs');
+}
+
+function getGamePool() {
+  if (State.gameSource === 'srs') return LS.get('hq_srs_words', []);
+  if (!State.currentData) return [];
+  return [...(State.currentData.les.voc || []), ...(State.currentData.lex || [])];
+}
+
+function shuffle(arr) {
+  const a = [...arr];
+  for (let i=a.length-1;i>0;i--) { const j=Math.floor(Math.random()*(i+1)); [a[i],a[j]]=[a[j],a[i]]; }
+  return a;
+}
+
+document.querySelectorAll('.game-card').forEach(card => {
+  card.addEventListener('click', () => launchGame(card.dataset.game));
+});
+
+function launchGame(name) {
+  const pool = getGamePool();
+  if (!pool.length && !['karaoke','sprinter','chengyu'].includes(name)) {
+    return showToast('Aucune donnée disponible. Sélectionnez un jour.', 'error');
+  }
+  State.activeGame = name;
+  document.getElementById('games-grid').classList.add('hidden');
+  document.getElementById('game-arena').classList.add('active');
+  clearGameTimer();
+
+  const titles = {
+    memory:'🃏 Memory des Radicaux', dictee:'🎧 Dictée Inversée', karaoke:'🎤 Karaoké Immersif',
+    train:'🚂 Train des Mots', wordle:'🀄 Dictée Idéogramme', intrus:'🔍 Chasseur d\'Intrus',
+    nuances:'⚖️ Pont des Nuances', sprinter:'⚡ Sprinter de Lecture',
+    sudoku:'🔢 Sudoku des Caractères', chengyu:'🐉 Décodeur Chengyu'
+  };
+  document.getElementById('arena-title').textContent = titles[name] || name;
+  document.getElementById('arena-timer').classList.add('hidden');
+  document.getElementById('pause-overlay').classList.remove('active');
+
+  switch(name) {
+    case 'memory':   gameMemory(pool); break;
+    case 'dictee':   gameDictee(pool); break;
+    case 'karaoke':  gameKaraoke(); break;
+    case 'train':    gameTrain(pool); break;
+    case 'wordle':   gameWordle(pool); break;
+    case 'intrus':   gameIntrus(pool); break;
+    case 'nuances':  gameNuances(pool); break;
+    case 'sprinter': gameSprinter(); break;
+    case 'sudoku':   gameSudoku(pool); break;
+    case 'chengyu':  gameChengyu(); break;
+  }
+}
+
+function closeArena() {
+  clearGameTimer();
+  if (window.speechSynthesis) speechSynthesis.cancel();
+  document.getElementById('game-arena').classList.remove('active');
+  document.getElementById('games-grid').classList.remove('hidden');
+  document.getElementById('arena-counter').textContent = '';
+  document.getElementById('arena-timer').classList.add('hidden');
+  document.getElementById('pause-overlay').classList.remove('active');
+  State.activeGame = null;
+  State.gamePaused = false;
+}
+
+function clearGameTimer() {
+  if (State.gameTimer) { clearInterval(State.gameTimer); State.gameTimer = null; }
+}
+
+function setCounter(cur, total) {
+  document.getElementById('arena-counter').textContent = `${cur} / ${total}`;
+}
+
+function startTimer(seconds, onEnd) {
+  const el = document.getElementById('arena-timer');
+  el.classList.remove('hidden');
+  let rem = seconds;
+  el.textContent = rem;
+  el.classList.remove('warning');
+  clearGameTimer();
+  State.gameTimer = setInterval(() => {
+    if (State.gamePaused) return;
+    rem--;
+    el.textContent = rem;
+    if (rem <= 5) el.classList.add('warning');
+    if (rem <= 0) { clearGameTimer(); el.classList.add('hidden'); onEnd && onEnd(); }
+  }, 1000);
+}
+
+function showResult(score, total, detail='') {
+  clearGameTimer();
+  addXP(score * 5);
+  document.getElementById('arena-body').innerHTML = `
+    <div class="result-block">
+      <div class="result-score">${score}/${total}</div>
+      <div class="result-label">Score obtenu</div>
+      ${detail?`<div class="result-detail">${detail}</div>`:''}
+      <button class="btn-primary" style="margin-top:24px" onclick="closeArena()">✓ Terminer</button>
+    </div>`;
+}
+
+/* ── GAME 1: MEMORY ── */
+function gameMemory(pool) {
+  const words = shuffle(pool).slice(0,6);
+  let selected = null;
+  let matched  = 0;
+  const total  = words.length;
+
+  // pairs: [hanzi, french]
+  const pairs = [];
+  words.forEach((w,i) => {
+    pairs.push({ id: i, type:'zh', val: w.h, match: i });
+    pairs.push({ id: i+100, type:'fr', val: w.f, match: i });
+  });
+  const cards = shuffle(pairs);
+
+  const grid = document.createElement('div');
+  grid.className = 'memory-grid';
+  grid.style.gridTemplateColumns = `repeat(4, 1fr)`;
+
+  cards.forEach(c => {
+    const cell = document.createElement('div');
+    cell.className = 'mem-card';
+    cell.textContent = c.val;
+    cell.style.fontFamily = c.type==='zh' ? 'var(--font-zh)' : 'inherit';
+    cell.style.fontSize = c.type==='zh' ? '22px' : '13px';
+    cell.dataset.match = c.match;
+    cell.dataset.id = c.id;
+
+    cell.addEventListener('click', () => {
+      if (cell.classList.contains('matched') || cell.classList.contains('selected')) return;
+      if (selected && selected.dataset.id !== cell.dataset.id) {
+        cell.classList.add('selected');
+        const prev = selected;
+        selected = null;
+        if (prev.dataset.match === cell.dataset.match) {
+          prev.classList.remove('selected'); prev.classList.add('matched');
+          cell.classList.remove('selected'); cell.classList.add('matched');
+          matched++;
+          if (matched === total) {
+            setTimeout(() => showResult(total, total, '100% — Libération de la Mappe !'), 500);
+          }
+        } else {
+          prev.classList.add('wrong'); cell.classList.add('wrong');
+          setTimeout(() => { prev.classList.remove('selected','wrong'); cell.classList.remove('selected','wrong'); }, 700);
+        }
+      } else {
+        if (selected) selected.classList.remove('selected');
+        selected = cell;
+        cell.classList.add('selected');
+      }
+    });
+    grid.appendChild(cell);
+  });
+
+  document.getElementById('arena-body').innerHTML = '';
+  document.getElementById('arena-body').appendChild(grid);
+}
+
+/* ── GAME 2: DICTEE INVERSÉE ── */
+function gameDictee(pool) {
+  const total = Math.min(10, pool.length);
+  const items = shuffle(pool).slice(0, total);
+  let cur = 0, score = 0;
+
+  function show() {
+    if (cur >= total) return showResult(score, total);
+    setCounter(cur+1, total);
+    const w = items[cur];
+    // play audio
+    setTimeout(() => tts(w.h), 300);
+
+    document.getElementById('arena-body').innerHTML = `
+      <div class="q-block">
+        <div class="q-sub">Écoutez et écrivez la traduction française :</div>
+        <button class="btn-tts" style="margin:12px auto;display:block;width:48px;height:48px;border-radius:50%;font-size:22px;background:var(--surface);border:1px solid var(--border);color:var(--azure)" onclick="tts('${w.h.replace(/'/g,"\\'")}')">🔊</button>
+      </div>
+      <input class="dictee-input" id="dictee-in" placeholder="Tapez la traduction en français…" />
+      <button class="btn-primary" style="margin-top:12px" onclick="submitDictee('${w.f.replace(/'/g,"\\'")}')">Valider</button>
+    `;
+    document.getElementById('dictee-in')?.addEventListener('keydown', e => e.key==='Enter' && submitDictee(w.f));
+  }
+
+  window.submitDictee = function(correct) {
+    const inp = document.getElementById('dictee-in');
+    if (!inp) return;
+    const ans = inp.value.trim().toLowerCase();
+    const ref = correct.toLowerCase();
+    const ok = ans.includes(ref.split(' ')[0]) || ref.includes(ans.split(' ')[0]);
+    if (ok) { score++; showToast('Correct ! ✓', 'success'); }
+    else     showToast(`Réponse : ${correct}`, 'error');
+    cur++;
+    setTimeout(show, 1200);
+  };
+  show();
+}
+
+/* ── GAME 3: KARAOKE ── */
+function gameKaraoke() {
+  if (!State.currentData) return showToast('Sélectionnez un jour.', 'error');
+  const data = State.currentData;
+  const dict = buildDict(data);
+  const tokenized = tokenize(data.st || '', dict);
+  const pinyinOn = { v: false };
+
+  document.getElementById('arena-body').innerHTML = `
+    <div style="margin-bottom:12px;display:flex;gap:8px;align-items:center">
+      <button class="toggle-btn" id="kar-pinyin-btn">☯ Pinyin</button>
+      <button class="btn-danger" onclick="speechSynthesis.cancel();closeArena()">⏹ Arrêter</button>
+    </div>
+    <div class="karaoke-text" id="karaoke-body">${tokenized}</div>`;
+
+  document.getElementById('kar-pinyin-btn').addEventListener('click', function() {
+    pinyinOn.v = !pinyinOn.v;
+    this.classList.toggle('on', pinyinOn.v);
+    applyPinyinToContainer(document.getElementById('karaoke-body'), pinyinOn.v);
+  });
+
+  const tokens = document.querySelectorAll('#karaoke-body .token');
+  const words = Array.from(tokens);
+  let idx = 0;
+  const interval = setInterval(() => {
+    words.forEach(w => w.classList.remove('active-karaoke'));
+    if (idx < words.length) { words[idx].classList.add('active-karaoke'); idx++; }
+    else clearInterval(interval);
+  }, 600);
+
+  const u = new SpeechSynthesisUtterance(data.st);
+  u.lang = 'zh-CN'; u.rate = 0.7; u.volume = 0.6;
+  u.onend = () => { clearInterval(interval); words.forEach(w => w.classList.remove('active-karaoke')); showToast('Karaoké terminé !', 'success'); };
+  speechSynthesis.speak(u);
+}
+
+/* ── GAME 4: TRAIN DES MOTS ── */
+function gameTrain(pool) {
+  // use daily ex sentences or generate from voc
+  const data = State.currentData;
+  const sentences = [];
+  if (data && data.ex) {
+    data.ex.forEach(e => {
+      // get option 0 as target words
+      if (e.o && e.o[e.r]) sentences.push(e.o[e.r]);
+    });
+  }
+  if (!sentences.length && pool.length) {
+    sentences.push(...pool.slice(0,5).map(w => w.h));
+  }
+  const items = shuffle(sentences).slice(0, 5);
+  let cur = 0, score = 0;
+
+  function show() {
+    if (cur >= items.length) return showResult(score, items.length);
+    setCounter(cur+1, items.length);
+    const sentence = items[cur];
+    // Split into characters/words for scrambling
+    const chars = [...sentence].filter(c => c.trim());
+    const scrambled = shuffle(chars);
+    let placed = [];
+
+    function render() {
+      document.getElementById('arena-body').innerHTML = `
+        <div class="q-block"><div class="q-sub">Reconstituez la phrase :</div></div>
+        <div class="train-sentence" id="train-drop">${placed.map((c,i) => `<div class="word-block placed" onclick="removePlaced(${i})">${c}</div>`).join('')}</div>
+        <div class="word-bank">${scrambled.map((c,i) => placed.includes(c)&&placed.indexOf(c)===scrambled.indexOf(c)?`<div class="word-block" style="opacity:0.3">${c}</div>` : `<div class="word-block" onclick="placeWord(${i})">${c}</div>`).join('')}</div>
+        <button class="btn-primary" style="margin-top:16px" onclick="checkTrain('${escHtml(sentence)}')">Vérifier</button>`;
+    }
+
+    window.placeWord = function(i) {
+      placed.push(scrambled[i]);
+      render();
+    };
+    window.removePlaced = function(i) {
+      placed.splice(i, 1);
+      render();
+    };
+    window.checkTrain = function(correct) {
+      const ans = placed.join('');
+      if (ans === correct) { score++; showToast('Parfait ! 🎉', 'success'); }
+      else showToast(`Correct : ${correct}`, 'error');
+      cur++;
+      setTimeout(show, 1000);
+    };
+    render();
+  }
+  show();
+}
+
+/* ── GAME 5: WORDLE ── */
+function gameWordle(pool) {
+  const words = shuffle(pool.filter(w => w.h.length >= 2)).slice(0, 5);
+  let wordIdx = 0, score = 0;
+
+  function showWord() {
+    if (wordIdx >= words.length) return showResult(score, words.length);
+    setCounter(wordIdx+1, words.length);
+    const target = words[wordIdx].h;
+    const len = target.length;
+    let attempts = 0;
+    const maxAtt = 6;
+    const grid = Array(maxAtt).fill(null).map(() => Array(len).fill(''));
+
+    function renderGrid(currentAttempt, currentInput) {
+      let html = '<div class="wordle-grid">';
+      for (let r=0; r<maxAtt; r++) {
+        html += '<div class="wordle-row">';
+        for (let c=0; c<len; c++) {
+          let cls = '';
+          let ch = grid[r][c];
+          if (r < attempts && ch) {
+            if (ch === target[c]) cls = 'correct';
+            else if (target.includes(ch)) cls = 'present';
+            else cls = 'absent';
+          } else if (r === attempts) {
+            ch = currentInput[c] || '';
+            if (ch) cls = 'active';
+          }
+          html += `<div class="wordle-cell ${cls}">${escHtml(ch)}</div>`;
+        }
+        html += '</div>';
+      }
+      html += '</div>';
+      return html;
+    }
+
+    function render(inp='') {
+      document.getElementById('arena-body').innerHTML = `
+        <div class="q-block"><div class="q-sub">Devinez le caractère (${len} caractère${len>1?'s':''})</div><div class="q-sub" style="font-size:11px;color:var(--soft)">${words[wordIdx].f} — ${words[wordIdx].p}</div></div>
+        ${renderGrid(attempts, inp)}
+        <div style="display:flex;gap:8px;justify-content:center;margin-top:12px">
+          <input class="wordle-input" id="wordle-in" maxlength="${len}" placeholder="${'□'.repeat(len)}" value="${inp}" />
+          <button class="btn-primary" onclick="submitWordle()">↵</button>
+        </div>`;
+      document.getElementById('wordle-in')?.focus();
+      document.getElementById('wordle-in')?.addEventListener('keydown', e => e.key==='Enter' && submitWordle());
+      document.getElementById('wordle-in')?.addEventListener('input', function() { render(this.value); });
+    }
+
+    window.submitWordle = function() {
+      const inp = document.getElementById('wordle-in')?.value || '';
+      if ([...inp].length !== len) return showToast(`Entrez ${len} caractère${len>1?'s':''}`, 'error');
+      grid[attempts] = [...inp];
+      attempts++;
+      if (inp === target) {
+        score++;
+        showToast('✓ Correct !', 'success');
+        setTimeout(() => { wordIdx++; showWord(); }, 1000);
+        return;
+      }
+      if (attempts >= maxAtt) {
+        showToast(`Réponse : ${target}`, 'error');
+        setTimeout(() => { wordIdx++; showWord(); }, 1500);
+        return;
+      }
+      render('');
+    };
+    render('');
+  }
+  showWord();
+}
+
+/* ── GAME 6: CHASSEUR D'INTRUS ── */
+function gameIntrus(pool) {
+  const total = 20;
+  let cur = 0, score = 0;
+
+  function show() {
+    if (cur >= total) return showResult(score, total);
+    setCounter(cur+1, total);
+    const w = pool.length >= 5 ? pool : shuffle([...pool, ...pool, ...pool]).slice(0,5);
+    const sample = shuffle(w).slice(0,5);
+    const intrusIdx = Math.floor(Math.random()*5);
+    const intrus = sample[intrusIdx];
+
+    // Make intrus clearly different: modify tone mark in pinyin display
+    const matrixSize = 3; // 3x3 = 9 cells
+    const allCells = shuffle([...Array(8).fill(null).map((_,i) => ({
+      h: sample[i%5].h, isIntrus: false
+    })), { h: intrus.h, isIntrus: true }]);
+
+    document.getElementById('arena-timer').classList.remove('hidden');
+    startTimer(5, () => {
+      showToast(`Temps écoulé ! Intrus : ${intrus.h}`, 'error');
+      cur++; setTimeout(show, 800);
+    });
+
+    let answered = false;
+    document.getElementById('arena-body').innerHTML = `
+      <div class="q-block"><div class="q-sub">Trouvez l'intrus dans la matrice !</div><div class="q-sub" style="color:var(--gold)">(${intrus.f})</div></div>
+      <div class="intrus-matrix" style="grid-template-columns:repeat(3,70px)">${allCells.map(c => `<div class="intrus-cell" data-intrus="${c.isIntrus}">${c.h}</div>`).join('')}</div>`;
+
+    document.querySelectorAll('.intrus-cell').forEach(cell => {
+      cell.addEventListener('click', () => {
+        if (answered) return;
+        answered = true;
+        clearGameTimer();
+        document.getElementById('arena-timer').classList.add('hidden');
+        if (cell.dataset.intrus === 'true') {
+          cell.classList.add('correct-pick');
+          score++; showToast('Intrus trouvé ! ✓', 'success');
+        } else {
+          cell.classList.add('wrong-pick');
+          document.querySelectorAll('.intrus-cell').forEach(c => { if(c.dataset.intrus==='true') c.classList.add('correct-pick'); });
+          showToast(`Intrus : ${intrus.h} (${intrus.f})`, 'error');
+        }
+        cur++;
+        setTimeout(show, 1200);
+      });
+    });
+  }
+  show();
+}
+
+/* ── GAME 7: PONT DES NUANCES ── */
+function gameNuances(pool) {
+  if (pool.length < 4) return showToast('Pas assez de vocabulaire', 'error');
+  const shuffled = shuffle(pool);
+  // Create two categories from pool
+  const catA = shuffled.slice(0, Math.floor(shuffled.length/2));
+  const catB = shuffled.slice(Math.floor(shuffled.length/2));
+  const items = shuffle([...catA.map(w=>({...w,cat:'A'})), ...catB.map(w=>({...w,cat:'B'}))]);
+  let idx = 0, score = 0;
+
+  const labelA = 'Sens primaire 一';
+  const labelB = 'Sens figuré 二';
+
+  startTimer(30, () => showResult(score, idx));
+
+  function show() {
+    if (idx >= items.length) { clearGameTimer(); return showResult(score, items.length); }
+    const w = items[idx];
+    document.getElementById('arena-body').innerHTML = `
+      <div class="nuance-card">
+        <div class="nuance-word">${w.h}</div>
+        <div class="nuance-hint">${w.p} — ${w.f}</div>
+      </div>
+      <div class="nuance-btns">
+        <button class="nuance-btn a" onclick="pickNuance('A','${w.cat}')">🌱 ${labelA}</button>
+        <button class="nuance-btn b" onclick="pickNuance('B','${w.cat}')">🌊 ${labelB}</button>
+      </div>`;
+  }
+
+  window.pickNuance = function(pick, correct) {
+    if (pick === correct) { score++; showToast('✓', 'success'); }
+    else showToast('✗', 'error');
+    idx++;
+    setTimeout(show, 400);
+  };
+  show();
+}
+
+/* ── GAME 8: SPRINTER DE LECTURE ── */
+function gameSprinter() {
+  if (!State.currentData) return showToast('Sélectionnez un jour.', 'error');
+  const st = State.currentData.st || '';
+  if (!st) return showToast('Aucune histoire disponible.', 'error');
+
+  const dict = buildDict(State.currentData);
+  // Extract tokens from story
+  const tokens = [];
+  let i = 0;
+  while (i < st.length) {
+    let matched = false;
+    for (const w of dict) {
+      if (st.startsWith(w.h, i)) {
+        tokens.push(w);
+        i += w.h.length;
+        matched = true;
+        break;
+      }
+    }
+    if (!matched) i++;
+  }
+
+  if (!tokens.length) return showToast('Tokens insuffisants.', 'error');
+
+  // Pick ~30% of tokens as blanks
+  const blankIndices = new Set(shuffle([...Array(tokens.length).keys()]).slice(0, Math.max(3, Math.floor(tokens.length*0.3))));
+  const bank = shuffle([...blankIndices].map(i => tokens[i]));
+  const filled = {};
+  let score = 0;
+
+  function render() {
+    // Reconstruct story with blanks
+    let html = '';
+    let ti = 0;
+    let i2 = 0;
+    while (i2 < st.length) {
+      let found = false;
+      for (const w of dict) {
+        if (st.startsWith(w.h, i2)) {
+          if (blankIndices.has(ti)) {
+            const val = filled[ti];
+            html += `<span class="blank-slot ${val?'filled':''}" data-idx="${ti}">${val||'　　'}</span>`;
+          } else {
+            html += `<span style="font-family:var(--font-zh)">${w.h}</span>`;
+          }
+          i2 += w.h.length;
+          ti++;
+          found = true;
+          break;
+        }
+      }
+      if (!found) { html += st[i2]; i2++; }
+    }
+
+    const bankHTML = bank.map(w => `<div class="word-block" onclick="fillBlank('${w.h.replace(/'/g,"\\'")}',${[...blankIndices][bank.indexOf(w)]})">${w.h}</div>`).join('');
+
+    document.getElementById('arena-body').innerHTML = `
+      <div class="sprinter-text">${html}</div>
+      <div class="word-bank">${bankHTML}</div>
+      <button class="btn-primary" style="margin-top:16px" onclick="checkSprinter()">Vérifier</button>`;
+
+    setCounter(Object.keys(filled).length, blankIndices.size);
+  }
+
+  window.fillBlank = function(word, idx) {
+    // Find the blank index for this word
+    const bArr = [...blankIndices];
+    const target = bArr.find(bi => tokens[bi] && tokens[bi].h === word);
+    if (target !== undefined) filled[target] = word;
+    else filled[bArr.find(bi => !filled[bi])] = word;
+    render();
+  };
+
+  window.checkSprinter = function() {
+    score = 0;
+    for (const bi of blankIndices) {
+      if (filled[bi] === tokens[bi].h) score++;
+    }
+    showResult(score, blankIndices.size, `${score} blancs correctement remplis`);
+  };
+
+  render();
+}
+
+/* ── GAME 9: SUDOKU ── */
+function gameSudoku(pool) {
+  const size = pool.length >= 9 ? 4 : 4; // 4x4 for simplicity
+  const symbols = shuffle(pool.slice(0,4).map(w => w.h));
+  if (symbols.length < 4) return showToast('Vocabulaire insuffisant (min 4 mots).', 'error');
+
+  // Generate valid 4x4 sudoku solution
+  const base = [
+    [0,1,2,3],[2,3,0,1],[1,0,3,2],[3,2,1,0]
+  ];
+  const sol = base.map(row => row.map(i => symbols[i]));
+
+  // Remove some cells (puzzle)
+  const puzzle = sol.map(r => [...r]);
+  const toRemove = shuffle([...Array(16).keys()]).slice(0,8);
+  toRemove.forEach(idx => { puzzle[Math.floor(idx/4)][idx%4] = null; });
+
+  let selected = null;
+  const userGrid = puzzle.map(r => [...r]);
+
+  function render() {
+    let html = `<div class="sudoku-grid" style="grid-template-columns:repeat(4,1fr);max-width:240px">`;
+    for (let r=0;r<4;r++) for(let c=0;c<4;c++) {
+      const given = puzzle[r][c] !== null;
+      const val   = userGrid[r][c];
+      const isSel = selected && selected[0]===r && selected[1]===c;
+      const isErr = val && !given && val !== sol[r][c];
+      let cls = 'sudoku-cell';
+      if (given)  cls += ' given';
+      if (isSel)  cls += ' selected';
+      if (isErr)  cls += ' error';
+      else if (!given && val) cls += ' filled';
+      html += `<div class="${cls}" data-r="${r}" data-c="${c}">${val||''}</div>`;
+    }
+    html += '</div>';
+    html += `<div class="sudoku-picker">`;
+    symbols.forEach(s => { html += `<button class="sudoku-pick" onclick="pickSudoku('${s}')">${s}</button>`; });
+    html += `<button class="sudoku-pick" onclick="pickSudoku(null)" style="font-size:12px;color:var(--crimson)">✗</button>`;
+    html += '</div>';
+
+    document.getElementById('arena-body').innerHTML = html;
+    document.querySelectorAll('.sudoku-cell').forEach(cell => {
+      cell.addEventListener('click', () => {
+        if (cell.classList.contains('given')) return;
+        selected = [+cell.dataset.r, +cell.dataset.c];
+        render();
+      });
+    });
+
+    // Check completion
+    const complete = userGrid.every((row,r) => row.every((v,c) => v === sol[r][c]));
+    if (complete) setTimeout(() => showResult(16,16,'Grille complétée ! 🏆'), 300);
+  }
+
+  window.pickSudoku = function(val) {
+    if (!selected) return;
+    const [r,c] = selected;
+    if (puzzle[r][c] !== null) return;
+    userGrid[r][c] = val;
+    render();
+  };
+  render();
+}
+
+/* ── GAME 10: CHENGYU/BI QUIZ ── */
+function gameChengyu() {
+  const data = State.currentData;
+  // Collect bi from library + current
+  const biItems = [];
+  if (data && data.bi) biItems.push(data.bi);
+  const lib = LS.get('hq_library', {});
+  // Add some variety from demo
+  const fallback = [
+    { type:'chengyu', title:'一石二鸟', ctx:'Une pierre, deux oiseaux — faire d\'une pierre deux coups.' },
+    { type:'chengyu', title:'半途而废', ctx:'Abandonner à mi-chemin — ne pas persévérer jusqu\'au bout.' },
+    { type:'meme',    title:'躺平',     ctx:'"S\'allonger à plat" — refus de la pression sociale et du surmenage.' },
+    { type:'chengyu', title:'水滴石穿', ctx:'La goutte d\'eau perce la pierre — la persévérance vient à bout de tout.' },
+    { type:'chengyu', title:'马到成功', ctx:'Le cheval arrive, le succès suit — réussir instantanément.' },
+  ];
+  const items = shuffle([...biItems, ...fallback]).slice(0,10);
+  let cur = 0, score = 0;
+  let paused = false;
+
+  function show() {
+    if (cur >= items.length) return showResult(score, items.length);
+    setCounter(cur+1, items.length);
+    const bi = items[cur];
+
+    // Generate wrong options
+    const wrongs = shuffle(fallback.filter(f => f.title !== bi.title)).slice(0,3).map(f => f.ctx);
+    const opts = shuffle([bi.ctx, ...wrongs]);
+    const correctIdx = opts.indexOf(bi.ctx);
+
+    let answered = false;
+    document.getElementById('arena-timer').classList.remove('hidden');
+
+    function renderQ() {
+      document.getElementById('arena-body').innerHTML = `
+        <div style="position:relative">
+          <div class="q-block">
+            <div class="q-sub" style="font-size:11px;color:var(--violet-lt)">${bi.type==='chengyu'?'成语':'🎭 Mème'}</div>
+            <div class="q-hanzi">${bi.title}</div>
+            <div style="margin-top:8px;display:flex;justify-content:center">
+              <button class="btn-danger" id="pause-btn" onclick="togglePause()">⏸ Pause</button>
+            </div>
+          </div>
+          <div class="options-grid">${opts.map((o,i) => `<button class="opt-btn" onclick="answerChengyu(${i},${correctIdx})">${o}</button>`).join('')}</div>
+          <div class="pause-overlay" id="pause-overlay">⏸ PAUSE<br><br><button class="btn-primary" onclick="togglePause()">▶ Reprendre</button></div>
+        </div>`;
+    }
+
+    window.togglePause = function() {
+      paused = !paused;
+      State.gamePaused = paused;
+      document.getElementById('pause-overlay').style.display = paused ? 'flex' : 'none';
+    };
+
+    window.answerChengyu = function(chosen, correct) {
+      if (answered || paused) return;
+      answered = true;
+      clearGameTimer();
+      document.getElementById('arena-timer').classList.add('hidden');
+      const btns = document.querySelectorAll('#arena-body .opt-btn');
+      btns.forEach((b,j) => {
+        b.disabled = true;
+        if (j===correct) b.classList.add('correct');
+        else if (j===chosen) b.classList.add('wrong');
+      });
+      if (chosen === correct) { score++; showToast('✓ Exact !', 'success'); }
+      else showToast('✗ Incorrect', 'error');
+      cur++;
+      setTimeout(show, 1400);
+    };
+
+    renderQ();
+    startTimer(15, () => {
+      if (!answered) {
+        answered = true;
+        showToast('Temps écoulé !', 'error');
+        cur++;
+        setTimeout(show, 800);
+      }
+    });
+  }
+  show();
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   TOAST
+═══════════════════════════════════════════════════════════════ */
+let toastTimer = null;
+function showToast(msg, type='') {
+  const el = document.getElementById('toast');
+  el.textContent = msg;
+  el.className = `show ${type}`;
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => el.className = '', 2800);
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   BOOT
+═══════════════════════════════════════════════════════════════ */
+document.addEventListener('DOMContentLoaded', init);
+</script>
+</body>
+</html>

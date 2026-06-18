@@ -1,0 +1,4427 @@
+[
+  {
+    "id": 1,
+    "lvl": "HSK1",
+    "les": {
+      "title": "Leçon 1 — Je suis / Tu es (我是 / 你是)",
+      "gram": "Structure fondamentale : Sujet + 是 (shì) + Nom. En chinois, 是 est le verbe 'être'. Il ne se conjugue pas et ne change pas selon la personne. Négation : 不是 (bù shì). Exemple : 我是女王 (Je suis la reine). 你是谁 (Qui es-tu ?) — 谁 (shéi) signifie 'qui'.",
+      "voc": [
+        {
+          "h": "我",
+          "p": "wǒ",
+          "f": "je / moi",
+          "m": "Le tracé ressemble à une main sur la poitrine — 'moi'."
+        },
+        {
+          "h": "是",
+          "p": "shì",
+          "f": "être / est / suis",
+          "m": "Verbe universel — ne se conjugue jamais."
+        },
+        {
+          "h": "女",
+          "p": "nǚ",
+          "f": "femme / féminin",
+          "m": "Silhouette d'une femme assise, bras croisés."
+        },
+        {
+          "h": "王",
+          "p": "wáng",
+          "f": "roi / reine / souverain",
+          "m": "Trois lignes horizontales (Ciel, Homme, Terre) réunies par le roi."
+        },
+        {
+          "h": "她",
+          "p": "tā",
+          "f": "elle",
+          "m": "Clé 女 (femme) + phonétique — 'elle'."
+        },
+        {
+          "h": "强",
+          "p": "qiáng",
+          "f": "fort / puissant",
+          "m": "Arc tendu — la force brute du Xianxia."
+        }
+      ]
+    },
+    "bi": {
+      "type": "chengyu",
+      "title": "卧薪尝胆 (wò xīn cháng dǎn)",
+      "ctx": "Littéralement 'dormir sur des brindilles et goûter la bile' — endurer des humiliations volontaires pour nourrir une revanche implacable. Origine : le roi Gou Jian de Yue s'imposa une vie d'ascèse après sa défaite pour mieux écraser son ennemi des années plus tard. C'est la devise secrète de toute grande héroïne 大女主."
+    },
+    "st": "我是女王。她强。",
+    "fr_st": "Je suis la reine. Elle est puissante.",
+    "lex": [
+      {
+        "h": "我",
+        "p": "wǒ",
+        "f": "je"
+      },
+      {
+        "h": "是",
+        "p": "shì",
+        "f": "être"
+      },
+      {
+        "h": "女王",
+        "p": "nǚ wáng",
+        "f": "reine"
+      },
+      {
+        "h": "她",
+        "p": "tā",
+        "f": "elle"
+      },
+      {
+        "h": "强",
+        "p": "qiáng",
+        "f": "puissante"
+      }
+    ],
+    "ex": [
+      {
+        "q": "Dans le chapitre, qui est présentée comme 'reine' ?",
+        "o": [
+          "Le prince",
+          "Elle-même, la protagoniste",
+          "Un ennemi",
+          "La servante"
+        ],
+        "r": 1
+      },
+      {
+        "q": "Complétez : 我 ___ 女王 (Je suis la reine).",
+        "o": [
+          "有",
+          "在",
+          "是",
+          "不"
+        ],
+        "r": 2
+      },
+      {
+        "q": "Quel radical dans 女王 indique le genre féminin ?",
+        "o": [
+          "王",
+          "女",
+          "强",
+          "我"
+        ],
+        "r": 1
+      },
+      {
+        "q": "卧薪尝胆 décrit quelle stratégie ?",
+        "o": [
+          "Attaquer immédiatement",
+          "Endurer en secret pour mieux se venger",
+          "Fuir le danger",
+          "Demander de l'aide"
+        ],
+        "r": 1
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "lvl": "HSK1",
+    "les": {
+      "title": "Leçon 2 — Avoir (有) et ne pas avoir (没有)",
+      "gram": "Structure : Sujet + 有 (yǒu) + Objet = posséder quelque chose. Négation : Sujet + 没有 (méi yǒu) + Objet. Attention : on n'utilise JAMAIS 不有 — la négation de 有 est toujours 没有. Exemple : 我有剑 (J'ai une épée). 她没有心 (Elle n'a pas de cœur — sens figuré xianxia).",
+      "voc": [
+        {
+          "h": "有",
+          "p": "yǒu",
+          "f": "avoir / il y a",
+          "m": "Main tenant la lune — posséder."
+        },
+        {
+          "h": "没有",
+          "p": "méi yǒu",
+          "f": "ne pas avoir / ne pas exister",
+          "m": "没 = couler/manquer + 有 = avoir → ce qui manque."
+        },
+        {
+          "h": "剑",
+          "p": "jiàn",
+          "f": "épée (arme de cultivation)",
+          "m": "Lame et garde — l'arme emblématique du cultivateur."
+        },
+        {
+          "h": "心",
+          "p": "xīn",
+          "f": "cœur / esprit / intention",
+          "m": "Silhouette d'un cœur battant — émotions et intentions cachées."
+        },
+        {
+          "h": "力",
+          "p": "lì",
+          "f": "force / pouvoir",
+          "m": "Bras musclé vu de profil — puissance brute."
+        },
+        {
+          "h": "敌",
+          "p": "dí",
+          "f": "ennemi / adversaire",
+          "m": "Clé 攴 (frapper) — celui qu'on combat."
+        }
+      ]
+    },
+    "bi": {
+      "type": "chengyu",
+      "title": "知己知彼 (zhī jǐ zhī bǐ)",
+      "ctx": "Tiré de L'Art de la Guerre de Sun Tzu : 'Connaître son ennemi et se connaître soi-même, c'est remporter cent victoires en cent batailles.' La grande héroïne applique ce principe à chaque intrigue de cour — elle cartographie les failles adverses avant de frapper."
+    },
+    "st": "我有剑。她没有心。",
+    "fr_st": "J'ai une épée. Elle n'a pas de cœur.",
+    "lex": [
+      {
+        "h": "我",
+        "p": "wǒ",
+        "f": "je"
+      },
+      {
+        "h": "有",
+        "p": "yǒu",
+        "f": "avoir"
+      },
+      {
+        "h": "剑",
+        "p": "jiàn",
+        "f": "épée"
+      },
+      {
+        "h": "她",
+        "p": "tā",
+        "f": "elle"
+      },
+      {
+        "h": "没有",
+        "p": "méi yǒu",
+        "f": "ne pas avoir"
+      },
+      {
+        "h": "心",
+        "p": "xīn",
+        "f": "cœur"
+      }
+    ],
+    "ex": [
+      {
+        "q": "Que possède la protagoniste dans ce chapitre ?",
+        "o": [
+          "Un trône",
+          "Une épée",
+          "Une armée",
+          "Un poison"
+        ],
+        "r": 1
+      },
+      {
+        "q": "Comment dit-on 'elle n'a pas de cœur' en chinois ?",
+        "o": [
+          "她有心",
+          "她是心",
+          "她没有心",
+          "她不心"
+        ],
+        "r": 2
+      },
+      {
+        "q": "Quel caractère signifie 'épée' (arme de cultivation) ?",
+        "o": [
+          "力",
+          "剑",
+          "敌",
+          "心"
+        ],
+        "r": 1
+      },
+      {
+        "q": "知己知彼 vient de quel texte stratégique célèbre ?",
+        "o": [
+          "Le Livre des Rites",
+          "L'Art de la Guerre",
+          "Les Analectes de Confucius",
+          "Le Tao Te Ching"
+        ],
+        "r": 1
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "lvl": "HSK1",
+    "les": {
+      "title": "Leçon 3 — Vouloir et ne pas vouloir (要 / 不要)",
+      "gram": "要 (yào) exprime la volonté ou le besoin : Sujet + 要 + Verbe/Nom. La négation 不要 (bù yào) signifie 'ne pas vouloir' ou 'il ne faut pas'. C'est aussi un impératif négatif fort : 不要动 (Ne bouge pas !). En contexte xianxia, 要 traduit souvent la détermination froide de la protagoniste.",
+      "voc": [
+        {
+          "h": "要",
+          "p": "yào",
+          "f": "vouloir / avoir besoin de / devoir",
+          "m": "Taille de femme — désir viscéral, volonté de fer."
+        },
+        {
+          "h": "不",
+          "p": "bù",
+          "f": "non / ne pas",
+          "m": "Oiseau qui s'envole vers le ciel — ce qui échappe, ce qui est nié."
+        },
+        {
+          "h": "复仇",
+          "p": "fù chóu",
+          "f": "vengeance / se venger",
+          "m": "复 (retourner) + 仇 (haine) → retourner la haine sur l'ennemi."
+        },
+        {
+          "h": "等",
+          "p": "děng",
+          "f": "attendre / patienter",
+          "m": "Patience stratégique — attendre le bon moment pour frapper."
+        },
+        {
+          "h": "死",
+          "p": "sǐ",
+          "f": "mourir / mort",
+          "m": "Os brisé — la mort, menace permanente du monde xianxia."
+        },
+        {
+          "h": "活",
+          "p": "huó",
+          "f": "vivre / survivre",
+          "m": "Eau + langue — l'acte vital de parler et respirer."
+        }
+      ]
+    },
+    "bi": {
+      "type": "meme",
+      "title": "躺平 (tǎng píng)",
+      "ctx": "Littéralement 'rester allongé à plat'. Mème viral apparu en 2021 en Chine, symbolisant le refus de la pression sociale et du surmenage. En 大女主, ce terme est détourné avec ironie : l'héroïne 'fait semblant de se coucher' (feint la faiblesse) avant de se relever et d'écraser ses ennemis — le faux 躺平 comme masque stratégique."
+    },
+    "st": "我要复仇。不要等。",
+    "fr_st": "Je veux me venger. Il n'est plus temps d'attendre.",
+    "lex": [
+      {
+        "h": "我",
+        "p": "wǒ",
+        "f": "je"
+      },
+      {
+        "h": "要",
+        "p": "yào",
+        "f": "vouloir"
+      },
+      {
+        "h": "复仇",
+        "p": "fù chóu",
+        "f": "vengeance"
+      },
+      {
+        "h": "不要",
+        "p": "bù yào",
+        "f": "ne pas / il ne faut pas"
+      },
+      {
+        "h": "等",
+        "p": "děng",
+        "f": "attendre"
+      }
+    ],
+    "ex": [
+      {
+        "q": "Quelle est la résolution secrète de la protagoniste dans ce chapitre ?",
+        "o": [
+          "Se marier",
+          "Se venger",
+          "Fuir le palais",
+          "Apprendre la magie"
+        ],
+        "r": 1
+      },
+      {
+        "q": "Quelle est la négation correcte de 要 ?",
+        "o": [
+          "没要",
+          "不要",
+          "无要",
+          "非要"
+        ],
+        "r": 1
+      },
+      {
+        "q": "Que signifie 复仇 mot à mot ?",
+        "o": [
+          "Retourner au palais",
+          "Retourner la haine (se venger)",
+          "Avoir de la force",
+          "Mourir en paix"
+        ],
+        "r": 1
+      },
+      {
+        "q": "Dans l'usage xianxia, que masque une héroïne qui 'fait 躺平' ?",
+        "o": [
+          "Sa peur réelle",
+          "Sa stratégie de revanche",
+          "Son amour pour le prince",
+          "Sa faiblesse de cultivation"
+        ],
+        "r": 1
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "lvl": "HSK1",
+    "les": {
+      "title": "Leçon 4 — Aller quelque part (去)",
+      "gram": "去 (qù) signifie 'aller (vers)'. Structure : Sujet + 去 + Lieu. Le lieu vient toujours APRÈS le verbe en chinois — contrairement au français. Pour indiquer 'où', on ajoute 哪里 (nǎ lǐ) : 你去哪里 ? (Où vas-tu ?). En xianxia, 去 précède souvent un lieu de pouvoir : le palais (宫), la montagne sacrée (圣山).",
+      "voc": [
+        {
+          "h": "去",
+          "p": "qù",
+          "f": "aller / se rendre",
+          "m": "Partir — deux jambes qui avancent."
+        },
+        {
+          "h": "宫",
+          "p": "gōng",
+          "f": "palais / demeure impériale",
+          "m": "Deux salles sous un toit — l'architecture du pouvoir."
+        },
+        {
+          "h": "门",
+          "p": "mén",
+          "f": "porte / entrée / clan",
+          "m": "Deux battants de porte — l'accès et l'exclusion."
+        },
+        {
+          "h": "来",
+          "p": "lái",
+          "f": "venir / arriver",
+          "m": "Blé qui vient vers soi — 'venir' est le mouvement inverse de 去."
+        },
+        {
+          "h": "秘",
+          "p": "mì",
+          "f": "secret / mystérieux",
+          "m": "Clé 示 (révéler) + phonétique — ce qui ne doit pas être révélé."
+        },
+        {
+          "h": "暗",
+          "p": "àn",
+          "f": "sombre / secret / caché",
+          "m": "Soleil (日) derrière un mur — ce qui se cache dans l'ombre."
+        }
+      ]
+    },
+    "bi": {
+      "type": "chengyu",
+      "title": "暗度陈仓 (àn dù chén cāng)",
+      "ctx": "Stratagem militaire de la Chine antique : 'traverser secrètement à Chencang' — feindre d'attaquer frontalement pendant qu'une troupe clandestine contourne l'ennemi. En 大女主, ce plan est la signature des héroïnes qui sourient en face tout en œuvrant dans l'ombre."
+    },
+    "st": "她去宫门。暗暗来。",
+    "fr_st": "Elle se dirige vers la porte du palais. Elle avance dans l'ombre, en silence.",
+    "lex": [
+      {
+        "h": "她",
+        "p": "tā",
+        "f": "elle"
+      },
+      {
+        "h": "去",
+        "p": "qù",
+        "f": "aller"
+      },
+      {
+        "h": "宫门",
+        "p": "gōng mén",
+        "f": "porte du palais"
+      },
+      {
+        "h": "暗暗",
+        "p": "àn àn",
+        "f": "en secret / dans l'ombre"
+      },
+      {
+        "h": "来",
+        "p": "lái",
+        "f": "venir / avancer"
+      }
+    ],
+    "ex": [
+      {
+        "q": "Où se rend l'héroïne dans ce chapitre ?",
+        "o": [
+          "À la montagne",
+          "À la porte du palais",
+          "Au marché",
+          "Chez le médecin"
+        ],
+        "r": 1
+      },
+      {
+        "q": "En chinois, le lieu se place ___ le verbe 去.",
+        "o": [
+          "Avant",
+          "Après",
+          "Avant et après",
+          "N'importe où"
+        ],
+        "r": 1
+      },
+      {
+        "q": "Quel caractère signifie 'secret / caché dans l'ombre' ?",
+        "o": [
+          "宫",
+          "门",
+          "暗",
+          "来"
+        ],
+        "r": 2
+      },
+      {
+        "q": "暗度陈仓 décrit quelle tactique militaire ?",
+        "o": [
+          "Attaque frontale massive",
+          "Double feinte et manœuvre clandestine",
+          "Retraite stratégique",
+          "Alliance avec l'ennemi"
+        ],
+        "r": 1
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "lvl": "HSK1",
+    "les": {
+      "title": "Leçon 5 — Les nombres et la quantité (一, 三, 多, 少)",
+      "gram": "Les nombres cardinaux en chinois se placent AVANT le nom, avec un classificateur (量词 liàng cí) intercalé. Structure : Nombre + Classificateur + Nom. Le classificateur le plus universel est 个 (gè). Exemple : 三个人 (trois personnes). En xianxia, 一 précède souvent un terme pour dramatiser : 一剑 (une seule épée — coup fatal).",
+      "voc": [
+        {
+          "h": "一",
+          "p": "yī",
+          "f": "un / une / seul",
+          "m": "Un trait horizontal — la simplicité absolue."
+        },
+        {
+          "h": "三",
+          "p": "sān",
+          "f": "trois",
+          "m": "Trois traits — Ciel, Homme, Terre en harmonie."
+        },
+        {
+          "h": "个",
+          "p": "gè",
+          "f": "(classificateur universel)",
+          "m": "Compteur par défaut — s'utilise avec presque tout."
+        },
+        {
+          "h": "人",
+          "p": "rén",
+          "f": "personne / être humain",
+          "m": "Silhouette humaine debout — radical fondamental."
+        },
+        {
+          "h": "多",
+          "p": "duō",
+          "f": "beaucoup / nombreux",
+          "m": "Deux morceaux de viande empilés — l'abondance."
+        },
+        {
+          "h": "少",
+          "p": "shǎo",
+          "f": "peu / rare",
+          "m": "Petit + tiret — ce qui est insuffisant."
+        }
+      ]
+    },
+    "bi": {
+      "type": "chengyu",
+      "title": "以一当十 (yǐ yī dāng shí)",
+      "ctx": "Littéralement 'qu'un seul en vaille dix'. Expression militaire décrivant un guerrier ou une stratège d'une valeur si supérieure qu'elle compense un rapport de force défavorable. La grande héroïne 大女主 applique ce principe : seule contre tous, elle retourne les alliances par l'intelligence pure."
+    },
+    "st": "一个人。三个敌。她不怕。",
+    "fr_st": "Une seule personne. Trois ennemis. Elle n'a pas peur.",
+    "lex": [
+      {
+        "h": "一",
+        "p": "yī",
+        "f": "un"
+      },
+      {
+        "h": "个",
+        "p": "gè",
+        "f": "(classificateur)"
+      },
+      {
+        "h": "人",
+        "p": "rén",
+        "f": "personne"
+      },
+      {
+        "h": "三",
+        "p": "sān",
+        "f": "trois"
+      },
+      {
+        "h": "敌",
+        "p": "dí",
+        "f": "ennemi"
+      },
+      {
+        "h": "她",
+        "p": "tā",
+        "f": "elle"
+      },
+      {
+        "h": "不",
+        "p": "bù",
+        "f": "ne pas"
+      },
+      {
+        "h": "怕",
+        "p": "pà",
+        "f": "avoir peur"
+      }
+    ],
+    "ex": [
+      {
+        "q": "Combien d'ennemis fait face à la protagoniste dans ce chapitre ?",
+        "o": [
+          "Un",
+          "Deux",
+          "Trois",
+          "Dix"
+        ],
+        "r": 2
+      },
+      {
+        "q": "Quelle est la structure correcte pour 'trois personnes' ?",
+        "o": [
+          "人三个",
+          "三人个",
+          "三个人",
+          "个三人"
+        ],
+        "r": 2
+      },
+      {
+        "q": "Quel caractère signifie 'avoir peur' ?",
+        "o": [
+          "多",
+          "少",
+          "怕",
+          "个"
+        ],
+        "r": 2
+      },
+      {
+        "q": "以一当十 exprime quelle supériorité ?",
+        "o": [
+          "Numérique",
+          "Stratégique et qualitative",
+          "Physique seulement",
+          "Magique"
+        ],
+        "r": 1
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "lvl": "HSK1",
+    "les": {
+      "title": "Leçon 6 — Dire et parler (说 / 话)",
+      "gram": "说 (shuō) = parler / dire. Structure : Sujet + 说 + Citation (ou Verbe). Pour rapporter des paroles, on place la citation directement après 说, sans guillemets grammaticaux. Exemple : 她说她是女王 (Elle dit qu'elle est reine). 说话 (shuō huà) = 'parler' (expression figée : 说 + 话 mot). En cour impériale, chaque mot dit ou tu est une arme.",
+      "voc": [
+        {
+          "h": "说",
+          "p": "shuō",
+          "f": "dire / parler",
+          "m": "Clé 言 (parole) — tout ce qui sort de la bouche."
+        },
+        {
+          "h": "话",
+          "p": "huà",
+          "f": "parole / mot / discours",
+          "m": "Clé 言 + 舌 (langue) — les mots prononcés."
+        },
+        {
+          "h": "冷",
+          "p": "lěng",
+          "f": "froid / glacial / distant",
+          "m": "Eau gelée — la froideur émotionnelle de la grande héroïne."
+        },
+        {
+          "h": "声",
+          "p": "shēng",
+          "f": "son / voix",
+          "m": "Clé 耳 (oreille) — ce que l'oreille perçoit."
+        },
+        {
+          "h": "听",
+          "p": "tīng",
+          "f": "écouter / obéir",
+          "m": "Oreille attentive — écouter pour mieux manipuler."
+        },
+        {
+          "h": "笑",
+          "p": "xiào",
+          "f": "sourire / rire",
+          "m": "Bambou (笑 top) — sourire de façade, arme sociale redoutable."
+        }
+      ]
+    },
+    "bi": {
+      "type": "chengyu",
+      "title": "笑里藏刀 (xiào lǐ cáng dāo)",
+      "ctx": "Le sourire qui cache le couteau. L'un des Trente-Six Stratagèmes : afficher bienveillance et douceur en surface tout en planifiant l'attaque finale. C'est la signature de la 大女主 en cour — elle sourit aux ennemis jusqu'au moment de les renverser."
+    },
+    "st": "她冷冷说：不。她笑。",
+    "fr_st": "Elle dit froidement : Non. Elle sourit.",
+    "lex": [
+      {
+        "h": "她",
+        "p": "tā",
+        "f": "elle"
+      },
+      {
+        "h": "冷冷",
+        "p": "lěng lěng",
+        "f": "froidement / avec froideur"
+      },
+      {
+        "h": "说",
+        "p": "shuō",
+        "f": "dire"
+      },
+      {
+        "h": "不",
+        "p": "bù",
+        "f": "non"
+      },
+      {
+        "h": "笑",
+        "p": "xiào",
+        "f": "sourire"
+      }
+    ],
+    "ex": [
+      {
+        "q": "Quelle est l'attitude de la protagoniste quand elle parle dans ce chapitre ?",
+        "o": [
+          "Chaleureuse et douce",
+          "Froide et distante",
+          "En colère et violente",
+          "Triste et silencieuse"
+        ],
+        "r": 1
+      },
+      {
+        "q": "Comment rapporte-t-on des paroles après 说 en chinois ?",
+        "o": [
+          "Avec des guillemets obligatoires",
+          "Directement, sans marqueur grammatical",
+          "Avec le mot 那 avant",
+          "En inversant sujet et verbe"
+        ],
+        "r": 1
+      },
+      {
+        "q": "Quel caractère porte le radical 言 (parole) ?",
+        "o": [
+          "冷",
+          "笑",
+          "说",
+          "强"
+        ],
+        "r": 2
+      },
+      {
+        "q": "笑里藏刀 — quelle arme se cache derrière le sourire ?",
+        "o": [
+          "Un poison",
+          "Un couteau (la trahison)",
+          "Un sort",
+          "Une épée"
+        ],
+        "r": 1
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "lvl": "HSK1",
+    "les": {
+      "title": "Tribulation I — Le Premier Piège (Révision Jours 1–6)",
+      "gram": "TRIBULATION : Pas de nouvelle règle aujourd'hui. Révision complète des structures des jours 1 à 6 : 是, 有/没有, 要/不要, 去, Nombres+个, 说. Ces six briques forment le socle grammatical de survie en cour impériale. L'héroïne doit les maîtriser parfaitement pour désamorcer le premier piège tendu par sa rivale.",
+      "voc": [
+        {
+          "h": "阴谋",
+          "p": "yīn móu",
+          "f": "complot / machination",
+          "m": "陰 (ombre) + 谋 (plan) — le plan qui se trame dans l'obscurité."
+        },
+        {
+          "h": "毒",
+          "p": "dú",
+          "f": "poison / venin",
+          "m": "Herbe mortelle — le poison, arme classique des intrigues de cour."
+        },
+        {
+          "h": "救",
+          "p": "jiù",
+          "f": "sauver / secourir",
+          "m": "Main tendue — acte de salut inattendu."
+        },
+        {
+          "h": "险",
+          "p": "xiǎn",
+          "f": "danger / périlleux",
+          "m": "Précipice — la mort est toujours proche."
+        },
+        {
+          "h": "胜",
+          "p": "shèng",
+          "f": "vaincre / victoire",
+          "m": "Force maîtrisée — remporter sans avoir l'air de combattre."
+        },
+        {
+          "h": "退",
+          "p": "tuì",
+          "f": "reculer / se retirer",
+          "m": "Retraite stratégique — reculer pour mieux revenir."
+        }
+      ]
+    },
+    "bi": {
+      "type": "chengyu",
+      "title": "将计就计 (jiāng jì jiù jì)",
+      "ctx": "Retourner le plan de l'ennemi contre lui-même. Lorsqu'on découvre un piège, au lieu de l'éviter, on l'utilise comme tremplin pour piéger l'adversaire à son tour. La tribulation de ce jour illustre exactement ce retournement : l'héroïne transforme le piège de la rivale en victoire éclatante."
+    },
+    "st": "阴谋！有毒。她不怕险。她说：我要胜。她去门。她救人。",
+    "fr_st": "Un complot ! Du poison. Elle n'a pas peur du danger. Elle dit : Je veux vaincre. Elle s'avance vers la porte. Elle sauve quelqu'un.",
+    "lex": [
+      {
+        "h": "阴谋",
+        "p": "yīn móu",
+        "f": "complot"
+      },
+      {
+        "h": "有",
+        "p": "yǒu",
+        "f": "il y a"
+      },
+      {
+        "h": "毒",
+        "p": "dú",
+        "f": "poison"
+      },
+      {
+        "h": "她",
+        "p": "tā",
+        "f": "elle"
+      },
+      {
+        "h": "不",
+        "p": "bù",
+        "f": "ne pas"
+      },
+      {
+        "h": "怕",
+        "p": "pà",
+        "f": "avoir peur"
+      },
+      {
+        "h": "险",
+        "p": "xiǎn",
+        "f": "danger"
+      },
+      {
+        "h": "说",
+        "p": "shuō",
+        "f": "dire"
+      },
+      {
+        "h": "我",
+        "p": "wǒ",
+        "f": "je"
+      },
+      {
+        "h": "要",
+        "p": "yào",
+        "f": "vouloir"
+      },
+      {
+        "h": "胜",
+        "p": "shèng",
+        "f": "vaincre"
+      },
+      {
+        "h": "去",
+        "p": "qù",
+        "f": "aller"
+      },
+      {
+        "h": "门",
+        "p": "mén",
+        "f": "porte"
+      },
+      {
+        "h": "救",
+        "p": "jiù",
+        "f": "sauver"
+      },
+      {
+        "h": "人",
+        "p": "rén",
+        "f": "quelqu'un"
+      }
+    ],
+    "ex": [
+      {
+        "q": "Quel danger découvre l'héroïne dans ce chapitre de tribulation ?",
+        "o": [
+          "Une épée cachée",
+          "Du poison dans un complot",
+          "Un incendie",
+          "Un traître armé"
+        ],
+        "r": 1
+      },
+      {
+        "q": "Parmi ces structures, laquelle est correcte pour 'elle n'a pas peur' ?",
+        "o": [
+          "她怕不",
+          "她没有怕",
+          "她不怕",
+          "她无怕"
+        ],
+        "r": 2
+      },
+      {
+        "q": "Quel mot du jour 6 révèle que l'héroïne cache ses émotions ?",
+        "o": [
+          "冷",
+          "笑",
+          "说",
+          "声"
+        ],
+        "r": 1
+      },
+      {
+        "q": "将计就计 — que fait l'héroïne face au piège de sa rivale ?",
+        "o": [
+          "Elle fuit",
+          "Elle l'évite prudemment",
+          "Elle le retourne contre l'adversaire",
+          "Elle demande de l'aide"
+        ],
+        "r": 2
+      },
+      {
+        "q": "Comment dit-on 'je veux vaincre' en chinois ?",
+        "o": [
+          "我去胜",
+          "我要胜",
+          "我是胜",
+          "我有胜"
+        ],
+        "r": 1
+      },
+      {
+        "q": "Quel classificateur accompagne un être humain dans '三个人' ?",
+        "o": [
+          "个",
+          "是",
+          "有",
+          "三"
+        ],
+        "r": 0
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "lvl": "HSK1",
+    "les": {
+      "title": "Leçon 8 — Le lieu et l'espace (在)",
+      "gram": "在 (zài) indique la présence ou la localisation : Sujet + 在 + Lieu. Différence clé : 在 précède le lieu dans les phrases déclaratives (她在宫里 — Elle est dans le palais), mais peut PRÉCÉDER le verbe comme marqueur de contexte spatial (她在宫里说话 — Elle parle dans le palais). 里 (lǐ) signifie 'à l'intérieur de'. 外 (wài) signifie 'à l'extérieur de'.",
+      "voc": [
+        {
+          "h": "在",
+          "p": "zài",
+          "f": "être à / se trouver à / dans",
+          "m": "Terre et présence — être ancré quelque part."
+        },
+        {
+          "h": "里",
+          "p": "lǐ",
+          "f": "intérieur / dedans",
+          "m": "Terrain entouré — ce qui est à l'intérieur."
+        },
+        {
+          "h": "外",
+          "p": "wài",
+          "f": "extérieur / dehors",
+          "m": "Lune au-dehors de la maison — ce qui est hors d'atteinte."
+        },
+        {
+          "h": "夜",
+          "p": "yè",
+          "f": "nuit",
+          "m": "Lune (月) dans le ciel nocturne — le temps des complots."
+        },
+        {
+          "h": "影",
+          "p": "yǐng",
+          "f": "ombre / silhouette",
+          "m": "Lumière bloquée — l'ombre portée, métaphore de l'espion."
+        },
+        {
+          "h": "宫里",
+          "p": "gōng lǐ",
+          "f": "à l'intérieur du palais",
+          "m": "宫 (palais) + 里 (intérieur) — le cœur du pouvoir."
+        }
+      ]
+    },
+    "bi": {
+      "type": "chengyu",
+      "title": "暗箭难防 (àn jiàn nán fáng)",
+      "ctx": "La flèche tirée dans l'obscurité est difficile à parer. Expression décrivant les coups bas invisibles : médisances, empoisonnements secrets, trahisons nocturnes. Dans le palais impérial, les flèches 暗箭 sont rarement de vraies flèches — ce sont des mots, des lettres forgées, des sourires empoisonnés."
+    },
+    "st": "夜。她在宫里。影在外。",
+    "fr_st": "La nuit. Elle se trouve à l'intérieur du palais. Une silhouette se tient dehors, dans l'ombre.",
+    "lex": [
+      {
+        "h": "夜",
+        "p": "yè",
+        "f": "nuit"
+      },
+      {
+        "h": "她",
+        "p": "tā",
+        "f": "elle"
+      },
+      {
+        "h": "在",
+        "p": "zài",
+        "f": "se trouver à"
+      },
+      {
+        "h": "宫里",
+        "p": "gōng lǐ",
+        "f": "à l'intérieur du palais"
+      },
+      {
+        "h": "影",
+        "p": "yǐng",
+        "f": "silhouette / ombre"
+      },
+      {
+        "h": "外",
+        "p": "wài",
+        "f": "dehors"
+      }
+    ],
+    "ex": [
+      {
+        "q": "Où se trouve la protagoniste pendant cette nuit de chapitre ?",
+        "o": [
+          "Dans la forêt",
+          "À l'extérieur du palais",
+          "À l'intérieur du palais",
+          "Sur le toit"
+        ],
+        "r": 2
+      },
+      {
+        "q": "Quelle est la structure correcte pour 'elle est dans le palais' ?",
+        "o": [
+          "她宫里在",
+          "宫里她在",
+          "她在宫里",
+          "在她宫里"
+        ],
+        "r": 2
+      },
+      {
+        "q": "Quel caractère signifie 'ombre / silhouette' — métaphore d'un espion ?",
+        "o": [
+          "夜",
+          "影",
+          "外",
+          "里"
+        ],
+        "r": 1
+      },
+      {
+        "q": "暗箭难防 — dans le contexte de la cour, que représentent les 暗箭 (flèches dans l'ombre) ?",
+        "o": [
+          "De vraies flèches empoisonnées",
+          "Des trahisons et coups bas invisibles",
+          "Des malédictions de cultivation",
+          "Des attaques militaires nocturnes"
+        ],
+        "r": 1
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "lvl": "HSK1",
+    "les": {
+      "title": "Leçon 9 — Le temps et le moment (时 / 时候 / 现在)",
+      "gram": "现在 (xiàn zài) = maintenant. 时候 (shí hou) = moment / l'heure où. Structure temporelle : Expression de temps + Sujet + Verbe. En chinois, le temps se place toujours EN TÊTE de phrase ou juste après le sujet, jamais en fin. Exemple : 现在她说 (Maintenant, elle parle). La maîtrise du timing est l'arme ultime de la grande héroïne.",
+      "voc": [
+        {
+          "h": "现在",
+          "p": "xiàn zài",
+          "f": "maintenant / à présent",
+          "m": "现 (apparent) + 在 (être là) — ce qui est visible en ce moment."
+        },
+        {
+          "h": "时候",
+          "p": "shí hou",
+          "f": "moment / l'instant où",
+          "m": "日 (soleil) + 寸 (pouce) — le soleil qui avance mesure le temps."
+        },
+        {
+          "h": "快",
+          "p": "kuài",
+          "f": "rapide / vite",
+          "m": "Cœur (心) qui s'emballe — la vitesse du combat."
+        },
+        {
+          "h": "慢",
+          "p": "màn",
+          "f": "lent / lentement",
+          "m": "Lenteur calculée — la patience stratégique."
+        },
+        {
+          "h": "机",
+          "p": "jī",
+          "f": "occasion / opportunité / mécanisme",
+          "m": "Arbre (木) + fil (幺) — le mécanisme qui se déclenche."
+        },
+        {
+          "h": "会",
+          "p": "huì",
+          "f": "pouvoir / savoir faire / se rassembler",
+          "m": "Réunion sous un toit — savoir-faire acquis."
+        }
+      ]
+    },
+    "bi": {
+      "type": "chengyu",
+      "title": "时机成熟 (shí jī chéng shú)",
+      "ctx": "Le moment est mûr. Expression indiquant que toutes les conditions sont réunies pour agir. La grande héroïne n'agit jamais par impulsion — elle attend que 时机成熟 avant de porter le coup fatal. Ce principe est central dans le 大女主 : la patience est une forme de violence différée."
+    },
+    "st": "现在是时候。她快去。",
+    "fr_st": "Le moment est venu. Elle part rapidement.",
+    "lex": [
+      {
+        "h": "现在",
+        "p": "xiàn zài",
+        "f": "maintenant"
+      },
+      {
+        "h": "是",
+        "p": "shì",
+        "f": "être / c'est"
+      },
+      {
+        "h": "时候",
+        "p": "shí hou",
+        "f": "le moment"
+      },
+      {
+        "h": "她",
+        "p": "tā",
+        "f": "elle"
+      },
+      {
+        "h": "快",
+        "p": "kuài",
+        "f": "rapidement"
+      },
+      {
+        "h": "去",
+        "p": "qù",
+        "f": "partir"
+      }
+    ],
+    "ex": [
+      {
+        "q": "Quel est le signal que perçoit l'héroïne dans ce chapitre ?",
+        "o": [
+          "Un danger imminent",
+          "Que le moment d'agir est arrivé",
+          "Une trahison",
+          "Un message secret"
+        ],
+        "r": 1
+      },
+      {
+        "q": "Où se place l'expression de temps en chinois ?",
+        "o": [
+          "Toujours en fin de phrase",
+          "En tête de phrase ou après le sujet",
+          "Entre le sujet et le verbe",
+          "N'importe où"
+        ],
+        "r": 1
+      },
+      {
+        "q": "Quel caractère signifie 'opportunité / occasion' ?",
+        "o": [
+          "快",
+          "慢",
+          "机",
+          "会"
+        ],
+        "r": 2
+      },
+      {
+        "q": "时机成熟 — pourquoi l'héroïne 大女主 attend-elle toujours ce moment ?",
+        "o": [
+          "Par peur",
+          "Par faiblesse",
+          "Pour maximiser l'impact de son action",
+          "Par politesse"
+        ],
+        "r": 2
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "lvl": "HSK1",
+    "les": {
+      "title": "Leçon 10 — Voir et regarder (看 / 见)",
+      "gram": "看 (kàn) = regarder (action en cours). 见 (jiàn) = voir / percevoir (résultat). Structure : Sujet + 看 + Objet (regarder quelque chose) / Sujet + 见 + Objet (avoir vu, aperçu). 看见 (kàn jiàn) = voir (regarder et percevoir le résultat). En xianxia, 看 décrit souvent l'observation tactique, 见 la révélation d'un secret.",
+      "voc": [
+        {
+          "h": "看",
+          "p": "kàn",
+          "f": "regarder / observer",
+          "m": "Main au-dessus de l'œil — regarder au loin."
+        },
+        {
+          "h": "见",
+          "p": "jiàn",
+          "f": "voir / percevoir / rencontrer",
+          "m": "Œil avec des jambes — aller voir de ses propres yeux."
+        },
+        {
+          "h": "看见",
+          "p": "kàn jiàn",
+          "f": "voir (résultat de l'observation)",
+          "m": "看 + 见 = regarder jusqu'à voir — perception complète."
+        },
+        {
+          "h": "他",
+          "p": "tā",
+          "f": "il / lui (masculin)",
+          "m": "Clé 人 (personne) + phonétique — lui, le troisième."
+        },
+        {
+          "h": "美",
+          "p": "měi",
+          "f": "beau / belle / magnifique",
+          "m": "Mouton (羊) + grand (大) — l'idéal de beauté ancienne."
+        },
+        {
+          "h": "危",
+          "p": "wēi",
+          "f": "danger / péril",
+          "m": "Homme au bord d'un précipice — le danger immédiat."
+        }
+      ]
+    },
+    "bi": {
+      "type": "chengyu",
+      "title": "一见钟情 (yī jiàn zhōng qíng)",
+      "ctx": "Littéralement 'au premier regard, le cœur sonne'. Le coup de foudre. En 大女主, ce moment est toujours subverti : l'héroïne ressent quelque chose, mais le réprime immédiatement au nom de sa mission. Le lecteur sait, lui — et c'est là que commence le slow burn."
+    },
+    "st": "她看见他。他美。她不说话。",
+    "fr_st": "Elle le voit. Il est beau. Elle ne dit rien.",
+    "lex": [
+      {
+        "h": "她",
+        "p": "tā",
+        "f": "elle"
+      },
+      {
+        "h": "看见",
+        "p": "kàn jiàn",
+        "f": "voir"
+      },
+      {
+        "h": "他",
+        "p": "tā",
+        "f": "lui"
+      },
+      {
+        "h": "美",
+        "p": "měi",
+        "f": "beau"
+      },
+      {
+        "h": "不",
+        "p": "bù",
+        "f": "ne pas"
+      },
+      {
+        "h": "说话",
+        "p": "shuō huà",
+        "f": "parler / dire un mot"
+      }
+    ],
+    "ex": [
+      {
+        "q": "Que se passe-t-il lors de la première rencontre dans ce chapitre ?",
+        "o": [
+          "Elle le combat",
+          "Elle le voit et garde le silence",
+          "Elle lui parle froidement",
+          "Elle fuit"
+        ],
+        "r": 1
+      },
+      {
+        "q": "Quelle est la différence entre 看 et 看见 ?",
+        "o": [
+          "看见est plus poli",
+          "看 = regarder (action) ; 看见 = avoir vu (résultat)",
+          "Ils sont identiques",
+          "看 est réservé aux hommes"
+        ],
+        "r": 1
+      },
+      {
+        "q": "Quel caractère signifie 'danger / péril' en cultivation ?",
+        "o": [
+          "美",
+          "危",
+          "他",
+          "见"
+        ],
+        "r": 1
+      },
+      {
+        "q": "Dans 大女主, pourquoi l'héroïne réprime-t-elle le sentiment de 一见钟情 ?",
+        "o": [
+          "Elle ne ressent rien",
+          "Sa mission passe avant ses émotions",
+          "Elle est déjà mariée",
+          "Elle le déteste"
+        ],
+        "r": 1
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "lvl": "HSK1",
+    "les": {
+      "title": "Leçon 11 — Connaître et savoir (知道 / 认识)",
+      "gram": "知道 (zhī dào) = savoir / être au courant d'un fait. 认识 (rèn shi) = connaître / avoir rencontré quelqu'un. Structure : Sujet + 知道 + Proposition. Sujet + 认识 + Personne. Distinction cruciale en intrigues : savoir un secret (知道秘密) n'implique pas connaître la personne (认识她). La protagoniste accumule des 知道 comme d'autres accumulent des épées.",
+      "voc": [
+        {
+          "h": "知道",
+          "p": "zhī dào",
+          "f": "savoir / être au courant",
+          "m": "知 (sagesse) + 道 (voie) — connaître la voie des choses."
+        },
+        {
+          "h": "认识",
+          "p": "rèn shi",
+          "f": "connaître (quelqu'un) / reconnaître",
+          "m": "认 (reconnaître) + 识 (distinguer) — identifier une personne."
+        },
+        {
+          "h": "秘密",
+          "p": "mì mì",
+          "f": "secret",
+          "m": "Deux fois le caractère 秘 — ce qui est doublement caché."
+        },
+        {
+          "h": "真",
+          "p": "zhēn",
+          "f": "vrai / réel / sincère",
+          "m": "Transformation complète — ce qui est authentique."
+        },
+        {
+          "h": "假",
+          "p": "jiǎ",
+          "f": "faux / artificiel / masque",
+          "m": "Homme (人) + travail (工) — ce qui est fabriqué, simulé."
+        },
+        {
+          "h": "谁",
+          "p": "shéi",
+          "f": "qui / quelqu'un",
+          "m": "Clé 言 (parole) — interroger pour identifier."
+        }
+      ]
+    },
+    "bi": {
+      "type": "chengyu",
+      "title": "真假难辨 (zhēn jiǎ nán biàn)",
+      "ctx": "Le vrai et le faux sont difficiles à distinguer. En 大女主, ce principe gouverne chaque relation de cour : les sourires sont faux, les larmes sont calculées, et même les alliances sincères paraissent suspectes. La protagoniste excelle à démêler le vrai du faux là où tous les autres se perdent."
+    },
+    "st": "她知道秘密。谁是真，谁是假？",
+    "fr_st": "Elle connaît le secret. Qui est sincère, qui porte un masque ?",
+    "lex": [
+      {
+        "h": "她",
+        "p": "tā",
+        "f": "elle"
+      },
+      {
+        "h": "知道",
+        "p": "zhī dào",
+        "f": "savoir"
+      },
+      {
+        "h": "秘密",
+        "p": "mì mì",
+        "f": "le secret"
+      },
+      {
+        "h": "谁",
+        "p": "shéi",
+        "f": "qui"
+      },
+      {
+        "h": "是",
+        "p": "shì",
+        "f": "est"
+      },
+      {
+        "h": "真",
+        "p": "zhēn",
+        "f": "sincère / vrai"
+      },
+      {
+        "h": "假",
+        "p": "jiǎ",
+        "f": "faux / masque"
+      }
+    ],
+    "ex": [
+      {
+        "q": "Quelle est la tension centrale du chapitre 11 ?",
+        "o": [
+          "Un combat physique",
+          "La quête pour identifier sincérité et traîtrise",
+          "La fuite du palais",
+          "La découverte d'un trésor"
+        ],
+        "r": 1
+      },
+      {
+        "q": "Quelle est la différence entre 知道 et 认识 ?",
+        "o": [
+          "知道 = connaître une personne ; 认识 = savoir un fait",
+          "Ils signifient exactement la même chose",
+          "知道 = savoir un fait ; 认识 = connaître une personne",
+          "知道 est plus formel"
+        ],
+        "r": 2
+      },
+      {
+        "q": "Quel caractère signifie 'faux / masque' ?",
+        "o": [
+          "真",
+          "谁",
+          "假",
+          "知"
+        ],
+        "r": 2
+      },
+      {
+        "q": "Selon 真假难辨, pourquoi les relations de cour sont-elles dangereuses ?",
+        "o": [
+          "Tout le monde est armé",
+          "Le vrai et le faux sont impossibles à distinguer",
+          "Les règles changent chaque jour",
+          "La magie brouille les perceptions"
+        ],
+        "r": 1
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "lvl": "HSK1",
+    "les": {
+      "title": "Leçon 12 — Vouloir et désirer (想)",
+      "gram": "想 (xiǎng) a deux usages : (1) vouloir / avoir envie de (Sujet + 想 + Verbe) ; (2) penser à / réfléchir (Sujet + 想 + Objet). Distinction avec 要 (yào) : 要 exprime une volonté ferme et décidée ; 想 exprime un désir ou une réflexion intérieure. La héroïne 大女主 utilise 要 en public et n'autorise 想 qu'en monologue intérieur nocturne.",
+      "voc": [
+        {
+          "h": "想",
+          "p": "xiǎng",
+          "f": "vouloir / penser à / réfléchir",
+          "m": "Cœur (心) qui se projette — désir et pensée intérieure."
+        },
+        {
+          "h": "爱",
+          "p": "ài",
+          "f": "amour / aimer",
+          "m": "Cœur sous un toit protégé — amour gardé secret."
+        },
+        {
+          "h": "恨",
+          "p": "hèn",
+          "f": "haine / haïr",
+          "m": "Cœur (心) + 艮 (résistance) — haine qui s'accroche."
+        },
+        {
+          "h": "恐",
+          "p": "kǒng",
+          "f": "craindre / terreur",
+          "m": "工 (travail rigide) + 心 (cœur) — cœur paralysé par la peur."
+        },
+        {
+          "h": "只",
+          "p": "zhǐ",
+          "f": "seulement / ne...que",
+          "m": "Un seul oiseau — la restriction, l'unicité."
+        },
+        {
+          "h": "但",
+          "p": "dàn",
+          "f": "mais / cependant",
+          "m": "Conjonction d'opposition — le tournant de toute intrigue."
+        }
+      ]
+    },
+    "bi": {
+      "type": "meme",
+      "title": "emo (emo)",
+      "ctx": "Translittération du mot anglais 'emo', adopté par les jeunes Chinois pour décrire une mélancolie douce-amère, souvent teintée d'autodérision. Dans les fanfictions 大女主, les lectrices tagguent 'emo' les scènes où l'héroïne souffre en silence la nuit, ses émotions cachées contrastant avec sa façade de glace diurne."
+    },
+    "st": "她只想一人。但她恨爱。",
+    "fr_st": "Elle ne pense qu'à lui seul. Mais elle hait d'aimer.",
+    "lex": [
+      {
+        "h": "她",
+        "p": "tā",
+        "f": "elle"
+      },
+      {
+        "h": "只",
+        "p": "zhǐ",
+        "f": "seulement"
+      },
+      {
+        "h": "想",
+        "p": "xiǎng",
+        "f": "penser à"
+      },
+      {
+        "h": "一",
+        "p": "yī",
+        "f": "un seul"
+      },
+      {
+        "h": "人",
+        "p": "rén",
+        "f": "personne"
+      },
+      {
+        "h": "但",
+        "p": "dàn",
+        "f": "mais"
+      },
+      {
+        "h": "恨",
+        "p": "hèn",
+        "f": "haïr"
+      },
+      {
+        "h": "爱",
+        "p": "ài",
+        "f": "aimer"
+      }
+    ],
+    "ex": [
+      {
+        "q": "Quel conflit émotionnel intérieur révèle ce chapitre ?",
+        "o": [
+          "La peur de mourir",
+          "L'amour qu'elle refuse d'accepter",
+          "La trahison d'une amie",
+          "La perte de son épée"
+        ],
+        "r": 1
+      },
+      {
+        "q": "Quelle nuance distingue 想 de 要 ?",
+        "o": [
+          "想 = volonté ferme ; 要 = désir intérieur",
+          "Ils sont identiques",
+          "想 = désir/réflexion intérieure ; 要 = volonté décidée",
+          "想 est réservé aux questions"
+        ],
+        "r": 2
+      },
+      {
+        "q": "Quel radical partagent 爱, 恨 et 恐 ?",
+        "o": [
+          "言",
+          "心",
+          "女",
+          "人"
+        ],
+        "r": 1
+      },
+      {
+        "q": "Pourquoi le mème 'emo' est-il particulièrement associé aux 大女主 ?",
+        "o": [
+          "Elles sont souvent en colère",
+          "Elles souffrent en silence derrière une façade froide",
+          "Elles pleurent ouvertement",
+          "Elles abandonnent leurs missions"
+        ],
+        "r": 1
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "lvl": "HSK1",
+    "les": {
+      "title": "Leçon 13 — Le corps et la santé (身体 / 伤)",
+      "gram": "身体 (shēn tǐ) = corps / santé. 受伤 (shòu shāng) = être blessé. Structure : 她受伤了 (Elle est blessée — 了 marque le changement d'état). 了 (le) apparaît ici pour la première fois : particule de changement d'état en fin de phrase. C'est l'une des particules les plus importantes du chinois mandarin — elle indique qu'une situation a changé.",
+      "voc": [
+        {
+          "h": "身体",
+          "p": "shēn tǐ",
+          "f": "corps / santé",
+          "m": "身 (tronc) + 体 (forme physique) — l'enveloppe physique du cultivateur."
+        },
+        {
+          "h": "受伤",
+          "p": "shòu shāng",
+          "f": "être blessé / se blesser",
+          "m": "受 (recevoir) + 伤 (blessure) — recevoir une blessure."
+        },
+        {
+          "h": "了",
+          "p": "le",
+          "f": "(marqueur de changement d'état)",
+          "m": "Particule clé — signale qu'une situation vient de changer."
+        },
+        {
+          "h": "血",
+          "p": "xuè",
+          "f": "sang",
+          "m": "Récipient contenant du sang — la réalité crue du combat."
+        },
+        {
+          "h": "气",
+          "p": "qì",
+          "f": "souffle vital / énergie / Qi",
+          "m": "Vapeur qui monte — l'énergie de cultivation fondamentale."
+        },
+        {
+          "h": "内力",
+          "p": "nèi lì",
+          "f": "force intérieure / énergie interne",
+          "m": "内 (intérieur) + 力 (force) — la puissance cachée du cultivateur."
+        }
+      ]
+    },
+    "bi": {
+      "type": "chengyu",
+      "title": "忍辱负重 (rěn rǔ fù zhòng)",
+      "ctx": "Porter l'humiliation pour accomplir une mission lourde. La grande héroïne accepte d'être blessée, humiliée, sous-estimée — non par faiblesse, mais parce que chaque affront est un investissement dans sa revanche finale. La blessure physique n'est rien comparée au poids de la mission."
+    },
+    "st": "她受伤了。有血。但她有气，有内力。",
+    "fr_st": "Elle a été blessée. Du sang. Mais elle garde son souffle vital, son énergie intérieure.",
+    "lex": [
+      {
+        "h": "她",
+        "p": "tā",
+        "f": "elle"
+      },
+      {
+        "h": "受伤",
+        "p": "shòu shāng",
+        "f": "être blessée"
+      },
+      {
+        "h": "了",
+        "p": "le",
+        "f": "(changement d'état)"
+      },
+      {
+        "h": "有",
+        "p": "yǒu",
+        "f": "avoir / il y a"
+      },
+      {
+        "h": "血",
+        "p": "xuè",
+        "f": "sang"
+      },
+      {
+        "h": "但",
+        "p": "dàn",
+        "f": "mais"
+      },
+      {
+        "h": "气",
+        "p": "qì",
+        "f": "souffle vital"
+      },
+      {
+        "h": "内力",
+        "p": "nèi lì",
+        "f": "énergie intérieure"
+      }
+    ],
+    "ex": [
+      {
+        "q": "Quelle est la situation physique de l'héroïne dans ce chapitre ?",
+        "o": [
+          "Elle est épuisée mais indemne",
+          "Elle est blessée et saigne",
+          "Elle a perdu son Qi",
+          "Elle est morte"
+        ],
+        "r": 1
+      },
+      {
+        "q": "À quoi sert la particule 了 dans 她受伤了 ?",
+        "o": [
+          "Indiquer le futur",
+          "Marquer une question",
+          "Signaler un changement d'état accompli",
+          "Renforcer la négation"
+        ],
+        "r": 2
+      },
+      {
+        "q": "Quel terme désigne l'énergie de cultivation fondamentale en xianxia ?",
+        "o": [
+          "血",
+          "身体",
+          "气",
+          "剑"
+        ],
+        "r": 2
+      },
+      {
+        "q": "忍辱负重 — pourquoi l'héroïne accepte-t-elle l'humiliation ?",
+        "o": [
+          "Par faiblesse et soumission",
+          "Pour accomplir sa mission à long terme",
+          "Pour plaire au prince",
+          "Par peur des représailles"
+        ],
+        "r": 1
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "lvl": "HSK1",
+    "les": {
+      "title": "Leçon 14 — La noblesse et le rang (贵 / 低 / 主)",
+      "gram": "Les adjectifs en chinois se placent directement avant le nom sans verbe auxiliaire : 高贵的女人 (une femme de haute noblesse). La particule 的 (de) relie l'adjectif au nom, comme une apostrophe de possession ou qualification. Structure : Adjectif + 的 + Nom. Négation : 不 + Adjectif. En cour impériale, le rang détermine chaque mot prononcé.",
+      "voc": [
+        {
+          "h": "贵",
+          "p": "guì",
+          "f": "précieux / noble / de haute naissance",
+          "m": "Coquillage (贝, ancienne monnaie) en haut — la valeur suprême."
+        },
+        {
+          "h": "低",
+          "p": "dī",
+          "f": "bas / humble / de rang inférieur",
+          "m": "Posture basse — le contraire de la noblesse."
+        },
+        {
+          "h": "主",
+          "p": "zhǔ",
+          "f": "maître / seigneur / protagoniste",
+          "m": "Flamme sur un chandelier — celui qui éclaire et dirige."
+        },
+        {
+          "h": "的",
+          "p": "de",
+          "f": "(particule de qualification / possession)",
+          "m": "Lien grammatical universel — rattache adjectif à nom."
+        },
+        {
+          "h": "高",
+          "p": "gāo",
+          "f": "haut / élevé / supérieur",
+          "m": "Tour haute — l'élévation physique et sociale."
+        },
+        {
+          "h": "命",
+          "p": "mìng",
+          "f": "vie / destin / ordre impérial",
+          "m": "Bouche qui ordonne — le destin dicté d'en haut."
+        }
+      ]
+    },
+    "bi": {
+      "type": "chengyu",
+      "title": "出人头地 (chū rén tóu dì)",
+      "ctx": "Littéralement 'sortir la tête au-dessus des autres gens'. S'élever socialement au-delà de sa condition de naissance. C'est l'arc de toute 大女主 : née basse (低), elle s'élève par intelligence et détermination pour dominer les plus hauts rangs. La particule 的 dans 低的命 (un destin humble) sera brisée par sa montée."
+    },
+    "st": "她是低的。但她是主。高贵的命，她要。",
+    "fr_st": "Elle est de rang inférieur. Mais elle est la protagoniste. Un destin noble — c'est ce qu'elle veut.",
+    "lex": [
+      {
+        "h": "她",
+        "p": "tā",
+        "f": "elle"
+      },
+      {
+        "h": "是",
+        "p": "shì",
+        "f": "est"
+      },
+      {
+        "h": "低的",
+        "p": "dī de",
+        "f": "de rang inférieur"
+      },
+      {
+        "h": "但",
+        "p": "dàn",
+        "f": "mais"
+      },
+      {
+        "h": "主",
+        "p": "zhǔ",
+        "f": "protagoniste / maître"
+      },
+      {
+        "h": "高贵的",
+        "p": "gāo guì de",
+        "f": "noble / de haute naissance"
+      },
+      {
+        "h": "命",
+        "p": "mìng",
+        "f": "destin"
+      },
+      {
+        "h": "要",
+        "p": "yào",
+        "f": "vouloir"
+      }
+    ],
+    "ex": [
+      {
+        "q": "Quel est le paradoxe central du chapitre 14 ?",
+        "o": [
+          "Elle est noble mais se cache",
+          "Elle est de rang bas mais se proclame protagoniste",
+          "Elle est puissante mais blessée",
+          "Elle est aimée mais refuse"
+        ],
+        "r": 1
+      },
+      {
+        "q": "Comment fonctionne la particule 的 dans 高贵的命 ?",
+        "o": [
+          "Elle marque le pluriel",
+          "Elle lie l'adjectif 高贵 au nom 命",
+          "Elle indique le passé",
+          "Elle est facultative"
+        ],
+        "r": 1
+      },
+      {
+        "q": "Quel caractère signifie 'destin / ordre impérial' ?",
+        "o": [
+          "主",
+          "低",
+          "命",
+          "贵"
+        ],
+        "r": 2
+      },
+      {
+        "q": "出人头地 — quel est l'arc social qu'il décrit pour une 大女主 ?",
+        "o": [
+          "Rester discrète toute sa vie",
+          "S'élever au-dessus de sa condition de naissance",
+          "Servir l'Empereur",
+          "Trouver un mari noble"
+        ],
+        "r": 1
+      },
+      {
+        "q": "Comment dit-on \"elle est blessée\" avec le marqueur de changement d'état ?",
+        "o": [
+          "她受伤",
+          "她受伤了",
+          "她有伤",
+          "她受了"
+        ],
+        "r": 1
+      },
+      {
+        "q": "Quel radical partagent 药 et 解 pour évoquer le soin et la plante ?",
+        "o": [
+          "艹 (herbe)",
+          "水 (eau)",
+          "火 (feu)",
+          "木 (bois)"
+        ],
+        "r": 0
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "lvl": "HSK1",
+    "les": {
+      "title": "Leçon 15 — Les émotions stratégiques (冷静 / 愤怒 / 忍)",
+      "gram": "Les adverbes de manière en chinois se placent AVANT le verbe : 冷静地说 (dire calmement), 慢慢地走 (marcher lentement). La particule adverbiale 地 (de — même son que 的 mais caractère différent) relie l'adverbe au verbe. Structure : Adverbe + 地 + Verbe. En 大女主, contrôler ses émotions (忍) est une compétence de survie.",
+      "voc": [
+        {
+          "h": "冷静",
+          "p": "lěng jìng",
+          "f": "calme / sang-froid",
+          "m": "Froid (冷) + immobile (静) — la sérénité glaciale de l'héroïne."
+        },
+        {
+          "h": "愤怒",
+          "p": "fèn nù",
+          "f": "colère / fureur",
+          "m": "Cœur (心) qui explose — la rage intérieure réprimée."
+        },
+        {
+          "h": "忍",
+          "p": "rěn",
+          "f": "endurer / réprimer / patience martiale",
+          "m": "Couteau (刀) sur le cœur (心) — endurer la douleur sans fléchir."
+        },
+        {
+          "h": "地",
+          "p": "de",
+          "f": "(particule adverbiale)",
+          "m": "Lien adverbe-verbe — différent de 的 (adjectif-nom)."
+        },
+        {
+          "h": "眼",
+          "p": "yǎn",
+          "f": "œil / regard",
+          "m": "L'œil — ce qui observe et trahit ou cache les émotions."
+        },
+        {
+          "h": "泪",
+          "p": "lèi",
+          "f": "larme / pleur",
+          "m": "Eau (水) qui coule de l'œil — les larmes qu'on ne verse jamais."
+        }
+      ]
+    },
+    "bi": {
+      "type": "chengyu",
+      "title": "喜怒不形于色 (xǐ nù bù xíng yú sè)",
+      "ctx": "La joie et la colère ne transparaissent pas sur le visage. L'art suprême du contrôle émotionnel en cour impériale. La 大女主 maîtrise cet art — ses yeux restent secs, son visage impassible, même quand son cœur brûle. C'est ce mur de glace qui rend ses ennemis fous et son partenaire romantique obsédé."
+    },
+    "st": "她冷静地忍。眼中没有泪。",
+    "fr_st": "Elle endure avec un calme absolu. Ses yeux ne versent aucune larme.",
+    "lex": [
+      {
+        "h": "她",
+        "p": "tā",
+        "f": "elle"
+      },
+      {
+        "h": "冷静地",
+        "p": "lěng jìng de",
+        "f": "calmement"
+      },
+      {
+        "h": "忍",
+        "p": "rěn",
+        "f": "endurer"
+      },
+      {
+        "h": "眼中",
+        "p": "yǎn zhōng",
+        "f": "dans ses yeux"
+      },
+      {
+        "h": "没有",
+        "p": "méi yǒu",
+        "f": "aucune / ne pas avoir"
+      },
+      {
+        "h": "泪",
+        "p": "lèi",
+        "f": "larme"
+      }
+    ],
+    "ex": [
+      {
+        "q": "Comment l'héroïne réagit-elle émotionnellement dans ce chapitre ?",
+        "o": [
+          "Elle explose de colère",
+          "Elle pleure abondamment",
+          "Elle endure en silence, sans larmes",
+          "Elle fuit la situation"
+        ],
+        "r": 2
+      },
+      {
+        "q": "À quoi sert la particule 地 dans 冷静地忍 ?",
+        "o": [
+          "Elle marque le temps passé",
+          "Elle lie l'adverbe 冷静 au verbe 忍",
+          "Elle introduit un nom",
+          "Elle est décorative"
+        ],
+        "r": 1
+      },
+      {
+        "q": "Quel caractère représente 'couteau sur le cœur' — endurer la douleur ?",
+        "o": [
+          "泪",
+          "眼",
+          "忍",
+          "冷"
+        ],
+        "r": 2
+      },
+      {
+        "q": "喜怒不形于色 — pourquoi ce masque émotionnel rend-il les ennemis 大女主 fous ?",
+        "o": [
+          "Ils ne peuvent pas lire ses intentions",
+          "Elle les impressionne par sa beauté",
+          "Elle les défie ouvertement",
+          "Elle chante pour les distraire"
+        ],
+        "r": 0
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "lvl": "HSK1",
+    "les": {
+      "title": "Leçon 16 — Le palais et ses espaces (殿 / 院 / 阶)",
+      "gram": "Les noms de lieux composés en chinois fonctionnent comme des structures gigognes : le terme général vient à la fin, le qualificatif en tête. Exemple : 宫殿 (palais-salle = salle du trône). 台阶 (plateforme-marche = escalier). Pour exprimer 'devant / derrière', utilisez : 前 (qián = devant) / 后 (hòu = derrière) + 面 (miàn = côté). Structure : Lieu + 前面/后面.",
+      "voc": [
+        {
+          "h": "殿",
+          "p": "diàn",
+          "f": "salle principale / palais",
+          "m": "La salle aux colonnes rouges — cœur du pouvoir impérial."
+        },
+        {
+          "h": "院",
+          "p": "yuàn",
+          "f": "cour intérieure / résidence",
+          "m": "Mur entourant un espace — la cour close où les complots se trament."
+        },
+        {
+          "h": "阶",
+          "p": "jiē",
+          "f": "marche / escalier / rang",
+          "m": "Terre + escalier — chaque marche est un rang social."
+        },
+        {
+          "h": "前",
+          "p": "qián",
+          "f": "devant / avant / antérieur",
+          "m": "Bateau en marche — ce qui est en avant."
+        },
+        {
+          "h": "后",
+          "p": "hòu",
+          "f": "derrière / après / postérieur",
+          "m": "Femme qui attend — ce qui suit, l'arrière-garde."
+        },
+        {
+          "h": "帝",
+          "p": "dì",
+          "f": "empereur / majesté suprême",
+          "m": "Nœud impérial — l'autorité absolue concentrée."
+        }
+      ]
+    },
+    "bi": {
+      "type": "chengyu",
+      "title": "步步为营 (bù bù wéi yíng)",
+      "ctx": "Chaque pas construit un camp fortifié. Avancer prudemment, en sécurisant chaque position avant de passer à la suivante. Dans la cour impériale, la grande héroïne ne monte jamais les 阶 (marches) du trône d'un bond — elle progresse pas à pas, chaque alliance étant un camp qu'elle consolide avant d'avancer."
+    },
+    "st": "她在殿前。帝在殿里。她冷静地看殿，看阶。她想：步步来。",
+    "fr_st": "Elle se tient devant la grande salle. L'Empereur est à l'intérieur. Elle observe la salle, les marches, avec un calme absolu. Elle pense : avancer, pas à pas.",
+    "lex": [
+      {
+        "h": "她",
+        "p": "tā",
+        "f": "elle"
+      },
+      {
+        "h": "在",
+        "p": "zài",
+        "f": "se trouve à"
+      },
+      {
+        "h": "殿前",
+        "p": "diàn qián",
+        "f": "devant la grande salle"
+      },
+      {
+        "h": "帝",
+        "p": "dì",
+        "f": "l'Empereur"
+      },
+      {
+        "h": "殿里",
+        "p": "diàn lǐ",
+        "f": "à l'intérieur de la salle"
+      },
+      {
+        "h": "冷静地",
+        "p": "lěng jìng de",
+        "f": "calmement"
+      },
+      {
+        "h": "看",
+        "p": "kàn",
+        "f": "observer"
+      },
+      {
+        "h": "殿",
+        "p": "diàn",
+        "f": "la grande salle"
+      },
+      {
+        "h": "阶",
+        "p": "jiē",
+        "f": "les marches"
+      },
+      {
+        "h": "想",
+        "p": "xiǎng",
+        "f": "penser"
+      },
+      {
+        "h": "步步",
+        "p": "bù bù",
+        "f": "pas à pas"
+      },
+      {
+        "h": "来",
+        "p": "lái",
+        "f": "venir / avancer"
+      }
+    ],
+    "ex": [
+      {
+        "q": "Quelle est la position de l'héroïne par rapport à la salle du trône ?",
+        "o": [
+          "Elle est à l'intérieur",
+          "Elle est derrière la salle",
+          "Elle est devant la salle",
+          "Elle est sur les marches"
+        ],
+        "r": 2
+      },
+      {
+        "q": "Comment forme-t-on 'devant le palais' en chinois ?",
+        "o": [
+          "前殿",
+          "殿前面",
+          "殿前",
+          "前面殿"
+        ],
+        "r": 2
+      },
+      {
+        "q": "Quel caractère signifie 'Empereur / majesté suprême' ?",
+        "o": [
+          "帝",
+          "殿",
+          "院",
+          "阶"
+        ],
+        "r": 0
+      },
+      {
+        "q": "步步为营 — pourquoi l'héroïne ne monte-t-elle pas les marches du trône d'un bond ?",
+        "o": [
+          "Elle a peur",
+          "Elle sécurise chaque position avant d'avancer",
+          "Elle attend un signal",
+          "Elle est blessée"
+        ],
+        "r": 1
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "lvl": "HSK1",
+    "les": {
+      "title": "Leçon 17 — Les alliés et les ennemis (盟 / 叛 / 友)",
+      "gram": "Les verbes de relation en chinois peuvent se combiner avec 了 pour indiquer un changement : 她成了盟友 (Elle est devenue une alliée). 成 (chéng) = devenir. Structure : Sujet + 成 + 了 + Rôle. Autre construction : Sujet + 把 + Objet + 变成 + Résultat (transformer quelque chose en autre chose). 把 sera étudié plus en profondeur au mois 2.",
+      "voc": [
+        {
+          "h": "盟",
+          "p": "méng",
+          "f": "alliance / pacte",
+          "m": "Deux mains sur un autel — serment d'alliance."
+        },
+        {
+          "h": "叛",
+          "p": "pàn",
+          "f": "trahir / traître / rébellion",
+          "m": "Moitié brisée (半) + couteau (刀) — la trahison qui tranche."
+        },
+        {
+          "h": "友",
+          "p": "yǒu",
+          "f": "ami / allié (de surface)",
+          "m": "Deux mains qui se serrent — l'amitié, vraie ou feinte."
+        },
+        {
+          "h": "成",
+          "p": "chéng",
+          "f": "devenir / réussir / accompli",
+          "m": "Mur achevé — ce qui est construit jusqu'au bout."
+        },
+        {
+          "h": "变",
+          "p": "biàn",
+          "f": "changer / se transformer",
+          "m": "Deux mains et une queue — métamorphose."
+        },
+        {
+          "h": "忠",
+          "p": "zhōng",
+          "f": "loyauté / fidélité",
+          "m": "Cœur au centre — la loyauté qui reste au cœur."
+        }
+      ]
+    },
+    "bi": {
+      "type": "chengyu",
+      "title": "狼狈为奸 (láng bèi wéi jiān)",
+      "ctx": "Le loup et la bête s'associent pour faire le mal. Décrit deux personnages corrompus qui conspirent ensemble. Dans les intrigues de cour 大女主, identifier les paires 狼狈 (les comploteurs alliés) est une compétence de survie : briser leur alliance est souvent plus efficace que les affronter séparément."
+    },
+    "st": "她看见叛。叛友成敌。她要新盟，忠的盟。",
+    "fr_st": "Elle découvre la trahison. L'ami traître est devenu l'ennemi. Elle veut une nouvelle alliance — une alliance fondée sur la loyauté.",
+    "lex": [
+      {
+        "h": "她",
+        "p": "tā",
+        "f": "elle"
+      },
+      {
+        "h": "看见",
+        "p": "kàn jiàn",
+        "f": "découvrir / voir"
+      },
+      {
+        "h": "叛",
+        "p": "pàn",
+        "f": "trahison"
+      },
+      {
+        "h": "叛友",
+        "p": "pàn yǒu",
+        "f": "ami traître"
+      },
+      {
+        "h": "成",
+        "p": "chéng",
+        "f": "devenir"
+      },
+      {
+        "h": "敌",
+        "p": "dí",
+        "f": "ennemi"
+      },
+      {
+        "h": "要",
+        "p": "yào",
+        "f": "vouloir"
+      },
+      {
+        "h": "新",
+        "p": "xīn",
+        "f": "nouveau"
+      },
+      {
+        "h": "盟",
+        "p": "méng",
+        "f": "alliance"
+      },
+      {
+        "h": "忠的",
+        "p": "zhōng de",
+        "f": "fondée sur la loyauté"
+      }
+    ],
+    "ex": [
+      {
+        "q": "Que découvre l'héroïne dans ce chapitre ?",
+        "o": [
+          "Un trésor caché",
+          "La trahison d'un allié",
+          "Un poison dans sa nourriture",
+          "Le plan de l'Empereur"
+        ],
+        "r": 1
+      },
+      {
+        "q": "Comment dit-on 'devenir' en chinois avec un changement d'état ?",
+        "o": [
+          "是了",
+          "有了",
+          "成了",
+          "去了"
+        ],
+        "r": 2
+      },
+      {
+        "q": "Quel caractère représente la loyauté avec 'cœur au centre' ?",
+        "o": [
+          "盟",
+          "叛",
+          "忠",
+          "友"
+        ],
+        "r": 2
+      },
+      {
+        "q": "狼狈为奸 — quelle stratégie l'héroïne doit-elle employer face à un duo de comploteurs ?",
+        "o": [
+          "Les attaquer simultanément",
+          "Briser leur alliance pour les affronter séparément",
+          "Fuir et attendre",
+          "Chercher l'aide de l'Empereur"
+        ],
+        "r": 1
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "lvl": "HSK1",
+    "les": {
+      "title": "Leçon 18 — Les arts martiaux et la cultivation (武 / 修 / 境)",
+      "gram": "Les noms composés de cultivation suivent la logique : base + qualificatif. 修炼 (xīu liàn) = s'entraîner (修 = cultiver + 炼 = raffiner). 武功 (wǔ gōng) = arts martiaux (武 = martial + 功 = mérite/compétence). Pour indiquer la progression, on utilise 提升 (tí shēng) = monter en niveau. Structure progressive : Elle + 提升了 + domaine de compétence.",
+      "voc": [
+        {
+          "h": "武",
+          "p": "wǔ",
+          "f": "martial / arts du combat",
+          "m": "Halte à la lance — la guerre et le combat codifiés."
+        },
+        {
+          "h": "修",
+          "p": "xiū",
+          "f": "cultiver / pratiquer / améliorer",
+          "m": "Plume qui sculpte — le travail patient sur soi."
+        },
+        {
+          "h": "境",
+          "p": "jìng",
+          "f": "royaume / stade / niveau de cultivation",
+          "m": "Terre avec limite — un domaine délimité, un niveau atteint."
+        },
+        {
+          "h": "炼",
+          "p": "liàn",
+          "f": "raffiner / forger / purifier",
+          "m": "Feu (火) qui purifie le métal — transformation par l'effort."
+        },
+        {
+          "h": "突破",
+          "p": "tū pò",
+          "f": "percée / franchir un niveau",
+          "m": "突 (jaillir) + 破 (briser) — briser le plafond de cultivation."
+        },
+        {
+          "h": "灵",
+          "p": "líng",
+          "f": "esprit / âme / puissance spirituelle",
+          "m": "Pluie sur trois bouches — l'énergie spirituelle condensée."
+        }
+      ]
+    },
+    "bi": {
+      "type": "chengyu",
+      "title": "厚积薄发 (hòu jī bó fā)",
+      "ctx": "Accumuler en profondeur pour libérer avec légèreté. Préparer longuement, frapper brièvement. En cultivation xianxia, ce principe explique pourquoi les grandes héroïnes passent des années à construire leur base de Qi en secret avant de révéler leur puissance réelle. La discrétion est de la puissance en réserve."
+    },
+    "st": "她修炼。她的灵气多。突破了！新境！",
+    "fr_st": "Elle s'entraîne dans l'ombre. Son énergie spirituelle est abondante. Percée ! Un nouveau niveau de cultivation est atteint !",
+    "lex": [
+      {
+        "h": "她",
+        "p": "tā",
+        "f": "elle"
+      },
+      {
+        "h": "修炼",
+        "p": "xiū liàn",
+        "f": "s'entraîner / cultiver"
+      },
+      {
+        "h": "的",
+        "p": "de",
+        "f": "(particule de possession)"
+      },
+      {
+        "h": "灵气",
+        "p": "líng qì",
+        "f": "énergie spirituelle"
+      },
+      {
+        "h": "多",
+        "p": "duō",
+        "f": "abondante"
+      },
+      {
+        "h": "突破",
+        "p": "tū pò",
+        "f": "percée"
+      },
+      {
+        "h": "了",
+        "p": "le",
+        "f": "(changement d'état accompli)"
+      },
+      {
+        "h": "新",
+        "p": "xīn",
+        "f": "nouveau"
+      },
+      {
+        "h": "境",
+        "p": "jìng",
+        "f": "niveau de cultivation"
+      }
+    ],
+    "ex": [
+      {
+        "q": "Quel événement majeur de cultivation se produit dans ce chapitre ?",
+        "o": [
+          "Elle perd son Qi",
+          "Elle forge une épée",
+          "Elle franchit un nouveau niveau",
+          "Elle rencontre son maître"
+        ],
+        "r": 2
+      },
+      {
+        "q": "Que signifie 突破 en contexte de cultivation xianxia ?",
+        "o": [
+          "Pratiquer lentement",
+          "Perdre de l'énergie",
+          "Franchir un plafond de cultivation",
+          "Fuir un danger"
+        ],
+        "r": 2
+      },
+      {
+        "q": "Quel radical dans 炼 indique la transformation par le feu ?",
+        "o": [
+          "火",
+          "水",
+          "金",
+          "土"
+        ],
+        "r": 0
+      },
+      {
+        "q": "厚积薄发 — pourquoi l'héroïne cache-t-elle sa montée en puissance ?",
+        "o": [
+          "Par honte",
+          "La discrétion est de la puissance en réserve",
+          "Elle a peur de l'Empereur",
+          "Ses ennemis sont trop forts"
+        ],
+        "r": 1
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "lvl": "HSK1",
+    "les": {
+      "title": "Leçon 19 — Les complots de cour (计 / 局 / 棋)",
+      "gram": "La structure de but en chinois utilise 为了 (wèi le) = pour / dans le but de. Structure : Sujet + 为了 + Objectif + Verbe. Exemple : 她为了复仇去宫里 (Elle va au palais pour se venger). 为了 se place en tête de la proposition de but. Il peut aussi initier la phrase entière : 为了胜，她忍了三年 (Pour vaincre, elle a enduré trois ans).",
+      "voc": [
+        {
+          "h": "计",
+          "p": "jì",
+          "f": "plan / ruse / stratagème",
+          "m": "Clé 言 (parole) + 十 (dix) — dix plans en un mot."
+        },
+        {
+          "h": "局",
+          "p": "jú",
+          "f": "situation / pièce / partie (d'échecs)",
+          "m": "La case d'un échiquier — la configuration du moment."
+        },
+        {
+          "h": "棋",
+          "p": "qí",
+          "f": "pièce d'échecs / jeu stratégique",
+          "m": "Bois (木) + Qi (氣) — les pièces qui portent l'énergie du joueur."
+        },
+        {
+          "h": "为了",
+          "p": "wèi le",
+          "f": "pour / afin de / dans le but de",
+          "m": "Conjonction de but — la direction de toute action héroïque."
+        },
+        {
+          "h": "布",
+          "p": "bù",
+          "f": "déployer / tisser / disposition",
+          "m": "Tissu qui se déploie — poser les pièces d'un plan."
+        },
+        {
+          "h": "落",
+          "p": "luò",
+          "f": "tomber / poser (une pièce) / dénouement",
+          "m": "Herbe qui tombe — le moment où la pièce est posée, l'action déclenchée."
+        }
+      ]
+    },
+    "bi": {
+      "type": "chengyu",
+      "title": "运筹帷幄 (yùn chóu wéi wò)",
+      "ctx": "Élaborer sa stratégie depuis l'intérieur du quartier général, derrière les rideaux. Décrit le génie stratégique qui n'a pas besoin d'être sur le champ de bataille pour contrôler l'issue. La grande héroïne est par excellence une 运筹帷幄 : elle pose ses pièces d'échecs (棋) bien avant que ses ennemis ne comprennent qu'ils jouent sa partie."
+    },
+    "st": "她布了局。为了复仇，她落棋。计成了。",
+    "fr_st": "Elle a mis en place le dispositif. Pour assouvir sa vengeance, elle pose la pièce. Le plan a fonctionné.",
+    "lex": [
+      {
+        "h": "她",
+        "p": "tā",
+        "f": "elle"
+      },
+      {
+        "h": "布了",
+        "p": "bù le",
+        "f": "a mis en place"
+      },
+      {
+        "h": "局",
+        "p": "jú",
+        "f": "le dispositif / la situation"
+      },
+      {
+        "h": "为了",
+        "p": "wèi le",
+        "f": "pour / afin de"
+      },
+      {
+        "h": "复仇",
+        "p": "fù chóu",
+        "f": "vengeance"
+      },
+      {
+        "h": "落",
+        "p": "luò",
+        "f": "poser"
+      },
+      {
+        "h": "棋",
+        "p": "qí",
+        "f": "la pièce"
+      },
+      {
+        "h": "计",
+        "p": "jì",
+        "f": "le plan"
+      },
+      {
+        "h": "成了",
+        "p": "chéng le",
+        "f": "a fonctionné / est accompli"
+      }
+    ],
+    "ex": [
+      {
+        "q": "Quelle action stratégique accomplit l'héroïne dans ce chapitre ?",
+        "o": [
+          "Elle attaque frontalement",
+          "Elle pose une pièce décisive dans son plan de vengeance",
+          "Elle demande une alliance",
+          "Elle fuit le palais"
+        ],
+        "r": 1
+      },
+      {
+        "q": "Où se place 为了 dans une phrase de but ?",
+        "o": [
+          "En fin de phrase",
+          "Après le verbe",
+          "En tête de la proposition de but",
+          "Entre le sujet et l'objet"
+        ],
+        "r": 2
+      },
+      {
+        "q": "Quel mot signifie 'plan / stratagème' avec le radical 言 ?",
+        "o": [
+          "局",
+          "棋",
+          "计",
+          "布"
+        ],
+        "r": 2
+      },
+      {
+        "q": "运筹帷幄 — comment la grande héroïne contrôle-t-elle une situation sans y être physiquement ?",
+        "o": [
+          "Par magie",
+          "En envoyant des espions",
+          "En posant ses pièces stratégiques à l'avance",
+          "En soudoyant l'Empereur"
+        ],
+        "r": 2
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "lvl": "HSK1",
+    "les": {
+      "title": "Leçon 20 — Le regard et le silence (眸 / 静 / 沉默)",
+      "gram": "La phrase nominale en chinois peut fonctionner sans verbe : 她的眸，冷。(Ses yeux, froids.) Ce type de phrase, très courant en littérature chinoise classique et en webnovels, crée un effet dramatique immédiat. Structure : Sujet + Attribut (adjectif). Le verbe 是 est sous-entendu. Ce style 'elliptique' est la signature esthétique du genre 大女主.",
+      "voc": [
+        {
+          "h": "眸",
+          "p": "móu",
+          "f": "pupille / regard (littéraire)",
+          "m": "Œil (目) + Mou (牟) — le regard profond, terme poétique et xianxia."
+        },
+        {
+          "h": "静",
+          "p": "jìng",
+          "f": "calme / silence / immobile",
+          "m": "Bleu-vert (青) + lutte (争) arrêtée — la paix après le conflit."
+        },
+        {
+          "h": "沉默",
+          "p": "chén mò",
+          "f": "silence / silencieux",
+          "m": "Eau qui s'enfonce (沉) + disparaît (默) — le silence abyssal."
+        },
+        {
+          "h": "深",
+          "p": "shēn",
+          "f": "profond / intense / sombre",
+          "m": "Eau profonde — ce qui est difficile à sonder."
+        },
+        {
+          "h": "如",
+          "p": "rú",
+          "f": "comme / tel que / semblable à",
+          "m": "Femme + bouche — selon, à l'image de."
+        },
+        {
+          "h": "冰",
+          "p": "bīng",
+          "f": "glace",
+          "m": "Eau (水) + cristaux — la glace, symbole du cœur de l'héroïne."
+        }
+      ]
+    },
+    "bi": {
+      "type": "meme",
+      "title": "眼神杀 (yǎn shén shā)",
+      "ctx": "Littéralement 'le regard qui tue'. Mème issu des webnovels et dramas chinois décrivant un regard si intense, froid et chargé de sous-entendus qu'il 'tue' sans un mot. La signature visuelle ultime de la 大女主 : elle n'a pas besoin de parler — ses yeux font tout le travail d'intimidation et de séduction."
+    },
+    "st": "她沉默。她的眸，深如冰。他看见了。",
+    "fr_st": "Elle est silencieuse. Son regard, profond comme la glace. Il l'a vu.",
+    "lex": [
+      {
+        "h": "她",
+        "p": "tā",
+        "f": "elle"
+      },
+      {
+        "h": "沉默",
+        "p": "chén mò",
+        "f": "silencieuse"
+      },
+      {
+        "h": "的",
+        "p": "de",
+        "f": "(possession)"
+      },
+      {
+        "h": "眸",
+        "p": "móu",
+        "f": "regard"
+      },
+      {
+        "h": "深",
+        "p": "shēn",
+        "f": "profond"
+      },
+      {
+        "h": "如",
+        "p": "rú",
+        "f": "comme"
+      },
+      {
+        "h": "冰",
+        "p": "bīng",
+        "f": "la glace"
+      },
+      {
+        "h": "他",
+        "p": "tā",
+        "f": "il"
+      },
+      {
+        "h": "看见",
+        "p": "kàn jiàn",
+        "f": "voir"
+      },
+      {
+        "h": "了",
+        "p": "le",
+        "f": "(accompli)"
+      }
+    ],
+    "ex": [
+      {
+        "q": "Quel effet produit le regard de l'héroïne sur le protagoniste masculin ?",
+        "o": [
+          "Il fuit",
+          "Il rit",
+          "Il la voit vraiment pour la première fois",
+          "Il l'attaque"
+        ],
+        "r": 2
+      },
+      {
+        "q": "Comment fonctionne la phrase nominale 她的眸，冷 ?",
+        "o": [
+          "Le verbe 是 est obligatoire",
+          "Le verbe 是 est sous-entendu — style elliptique",
+          "Il faut ajouter 了 en fin",
+          "Ce n'est pas du chinois correct"
+        ],
+        "r": 1
+      },
+      {
+        "q": "Quel terme littéraire désigne la 'pupille / regard profond' en xianxia ?",
+        "o": [
+          "眼",
+          "看",
+          "眸",
+          "见"
+        ],
+        "r": 2
+      },
+      {
+        "q": "眼神杀 — pourquoi ce mème est-il la signature ultime de la 大女主 ?",
+        "o": [
+          "Son regard est magique",
+          "Elle intimide et séduit sans un mot",
+          "Elle a des yeux de demon",
+          "Elle pleure souvent"
+        ],
+        "r": 1
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "lvl": "HSK1",
+    "les": {
+      "title": "Tribulation II — L'Épreuve du Regard (Révision Jours 8–20)",
+      "gram": "TRIBULATION : Révision intensive des jours 8 à 20. Structures clés consolidées : 在 (localisation), temps en tête de phrase, 了 (changement d'état), Adj.+的+Nom, Adv.+地+Verbe, 为了 (but), phrases nominales elliptiques. Ces outils combinés permettent de décrire l'espace, le temps, l'émotion et l'action stratégique en cour impériale.",
+      "voc": [
+        {
+          "h": "智",
+          "p": "zhì",
+          "f": "intelligence / sagesse stratégique",
+          "m": "Soleil (日) + connaissance — la lumière de l'intellect."
+        },
+        {
+          "h": "谋",
+          "p": "móu",
+          "f": "stratagème / délibérer",
+          "m": "Clé 言 (parole) + 某 (certain) — le plan qui se murmure."
+        },
+        {
+          "h": "势",
+          "p": "shì",
+          "f": "pouvoir / momentum / influence",
+          "m": "Force qui s'impose — le rapport de force favorable."
+        },
+        {
+          "h": "破",
+          "p": "pò",
+          "f": "briser / détruire / percer",
+          "m": "Pierre + peau — ce qui perce, ce qui défait."
+        },
+        {
+          "h": "局势",
+          "p": "jú shì",
+          "f": "situation stratégique / rapport de force",
+          "m": "局 (situation) + 势 (pouvoir) — la configuration du pouvoir."
+        },
+        {
+          "h": "转",
+          "p": "zhuǎn",
+          "f": "tourner / retourner / transformer",
+          "m": "Roue qui tourne — le renversement de situation."
+        }
+      ]
+    },
+    "bi": {
+      "type": "chengyu",
+      "title": "柳暗花明 (liǔ àn huā míng)",
+      "ctx": "Saules sombres, fleurs lumineuses — déboucher sur une clairière après un chemin obscur. Expression décrivant un retournement de situation inattendu : là où tout semblait perdu, une issue s'ouvre. La tribulation d'aujourd'hui est ce moment : l'héroïne, acculée, trouve la brèche et retourne la situation."
+    },
+    "st": "局势危。她冷静。她知道智谋。现在，她转局势。柳暗花明！",
+    "fr_st": "La situation est périlleuse. Elle garde son sang-froid. Elle connaît l'art de la stratégie. À présent, elle retourne la situation. La lumière après les ténèbres !",
+    "lex": [
+      {
+        "h": "局势",
+        "p": "jú shì",
+        "f": "la situation"
+      },
+      {
+        "h": "危",
+        "p": "wēi",
+        "f": "périlleuse"
+      },
+      {
+        "h": "她",
+        "p": "tā",
+        "f": "elle"
+      },
+      {
+        "h": "冷静",
+        "p": "lěng jìng",
+        "f": "garde son sang-froid"
+      },
+      {
+        "h": "知道",
+        "p": "zhī dào",
+        "f": "connaît"
+      },
+      {
+        "h": "智谋",
+        "p": "zhì móu",
+        "f": "l'art de la stratégie"
+      },
+      {
+        "h": "现在",
+        "p": "xiàn zài",
+        "f": "à présent"
+      },
+      {
+        "h": "转",
+        "p": "zhuǎn",
+        "f": "retourner"
+      },
+      {
+        "h": "柳暗花明",
+        "p": "liǔ àn huā míng",
+        "f": "la lumière après les ténèbres"
+      }
+    ],
+    "ex": [
+      {
+        "q": "Quelle est la situation critique au début du chapitre de tribulation ?",
+        "o": [
+          "Une percée de cultivation",
+          "Une situation stratégique périlleuse",
+          "Un complot découvert",
+          "Une fuite du palais"
+        ],
+        "r": 1
+      },
+      {
+        "q": "Quel verbe exprime le retournement de situation dans ce chapitre ?",
+        "o": [
+          "忍",
+          "转",
+          "去",
+          "看"
+        ],
+        "r": 1
+      },
+      {
+        "q": "Parmi ces structures, laquelle illustre 'adverbe + 地 + verbe' ?",
+        "o": [
+          "她冷静了",
+          "冷静地转",
+          "她转局势",
+          "局势危"
+        ],
+        "r": 1
+      },
+      {
+        "q": "柳暗花明 — dans quelle situation cette expression s'applique-t-elle ?",
+        "o": [
+          "Quand on perd définitivement",
+          "Quand une issue s'ouvre là où tout semblait perdu",
+          "Quand le complot réussit",
+          "Quand l'héroïne est blessée"
+        ],
+        "r": 1
+      },
+      {
+        "q": "Comment dit-on 'elle connaît l'art de la stratégie' ?",
+        "o": [
+          "她认识智谋",
+          "她知道智谋",
+          "她有智谋了",
+          "她想智谋"
+        ],
+        "r": 1
+      },
+      {
+        "q": "Quel est le rôle de 了 dans 她转局势了 ?",
+        "o": [
+          "Futur",
+          "Interrogation",
+          "Changement d'état accompli",
+          "Possession"
+        ],
+        "r": 2
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "lvl": "HSK1",
+    "les": {
+      "title": "Leçon 22 — Les poisons et antidotes (毒 / 解 / 药)",
+      "gram": "La structure causale en chinois : 因为 (yīn wèi) + Cause + 所以 (suǒ yǐ) + Conséquence. Traduction : 'parce que... c'est pourquoi...'. Les deux membres peuvent être séparés par une virgule. Exemple : 因为有毒，所以她需要解药 (Parce qu'il y a du poison, elle a besoin d'un antidote). 需要 (xū yào) = avoir besoin de.",
+      "voc": [
+        {
+          "h": "解",
+          "p": "jiě",
+          "f": "dénouer / résoudre / antidoter",
+          "m": "Couteau qui coupe le nœud du bœuf — résoudre l'insoluble."
+        },
+        {
+          "h": "药",
+          "p": "yào",
+          "f": "médicament / remède / poison (selon contexte)",
+          "m": "Herbe (艹) + efficace (乐) — ce qui soigne ou tue."
+        },
+        {
+          "h": "需要",
+          "p": "xū yào",
+          "f": "avoir besoin de / nécessiter",
+          "m": "必需 (nécessaire) + 要 (vouloir) — le besoin impérieux."
+        },
+        {
+          "h": "因为",
+          "p": "yīn wèi",
+          "f": "parce que / en raison de",
+          "m": "Cause encapsulée — la raison fondamentale."
+        },
+        {
+          "h": "所以",
+          "p": "suǒ yǐ",
+          "f": "c'est pourquoi / donc",
+          "m": "Conséquence logique — ce qui découle de la cause."
+        },
+        {
+          "h": "寻",
+          "p": "xún",
+          "f": "chercher / quêter",
+          "m": "Pas qui cherchent — la quête active."
+        }
+      ]
+    },
+    "bi": {
+      "type": "chengyu",
+      "title": "以毒攻毒 (yǐ dú gōng dú)",
+      "ctx": "Combattre le poison par le poison. Principe médical et stratégique : utiliser ce qui nuit pour neutraliser ce qui nuit. En 大女主, l'héroïne retourne souvent le complot ennemi contre ses auteurs — le poison qu'on lui destinait devient son arme de contre-attaque."
+    },
+    "st": "因为有毒，她需要解药。她去寻药。以毒攻毒，她想。",
+    "fr_st": "Parce qu'il y a du poison, elle a besoin d'un antidote. Elle part en quête du remède. Combattre le poison par le poison — telle est sa pensée.",
+    "lex": [
+      {
+        "h": "因为",
+        "p": "yīn wèi",
+        "f": "parce que"
+      },
+      {
+        "h": "有",
+        "p": "yǒu",
+        "f": "il y a"
+      },
+      {
+        "h": "毒",
+        "p": "dú",
+        "f": "du poison"
+      },
+      {
+        "h": "她",
+        "p": "tā",
+        "f": "elle"
+      },
+      {
+        "h": "需要",
+        "p": "xū yào",
+        "f": "a besoin de"
+      },
+      {
+        "h": "解药",
+        "p": "jiě yào",
+        "f": "antidote"
+      },
+      {
+        "h": "去",
+        "p": "qù",
+        "f": "part"
+      },
+      {
+        "h": "寻",
+        "p": "xún",
+        "f": "chercher"
+      },
+      {
+        "h": "药",
+        "p": "yào",
+        "f": "remède"
+      },
+      {
+        "h": "以毒攻毒",
+        "p": "yǐ dú gōng dú",
+        "f": "combattre le poison par le poison"
+      },
+      {
+        "h": "想",
+        "p": "xiǎng",
+        "f": "telle est sa pensée"
+      }
+    ],
+    "ex": [
+      {
+        "q": "Pourquoi l'héroïne part-elle en quête d'un remède dans ce chapitre ?",
+        "o": [
+          "Elle est blessée à l'épée",
+          "Elle a été empoisonnée",
+          "Elle cherche une alliance",
+          "Elle suit un espion"
+        ],
+        "r": 1
+      },
+      {
+        "q": "Complétez : 因为有毒，___ 她需要解药.",
+        "o": [
+          "但",
+          "所以",
+          "因为",
+          "为了"
+        ],
+        "r": 1
+      },
+      {
+        "q": "Quel radical dans 药 indique une plante médicinale ?",
+        "o": [
+          "乐",
+          "艹",
+          "木",
+          "水"
+        ],
+        "r": 1
+      },
+      {
+        "q": "以毒攻毒 — comment l'héroïne transforme-t-elle le poison en arme ?",
+        "o": [
+          "Elle le boit pour devenir immune",
+          "Elle le retourne contre ses ennemis",
+          "Elle le vend",
+          "Elle le détruit"
+        ],
+        "r": 1
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "lvl": "HSK1",
+    "les": {
+      "title": "Leçon 23 — Les saisons et la nature (春 / 冬 / 风)",
+      "gram": "Les comparatifs en chinois : A + 比 (bǐ) + B + Adjectif. Traduction : 'A est plus [adjectif] que B'. Exemple : 她比敌人强 (Elle est plus forte que ses ennemis). Superlatif : 最 (zuì) + Adjectif. Exemple : 她最冷 (Elle est la plus froide). En littérature xianxia, la nature sert de miroir émotionnel aux personnages — notamment à l'héroïne.",
+      "voc": [
+        {
+          "h": "春",
+          "p": "chūn",
+          "f": "printemps",
+          "m": "Soleil + végétation — le renouveau après la dormance."
+        },
+        {
+          "h": "冬",
+          "p": "dōng",
+          "f": "hiver",
+          "m": "Fils de glace suspendus — la saison de la solitude et des plans."
+        },
+        {
+          "h": "风",
+          "p": "fēng",
+          "f": "vent",
+          "m": "Phénix qui souffle — le vent, messager d'un changement."
+        },
+        {
+          "h": "比",
+          "p": "bǐ",
+          "f": "comparer / plus que",
+          "m": "Deux personnes côte à côte — la comparaison directe."
+        },
+        {
+          "h": "最",
+          "p": "zuì",
+          "f": "le plus / superlativement",
+          "m": "Le degré ultime — au-delà de toute comparaison."
+        },
+        {
+          "h": "孤",
+          "p": "gū",
+          "f": "seul / isolé / orphelin",
+          "m": "Enfant sans parents — la solitude structurelle de la grande héroïne."
+        }
+      ]
+    },
+    "bi": {
+      "type": "chengyu",
+      "title": "傲雪凌霜 (ào xuě líng shuāng)",
+      "ctx": "Défier la neige et braver le givre. Image du prunier qui fleurit en hiver — la beauté et la force qui s'épanouissent précisément dans les conditions les plus hostiles. Métaphore parfaite de la 大女主 : plus l'adversité est intense, plus sa lumière intérieure éclate."
+    },
+    "st": "冬风来。她最孤，但最强。冬比春冷，她比冬更冷。",
+    "fr_st": "Le vent d'hiver arrive. Elle est la plus seule, mais aussi la plus forte. L'hiver est plus froid que le printemps — et elle, plus froide encore que l'hiver.",
+    "lex": [
+      {
+        "h": "冬风",
+        "p": "dōng fēng",
+        "f": "vent d'hiver"
+      },
+      {
+        "h": "来",
+        "p": "lái",
+        "f": "arrive"
+      },
+      {
+        "h": "她",
+        "p": "tā",
+        "f": "elle"
+      },
+      {
+        "h": "最",
+        "p": "zuì",
+        "f": "la plus"
+      },
+      {
+        "h": "孤",
+        "p": "gū",
+        "f": "seule"
+      },
+      {
+        "h": "但",
+        "p": "dàn",
+        "f": "mais"
+      },
+      {
+        "h": "强",
+        "p": "qiáng",
+        "f": "forte"
+      },
+      {
+        "h": "冬",
+        "p": "dōng",
+        "f": "l'hiver"
+      },
+      {
+        "h": "比",
+        "p": "bǐ",
+        "f": "plus que"
+      },
+      {
+        "h": "春",
+        "p": "chūn",
+        "f": "le printemps"
+      },
+      {
+        "h": "冷",
+        "p": "lěng",
+        "f": "froid"
+      },
+      {
+        "h": "更",
+        "p": "gèng",
+        "f": "encore plus"
+      }
+    ],
+    "ex": [
+      {
+        "q": "Quelle image naturelle reflète l'état intérieur de l'héroïne dans ce chapitre ?",
+        "o": [
+          "La chaleur du printemps",
+          "La froideur hivernale et la solitude",
+          "La tempête et la colère",
+          "La sécheresse et l'abandon"
+        ],
+        "r": 1
+      },
+      {
+        "q": "Quelle est la structure comparative correcte en chinois ?",
+        "o": [
+          "她强比敌人",
+          "比她敌人强",
+          "她比敌人强",
+          "敌人比强她"
+        ],
+        "r": 2
+      },
+      {
+        "q": "Quel caractère signifie 'seul / isolé / orphelin' ?",
+        "o": [
+          "孤",
+          "冬",
+          "风",
+          "最"
+        ],
+        "r": 0
+      },
+      {
+        "q": "傲雪凌霜 — pourquoi cette image du prunier en hiver est-elle la métaphore parfaite de la 大女主 ?",
+        "o": [
+          "Elle aime les fleurs",
+          "Elle s'épanouit précisément sous la pression extrême",
+          "Elle vit en montagne",
+          "Elle est belle comme une fleur"
+        ],
+        "r": 1
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "lvl": "HSK1",
+    "les": {
+      "title": "Leçon 24 — La mémoire et le passé (曾经 / 记得 / 忘)",
+      "gram": "曾经 (céng jīng) = autrefois / jadis — marque le passé révolu. Se place en tête de phrase ou avant le verbe. 记得 (jì de) = se souvenir de. 忘 (wàng) / 忘记 (wàng jì) = oublier. Structure mémorielle : Sujet + 曾经 + Action + 了. Ces marqueurs temporels permettent de construire les flashbacks qui enrichissent l'arc émotionnel de la grande héroïne.",
+      "voc": [
+        {
+          "h": "曾经",
+          "p": "céng jīng",
+          "f": "autrefois / jadis / il fut un temps",
+          "m": "Vapeur (曾) + fil du temps (经) — ce qui appartient à un passé lointain."
+        },
+        {
+          "h": "记得",
+          "p": "jì de",
+          "f": "se souvenir de",
+          "m": "记 (noter) + de (particule) — garder quelque chose en mémoire."
+        },
+        {
+          "h": "忘",
+          "p": "wàng",
+          "f": "oublier",
+          "m": "Cœur (心) mort (亡) — ce qui a disparu du cœur."
+        },
+        {
+          "h": "过去",
+          "p": "guò qù",
+          "f": "le passé / temps écoulé",
+          "m": "过 (traverser) + 去 (partir) — ce qui est parti pour toujours."
+        },
+        {
+          "h": "痛",
+          "p": "tòng",
+          "f": "douleur / souffrance",
+          "m": "Malade (疒) + passage (甬) — la douleur qui traverse."
+        },
+        {
+          "h": "誓",
+          "p": "shì",
+          "f": "serment / jurer",
+          "m": "Paroles (言) tranchantes comme une lame — le serment irrévocable."
+        }
+      ]
+    },
+    "bi": {
+      "type": "chengyu",
+      "title": "念念不忘 (niàn niàn bù wàng)",
+      "ctx": "Ne jamais oublier, y penser constamment. Expression décrivant une pensée obsessionnelle, un souvenir ou un objectif que l'on ne peut lâcher. Pour la grande héroïne, ce 念念不忘 est double : elle ne peut oublier ni la trahison (qui alimente sa vengeance) ni lui (qu'elle refuse d'aimer mais ne peut ignorer)."
+    },
+    "st": "她曾经痛。她记得誓。忘不了！过去的痛，是她的力。",
+    "fr_st": "Elle a souffert, jadis. Elle se souvient du serment. Elle ne peut pas oublier. La douleur du passé — c'est sa force.",
+    "lex": [
+      {
+        "h": "她",
+        "p": "tā",
+        "f": "elle"
+      },
+      {
+        "h": "曾经",
+        "p": "céng jīng",
+        "f": "jadis"
+      },
+      {
+        "h": "痛",
+        "p": "tòng",
+        "f": "a souffert"
+      },
+      {
+        "h": "记得",
+        "p": "jì de",
+        "f": "se souvient de"
+      },
+      {
+        "h": "誓",
+        "p": "shì",
+        "f": "le serment"
+      },
+      {
+        "h": "忘不了",
+        "p": "wàng bù liǎo",
+        "f": "ne peut pas oublier"
+      },
+      {
+        "h": "过去的",
+        "p": "guò qù de",
+        "f": "du passé"
+      },
+      {
+        "h": "是",
+        "p": "shì",
+        "f": "c'est"
+      },
+      {
+        "h": "的",
+        "p": "de",
+        "f": "(qualification)"
+      },
+      {
+        "h": "力",
+        "p": "lì",
+        "f": "sa force"
+      }
+    ],
+    "ex": [
+      {
+        "q": "Quel élément du passé est le moteur émotionnel de l'héroïne dans ce chapitre ?",
+        "o": [
+          "Un amour perdu",
+          "La douleur du passé transformée en force",
+          "Une trahison oubliée",
+          "Un serment rompu"
+        ],
+        "r": 1
+      },
+      {
+        "q": "Comment marque-t-on le passé révolu en chinois (action jadis accomplie) ?",
+        "o": [
+          "Avec 现在",
+          "Avec 曾经 + verbe",
+          "Avec 去 en fin de phrase",
+          "Avec 将来"
+        ],
+        "r": 1
+      },
+      {
+        "q": "Quel caractère exprime 'oublier' avec le radical 'cœur mort' ?",
+        "o": [
+          "记",
+          "痛",
+          "誓",
+          "忘"
+        ],
+        "r": 3
+      },
+      {
+        "q": "念念不忘 — quel double objet obsède l'héroïne 大女主 ?",
+        "o": [
+          "Sa beauté et son rang",
+          "La trahison (vengeance) et lui (amour réprimé)",
+          "Son épée et son Qi",
+          "Son clan et son destin"
+        ],
+        "r": 1
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "lvl": "HSK1",
+    "les": {
+      "title": "Leçon 25 — Les rangs et titres impériaux (皇 / 妃 / 臣)",
+      "gram": "Les titres honorifiques en chinois précèdent le nom propre et fonctionnent comme des marqueurs de statut social absolu. Structure : Titre + (Nom/Pronom). 皇上 (huáng shàng) = Sa Majesté l'Empereur (上 = au-dessus). 殿下 (diàn xià) = Altesse (下 = en dessous, vers lui on se courbe). L'usage des bons titres est une arme de survie en cour — une erreur peut être mortelle.",
+      "voc": [
+        {
+          "h": "皇",
+          "p": "huáng",
+          "f": "impérial / l'Empereur",
+          "m": "Roi (王) sous la lumière (光) — la majesté impériale absolue."
+        },
+        {
+          "h": "妃",
+          "p": "fēi",
+          "f": "concubine impériale / favorite",
+          "m": "Femme (女) qui vole (飞 phonétique) — la beauté prisonnière du harem."
+        },
+        {
+          "h": "臣",
+          "p": "chén",
+          "f": "sujet / vassal / serviteur",
+          "m": "Œil incliné vers le bas — celui qui s'incline devant le pouvoir."
+        },
+        {
+          "h": "上",
+          "p": "shàng",
+          "f": "au-dessus / monter / suprême",
+          "m": "Ligne au-dessus du repère — ce qui domine."
+        },
+        {
+          "h": "下",
+          "p": "xià",
+          "f": "en dessous / descendre / inférieur",
+          "m": "Ligne en dessous du repère — ce qui est soumis."
+        },
+        {
+          "h": "御",
+          "p": "yù",
+          "f": "impérial / contrôle royal / réservé à l'Empereur",
+          "m": "Aller (行) + bâton de commandement — l'autorité qui conduit."
+        }
+      ]
+    },
+    "bi": {
+      "type": "chengyu",
+      "title": "母仪天下 (mǔ yí tiān xià)",
+      "ctx": "Être l'exemple moral de tout l'Empire, comme une mère pour le monde entier. Titre honorifique décerné à l'Impératrice. En 大女主, ce titre représente le sommet de l'ascension : non pas le pouvoir par la violence, mais l'autorité morale suprême qui fait plier même l'Empereur. L'héroïne aspire à redéfinir ce titre à sa façon."
+    },
+    "st": "她是妃，但心是皇。臣都在她下。皇上不知道。",
+    "fr_st": "Elle est concubine, mais son âme est celle d'une souveraine. Tous les sujets se trouvent déjà sous son emprise. L'Empereur ne le sait pas encore.",
+    "lex": [
+      {
+        "h": "她",
+        "p": "tā",
+        "f": "elle"
+      },
+      {
+        "h": "是",
+        "p": "shì",
+        "f": "est"
+      },
+      {
+        "h": "妃",
+        "p": "fēi",
+        "f": "concubine"
+      },
+      {
+        "h": "但",
+        "p": "dàn",
+        "f": "mais"
+      },
+      {
+        "h": "心",
+        "p": "xīn",
+        "f": "âme / cœur"
+      },
+      {
+        "h": "皇",
+        "p": "huáng",
+        "f": "souveraine / impériale"
+      },
+      {
+        "h": "臣",
+        "p": "chén",
+        "f": "les sujets"
+      },
+      {
+        "h": "都",
+        "p": "dōu",
+        "f": "tous"
+      },
+      {
+        "h": "在",
+        "p": "zài",
+        "f": "se trouvent"
+      },
+      {
+        "h": "下",
+        "p": "xià",
+        "f": "sous son emprise"
+      },
+      {
+        "h": "皇上",
+        "p": "huáng shàng",
+        "f": "l'Empereur"
+      },
+      {
+        "h": "不知道",
+        "p": "bù zhī dào",
+        "f": "ne sait pas"
+      }
+    ],
+    "ex": [
+      {
+        "q": "Quel paradoxe de pouvoir le chapitre 25 met-il en scène ?",
+        "o": [
+          "Elle est puissante mais seule",
+          "Elle est de rang inférieur mais contrôle déjà tout",
+          "Elle est belle mais ignorée",
+          "Elle est alliée mais trahie"
+        ],
+        "r": 1
+      },
+      {
+        "q": "Pourquoi l'usage des titres impériaux corrects est-il une arme de survie en cour ?",
+        "o": [
+          "C'est une règle de politesse",
+          "Une erreur de titre peut être mortelle",
+          "Les titres donnent des pouvoirs magiques",
+          "L'Empereur les change chaque année"
+        ],
+        "r": 1
+      },
+      {
+        "q": "Quel caractère signifie 'sujet / vassal' avec 'l'œil incliné vers le bas' ?",
+        "o": [
+          "妃",
+          "皇",
+          "臣",
+          "御"
+        ],
+        "r": 2
+      },
+      {
+        "q": "母仪天下 — quel type de pouvoir ce titre représente-t-il ?",
+        "o": [
+          "Le pouvoir militaire",
+          "L'autorité morale suprême sur tout l'Empire",
+          "Le contrôle de la magie",
+          "La beauté physique"
+        ],
+        "r": 1
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "lvl": "HSK1",
+    "les": {
+      "title": "Leçon 26 — La nuit et les ombres (夜 / 黑 / 月)",
+      "gram": "La construction 连...都/也 (lián...dōu/yě) intensifie l'idée jusqu'au cas extrême : 'même... aussi'. Exemple : 连月亮都看她 (Même la lune la regarde). Structure : 连 + Élément extrême + 都/也 + Verbe. C'est une des constructions les plus expressives de la littérature xianxia — elle amplifie l'aura ou le danger d'un personnage en impliquant que même l'impossible est concerné.",
+      "voc": [
+        {
+          "h": "黑",
+          "p": "hēi",
+          "f": "noir / obscurité / sombre",
+          "m": "La nuit dense — l'obscurité totale, domaine des ombres."
+        },
+        {
+          "h": "月",
+          "p": "yuè",
+          "f": "lune",
+          "m": "Croissant de lune — lumière froide dans l'obscurité."
+        },
+        {
+          "h": "连",
+          "p": "lián",
+          "f": "même / jusqu'à / relier",
+          "m": "Pas qui avancent liés — 'même' dans le sens de 'y compris ce cas extrême'."
+        },
+        {
+          "h": "都",
+          "p": "dōu",
+          "f": "tous / aussi / même",
+          "m": "Ville réunie — totalité, exhaustivité."
+        },
+        {
+          "h": "影子",
+          "p": "yǐng zi",
+          "f": "ombre / silhouette",
+          "m": "Lumière bloquée — l'ombre portée par un corps."
+        },
+        {
+          "h": "消失",
+          "p": "xiāo shī",
+          "f": "disparaître / s'évanouir",
+          "m": "Eau qui s'évapore (消) + perdre (失) — disparaître sans trace."
+        }
+      ]
+    },
+    "bi": {
+      "type": "meme",
+      "title": "黑化 (hēi huà)",
+      "ctx": "Littéralement 'devenir noir'. Terme du fandom pour désigner le moment où un personnage bascule dans la noirceur — perdant ses dernières inhibitions morales pour devenir implacable. En 大女主, la 黑化 est souvent le climax émotionnel attendu par les lecteurs : l'héroïne trop longtemps blessée qui décide enfin de ne plus avoir pitié."
+    },
+    "st": "黑夜来。连月都消失了。她的影子，冷如冰。她黑化了。",
+    "fr_st": "La nuit noire tombe. Même la lune a disparu. Son ombre est froide comme la glace. Elle a basculé dans la noirceur.",
+    "lex": [
+      {
+        "h": "黑夜",
+        "p": "hēi yè",
+        "f": "nuit noire"
+      },
+      {
+        "h": "来",
+        "p": "lái",
+        "f": "tombe / arrive"
+      },
+      {
+        "h": "连",
+        "p": "lián",
+        "f": "même"
+      },
+      {
+        "h": "月",
+        "p": "yuè",
+        "f": "la lune"
+      },
+      {
+        "h": "都",
+        "p": "dōu",
+        "f": "aussi"
+      },
+      {
+        "h": "消失",
+        "p": "xiāo shī",
+        "f": "a disparu"
+      },
+      {
+        "h": "了",
+        "p": "le",
+        "f": "(accompli)"
+      },
+      {
+        "h": "她的",
+        "p": "tā de",
+        "f": "son"
+      },
+      {
+        "h": "影子",
+        "p": "yǐng zi",
+        "f": "ombre"
+      },
+      {
+        "h": "冷如冰",
+        "p": "lěng rú bīng",
+        "f": "froide comme la glace"
+      },
+      {
+        "h": "黑化",
+        "p": "hēi huà",
+        "f": "a basculé dans la noirceur"
+      }
+    ],
+    "ex": [
+      {
+        "q": "Quel tournant émotionnel majeur se produit dans ce chapitre ?",
+        "o": [
+          "Elle tombe amoureuse",
+          "Elle s'allie à l'Empereur",
+          "Elle bascule dans la noirceur (黑化)",
+          "Elle trouve l'antidote"
+        ],
+        "r": 2
+      },
+      {
+        "q": "À quoi sert la construction 连...都 dans 连月都消失了 ?",
+        "o": [
+          "Elle exprime la comparaison",
+          "Elle intensifie jusqu'au cas extrême : même la lune",
+          "Elle marque le passé",
+          "Elle exprime le doute"
+        ],
+        "r": 1
+      },
+      {
+        "q": "Quel caractère signifie 'disparaître / s'évanouir sans trace' ?",
+        "o": [
+          "黑",
+          "月",
+          "消失",
+          "影子"
+        ],
+        "r": 2
+      },
+      {
+        "q": "Dans le fandom 大女主, que représente le moment de 黑化 ?",
+        "o": [
+          "Le moment où l'héroïne se marie",
+          "L'héroïne qui perd ses inhibitions et devient implacable",
+          "La mort de l'héroïne",
+          "L'alliance avec le méchant"
+        ],
+        "r": 1
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "lvl": "HSK1",
+    "les": {
+      "title": "Leçon 27 — La trahison et le retournement (反 / 逆 / 翻)",
+      "gram": "La structure pivotante 先...然后 (xiān...rán hòu) = 'd'abord... ensuite'. Permet de décrire deux actions séquentielles. Structure : Sujet + 先 + Action 1 + 然后 + Action 2. Exemple : 她先忍，然后反击 (Elle endure d'abord, ensuite elle contre-attaque). En 大女主, cette séquence décrit l'arc fondamental : subir → retourner.",
+      "voc": [
+        {
+          "h": "反",
+          "p": "fǎn",
+          "f": "retourner / inverser / contre",
+          "m": "Main qui se retourne — l'inversion, le renversement."
+        },
+        {
+          "h": "逆",
+          "p": "nì",
+          "f": "aller à l'encontre / rebelle / inverser",
+          "m": "Aller (辶) en sens inverse — résistance au courant dominant."
+        },
+        {
+          "h": "翻",
+          "p": "fān",
+          "f": "renverser / retourner / se rebeller",
+          "m": "Griffes qui retournent — le mouvement de retournement brusque."
+        },
+        {
+          "h": "先",
+          "p": "xiān",
+          "f": "d'abord / en premier",
+          "m": "Pied en avant — ce qui précède."
+        },
+        {
+          "h": "然后",
+          "p": "rán hòu",
+          "f": "ensuite / puis / après",
+          "m": "Ainsi (然) + après (后) — la conséquence temporelle."
+        },
+        {
+          "h": "反击",
+          "p": "fǎn jī",
+          "f": "contre-attaquer",
+          "m": "反 (inverser) + 击 (frapper) — renvoyer le coup."
+        }
+      ]
+    },
+    "bi": {
+      "type": "chengyu",
+      "title": "置之死地而后生 (zhì zhī sǐ dì ér hòu shēng)",
+      "ctx": "Se placer dans une position de mort certaine pour ensuite renaître. Stratégie militaire de Sun Tzu : un général qui ne laisse aucune retraite à ses troupes les force à se battre avec une énergie désespérée. Pour la grande héroïne, atteindre le fond est la condition nécessaire de la renaissance — la 黑化 mène au 翻."
+    },
+    "st": "她先忍了很久。然后，她翻。反击！逆局势！",
+    "fr_st": "Elle a d'abord enduré très longtemps. Ensuite, elle a tout retourné. Contre-attaque ! Elle inverse le rapport de force !",
+    "lex": [
+      {
+        "h": "她",
+        "p": "tā",
+        "f": "elle"
+      },
+      {
+        "h": "先",
+        "p": "xiān",
+        "f": "d'abord"
+      },
+      {
+        "h": "忍了",
+        "p": "rěn le",
+        "f": "a enduré"
+      },
+      {
+        "h": "很久",
+        "p": "hěn jiǔ",
+        "f": "très longtemps"
+      },
+      {
+        "h": "然后",
+        "p": "rán hòu",
+        "f": "ensuite"
+      },
+      {
+        "h": "翻",
+        "p": "fān",
+        "f": "a tout retourné"
+      },
+      {
+        "h": "反击",
+        "p": "fǎn jī",
+        "f": "contre-attaque"
+      },
+      {
+        "h": "逆",
+        "p": "nì",
+        "f": "inverse"
+      },
+      {
+        "h": "局势",
+        "p": "jú shì",
+        "f": "le rapport de force"
+      }
+    ],
+    "ex": [
+      {
+        "q": "Quel est l'arc narratif du chapitre 27 ?",
+        "o": [
+          "Fuir puis revenir",
+          "Endurer longuement puis contre-attaquer",
+          "Aimer puis trahir",
+          "Mourir puis renaître"
+        ],
+        "r": 1
+      },
+      {
+        "q": "Complétez : 她 ___ 忍，然后翻 (Elle endure d'abord, ensuite elle retourne).",
+        "o": [
+          "也",
+          "都",
+          "先",
+          "曾经"
+        ],
+        "r": 2
+      },
+      {
+        "q": "Quel caractère exprime 'aller à l'encontre / rebelle' avec le radical de mouvement 辶 ?",
+        "o": [
+          "反",
+          "翻",
+          "逆",
+          "先"
+        ],
+        "r": 2
+      },
+      {
+        "q": "置之死地而后生 — quelle condition paradoxale mène à la renaissance pour l'héroïne ?",
+        "o": [
+          "Atteindre le sommet du pouvoir",
+          "Atteindre le fond, la mort apparente",
+          "Trouver un allié puissant",
+          "Maîtriser la magie suprême"
+        ],
+        "r": 1
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "lvl": "HSK1",
+    "les": {
+      "title": "Leçon 28 — La force et la maîtrise (掌控 / 制 / 握)",
+      "gram": "Le potentiel verbal en chinois : Verbe + 得了 (de liǎo) = être capable de / pouvoir (résultat atteint). Verbe + 不了 (bu liǎo) = ne pas être capable de. Exemple : 她控制得了局势 (Elle peut maîtriser la situation). 她忘不了 (Elle ne peut pas oublier — déjà vu au jour 24). Cette structure exprime le pouvoir ou l'impossibilité d'atteindre un résultat.",
+      "voc": [
+        {
+          "h": "掌控",
+          "p": "zhǎng kòng",
+          "f": "maîtriser / tenir entre ses mains",
+          "m": "Paume (掌) + contrôle (控) — tenir le contrôle dans sa main."
+        },
+        {
+          "h": "制",
+          "p": "zhì",
+          "f": "contrôler / réguler / système",
+          "m": "Couteau (刀) qui taille précisément — la régulation stricte."
+        },
+        {
+          "h": "握",
+          "p": "wò",
+          "f": "saisir / tenir fermement",
+          "m": "Main (手) qui enserre — saisir sans lâcher."
+        },
+        {
+          "h": "权",
+          "p": "quán",
+          "f": "pouvoir / autorité / droit",
+          "m": "Arbre (木) + balancer (隹) — le poids de l'autorité."
+        },
+        {
+          "h": "全",
+          "p": "quán",
+          "f": "tout / entier / complet",
+          "m": "Jade précieux sous un toit — ce qui est complet et intact."
+        },
+        {
+          "h": "无",
+          "p": "wú",
+          "f": "sans / néant / ne pas avoir (littéraire)",
+          "m": "Rien sous le soleil — le vide absolu, néant taoïste."
+        }
+      ]
+    },
+    "bi": {
+      "type": "chengyu",
+      "title": "大权在握 (dà quán zài wò)",
+      "ctx": "Le grand pouvoir est entre ses mains. Expression décrivant le moment où l'autorité absolue est détenue par une seule personne. Pour la grande héroïne, atteindre l'état de 大权在握 est l'aboutissement de toute sa stratégie — non par cupidité, mais pour garantir que plus jamais la trahison ne sera possible contre elle ou les siens."
+    },
+    "st": "她掌控了全局。权在她手。无人制得了她。",
+    "fr_st": "Elle tient la maîtrise absolue de la situation. Le pouvoir est entre ses mains. Personne ne peut plus la contrôler.",
+    "lex": [
+      {
+        "h": "她",
+        "p": "tā",
+        "f": "elle"
+      },
+      {
+        "h": "掌控了",
+        "p": "zhǎng kòng le",
+        "f": "tient la maîtrise de"
+      },
+      {
+        "h": "全局",
+        "p": "quán jú",
+        "f": "la situation absolue / tout le tableau"
+      },
+      {
+        "h": "权",
+        "p": "quán",
+        "f": "le pouvoir"
+      },
+      {
+        "h": "在",
+        "p": "zài",
+        "f": "est / se trouve"
+      },
+      {
+        "h": "她手",
+        "p": "tā shǒu",
+        "f": "ses mains"
+      },
+      {
+        "h": "无人",
+        "p": "wú rén",
+        "f": "personne"
+      },
+      {
+        "h": "制得了",
+        "p": "zhì de liǎo",
+        "f": "peut contrôler"
+      },
+      {
+        "h": "手",
+        "p": "shǒu",
+        "f": "mains"
+      }
+    ],
+    "ex": [
+      {
+        "q": "Quelle est la situation de pouvoir au terme du chapitre 28 ?",
+        "o": [
+          "Elle est capturée",
+          "Elle détient le contrôle absolu",
+          "Elle forme une alliance",
+          "Elle est blessée mais libre"
+        ],
+        "r": 1
+      },
+      {
+        "q": "Comment exprimer l'impossibilité d'un résultat en chinois ?",
+        "o": [
+          "Verbe + 不 + 了",
+          "Verbe + 没有",
+          "Verbe + 不是",
+          "不 + Verbe + 得"
+        ],
+        "r": 0
+      },
+      {
+        "q": "Quel caractère signifie 'saisir / tenir fermement' avec la clé 'main' ?",
+        "o": [
+          "制",
+          "权",
+          "握",
+          "全"
+        ],
+        "r": 2
+      },
+      {
+        "q": "大权在握 — quel est le vrai motif de l'héroïne pour vouloir ce pouvoir absolu ?",
+        "o": [
+          "La richesse",
+          "La vengeance seule",
+          "Garantir que plus jamais la trahison ne sera possible",
+          "Le mariage avec l'Empereur"
+        ],
+        "r": 2
+      },
+      {
+        "q": "Que signifie 全局 dans le contexte stratégique ?",
+        "o": [
+          "Une seule bataille",
+          "L'ensemble de la situation / tout le tableau",
+          "Un seul allié",
+          "La salle du trône"
+        ],
+        "r": 1
+      },
+      {
+        "q": "Comment exprimer \"personne ne peut la contrôler\" avec le potentiel verbal ?",
+        "o": [
+          "无人控制她",
+          "无人制得了她",
+          "她不被制",
+          "无制她"
+        ],
+        "r": 1
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "lvl": "HSK1",
+    "les": {
+      "title": "Leçon 29 — La confession (白 / 诉 / 坦)",
+      "gram": "Le discours indirect en chinois : 说 + proposition complète sans que. Exemple : 他说他想她 (Il dit qu'il pense à elle — pas de 'que'). Pour le discours rapporté avec interrogation : 他问她去不去 (Il lui demande si elle part ou non — la question A不A insérée). Le discours indirect est l'arme du slow burn : ce qui n'est jamais dit directement, mais toujours rapporté.",
+      "voc": [
+        {
+          "h": "白",
+          "p": "bái",
+          "f": "blanc / clair / dire ouvertement / en vain",
+          "m": "Soleil levant — ce qui est exposé à la lumière, dit clairement."
+        },
+        {
+          "h": "诉",
+          "p": "sù",
+          "f": "dire / confier / porter plainte",
+          "m": "Clé 言 (parole) + qui se déverse — le flot de paroles libérées."
+        },
+        {
+          "h": "坦",
+          "p": "tǎn",
+          "f": "franc / ouvert / honnête",
+          "m": "Terre plate — sans dissimulation, surface lisse."
+        },
+        {
+          "h": "问",
+          "p": "wèn",
+          "f": "demander / interroger",
+          "m": "Bouche (口) à la porte (门) — demander en arrivant."
+        },
+        {
+          "h": "告诉",
+          "p": "gào sù",
+          "f": "dire à / informer",
+          "m": "告 (annoncer) + 诉 (confier) — transmettre une information."
+        },
+        {
+          "h": "承认",
+          "p": "chéng rèn",
+          "f": "admettre / reconnaître / avouer",
+          "m": "承 (accepter) + 认 (reconnaître) — admettre ce qu'on ne voulait pas avouer."
+        }
+      ]
+    },
+    "bi": {
+      "type": "chengyu",
+      "title": "欲言又止 (yù yán yòu zhǐ)",
+      "ctx": "Vouloir parler, puis se retenir. Expression décrivant le moment d'hésitation où les mots montent à la gorge mais ne franchissent pas les lèvres. En 大女主 slow burn, ce moment est répété des dizaines de fois entre les deux protagonistes — chacun sur le point d'avouer, chacun se retenant. C'est l'essence même de la tension romantique."
+    },
+    "st": "他问她：你想我吗？她欲言又止。她不承认，但眸里有答案。",
+    "fr_st": "Il lui demande : Penses-tu à moi ? Elle est sur le point de parler, puis se retient. Elle n'admet rien — mais la réponse se lit dans son regard.",
+    "lex": [
+      {
+        "h": "他",
+        "p": "tā",
+        "f": "il"
+      },
+      {
+        "h": "问",
+        "p": "wèn",
+        "f": "demande"
+      },
+      {
+        "h": "她",
+        "p": "tā",
+        "f": "elle"
+      },
+      {
+        "h": "你",
+        "p": "nǐ",
+        "f": "tu / toi"
+      },
+      {
+        "h": "想",
+        "p": "xiǎng",
+        "f": "penser à"
+      },
+      {
+        "h": "我",
+        "p": "wǒ",
+        "f": "moi"
+      },
+      {
+        "h": "吗",
+        "p": "ma",
+        "f": "(particule interrogative)"
+      },
+      {
+        "h": "欲言又止",
+        "p": "yù yán yòu zhǐ",
+        "f": "sur le point de parler puis se retient"
+      },
+      {
+        "h": "不",
+        "p": "bù",
+        "f": "ne pas"
+      },
+      {
+        "h": "承认",
+        "p": "chéng rèn",
+        "f": "admet"
+      },
+      {
+        "h": "但",
+        "p": "dàn",
+        "f": "mais"
+      },
+      {
+        "h": "眸里",
+        "p": "móu lǐ",
+        "f": "dans son regard"
+      },
+      {
+        "h": "有",
+        "p": "yǒu",
+        "f": "il y a"
+      },
+      {
+        "h": "答案",
+        "p": "dá àn",
+        "f": "la réponse"
+      }
+    ],
+    "ex": [
+      {
+        "q": "Quelle est la nature de la scène entre les deux protagonistes au chapitre 29 ?",
+        "o": [
+          "Un combat",
+          "Une trahison découverte",
+          "Un moment de tension romantique non-dit",
+          "Une alliance politique"
+        ],
+        "r": 2
+      },
+      {
+        "q": "Comment forme-t-on le discours indirect en chinois ?",
+        "o": [
+          "Sujet + 说 + que + proposition",
+          "Sujet + 说 + proposition directe (sans 'que')",
+          "Sujet + 告诉 + que + proposition",
+          "On inverse sujet et verbe"
+        ],
+        "r": 1
+      },
+      {
+        "q": "Quel caractère signifie 'admettre / avouer' ?",
+        "o": [
+          "白",
+          "问",
+          "坦",
+          "承认"
+        ],
+        "r": 3
+      },
+      {
+        "q": "欲言又止 — comment ce moment d'hésitation génère-t-il la tension du slow burn ?",
+        "o": [
+          "Il crée de l'action physique",
+          "Il répète l'aveu non-dit, maintenant la tension romantique indéfiniment",
+          "Il révèle les plans secrets",
+          "Il sépare les personnages"
+        ],
+        "r": 1
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "lvl": "HSK1",
+    "les": {
+      "title": "BOSS BATTLE — Chute de l'Oppresseur (Révision complète Mois 1)",
+      "gram": "BOSS BATTLE : Pas de nouvelle règle. Révision et mobilisation de TOUTES les structures du mois 1. Ce chapitre est le climax de l'arc 'L'Éveil' : la chute définitive du premier oppresseur de la grande héroïne. Chaque structure grammaticale du mois y est mobilisée : 是/有/要/去/在/了/的/地/为了/先-然后/连-都/比/曾经/因为-所以/说+discours. La voie est désormais dégagée.",
+      "voc": [
+        {
+          "h": "审判",
+          "p": "shěn pàn",
+          "f": "jugement / condamnation",
+          "m": "审 (examiner) + 判 (décider) — le verdict final."
+        },
+        {
+          "h": "跪",
+          "p": "guì",
+          "f": "s'agenouiller",
+          "m": "Genou (膝) qui touche le sol — la capitulation physique."
+        },
+        {
+          "h": "胜利",
+          "p": "shèng lì",
+          "f": "victoire",
+          "m": "胜 (vaincre) + 利 (bénéfice) — la victoire totale et fructueuse."
+        },
+        {
+          "h": "天下",
+          "p": "tiān xià",
+          "f": "le monde / l'Empire entier / sous le Ciel",
+          "m": "天 (Ciel) + 下 (en dessous) — tout ce qui est sous le Ciel."
+        },
+        {
+          "h": "新生",
+          "p": "xīn shēng",
+          "f": "renaissance / nouvelle vie",
+          "m": "新 (nouveau) + 生 (vie) — la vie recommencée après la chute."
+        },
+        {
+          "h": "历史",
+          "p": "lì shǐ",
+          "f": "histoire / Histoire",
+          "m": "经历 (expériences) + 史 (chroniques) — ce qui est écrit dans le temps."
+        }
+      ]
+    },
+    "bi": {
+      "type": "chengyu",
+      "title": "否极泰来 (pǐ jí tài lái)",
+      "ctx": "Quand le malheur atteint son comble, la prospérité revient. Principe taoïste du renversement des extrêmes : rien ne reste fixe, le négatif contient en lui-même les germes du positif. Le Boss Battle du jour 30 est l'illustration parfaite : après l'oppression maximale, la libération est totale et irréversible."
+    },
+    "st": "审判之日。她看见敌人跪。曾经低的她，现在在天下之上。因为她忍了，所以她胜了。先有痛，然后有新生。连历史都要记她的名。否极泰来！",
+    "fr_st": "Le jour du jugement. Elle voit son ennemi s'agenouiller. Elle qui fut si longtemps de rang inférieur se trouve maintenant au-dessus du monde entier. Parce qu'elle a enduré, elle a vaincu. La douleur d'abord — puis la renaissance. Même l'Histoire devra graver son nom. Le malheur touche à sa fin, la prospérité advient !",
+    "lex": [
+      {
+        "h": "审判",
+        "p": "shěn pàn",
+        "f": "le jugement"
+      },
+      {
+        "h": "之日",
+        "p": "zhī rì",
+        "f": "le jour de"
+      },
+      {
+        "h": "她",
+        "p": "tā",
+        "f": "elle"
+      },
+      {
+        "h": "看见",
+        "p": "kàn jiàn",
+        "f": "voit"
+      },
+      {
+        "h": "敌人",
+        "p": "dí rén",
+        "f": "son ennemi"
+      },
+      {
+        "h": "跪",
+        "p": "guì",
+        "f": "s'agenouiller"
+      },
+      {
+        "h": "曾经",
+        "p": "céng jīng",
+        "f": "autrefois"
+      },
+      {
+        "h": "低的",
+        "p": "dī de",
+        "f": "de rang inférieur"
+      },
+      {
+        "h": "现在",
+        "p": "xiàn zài",
+        "f": "maintenant"
+      },
+      {
+        "h": "在",
+        "p": "zài",
+        "f": "se trouve"
+      },
+      {
+        "h": "天下之上",
+        "p": "tiān xià zhī shàng",
+        "f": "au-dessus du monde"
+      },
+      {
+        "h": "因为",
+        "p": "yīn wèi",
+        "f": "parce que"
+      },
+      {
+        "h": "忍了",
+        "p": "rěn le",
+        "f": "a enduré"
+      },
+      {
+        "h": "所以",
+        "p": "suǒ yǐ",
+        "f": "elle a vaincu"
+      },
+      {
+        "h": "胜了",
+        "p": "shèng le",
+        "f": "a vaincu"
+      },
+      {
+        "h": "先",
+        "p": "xiān",
+        "f": "d'abord"
+      },
+      {
+        "h": "有",
+        "p": "yǒu",
+        "f": "il y a"
+      },
+      {
+        "h": "痛",
+        "p": "tòng",
+        "f": "la douleur"
+      },
+      {
+        "h": "然后",
+        "p": "rán hòu",
+        "f": "puis"
+      },
+      {
+        "h": "新生",
+        "p": "xīn shēng",
+        "f": "renaissance"
+      },
+      {
+        "h": "连",
+        "p": "lián",
+        "f": "même"
+      },
+      {
+        "h": "历史",
+        "p": "lì shǐ",
+        "f": "l'Histoire"
+      },
+      {
+        "h": "都",
+        "p": "dōu",
+        "f": "devra"
+      },
+      {
+        "h": "要",
+        "p": "yào",
+        "f": "devra"
+      },
+      {
+        "h": "记",
+        "p": "jì",
+        "f": "graver"
+      },
+      {
+        "h": "的",
+        "p": "de",
+        "f": "(qualification)"
+      },
+      {
+        "h": "名",
+        "p": "míng",
+        "f": "son nom"
+      },
+      {
+        "h": "否极泰来",
+        "p": "pǐ jí tài lái",
+        "f": "après l'adversité la prospérité revient"
+      }
+    ],
+    "ex": [
+      {
+        "q": "Quel événement marque la fin de l'arc 'L'Éveil' dans ce Boss Battle ?",
+        "o": [
+          "La mort de l'héroïne",
+          "L'ennemi principal s'agenouille devant elle",
+          "Une nouvelle trahison",
+          "Son mariage avec l'Empereur"
+        ],
+        "r": 1
+      },
+      {
+        "q": "Identifiez la structure causale dans : 因为她忍了，所以她胜了.",
+        "o": [
+          "先...然后",
+          "连...都",
+          "因为...所以",
+          "比...更"
+        ],
+        "r": 2
+      },
+      {
+        "q": "Que signifie 天下 littéralement et symboliquement ?",
+        "o": [
+          "Le palais impérial",
+          "Tout ce qui est sous le Ciel — l'Empire entier",
+          "Le monde des cultivateurs",
+          "Le royaume des morts"
+        ],
+        "r": 1
+      },
+      {
+        "q": "否极泰来 — quel principe philosophique ce chengyu illustre-t-il ?",
+        "o": [
+          "La vengeance est douce",
+          "Le négatif extrême contient les germes du retournement positif",
+          "La patience est une vertu",
+          "Le pouvoir corrompt toujours"
+        ],
+        "r": 1
+      },
+      {
+        "q": "Quelle structure en 先...然后 décrit l'arc émotionnel du Mois 1 ?",
+        "o": [
+          "先胜，然后忍",
+          "先有痛，然后有新生",
+          "先去，然后来",
+          "先说，然后听"
+        ],
+        "r": 1
+      },
+      {
+        "q": "Parmi ces mots du Mois 1, lequel exprime le serment irrévocable ?",
+        "o": [
+          "笑",
+          "誓",
+          "冷",
+          "声"
+        ],
+        "r": 1
+      },
+      {
+        "q": "连历史都要记她的名 — quelle construction grammaticale amplifie l'aura de l'héroïne ?",
+        "o": [
+          "比...更",
+          "为了...",
+          "连...都",
+          "因为...所以"
+        ],
+        "r": 2
+      },
+      {
+        "q": "Quelle particule indique que l'action de 忍 est un changement d'état accompli dans 忍了 ?",
+        "o": [
+          "了",
+          "的",
+          "地",
+          "也"
+        ],
+        "r": 0
+      }
+    ]
+  }
+]
