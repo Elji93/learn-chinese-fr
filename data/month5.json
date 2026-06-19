@@ -1,0 +1,4877 @@
+[
+  {
+    "id": 121,
+    "lvl": "HSK4",
+    "les": {
+      "title": "Leçon 121 — La guerre civile éclate (内战 / 烽火 / 割据)",
+      "gram": "方兴未艾 (fāng xīng wèi ài) est une locution verbale = 'en plein essor / qui ne fait que commencer'. Décrit un phénomène en pleine ascension. Mais pour ce chapitre, la structure clé est : 随着 (suí zhe) = 'au fur et à mesure que / avec / à mesure que'. Suivi d'un Nom ou Verbe, il exprime l'évolution parallèle de deux phénomènes. Exemple : 随着战火蔓延，她的计划清晰了 (Au fur et à mesure que les flammes de guerre se propagent, son plan se précise).",
+      "voc": [
+        {
+          "h": "内战",
+          "p": "nèi zhàn",
+          "f": "guerre civile",
+          "m": "内 (intérieur) + 战 (guerre) — le conflit qui déchire depuis l'intérieur."
+        },
+        {
+          "h": "烽火",
+          "p": "fēng huǒ",
+          "f": "feux de signalisation / flammes de guerre",
+          "m": "烽 (feu de signalisation) + 火 (feu) — les feux qui annoncent la guerre aux frontières."
+        },
+        {
+          "h": "割据",
+          "p": "gē jù",
+          "f": "morcellement / seigneurs de guerre locaux",
+          "m": "割 (couper) + 据 (s'appuyer) — couper le territoire pour s'y installer."
+        },
+        {
+          "h": "随着",
+          "p": "suí zhe",
+          "f": "au fur et à mesure que / avec",
+          "m": "随 (suivre) + 着 (aspect progressif) — suivre l'évolution d'un phénomène."
+        },
+        {
+          "h": "蔓延",
+          "p": "màn yán",
+          "f": "se propager / s'étendre",
+          "m": "蔓 (lierre rampant) + 延 (s'allonger) — la propagation comme un feu de brousse."
+        },
+        {
+          "h": "烽烟四起",
+          "p": "fēng yān sì qǐ",
+          "f": "les feux de guerre s'élèvent de toutes parts",
+          "m": "烽烟 (fumée des signaux) + 四起 (s'élever de toutes parts) — le pays en feu."
+        }
+      ]
+    },
+    "bi": {
+      "type": "chengyu",
+      "title": "天下大乱 (tiān xià dà luàn)",
+      "ctx": "Le monde sous le Ciel sombre dans le grand chaos. La phrase canonique qui ouvre la phase de guerre civile dans les romans wuxia et xianxia. Ce n'est pas une crise ordinaire — c'est l'effondrement de l'ordre cosmique lui-même, le moment où toutes les certitudes vacillent. L'héroïne est la seule à avoir suffisamment modélisé le chaos pour s'y orienter."
+    },
+    "st": "随着魔帝之乱，烽烟四起。内战爆发，割据四方。天下大乱——她独清醒。",
+    "fr_st": "Au fur et à mesure que la rébellion de l'Empereur Démoniaque s'étend, les feux de guerre s'élèvent de toutes parts. La guerre civile éclate, des seigneurs de guerre se taillent des domaines. Le monde sombre dans le chaos — elle seule garde la tête froide.",
+    "lex": [
+      {
+        "h": "随着",
+        "p": "suí zhe",
+        "f": "au fur et à mesure que"
+      },
+      {
+        "h": "魔帝之乱",
+        "p": "mó dì zhī luàn",
+        "f": "la rébellion de l'Empereur Démoniaque"
+      },
+      {
+        "h": "烽烟四起",
+        "p": "fēng yān sì qǐ",
+        "f": "les feux de guerre s'élèvent de toutes parts"
+      },
+      {
+        "h": "内战",
+        "p": "nèi zhàn",
+        "f": "la guerre civile"
+      },
+      {
+        "h": "爆发",
+        "p": "bào fā",
+        "f": "éclate"
+      },
+      {
+        "h": "割据",
+        "p": "gē jù",
+        "f": "des seigneurs de guerre se taillent des domaines"
+      },
+      {
+        "h": "四方",
+        "p": "sì fāng",
+        "f": "de toutes parts"
+      },
+      {
+        "h": "天下大乱",
+        "p": "tiān xià dà luàn",
+        "f": "le monde sombre dans le chaos"
+      },
+      {
+        "h": "她",
+        "p": "tā",
+        "f": "elle"
+      },
+      {
+        "h": "独",
+        "p": "dú",
+        "f": "seule"
+      },
+      {
+        "h": "清醒",
+        "p": "qīng xǐng",
+        "f": "garde la tête froide"
+      }
+    ],
+    "ex": [
+      {
+        "q": "Comment 随着 structure-t-il la corrélation entre deux phénomènes ?",
+        "o": [
+          "Il les oppose",
+          "Il montre leur évolution parallèle — au fur et à mesure que A progresse, B aussi",
+          "Il les distingue",
+          "Il les inverse"
+        ],
+        "r": 1
+      },
+      {
+        "q": "Que signifie 割据 dans le contexte de la guerre civile ?",
+        "o": [
+          "Une alliance de seigneurs",
+          "Le morcellement territorial où chaque seigneur de guerre s'approprie une région",
+          "La réforme administrative",
+          "La défense des frontières"
+        ],
+        "r": 1
+      },
+      {
+        "q": "Quel avantage unique l'héroïne possède-t-elle dans le 天下大乱 ?",
+        "o": [
+          "Une armée supérieure",
+          "Elle est la seule à avoir modélisé le chaos suffisamment pour s'y orienter — 独清醒",
+          "Elle a plus d'alliés",
+          "Elle est plus forte magiquement"
+        ],
+        "r": 1
+      },
+      {
+        "q": "天下大乱 — pourquoi ce moment représente-t-il une opportunité autant qu'un danger ?",
+        "o": [
+          "Le chaos détruit tout équitablement",
+          "Dans le chaos, les règles s'effondrent — celui qui sait s'orienter peut s'élever là où tout s'effondre",
+          "Le chaos affaiblit tous les ennemis",
+          "Le chaos crée de nouvelles alliances"
+        ],
+        "r": 1
+      }
+    ]
+  },
+  {
+    "id": 122,
+    "lvl": "HSK4",
+    "les": {
+      "title": "Leçon 122 — Unifier les seigneurs de guerre (招降 / 折服 / 纳降)",
+      "gram": "非但…反而 (fēi dàn…fǎn ér) = 'non seulement…mais au contraire / loin de A, B'. Structure d'aggravation ou de renversement : non seulement A ne s'est pas produit, mais l'opposé de A s'est produit. Exemple : 非但不降，反而誓死抵抗 (Loin de capituler, il résiste jusqu'à la mort). La structure du retournement inattendu.",
+      "voc": [
+        {
+          "h": "招降",
+          "p": "zhāo xiáng",
+          "f": "inviter à la capitulation / rallier",
+          "m": "招 (appeler) + 降 (se rendre) — appeler l'ennemi à déposer les armes."
+        },
+        {
+          "h": "折服",
+          "p": "zhé fú",
+          "f": "convaincre / soumettre par la vertu ou la force",
+          "m": "折 (plier) + 服 (se soumettre) — plier la résistance intérieure de l'autre."
+        },
+        {
+          "h": "纳降",
+          "p": "nà xiáng",
+          "f": "accepter la capitulation / accueillir qui se rend",
+          "m": "纳 (recevoir) + 降 (capitulation) — recevoir ceux qui se soumettent."
+        },
+        {
+          "h": "非但",
+          "p": "fēi dàn",
+          "f": "non seulement (avec renversement)",
+          "m": "非 (non) + 但 (seulement) — dépasser la négation simple."
+        },
+        {
+          "h": "反而",
+          "p": "fǎn ér",
+          "f": "au contraire / mais à l'inverse",
+          "m": "反 (inverser) + 而 (et) — le renversement total de l'attendu."
+        },
+        {
+          "h": "心悦诚服",
+          "p": "xīn yuè chéng fú",
+          "f": "se soumettre de bon cœur et sincèrement",
+          "m": "心悦 (cœur joyeux) + 诚服 (sincèrement soumis) — la soumission qui vient de l'intérieur."
+        }
+      ]
+    },
+    "bi": {
+      "type": "chengyu",
+      "title": "攻心为上，攻城为下 (gōng xīn wéi shàng, gōng chéng wéi xià)",
+      "ctx": "Conquérir les cœurs est supérieur à conquérir les cités. Principe de Zhuge Liang dans la campagne du Sud : la victoire militaire est temporaire, mais la victoire sur les cœurs est permanente. L'héroïne applique ce principe avec les seigneurs de guerre — elle ne les écrase pas, elle les 折服 (soumet par la vertu), créant des alliés loyaux plutôt que des vaincus potentiellement rebelles."
+    },
+    "st": "她招降各方。非但不以武力，反而以德折服。心悦诚服——攻心为上，她纳降天下。",
+    "fr_st": "Elle appelle les différentes factions à la capitulation. Loin d'utiliser la force, elle soumet par la vertu. Une soumission de bon cœur et sincère — conquérir les cœurs est supérieur, elle rallie l'Empire entier.",
+    "lex": [
+      {
+        "h": "她",
+        "p": "tā",
+        "f": "elle"
+      },
+      {
+        "h": "招降",
+        "p": "zhāo xiáng",
+        "f": "appelle à la capitulation"
+      },
+      {
+        "h": "各方",
+        "p": "gè fāng",
+        "f": "les différentes factions"
+      },
+      {
+        "h": "非但",
+        "p": "fēi dàn",
+        "f": "loin de"
+      },
+      {
+        "h": "不以武力",
+        "p": "bù yǐ wǔ lì",
+        "f": "utiliser la force"
+      },
+      {
+        "h": "反而",
+        "p": "fǎn ér",
+        "f": "elle soumet"
+      },
+      {
+        "h": "以德",
+        "p": "yǐ dé",
+        "f": "par la vertu"
+      },
+      {
+        "h": "折服",
+        "p": "zhé fú",
+        "f": "au contraire"
+      },
+      {
+        "h": "心悦诚服",
+        "p": "xīn yuè chéng fú",
+        "f": "une soumission de bon cœur et sincère"
+      },
+      {
+        "h": "攻心为上",
+        "p": "gōng xīn wéi shàng",
+        "f": "conquérir les cœurs est supérieur"
+      },
+      {
+        "h": "纳降",
+        "p": "nà xiáng",
+        "f": "rallie"
+      },
+      {
+        "h": "天下",
+        "p": "tiān xià",
+        "f": "l'Empire entier"
+      }
+    ],
+    "ex": [
+      {
+        "q": "Quelle méthode l'héroïne privilégie-t-elle pour unifier les seigneurs de guerre ?",
+        "o": [
+          "La conquête militaire brutale",
+          "La soumission par la vertu — conquérir les cœurs plutôt que les cités",
+          "La corruption et les pots-de-vin",
+          "La menace de mort"
+        ],
+        "r": 1
+      },
+      {
+        "q": "Comment 非但…反而 structure-t-il un renversement ?",
+        "o": [
+          "Il confirme A",
+          "Non seulement A ne se produit pas, mais l'opposé de A se produit — renversement total",
+          "Il exprime la simultanéité",
+          "Il compare deux méthodes"
+        ],
+        "r": 1
+      },
+      {
+        "q": "Que signifie 心悦诚服 comme qualité d'une soumission ?",
+        "o": [
+          "Une soumission forcée",
+          "Une soumission qui vient du cœur et de la sincérité — pas de la peur",
+          "Une soumission temporaire",
+          "Une soumission publique uniquement"
+        ],
+        "r": 1
+      },
+      {
+        "q": "攻心为上，攻城为下 — pourquoi la victoire sur les cœurs est-elle plus durable ?",
+        "o": [
+          "Elle est plus rapide",
+          "Un allié convaincu ne se rebellera pas — contrairement à un vaincu qui attend sa revanche",
+          "Elle coûte moins",
+          "Elle est plus spectaculaire"
+        ],
+        "r": 1
+      }
+    ]
+  },
+  {
+    "id": 123,
+    "lvl": "HSK4",
+    "les": {
+      "title": "Leçon 123 — La stratégie de l'exil (流亡之计 / 韬光养晦 / 蛰伏)",
+      "gram": "表面上…骨子里 (biǎo miàn shàng…gǔ zi lǐ) = 'en surface…dans les os / en profondeur'. Oppose le masque à la vérité intérieure. Plus intense que 看似…实则 : 骨子里 (dans les os) implique une vérité constitutive, pas juste cachée — quelque chose qui fait partie de l'essence même. C'est la grammaire de l'identité profonde.",
+      "voc": [
+        {
+          "h": "韬光养晦",
+          "p": "tāo guāng yǎng huì",
+          "f": "cacher sa lumière et cultiver dans l'obscurité",
+          "m": "韬光 (voiler son éclat) + 养晦 (nourrir l'obscurité) — la stratégie de la dissimulation de la puissance."
+        },
+        {
+          "h": "蛰伏",
+          "p": "zhé fú",
+          "f": "hiberner / se tenir caché / attendre son heure",
+          "m": "蛰 (insecte qui hiberne) + 伏 (se prosterner/attendre) — le silence stratégique avant le bond."
+        },
+        {
+          "h": "表面上",
+          "p": "biǎo miàn shàng",
+          "f": "en surface / en apparence",
+          "m": "表面 (surface) + 上 (sur) — ce qui se voit mais ne représente pas la réalité."
+        },
+        {
+          "h": "骨子里",
+          "p": "gǔ zi lǐ",
+          "f": "dans les os / en profondeur / au fond",
+          "m": "骨子 (os) + 里 (intérieur) — la vérité constitutive, ce qui fait partie de l'essence."
+        },
+        {
+          "h": "伺机而动",
+          "p": "sì jī ér dòng",
+          "f": "guetter l'occasion et agir",
+          "m": "伺机 (guetter le moment) + 而动 (et agir) — la patience du tigre qui attend."
+        },
+        {
+          "h": "暗中积蓄",
+          "p": "àn zhōng jī xù",
+          "f": "accumuler en secret",
+          "m": "暗中 (dans l'ombre) + 积蓄 (accumuler/épargner) — construire sa puissance sans que personne le voie."
+        }
+      ]
+    },
+    "bi": {
+      "type": "chengyu",
+      "title": "韬光养晦 (tāo guāng yǎng huì)",
+      "ctx": "Voiler son éclat et cultiver dans l'obscurité. Stratégie attribuée à Deng Xiaoping pour la politique étrangère de la Chine des années 1980 : ne pas montrer ses ambitions, accumuler en silence, frapper seulement quand le moment est parfait. En 大女主, l'héroïne utilise cette phase d'exil apparent comme une période d'accumulation intense — 蛰伏 avant le bond final."
+    },
+    "st": "表面上她在流亡，骨子里她暗中积蓄。韬光养晦，蛰伏——伺机而动，时机将至。",
+    "fr_st": "En surface elle est en exil — mais au fond d'elle, elle accumule en secret. Voiler son éclat et cultiver dans l'obscurité, attendre son heure — guetter le moment et agir, l'occasion approche.",
+    "lex": [
+      {
+        "h": "表面上",
+        "p": "biǎo miàn shàng",
+        "f": "en surface"
+      },
+      {
+        "h": "她",
+        "p": "tā",
+        "f": "elle"
+      },
+      {
+        "h": "在",
+        "p": "zài",
+        "f": "est en"
+      },
+      {
+        "h": "流亡",
+        "p": "liú wáng",
+        "f": "exil"
+      },
+      {
+        "h": "骨子里",
+        "p": "gǔ zi lǐ",
+        "f": "mais au fond d'elle"
+      },
+      {
+        "h": "暗中积蓄",
+        "p": "àn zhōng jī xù",
+        "f": "elle accumule en secret"
+      },
+      {
+        "h": "韬光养晦",
+        "p": "tāo guāng yǎng huì",
+        "f": "voiler son éclat et cultiver dans l'obscurité"
+      },
+      {
+        "h": "蛰伏",
+        "p": "zhé fú",
+        "f": "attendre son heure"
+      },
+      {
+        "h": "伺机而动",
+        "p": "sì jī ér dòng",
+        "f": "guetter le moment et agir"
+      },
+      {
+        "h": "时机将至",
+        "p": "shí jī jiāng zhì",
+        "f": "l'occasion approche"
+      }
+    ],
+    "ex": [
+      {
+        "q": "Quelle stratégie l'héroïne applique-t-elle pendant sa phase d'exil apparent ?",
+        "o": [
+          "Elle se cache par peur",
+          "Elle accumule en secret tout en paraissant vaincue — 韬光养晦 comme arme offensive",
+          "Elle cherche des alliés ouvertement",
+          "Elle négocie sa reddition"
+        ],
+        "r": 1
+      },
+      {
+        "q": "Comment 表面上…骨子里 diffère-t-il de 看似…实则 ?",
+        "o": [
+          "Ils sont identiques",
+          "骨子里 implique une vérité constitutive, pas juste cachée — quelque chose d'essentiel dans l'être même",
+          "看似…实则 est plus profond",
+          "表面上 est plus négatif"
+        ],
+        "r": 1
+      },
+      {
+        "q": "Que signifie 蛰伏 comme image naturelle de stratégie ?",
+        "o": [
+          "Se battre en retraite",
+          "L'hibernation stratégique — comme l'insecte qui attend en silence avant de jaillir au bon moment",
+          "Fuir définitivement",
+          "Se reposer après la victoire"
+        ],
+        "r": 1
+      },
+      {
+        "q": "韬光养晦 — pourquoi dissimuler sa puissance est-il parfois plus efficace que la montrer ?",
+        "o": [
+          "Par modestie",
+          "L'ennemi qui ignore votre puissance ne peut pas la contrecarrer — la surprise est une arme",
+          "Pour économiser des ressources",
+          "Pour paraître humble"
+        ],
+        "r": 1
+      }
+    ]
+  },
+  {
+    "id": 124,
+    "lvl": "HSK4",
+    "les": {
+      "title": "Leçon 124 — Unifier les warlords (收复 / 归顺 / 一统)",
+      "gram": "在…的基础上 (zài…de jī chǔ shàng) = 'sur la base de / en s'appuyant sur'. Exprime la fondation ou le point de départ d'une nouvelle action. Exemple : 在已有盟友的基础上，她继续扩张 (Sur la base de ses alliés existants, elle continue d'étendre son influence). Structure analytique de la construction progressive — chaque étape bâtit sur la précédente.",
+      "voc": [
+        {
+          "h": "收复",
+          "p": "shōu fù",
+          "f": "reprendre / récupérer / reconquérir",
+          "m": "收 (rassembler) + 复 (restaurer) — reprendre ce qui avait été perdu."
+        },
+        {
+          "h": "归顺",
+          "p": "guī shùn",
+          "f": "se soumettre volontairement / rejoindre",
+          "m": "归 (retourner) + 顺 (se conformer) — choisir de rejoindre le camp vainqueur."
+        },
+        {
+          "h": "一统",
+          "p": "yī tǒng",
+          "f": "unification / unifier sous une seule bannière",
+          "m": "一 (un) + 统 (gouverner) — tout ramener sous un seul commandement."
+        },
+        {
+          "h": "在…基础上",
+          "p": "zài…jī chǔ shàng",
+          "f": "sur la base de / en s'appuyant sur",
+          "m": "在 (dans) + 基础 (fondation) + 上 (sur) — partir d'une fondation existante."
+        },
+        {
+          "h": "版图",
+          "p": "bǎn tú",
+          "f": "territoire / carte de l'empire",
+          "m": "版 (planche/registre) + 图 (carte) — l'étendue cartographiée d'un empire."
+        },
+        {
+          "h": "望风而降",
+          "p": "wàng fēng ér jiáng",
+          "f": "capituler à la simple vue du drapeau",
+          "m": "望风 (voir le vent/pavillon) + 而降 (et se rendre) — la capitulation par la réputation seule."
+        }
+      ]
+    },
+    "bi": {
+      "type": "chengyu",
+      "title": "所向无敌 (suǒ xiàng wú dí)",
+      "ctx": "Partout où elle se dirige, aucun ennemi ne peut résister. L'invincibilité dans le mouvement — non pas statique mais dynamique, liée à la direction de l'avance. Au Mois 5, l'héroïne a atteint ce niveau : sa réputation précède ses armées au point que certains seigneurs 望风而降 (capitulent à la simple vue de son étendard), sans même combattre."
+    },
+    "st": "在已有基础上，她收复失地。各方望风而降，归顺者众。版图日广——所向无敌，一统在望。",
+    "fr_st": "Sur la base de ce qu'elle a bâti, elle reconquiert les territoires perdus. Toutes les factions capitulent à sa seule vue, nombreux sont ceux qui rejoignent. Le territoire s'étend chaque jour — invincible partout où elle avance, l'unification est en vue.",
+    "lex": [
+      {
+        "h": "在已有基础上",
+        "p": "zài yǐ yǒu jī chǔ shàng",
+        "f": "sur la base de ce qu'elle a bâti"
+      },
+      {
+        "h": "她",
+        "p": "tā",
+        "f": "elle"
+      },
+      {
+        "h": "收复",
+        "p": "shōu fù",
+        "f": "reconquiert"
+      },
+      {
+        "h": "失地",
+        "p": "shī dì",
+        "f": "les territoires perdus"
+      },
+      {
+        "h": "各方",
+        "p": "gè fāng",
+        "f": "toutes les factions"
+      },
+      {
+        "h": "望风而降",
+        "p": "wàng fēng ér jiáng",
+        "f": "capitulent à sa seule vue"
+      },
+      {
+        "h": "归顺者众",
+        "p": "guī shùn zhě zhòng",
+        "f": "nombreux sont ceux qui rejoignent"
+      },
+      {
+        "h": "版图",
+        "p": "bǎn tú",
+        "f": "le territoire"
+      },
+      {
+        "h": "日广",
+        "p": "rì guǎng",
+        "f": "s'étend chaque jour"
+      },
+      {
+        "h": "所向无敌",
+        "p": "suǒ xiàng wú dí",
+        "f": "invincible partout où elle avance"
+      },
+      {
+        "h": "一统在望",
+        "p": "yī tǒng zài wàng",
+        "f": "l'unification est en vue"
+      }
+    ],
+    "ex": [
+      {
+        "q": "Que signifie 望风而降 et quelle puissance cela révèle-t-il ?",
+        "o": [
+          "Capituler après un long combat",
+          "Capituler à la simple vue de l'étendard — la réputation est devenue plus puissante que l'armée elle-même",
+          "Refuser de se rendre",
+          "Attaquer en premier"
+        ],
+        "r": 1
+      },
+      {
+        "q": "Comment 在…基础上 structure-t-il la progression stratégique ?",
+        "o": [
+          "Il exprime un nouveau départ",
+          "Il indique que chaque nouvelle action s'appuie sur ce qui a déjà été construit — la progression cumulative",
+          "Il efface les acquis précédents",
+          "Il exprime une condition"
+        ],
+        "r": 1
+      },
+      {
+        "q": "Que signifie 版图 dans le contexte impérial ?",
+        "o": [
+          "Un plan de bataille",
+          "L'étendue cartographiée du territoire sous son contrôle",
+          "Une liste d'alliés",
+          "Un registre de taxes"
+        ],
+        "r": 1
+      },
+      {
+        "q": "所向无敌 — comment ce niveau de réputation transforme-t-il la nature de ses campagnes ?",
+        "o": [
+          "Elles deviennent plus longues",
+          "Certains ennemis capitulent sans combattre — la réputation fait le travail avant même le combat",
+          "Elles deviennent plus coûteuses",
+          "Elles attirent plus d'ennemis"
+        ],
+        "r": 1
+      }
+    ]
+  },
+  {
+    "id": 125,
+    "lvl": "HSK4",
+    "les": {
+      "title": "Leçon 125 — Le pacte dans la nuit (夤夜密会 / 同甘共苦 / 誓盟)",
+      "gram": "不管…都 (bù guǎn…dōu) = 'peu importe / quelle que soit la situation…toujours'. Très proche de 无论…都 mais légèrement moins formel. Exemple : 不管前路多险，他都陪她 (Peu importe à quel point le chemin est difficile, il l'accompagnera). En slow burn au Mois 5, c'est la formule de l'engagement inconditionnel enfin exprimé.",
+      "voc": [
+        {
+          "h": "夤夜",
+          "p": "yín yè",
+          "f": "au cœur de la nuit / nuit profonde (littéraire)",
+          "m": "夤 (nuit profonde) + 夜 (nuit) — le moment le plus secret et le plus sincère."
+        },
+        {
+          "h": "同甘共苦",
+          "p": "tóng gān gòng kǔ",
+          "f": "partager les joies et les épreuves",
+          "m": "同甘 (partager la douceur) + 共苦 (partager l'amertume) — l'engagement total de vie partagée."
+        },
+        {
+          "h": "誓盟",
+          "p": "shì méng",
+          "f": "pacte juré / alliance scellée par serment",
+          "m": "誓 (jurer) + 盟 (pacte) — l'alliance dont chaque terme est juré."
+        },
+        {
+          "h": "不管",
+          "p": "bù guǎn",
+          "f": "peu importe / quelle que soit la situation",
+          "m": "不 (non) + 管 (gérer/contrôler) — sans que rien puisse intervenir."
+        },
+        {
+          "h": "风雨同舟",
+          "p": "fēng yǔ tóng zhōu",
+          "f": "dans la même barque sous la pluie et le vent",
+          "m": "风雨 (pluie et vent) + 同舟 (même barque) — faire face ensemble à la tempête."
+        },
+        {
+          "h": "矢志不渝",
+          "p": "shǐ zhì bù yú",
+          "f": "volonté inébranlable / engagement à toute épreuve",
+          "m": "矢志 (flèche de volonté) + 不渝 (qui ne change pas) — la détermination qui ne cède jamais."
+        }
+      ]
+    },
+    "bi": {
+      "type": "chengyu",
+      "title": "风雨同舟 (fēng yǔ tóng zhōu)",
+      "ctx": "Dans la même barque sous la pluie et le vent. Être ensemble face à l'adversité — non par choix idéal mais parce que la tempête vous a placés dans la même embarcation. En slow burn au Mois 5, cette expression décrit enfin l'état réel de leur relation : non plus une alliance de convenance, mais une véritable communauté de destin sous la tempête du 魔帝."
+    },
+    "st": "夤夜密会。他说：不管前路多险，我都陪你。风雨同舟，同甘共苦——誓盟，矢志不渝。",
+    "fr_st": "Rencontre secrète au cœur de la nuit. Il dit : peu importe à quel point le chemin est difficile, je t'accompagnerai. Dans la même barque sous la tempête, partager les joies et les épreuves — un pacte juré, une volonté inébranlable.",
+    "lex": [
+      {
+        "h": "夤夜",
+        "p": "yín yè",
+        "f": "au cœur de la nuit"
+      },
+      {
+        "h": "密会",
+        "p": "mì huì",
+        "f": "rencontre secrète"
+      },
+      {
+        "h": "他",
+        "p": "tā",
+        "f": "il"
+      },
+      {
+        "h": "说",
+        "p": "shuō",
+        "f": "dit"
+      },
+      {
+        "h": "不管",
+        "p": "bù guǎn",
+        "f": "peu importe"
+      },
+      {
+        "h": "前路多险",
+        "p": "qián lù duō xiǎn",
+        "f": "à quel point le chemin est difficile"
+      },
+      {
+        "h": "我",
+        "p": "wǒ",
+        "f": "je"
+      },
+      {
+        "h": "都",
+        "p": "dōu",
+        "f": "t'accompagnerai"
+      },
+      {
+        "h": "陪你",
+        "p": "péi nǐ",
+        "f": "toujours"
+      },
+      {
+        "h": "风雨同舟",
+        "p": "fēng yǔ tóng zhōu",
+        "f": "dans la même barque sous la tempête"
+      },
+      {
+        "h": "同甘共苦",
+        "p": "tóng gān gòng kǔ",
+        "f": "partager les joies et les épreuves"
+      },
+      {
+        "h": "誓盟",
+        "p": "shì méng",
+        "f": "un pacte juré"
+      },
+      {
+        "h": "矢志不渝",
+        "p": "shǐ zhì bù yú",
+        "f": "une volonté inébranlable"
+      }
+    ],
+    "ex": [
+      {
+        "q": "Quel moment décisif du slow burn ce chapitre représente-t-il ?",
+        "o": [
+          "Une rupture entre les deux protagonistes",
+          "La première déclaration d'engagement inconditionnel formulée clairement par le prince",
+          "Un accord politique",
+          "Une réconciliation après trahison"
+        ],
+        "r": 1
+      },
+      {
+        "q": "Quelle différence entre 不管…都 et 无论…都 dans leur usage ?",
+        "o": [
+          "Ils sont identiques",
+          "不管 est légèrement moins formel mais tout aussi absolu dans l'engagement",
+          "无论 est moins formel",
+          "不管 est plus hypothétique"
+        ],
+        "r": 1
+      },
+      {
+        "q": "Que signifie 同甘共苦 comme engagement de vie partagée ?",
+        "o": [
+          "Partager uniquement les succès",
+          "Partager les joies ET les épreuves — l'engagement total qui ne choisit pas les moments agréables",
+          "Partager les ressources militaires",
+          "Partager uniquement les épreuves"
+        ],
+        "r": 1
+      },
+      {
+        "q": "风雨同舟 — pourquoi cette métaphore est-elle plus forte que 天作之合 dans ce contexte ?",
+        "o": [
+          "Elle est plus poétique",
+          "Elle décrit une communauté de destin forgée par l'adversité réelle, pas la prédestination — c'est un choix sous la tempête",
+          "Elle est plus ancienne",
+          "Elle est plus romantique"
+        ],
+        "r": 1
+      }
+    ]
+  },
+  {
+    "id": 126,
+    "lvl": "HSK4",
+    "les": {
+      "title": "Leçon 126 — La diplomatie des factions (折冲樽俎 / 舌战 / 合纵连横)",
+      "gram": "凭借 (píng jiè) = 'grâce à / en s'appuyant sur / par le biais de'. Préposition de moyen avec une nuance de ressource mobilisée. Exemple : 凭借三寸不烂之舌，她折服了所有人 (Grâce à son éloquence, elle convainquit tout le monde). 凭 seul = s'appuyer sur (plus court). 凭借 insiste sur la ressource mobilisée comme levier.",
+      "voc": [
+        {
+          "h": "折冲樽俎",
+          "p": "zhé chōng zūn zǔ",
+          "f": "neutraliser les conflits à la table des banquets",
+          "m": "折冲 (neutraliser l'assaut) + 樽俎 (coupes et tables) — la diplomatie de table qui prévient la guerre."
+        },
+        {
+          "h": "舌战",
+          "p": "shé zhàn",
+          "f": "combat verbal / joute oratoire",
+          "m": "舌 (langue) + 战 (combat) — la guerre menée avec les mots."
+        },
+        {
+          "h": "合纵连横",
+          "p": "hé zòng lián héng",
+          "f": "alliances verticales et horizontales / diplomatie tous azimuts",
+          "m": "合纵 (coalition verticale) + 连横 (liaison horizontale) — la diplomatie qui tisse des liens dans toutes les directions."
+        },
+        {
+          "h": "凭借",
+          "p": "píng jiè",
+          "f": "grâce à / en s'appuyant sur",
+          "m": "凭 (s'appuyer) + 借 (emprunter/utiliser) — mobiliser une ressource comme levier."
+        },
+        {
+          "h": "三寸不烂之舌",
+          "p": "sān cùn bù làn zhī shé",
+          "f": "la langue de trois pouces qui ne pourrit pas / l'éloquence redoutable",
+          "m": "三寸 (trois pouces) + 不烂 (qui ne pourrit pas) + 舌 (langue) — la puissance de l'éloquence."
+        },
+        {
+          "h": "纵横捭阖",
+          "p": "zòng héng bǎi hé",
+          "f": "manier les alliances dans tous les sens",
+          "m": "纵横 (vertical et horizontal) + 捭阖 (ouvrir et fermer) — la recomposition permanente des alliances."
+        }
+      ]
+    },
+    "bi": {
+      "type": "chengyu",
+      "title": "一言九鼎 (yī yán jiǔ dǐng)",
+      "ctx": "Une parole pèse neuf tripodes. Quand la parole de quelqu'un a le poids de l'autorité absolue — ce qu'elle dit se fait. Zheng Wei dans le Shiji convainquit des royaumes entiers à changer d'alliance par une seule conversation. L'héroïne au Mois 5 a atteint ce niveau : ses mots ne sont plus des arguments, ils sont des décrets que personne ne peut contester."
+    },
+    "st": "凭借三寸不烂之舌，她折冲樽俎。合纵连横，纵横捭阖——她一言九鼎，舌战天下。",
+    "fr_st": "Grâce à son éloquence redoutable, elle neutralise les conflits à la table diplomatique. Alliances dans tous les sens, diplomatie tous azimuts — sa parole pèse neuf tripodes, elle mène le combat verbal sur l'Empire entier.",
+    "lex": [
+      {
+        "h": "凭借",
+        "p": "píng jiè",
+        "f": "grâce à"
+      },
+      {
+        "h": "三寸不烂之舌",
+        "p": "sān cùn bù làn zhī shé",
+        "f": "son éloquence redoutable"
+      },
+      {
+        "h": "她",
+        "p": "tā",
+        "f": "elle"
+      },
+      {
+        "h": "折冲樽俎",
+        "p": "zhé chōng zūn zǔ",
+        "f": "neutralise les conflits à la table diplomatique"
+      },
+      {
+        "h": "合纵连横",
+        "p": "hé zòng lián héng",
+        "f": "alliances dans tous les sens"
+      },
+      {
+        "h": "纵横捭阖",
+        "p": "zòng héng bǎi hé",
+        "f": "diplomatie tous azimuts"
+      },
+      {
+        "h": "一言九鼎",
+        "p": "yī yán jiǔ dǐng",
+        "f": "sa parole pèse neuf tripodes"
+      },
+      {
+        "h": "舌战天下",
+        "p": "shé zhàn tiān xià",
+        "f": "elle mène le combat verbal sur l'Empire entier"
+      }
+    ],
+    "ex": [
+      {
+        "q": "Quel outil principal l'héroïne mobilise-t-elle dans ce chapitre diplomatique ?",
+        "o": [
+          "Son armée",
+          "Son éloquence redoutable — la langue comme arme politique",
+          "Son réseau d'espions",
+          "Sa beauté"
+        ],
+        "r": 1
+      },
+      {
+        "q": "Comment 凭借 se distingue-t-il de 通过 comme préposition de moyen ?",
+        "o": [
+          "Ils sont identiques",
+          "凭借 insiste sur la ressource mobilisée comme levier ; 通过 insiste sur le canal ou processus utilisé",
+          "通过 est plus formel",
+          "凭借 est plus formel"
+        ],
+        "r": 1
+      },
+      {
+        "q": "Que signifie 三寸不烂之舌 comme éloge de l'éloquence ?",
+        "o": [
+          "Un défaut physique",
+          "La langue de trois pouces qui ne pourrit jamais — l'éloquence si puissante qu'elle convainc des royaumes",
+          "Une technique de combat",
+          "Une méthode de calcul"
+        ],
+        "r": 1
+      },
+      {
+        "q": "一言九鼎 — quel niveau d'autorité cette expression implique-t-elle pour celui qui la possède ?",
+        "o": [
+          "Une autorité ordinaire",
+          "Une autorité absolue — ses paroles ont le poids de décrets cosmiques que personne ne peut contester",
+          "Une autorité temporaire",
+          "Une autorité militaire uniquement"
+        ],
+        "r": 1
+      },
+      {
+        "q": "折冲樽俎 — quelle vision de la diplomatie ce chengyu incarne-t-il ?",
+        "o": [
+          "La diplomatie comme signe de faiblesse",
+          "La diplomatie comme art martial — neutraliser les conflits avant qu'ils n'éclatent, à la table",
+          "La diplomatie comme spectacle",
+          "La diplomatie comme corruption"
+        ],
+        "r": 1
+      },
+      {
+        "q": "Que signifie 合纵连横 historiquement et comment l'héroïne l'applique-t-elle ?",
+        "o": [
+          "Une seule alliance fixe",
+          "Tisser des alliances dans toutes les directions — comme les diplomates des Royaumes Combattants qui recomposaient les coalitions en permanence",
+          "Une alliance militaire uniquement",
+          "Un traité de paix permanent"
+        ],
+        "r": 1
+      }
+    ]
+  },
+  {
+    "id": 127,
+    "lvl": "HSK4",
+    "les": {
+      "title": "Leçon 127 — Tribulation XII — La Tempête de Feu (Révision J118–126)",
+      "gram": "TRIBULATION : Révision des jours 118 à 126. Structures HSK4 consolidées : 随着, 非但…反而, 表面上…骨子里, 在…基础上, 不管…都, 凭借, 纵使, 何止. Ce bloc couvre la montée en puissance militaire et diplomatique du Mois 5 ainsi que la résolution du slow burn.",
+      "voc": [
+        {
+          "h": "纵横驰骋",
+          "p": "zòng héng chí chěng",
+          "f": "galoper dans toutes les directions / dominer librement",
+          "m": "纵横 (vertical et horizontal) + 驰骋 (galoper) — la maîtrise libre et totale d'un espace."
+        },
+        {
+          "h": "摧枯拉朽",
+          "p": "cuī kū lā xiǔ",
+          "f": "écraser le sec — victoire foudroyante",
+          "m": "摧枯 (écraser le sec) + 拉朽 (arracher le pourri) — broyer ce qui est déjà condamné."
+        },
+        {
+          "h": "势如破竹",
+          "p": "shì rú pò zhú",
+          "f": "comme du bambou qui se fend / avancée irrésistible",
+          "m": "势 (élan) + 如 (comme) + 破竹 (bambou fendu) — l'avancée qui rien ne peut arrêter."
+        },
+        {
+          "h": "锐不可当",
+          "p": "ruì bù kě dāng",
+          "f": "d'une acuité inarrêtable",
+          "m": "锐 (tranchant) + 不可当 (impossible à stopper) — la puissance qu'aucune défense ne peut contenir."
+        },
+        {
+          "h": "挥斥方遒",
+          "p": "huī chì fāng qiú",
+          "f": "diriger avec une vigueur indomptable",
+          "m": "挥斥 (diriger d'un geste) + 方遒 (vigueur à son apogée) — le commandement qui coule de source."
+        },
+        {
+          "h": "纵横四海",
+          "p": "zòng héng sì hǎi",
+          "f": "dominer les quatre mers / maîtrise universelle",
+          "m": "纵横 (dans tous les sens) + 四海 (les quatre mers) — l'empire sur tout l'horizon."
+        }
+      ]
+    },
+    "bi": {
+      "type": "chengyu",
+      "title": "势如破竹 (shì rú pò zhú)",
+      "ctx": "Un élan comme le bambou qui se fend. Une fois qu'on a commencé à fendre un bambou, les premières sections s'ouvrent facilement et la lame glisse d'elle-même sur le reste — plus rien ne résiste. Métaphore de l'avancée irrésistible après la première percée. Au Mois 5, l'héroïne a atteint ce point : sa première victoire a lancé une dynamique impossible à stopper."
+    },
+    "st": "随着胜利叠加，她势如破竹。非但敌人未能阻她，反而锐不可当。凭借积累的力量，在已有基础上，她纵横四海。不管何种阻碍，她都挥斥方遒。摧枯拉朽——天下，将归于她。",
+    "fr_st": "Au fur et à mesure que les victoires s'accumulent, son avancée est irrésistible. Loin que ses ennemis puissent la stopper, au contraire elle est inarrêtable. Grâce à la puissance accumulée, en s'appuyant sur ses acquis, elle domine les quatre mers. Peu importe l'obstacle, elle commande avec une vigueur indomptable. Victoire foudroyante — le monde, viendra à elle.",
+    "lex": [
+      {
+        "h": "随着",
+        "p": "suí zhe",
+        "f": "au fur et à mesure que"
+      },
+      {
+        "h": "胜利叠加",
+        "p": "shèng lì dié jiā",
+        "f": "les victoires s'accumulent"
+      },
+      {
+        "h": "她",
+        "p": "tā",
+        "f": "elle"
+      },
+      {
+        "h": "势如破竹",
+        "p": "shì rú pò zhú",
+        "f": "son avancée est irrésistible"
+      },
+      {
+        "h": "非但",
+        "p": "fēi dàn",
+        "f": "loin que"
+      },
+      {
+        "h": "敌人",
+        "p": "dí rén",
+        "f": "ses ennemis"
+      },
+      {
+        "h": "未能阻她",
+        "p": "wèi néng zǔ tā",
+        "f": "puissent la stopper"
+      },
+      {
+        "h": "反而",
+        "p": "fǎn ér",
+        "f": "au contraire"
+      },
+      {
+        "h": "锐不可当",
+        "p": "ruì bù kě dāng",
+        "f": "elle est inarrêtable"
+      },
+      {
+        "h": "凭借",
+        "p": "píng jiè",
+        "f": "grâce à"
+      },
+      {
+        "h": "积累的力量",
+        "p": "jī lěi de lì liàng",
+        "f": "la puissance accumulée"
+      },
+      {
+        "h": "在已有基础上",
+        "p": "zài yǐ yǒu jī chǔ shàng",
+        "f": "en s'appuyant sur ses acquis"
+      },
+      {
+        "h": "纵横四海",
+        "p": "zòng héng sì hǎi",
+        "f": "elle domine les quatre mers"
+      },
+      {
+        "h": "不管",
+        "p": "bù guǎn",
+        "f": "peu importe"
+      },
+      {
+        "h": "何种阻碍",
+        "p": "hé zhǒng zǔ ài",
+        "f": "l'obstacle"
+      },
+      {
+        "h": "挥斥方遒",
+        "p": "huī chì fāng qiú",
+        "f": "elle commande avec vigueur"
+      },
+      {
+        "h": "摧枯拉朽",
+        "p": "cuī kū lā xiǔ",
+        "f": "victoire foudroyante"
+      },
+      {
+        "h": "天下",
+        "p": "tiān xià",
+        "f": "le monde"
+      },
+      {
+        "h": "将归于她",
+        "p": "jiāng guī yú tā",
+        "f": "viendra à elle"
+      }
+    ],
+    "ex": [
+      {
+        "q": "Comment 势如破竹 décrit-il la dynamique de victoire au Mois 5 ?",
+        "o": [
+          "Une victoire fragile",
+          "Après la première percée, l'avancée devient impossible à stopper — comme le bambou fendu",
+          "Une victoire coûteuse",
+          "Une victoire lente et méthodique"
+        ],
+        "r": 1
+      },
+      {
+        "q": "Identifiez 非但…反而 dans ce chapitre et ce qu'il renverse.",
+        "o": [
+          "随着胜利叠加，她势如破竹",
+          "非但敌人未能阻她，反而锐不可当",
+          "凭借积累的力量，她纵横四海",
+          "不管何种阻碍，她都挥斥方遒"
+        ],
+        "r": 1
+      },
+      {
+        "q": "Comment 凭借 et 在…基础上 se complètent-ils dans ce chapitre ?",
+        "o": [
+          "Ils sont redondants",
+          "凭借 identifie la ressource mobilisée ; 在…基础上 montre qu'elle s'appuie sur des acquis cumulatifs",
+          "Ils s'opposent",
+          "凭借 est plus court"
+        ],
+        "r": 1
+      },
+      {
+        "q": "挥斥方遒 vient de quel auteur célèbre et dans quel contexte ?",
+        "o": [
+          "Confucius dans les Analectes",
+          "Mao Zedong dans 沁园春·长沙 — décrivant la jeunesse ardente qui dirige le monde avec insolence",
+          "Sun Tzu dans L'Art de la Guerre",
+          "Du Fu dans ses poèmes de guerre"
+        ],
+        "r": 1
+      },
+      {
+        "q": "锐不可当 — quel type de défense peut arrêter une force décrite ainsi ?",
+        "o": [
+          "Une armée bien positionnée",
+          "Aucune — c'est précisément ce que 不可当 exprime",
+          "Une alliance de tous les ennemis",
+          "Une position défensive solide"
+        ],
+        "r": 1
+      },
+      {
+        "q": "Quelle est la différence entre 不管…都 et 无论如何 en termes de complétude de l'engagement ?",
+        "o": [
+          "不管 est plus absolu",
+          "无论如何 exclut absolument toutes les conditions; 不管 est légèrement moins formel mais pratiquement équivalent",
+          "不管 est plus hypothétique",
+          "无论如何 est plus courant"
+        ],
+        "r": 1
+      }
+    ]
+  },
+  {
+    "id": 128,
+    "lvl": "HSK4",
+    "les": {
+      "title": "Leçon 128 — La percée spirituelle (渡劫 / 突破极限 / 羽化登仙)",
+      "gram": "恍然大悟 (huǎng rán dà wù) est une locution : 'soudain illuminé / comprendre d'un coup'. Mais la structure clé est : 唯有…才能 (wéi yǒu…cái néng) = 'seulement si / il n'y a que…qui puisse'. Structure d'exclusivité causale : seul A peut permettre B. Exemple : 唯有渡过此劫，才能羽化登仙 (Seule la traversée de cette épreuve permet l'ascension divine).",
+      "voc": [
+        {
+          "h": "渡劫",
+          "p": "dù jié",
+          "f": "traverser la tribulation / surmonter l'épreuve cosmique",
+          "m": "渡 (traverser) + 劫 (catastrophe/karma) — traverser l'épreuve karmique imposée par le cosmos."
+        },
+        {
+          "h": "突破极限",
+          "p": "tū pò jí xiàn",
+          "f": "dépasser ses propres limites",
+          "m": "突破 (percer) + 极限 (limite absolue) — aller au-delà de ce qu'on croyait impossible."
+        },
+        {
+          "h": "羽化登仙",
+          "p": "yǔ huà dēng xiān",
+          "f": "se métamorphoser en plumes et monter parmi les immortels",
+          "m": "羽化 (transformation en plumes) + 登仙 (accéder à l'immortalité) — l'ascension finale du cultivateur."
+        },
+        {
+          "h": "唯有",
+          "p": "wéi yǒu",
+          "f": "seulement / il n'y a que",
+          "m": "唯 (seulement) + 有 (avoir) — l'exclusivité absolue de la condition."
+        },
+        {
+          "h": "才能",
+          "p": "cái néng",
+          "f": "seulement alors peut / alors seulement",
+          "m": "才 (seulement/enfin) + 能 (pouvoir) — la conséquence qui n'arrive qu'après A."
+        },
+        {
+          "h": "天人合一",
+          "p": "tiān rén hé yī",
+          "f": "unité du Ciel et de l'Homme",
+          "m": "天 (Ciel) + 人 (Homme) + 合一 (fusion en un) — le principe taoïste de l'harmonie cosmique totale."
+        }
+      ]
+    },
+    "bi": {
+      "type": "chengyu",
+      "title": "涅而不缁，磨而不磷 (niè ér bù zī, mó ér bù lín)",
+      "ctx": "Plongé dans la teinture noire sans en être noirci, poli sans en être aminci. Confucius. Métaphore de la véritable intégrité : celui dont le caractère est assez solide pour traverser la corruption et la pression sans être altéré. L'héroïne face à la percée cosmique est testée dans ses fondements mêmes — et en sort plus pure, plus forte, non déformée."
+    },
+    "st": "唯有渡过此劫，才能突破极限。她恍然大悟——天人合一，方才羽化登仙。涅而不缁，磨而不磷。",
+    "fr_st": "Seule la traversée de cette épreuve permet de dépasser ses limites. Elle comprend soudainement — l'unité du Ciel et de l'Homme, c'est seulement ainsi qu'on accède à l'immortalité. Plongée dans la noirceur sans en être noircie, polie sans en être amoindrie.",
+    "lex": [
+      {
+        "h": "唯有",
+        "p": "wéi yǒu",
+        "f": "seule"
+      },
+      {
+        "h": "渡过",
+        "p": "dù guò",
+        "f": "la traversée de"
+      },
+      {
+        "h": "此劫",
+        "p": "cǐ jié",
+        "f": "cette épreuve"
+      },
+      {
+        "h": "才能",
+        "p": "cái néng",
+        "f": "permet de"
+      },
+      {
+        "h": "突破极限",
+        "p": "tū pò jí xiàn",
+        "f": "dépasser ses limites"
+      },
+      {
+        "h": "她",
+        "p": "tā",
+        "f": "elle"
+      },
+      {
+        "h": "恍然大悟",
+        "p": "huǎng rán dà wù",
+        "f": "comprend soudainement"
+      },
+      {
+        "h": "天人合一",
+        "p": "tiān rén hé yī",
+        "f": "l'unité du Ciel et de l'Homme"
+      },
+      {
+        "h": "方才",
+        "p": "fāng cái",
+        "f": "c'est seulement ainsi qu'on"
+      },
+      {
+        "h": "羽化登仙",
+        "p": "yǔ huà dēng xiān",
+        "f": "accède à l'immortalité"
+      },
+      {
+        "h": "涅而不缁",
+        "p": "niè ér bù zī",
+        "f": "plongée dans la noirceur sans en être noircie"
+      },
+      {
+        "h": "磨而不磷",
+        "p": "mó ér bù lín",
+        "f": "polie sans en être amoindrie"
+      }
+    ],
+    "ex": [
+      {
+        "q": "Quelle condition 唯有…才能 pose-t-elle pour l'ascension de l'héroïne ?",
+        "o": [
+          "La victoire militaire seule suffit",
+          "Seule la traversée complète de l'épreuve cosmique peut permettre l'ascension — rien d'autre",
+          "L'alliance avec le prince",
+          "La défaite du 魔帝"
+        ],
+        "r": 1
+      },
+      {
+        "q": "Que signifie 恍然大悟 comme moment de compréhension ?",
+        "o": [
+          "Une compréhension progressive",
+          "La compréhension soudaine et totale — l'illumination qui vient d'un coup",
+          "Un doute persistant",
+          "Une mémorisation"
+        ],
+        "r": 1
+      },
+      {
+        "q": "Que signifie 天人合一 dans la tradition taoïste ?",
+        "o": [
+          "La conquête de la nature",
+          "L'harmonie et la fusion totale entre l'humain et l'ordre cosmique",
+          "La séparation du corps et de l'âme",
+          "La maîtrise des éléments"
+        ],
+        "r": 1
+      },
+      {
+        "q": "涅而不缁，磨而不磷 — quel type de caractère cette formule décrit-elle ?",
+        "o": [
+          "Un caractère souple et adaptable",
+          "Un caractère si solide qu'il traverse la corruption et la pression sans être altéré",
+          "Un caractère dur et inflexible",
+          "Un caractère naïf et pur"
+        ],
+        "r": 1
+      }
+    ]
+  },
+  {
+    "id": 129,
+    "lvl": "HSK4",
+    "les": {
+      "title": "Leçon 129 — La guerre des nerfs (心理战 / 攻心 / 不战屈人)",
+      "gram": "其实 (qí shí) = 'en réalité / en fait / à vrai dire'. Marqueur de révélation ou de correction — révèle une vérité différente de ce qu'on croyait. Exemple : 其实她早就知道了 (En fait, elle savait depuis longtemps). Différent de 实则 (plus littéraire, plus contrastif) et de 其实上 (incorrect). 其实 est naturel et conversationnel même au niveau HSK4.",
+      "voc": [
+        {
+          "h": "心理战",
+          "p": "xīn lǐ zhàn",
+          "f": "guerre psychologique",
+          "m": "心理 (psychologie) + 战 (guerre) — le combat mené dans les esprits."
+        },
+        {
+          "h": "不战屈人",
+          "p": "bù zhàn qū rén",
+          "f": "soumettre sans combattre",
+          "m": "不战 (sans combattre) + 屈人 (soumettre l'adversaire) — le niveau suprême."
+        },
+        {
+          "h": "瓦解意志",
+          "p": "wǎ jiě yì zhì",
+          "f": "désintégrer la volonté",
+          "m": "瓦解 (désintégrer) + 意志 (volonté) — briser la résolution intérieure."
+        },
+        {
+          "h": "其实",
+          "p": "qí shí",
+          "f": "en réalité / en fait",
+          "m": "其 (ce) + 实 (réel) — la réalité derrière l'apparence ou la croyance."
+        },
+        {
+          "h": "制造恐惧",
+          "p": "zhì zào kǒng jù",
+          "f": "créer la peur / instiller la terreur",
+          "m": "制造 (créer) + 恐惧 (peur) — la fabrication délibérée de la terreur."
+        },
+        {
+          "h": "兵不血刃",
+          "p": "bīng bù xuè rèn",
+          "f": "vaincre sans que les lames soient ensanglantées",
+          "m": "兵 (armes) + 不 (sans) + 血刃 (sang sur la lame) — la victoire sans affrontement direct."
+        }
+      ]
+    },
+    "bi": {
+      "type": "chengyu",
+      "title": "兵不血刃 (bīng bù xuè rèn)",
+      "ctx": "Sans que les lames soient ensanglantées — la victoire sans combat. Le niveau le plus élevé de l'art militaire selon Sun Tzu : remporter la victoire avant que le combat ne commence, par la préparation, la réputation et la guerre psychologique. L'héroïne face au 魔帝 sait qu'une confrontation directe serait coûteuse — elle prépare donc une guerre des nerfs pour l'affaiblir avant l'affrontement final."
+    },
+    "st": "其实，她早布心理战。不战屈人，瓦解意志——兵不血刃，这才是最高境界。",
+    "fr_st": "En fait, elle a préparé la guerre psychologique depuis longtemps. Soumettre sans combattre, désintégrer la volonté — vaincre sans que les lames soient ensanglantées, voilà le niveau suprême.",
+    "lex": [
+      {
+        "h": "其实",
+        "p": "qí shí",
+        "f": "en fait"
+      },
+      {
+        "h": "她",
+        "p": "tā",
+        "f": "elle"
+      },
+      {
+        "h": "早",
+        "p": "zǎo",
+        "f": "depuis longtemps"
+      },
+      {
+        "h": "布",
+        "p": "bù",
+        "f": "a préparé"
+      },
+      {
+        "h": "心理战",
+        "p": "xīn lǐ zhàn",
+        "f": "la guerre psychologique"
+      },
+      {
+        "h": "不战屈人",
+        "p": "bù zhàn qū rén",
+        "f": "soumettre sans combattre"
+      },
+      {
+        "h": "瓦解意志",
+        "p": "wǎ jiě yì zhì",
+        "f": "désintégrer la volonté"
+      },
+      {
+        "h": "兵不血刃",
+        "p": "bīng bù xuè rèn",
+        "f": "vaincre sans que les lames soient ensanglantées"
+      },
+      {
+        "h": "这才是",
+        "p": "zhè cái shì",
+        "f": "voilà"
+      },
+      {
+        "h": "最高境界",
+        "p": "zuì gāo jìng jiè",
+        "f": "le niveau suprême"
+      }
+    ],
+    "ex": [
+      {
+        "q": "Quelle stratégie l'héroïne prépare-t-elle avant l'affrontement final contre le 魔帝 ?",
+        "o": [
+          "Une armée massive",
+          "Une guerre psychologique pour affaiblir sa volonté avant le combat direct",
+          "Un complot d'empoisonnement",
+          "Une retraite stratégique"
+        ],
+        "r": 1
+      },
+      {
+        "q": "Comment 其实 révèle-t-il une vérité cachée dans ce chapitre ?",
+        "o": [
+          "Il confirme ce qu'on savait",
+          "Il révèle qu'elle avait déjà tout planifié depuis longtemps — la guerre psychologique était en cours depuis le début",
+          "Il exprime un doute",
+          "Il pose une question"
+        ],
+        "r": 1
+      },
+      {
+        "q": "Quelle différence entre 不战屈人 et 不战而胜 ?",
+        "o": [
+          "Ils sont identiques",
+          "不战屈人 insiste sur la soumission de l'adversaire ; 不战而胜 insiste sur la victoire obtenue — deux facettes du même principe",
+          "不战而胜 est plus fort",
+          "不战屈人 est plus défensif"
+        ],
+        "r": 1
+      },
+      {
+        "q": "兵不血刃 — pourquoi Sun Tzu considère-t-il ce niveau comme le plus élevé ?",
+        "o": [
+          "Parce qu'il préserve les ressources",
+          "Parce qu'il démontre une telle supériorité que l'ennemi ne peut même pas combattre — la victoire complète avant l'engagement",
+          "Parce qu'il évite les pertes",
+          "Parce qu'il impressionne les alliés"
+        ],
+        "r": 1
+      }
+    ]
+  },
+  {
+    "id": 130,
+    "lvl": "HSK4",
+    "les": {
+      "title": "Leçon 130 — La cité reconquise (光复 / 凯旋 / 扬眉吐气)",
+      "gram": "终于…了 avec aspect accompli renforcé. 终于 + Verbe + 了 = enfin + action accomplie. En combinaison avec d'autres marqueurs de résolution comme 算是 (suàn shì = peut enfin être dit / peut être considéré comme), la phrase exprime l'aboutissement d'un long effort. Exemple : 算是等到了这一天 (On peut enfin dire que ce jour est arrivé).",
+      "voc": [
+        {
+          "h": "光复",
+          "p": "guāng fù",
+          "f": "restaurer / libérer / reconquérir (territoire)",
+          "m": "光 (lumière/gloire) + 复 (restaurer) — restaurer la gloire d'un territoire libéré."
+        },
+        {
+          "h": "凯旋",
+          "p": "kǎi xuán",
+          "f": "retour triomphal / triompher",
+          "m": "凯 (hymne de victoire) + 旋 (revenir) — revenir en vainqueur sous les acclamations."
+        },
+        {
+          "h": "扬眉吐气",
+          "p": "yáng méi tǔ qì",
+          "f": "relever la tête et respirer / triomphe après humiliation",
+          "m": "扬眉 (lever les sourcils) + 吐气 (expirer) — le soulagement et la fierté après une longue oppression."
+        },
+        {
+          "h": "算是",
+          "p": "suàn shì",
+          "f": "peut être considéré comme / on peut enfin dire que",
+          "m": "算 (calculer/considérer) + 是 (être) — l'évaluation qui clôture une attente."
+        },
+        {
+          "h": "扬旗",
+          "p": "yáng qí",
+          "f": "arborer l'étendard / hisser le drapeau",
+          "m": "扬 (élever) + 旗 (drapeau) — le geste symbolique de la victoire proclamée."
+        },
+        {
+          "h": "百姓",
+          "p": "bǎi xìng",
+          "f": "le peuple / les cent noms / les gens ordinaires",
+          "m": "百 (cent) + 姓 (nom de famille) — la multitude des noms anonymes qui forment le peuple."
+        }
+      ]
+    },
+    "bi": {
+      "type": "chengyu",
+      "title": "扬眉吐气 (yáng méi tǔ qì)",
+      "ctx": "Lever les sourcils et expirer enfin — le soulagement et la fierté après une longue oppression. Expression du triomphe de ceux qui ont enduré l'humiliation et voient enfin la justice. Quand l'héroïne libère la cité reconquise, ce n'est pas seulement sa victoire personnelle — c'est la libération collective d'un peuple qui attendait. 百姓 lèvent les yeux pour la première fois depuis des années."
+    },
+    "st": "她光复帝都。百姓扬眉吐气，终于等到了。凯旋之日——算是圆满。她扬旗，天下归心。",
+    "fr_st": "Elle libère la capitale impériale. Le peuple relève la tête et respire enfin — on a tant attendu. Le jour du retour triomphal — on peut enfin dire que c'est accompli. Elle hisse l'étendard, l'Empire entier se rallie.",
+    "lex": [
+      {
+        "h": "她",
+        "p": "tā",
+        "f": "elle"
+      },
+      {
+        "h": "光复",
+        "p": "guāng fù",
+        "f": "libère"
+      },
+      {
+        "h": "帝都",
+        "p": "dì dū",
+        "f": "la capitale impériale"
+      },
+      {
+        "h": "百姓",
+        "p": "bǎi xìng",
+        "f": "le peuple"
+      },
+      {
+        "h": "扬眉吐气",
+        "p": "yáng méi tǔ qì",
+        "f": "relève la tête et respire enfin"
+      },
+      {
+        "h": "终于",
+        "p": "zhōng yú",
+        "f": "enfin"
+      },
+      {
+        "h": "等到了",
+        "p": "děng dào le",
+        "f": "on a tant attendu"
+      },
+      {
+        "h": "凯旋之日",
+        "p": "kǎi xuán zhī rì",
+        "f": "le jour du retour triomphal"
+      },
+      {
+        "h": "算是",
+        "p": "suàn shì",
+        "f": "on peut dire que"
+      },
+      {
+        "h": "圆满",
+        "p": "yuán mǎn",
+        "f": "c'est accompli"
+      },
+      {
+        "h": "扬旗",
+        "p": "yáng qí",
+        "f": "elle hisse l'étendard"
+      },
+      {
+        "h": "天下归心",
+        "p": "tiān xià guī xīn",
+        "f": "l'Empire entier se rallie"
+      }
+    ],
+    "ex": [
+      {
+        "q": "Quelle dimension collective ce chapitre ajoute-t-il à la victoire de l'héroïne ?",
+        "o": [
+          "La victoire est purement personnelle",
+          "La libération est ressentie par tout le peuple — 扬眉吐气 est une émotion collective après une oppression longue",
+          "La victoire n'appartient qu'à son armée",
+          "La victoire est symbolique seulement"
+        ],
+        "r": 1
+      },
+      {
+        "q": "Comment 算是 + Verbe clôt-il une longue attente ?",
+        "o": [
+          "Il minimise l'événement",
+          "Il signale que l'événement tant attendu peut enfin être reconnu comme accompli — la clôture après l'effort",
+          "Il exprime le doute",
+          "Il annonce une continuation"
+        ],
+        "r": 1
+      },
+      {
+        "q": "Que signifie 百姓 littéralement et symboliquement ?",
+        "o": [
+          "L'armée impériale",
+          "Les cent noms — la multitude anonyme du peuple ordinaire dont la vie est l'enjeu réel du pouvoir",
+          "Les nobles de la cour",
+          "Les fonctionnaires"
+        ],
+        "r": 1
+      },
+      {
+        "q": "天下归心 — quelle différence entre ce ralliement et une simple capitulation militaire ?",
+        "o": [
+          "Ils sont identiques",
+          "归心signifie que les cœurs se rallient — pas seulement les armées. C'est la légitimité populaire, pas juste la conquête",
+          "La capitulation est plus durable",
+          "天下归心 est plus rapide"
+        ],
+        "r": 1
+      }
+    ]
+  },
+  {
+    "id": 131,
+    "lvl": "HSK4",
+    "les": {
+      "title": "Leçon 131 — L'affrontement avec le Démon (魔道 / 正邪 / 以正克邪)",
+      "gram": "唯独 (wéi dú) = 'seulement lui/elle / la seule exception'. Variante renforcée de 只 — insiste sur l'unicité absolue face à une généralité. Exemple : 所有人都退却，唯独她向前 (Tout le monde recule, elle seule avance). En xianxia, 唯独 est la formule de la destinée singulière — l'héroïne qui fait ce que personne d'autre ne peut ou n'ose faire.",
+      "voc": [
+        {
+          "h": "魔道",
+          "p": "mó dào",
+          "f": "voie démoniaque / chemin du mal",
+          "m": "魔 (démon) + 道 (voie) — la voie qui corrompt et dévore."
+        },
+        {
+          "h": "正邪",
+          "p": "zhèng xié",
+          "f": "le juste et le mauvais / l'ordre et le chaos",
+          "m": "正 (droit/juste) + 邪 (tordu/mauvais) — la dualité fondamentale du cosmos xianxia."
+        },
+        {
+          "h": "以正克邪",
+          "p": "yǐ zhèng kè xié",
+          "f": "vaincre le mal par la justice",
+          "m": "以正 (avec la justice) + 克邪 (surmonter le mal) — le principe du champion de la lumière."
+        },
+        {
+          "h": "唯独",
+          "p": "wéi dú",
+          "f": "seulement lui/elle / la seule exception",
+          "m": "唯 (seulement) + 独 (seul) — l'unicité absolue dans un contexte de généralité."
+        },
+        {
+          "h": "道心",
+          "p": "dào xīn",
+          "f": "cœur de la Voie / intégrité spirituelle",
+          "m": "道 (Voie) + 心 (cœur) — la pureté intérieure qui résiste à la corruption démoniaque."
+        },
+        {
+          "h": "魔化",
+          "p": "mó huà",
+          "f": "être corrompu / devenir démoniaque",
+          "m": "魔 (démon) + 化 (se transformer) — la transformation vers le côté obscur."
+        }
+      ]
+    },
+    "bi": {
+      "type": "chengyu",
+      "title": "正气凛然 (zhèng qì lǐn rán)",
+      "ctx": "Le juste souffle vital impose une aura redoutable. Quand l'intégrité morale est si profonde qu'elle rayonne physiquement — les démons reculent, les corrompus hésitent. En xianxia, 正气 est une puissance réelle : l'héroïne dont le 道心 est pur produit une aura que le 魔道 ne peut franchir. C'est la supériorité du cœur sur la puissance brute."
+    },
+    "st": "所有人都惧怕魔道，唯独她以正克邪。正气凛然——道心坚守，魔化不侵。",
+    "fr_st": "Tout le monde craint la voie démoniaque — elle seule la combat par la justice. Son aura juste est redoutable — son cœur de la Voie tient ferme, la corruption démoniaque ne peut l'atteindre.",
+    "lex": [
+      {
+        "h": "所有人",
+        "p": "suǒ yǒu rén",
+        "f": "tout le monde"
+      },
+      {
+        "h": "都",
+        "p": "dōu",
+        "f": "craint"
+      },
+      {
+        "h": "惧怕",
+        "p": "jù pà",
+        "f": "la voie démoniaque"
+      },
+      {
+        "h": "魔道",
+        "p": "mó dào",
+        "f": "démoniaque"
+      },
+      {
+        "h": "唯独",
+        "p": "wéi dú",
+        "f": "elle seule"
+      },
+      {
+        "h": "她",
+        "p": "tā",
+        "f": "elle"
+      },
+      {
+        "h": "以正克邪",
+        "p": "yǐ zhèng kè xié",
+        "f": "la combat par la justice"
+      },
+      {
+        "h": "正气凛然",
+        "p": "zhèng qì lǐn rán",
+        "f": "son aura juste est redoutable"
+      },
+      {
+        "h": "道心",
+        "p": "dào xīn",
+        "f": "son cœur de la Voie"
+      },
+      {
+        "h": "坚守",
+        "p": "jiān shǒu",
+        "f": "tient ferme"
+      },
+      {
+        "h": "魔化",
+        "p": "mó huà",
+        "f": "la corruption démoniaque"
+      },
+      {
+        "h": "不侵",
+        "p": "bù qīn",
+        "f": "ne peut l'atteindre"
+      }
+    ],
+    "ex": [
+      {
+        "q": "Quelle distinction fondamentale 唯独 établit-il dans ce chapitre ?",
+        "o": [
+          "Elle est la plus forte physiquement",
+          "Elle seule avance là où tout le monde recule — l'unicité de la destinée",
+          "Elle seule connaît le secret",
+          "Elle seule a une armée"
+        ],
+        "r": 1
+      },
+      {
+        "q": "Comment 以正克邪 reflète-t-il le principe cosmique du xianxia ?",
+        "o": [
+          "La force brute triomphe",
+          "La justice et l'intégrité morale constituent une puissance réelle qui peut vaincre le mal",
+          "La magie est la seule solution",
+          "Le nombre détermine la victoire"
+        ],
+        "r": 1
+      },
+      {
+        "q": "Que signifie 道心 comme concept de cultivation ?",
+        "o": [
+          "La technique martiale",
+          "La pureté intérieure et l'intégrité spirituelle qui résiste à la corruption",
+          "La puissance du Qi",
+          "La mémoire des maîtres"
+        ],
+        "r": 1
+      },
+      {
+        "q": "正气凛然 — comment l'intégrité morale devient-elle une arme physique en xianxia ?",
+        "o": [
+          "Par la magie seule",
+          "La pureté intérieure suffisamment profonde rayonne comme une aura qui repousse la corruption démoniaque",
+          "Par l'entraînement seul",
+          "Par les talismans"
+        ],
+        "r": 1
+      }
+    ]
+  },
+  {
+    "id": 132,
+    "lvl": "HSK4",
+    "les": {
+      "title": "Leçon 132 — Le sacrifice du prince (舍命 / 以命换命 / 心碎)",
+      "gram": "哪怕…也罢，哪怕…也罢 (nǎ pà…yě bà, nǎ pà…yě bà) = structure d'acceptation multiple : 'même si A, qu'il en soit ainsi ; même si B, qu'il en soit ainsi'. L'accumulation de 也罢 exprime l'acceptation totale et résignée de toutes les alternatives, si dures soient-elles. C'est la grammaire du sacrifice absolu qui accepte tout.",
+      "voc": [
+        {
+          "h": "舍命",
+          "p": "shě mìng",
+          "f": "sacrifier sa vie / risquer sa vie",
+          "m": "舍 (abandonner) + 命 (vie) — lâcher prise sur sa propre existence."
+        },
+        {
+          "h": "心碎",
+          "p": "xīn suì",
+          "f": "cœur brisé / déchirement",
+          "m": "心 (cœur) + 碎 (brisé en morceaux) — la douleur qui fragmente l'être."
+        },
+        {
+          "h": "割心之痛",
+          "p": "gē xīn zhī tòng",
+          "f": "douleur de se couper le cœur",
+          "m": "割 (couper) + 心 (cœur) + 痛 (douleur) — la souffrance la plus vive."
+        },
+        {
+          "h": "两全其美",
+          "p": "liǎng quán qí měi",
+          "f": "satisfaire les deux parties / concilier le tout",
+          "m": "两全 (tout accompli) + 其美 (sa beauté) — l'idéal impossible à atteindre."
+        },
+        {
+          "h": "非鱼即熊掌",
+          "p": "fēi yú jí xióng zhǎng",
+          "f": "ou le poisson ou la patte d'ours — choix impossible",
+          "m": "非鱼 (pas le poisson) + 即熊掌 (alors la patte d'ours) — l'alternative sans conciliation."
+        },
+        {
+          "h": "天人永隔",
+          "p": "tiān rén yǒng gé",
+          "f": "séparés pour toujours entre Ciel et Terre",
+          "m": "天人 (Ciel et Homme) + 永隔 (séparés éternellement) — la séparation définitive par la mort."
+        }
+      ]
+    },
+    "bi": {
+      "type": "meme",
+      "title": "BE还是HE (BE hái shì HE)",
+      "ctx": "Bad Ending ou Happy Ending ? Question que les lecteurs de romance chinoise se posent avec angoisse à chaque chapitre critique. Un 大女主 bien écrit fait planer cette ambiguïté jusqu'au dernier moment — le sacrifice du prince au Mois 5 déclenche exactement cette terreur collective : est-ce que c'est un BE ? Les auteurs qui répondent 'BE' deviennent des légendes du genre."
+    },
+    "st": "他舍命护她。哪怕天人永隔也罢，哪怕心碎也罢——她不许。两全其美，她来寻。",
+    "fr_st": "Il sacrifie sa vie pour la protéger. Même séparés pour toujours entre Ciel et Terre, qu'il en soit ainsi ; même le cœur brisé, qu'il en soit ainsi — elle refuse. Une issue qui satisfasse les deux, c'est elle qui va la trouver.",
+    "lex": [
+      {
+        "h": "他",
+        "p": "tā",
+        "f": "il"
+      },
+      {
+        "h": "舍命",
+        "p": "shě mìng",
+        "f": "sacrifie sa vie"
+      },
+      {
+        "h": "护",
+        "p": "hù",
+        "f": "pour la protéger"
+      },
+      {
+        "h": "她",
+        "p": "tā",
+        "f": "elle"
+      },
+      {
+        "h": "哪怕",
+        "p": "nǎ pà",
+        "f": "même"
+      },
+      {
+        "h": "天人永隔",
+        "p": "tiān rén yǒng gé",
+        "f": "séparés pour toujours entre Ciel et Terre"
+      },
+      {
+        "h": "也罢",
+        "p": "yě bà",
+        "f": "qu'il en soit ainsi"
+      },
+      {
+        "h": "心碎",
+        "p": "xīn suì",
+        "f": "le cœur brisé"
+      },
+      {
+        "h": "不许",
+        "p": "bù xǔ",
+        "f": "elle refuse"
+      },
+      {
+        "h": "两全其美",
+        "p": "liǎng quán qí měi",
+        "f": "une issue qui satisfasse les deux"
+      },
+      {
+        "h": "来寻",
+        "p": "lái xún",
+        "f": "c'est elle qui va la trouver"
+      }
+    ],
+    "ex": [
+      {
+        "q": "Quel tournant dramatique se produit dans ce chapitre ?",
+        "o": [
+          "Elle le trahit",
+          "Il sacrifie sa vie pour elle — déclenchant son refus total de cette issue",
+          "Il disparaît",
+          "Ils se séparent à l'amiable"
+        ],
+        "r": 1
+      },
+      {
+        "q": "Comment la structure 哪怕…也罢, 哪怕…也罢 exprime-t-elle l'acceptation dans le sacrifice ?",
+        "o": [
+          "Elle exprime le refus",
+          "L'accumulation de 也罢 signifie qu'il accepte toutes les alternatives difficiles — la résignation totale",
+          "Elle exprime la joie",
+          "Elle exprime l'hésitation"
+        ],
+        "r": 1
+      },
+      {
+        "q": "Que signifie 天人永隔 dans le contexte de la mort ?",
+        "o": [
+          "Une séparation temporaire",
+          "La séparation définitive et éternelle par la mort — entre le monde des vivants et celui des morts",
+          "Une absence stratégique",
+          "Un voyage lointain"
+        ],
+        "r": 1
+      },
+      {
+        "q": "BE還是HE — pourquoi ce moment de sacrifice est-il narrativement le plus puissant d'un slow burn ?",
+        "o": [
+          "Parce qu'il est dramatique",
+          "Parce qu'il force l'héroïne à admettre ce qu'elle ressentait en le refusant avec une énergie absolue",
+          "Parce qu'il est inattendu",
+          "Parce qu'il révèle l'ennemi"
+        ],
+        "r": 1
+      }
+    ]
+  },
+  {
+    "id": 133,
+    "lvl": "HSK4",
+    "les": {
+      "title": "Leçon 133 — La résurrection de l'amour (死而复生 / 劫后余生 / 相见恨晚)",
+      "gram": "庆幸 (qìng xìng) = 'être heureux que / se féliciter de'. Exprime le soulagement et la joie rétrospective devant une issue favorable qui aurait pu être catastrophique. Exemple : 庆幸他还活着 (Je me félicite qu'il soit encore en vie). Souvent associé à 万幸 (wàn xìng) = 'par chance / heureusement' — le soulagement décuplé.",
+      "voc": [
+        {
+          "h": "劫后余生",
+          "p": "jié hòu yú shēng",
+          "f": "survivre à la catastrophe / rescapé de l'épreuve",
+          "m": "劫后 (après la catastrophe) + 余生 (vie restante) — la vie qui subsiste après avoir frôlé la mort."
+        },
+        {
+          "h": "相见恨晚",
+          "p": "xiāng jiàn hèn wǎn",
+          "f": "regretter de ne pas s'être rencontrés plus tôt",
+          "m": "相见 (se voir) + 恨晚 (regretter la tardiveté) — la tristesse de découvrir trop tard quelqu'un d'exceptionnel."
+        },
+        {
+          "h": "庆幸",
+          "p": "qìng xìng",
+          "f": "se féliciter de / être heureux que",
+          "m": "庆 (célébrer) + 幸 (chance) — la joie de la chance qui a évité le pire."
+        },
+        {
+          "h": "万幸",
+          "p": "wàn xìng",
+          "f": "par chance / heureusement (décuplé)",
+          "m": "万 (dix mille) + 幸 (chance) — la chance absolue, décuplée."
+        },
+        {
+          "h": "此生有你",
+          "p": "cǐ shēng yǒu nǐ",
+          "f": "dans cette vie, tu es là / avoir toi dans cette vie",
+          "m": "此生 (cette vie) + 有你 (tu y es) — la complétude de ta présence dans ma vie."
+        },
+        {
+          "h": "余生请多指教",
+          "p": "yú shēng qǐng duō zhǐ jiào",
+          "f": "pour le reste de ma vie, guide-moi",
+          "m": "余生 (vie restante) + 请多指教 (formule humble de demande) — la demande de partager le reste de la vie."
+        }
+      ]
+    },
+    "bi": {
+      "type": "meme",
+      "title": "余生请多指教 (yú shēng qǐng duō zhǐ jiào)",
+      "ctx": "Pour le reste de ma vie, veuillez bien me guider. Formule de politesse japonaise devenue déclaration d'amour dans les romances chinese et j-dramas. Quand quelqu'un dit 余生请多指教 à l'autre dans le contexte romantique, c'est l'équivalent de 'je veux passer le reste de ma vie avec toi'. Simple, humble, et absolument dévastateur en contexte."
+    },
+    "st": "劫后余生。庆幸他还活着——万幸！她说：相见恨晚。他说：余生请多指教。此生有你，已足够。",
+    "fr_st": "Rescapés de la catastrophe. Elle se félicite qu'il soit encore en vie — par chance, un miracle ! Elle dit : je regrette que nous ne nous soyons pas rencontrés plus tôt. Il dit : pour le reste de ma vie, guide-moi. T'avoir dans cette vie suffit.",
+    "lex": [
+      {
+        "h": "劫后余生",
+        "p": "jié hòu yú shēng",
+        "f": "rescapés de la catastrophe"
+      },
+      {
+        "h": "庆幸",
+        "p": "qìng xìng",
+        "f": "elle se félicite"
+      },
+      {
+        "h": "他",
+        "p": "tā",
+        "f": "qu'il"
+      },
+      {
+        "h": "还活着",
+        "p": "hái huó zhe",
+        "f": "soit encore en vie"
+      },
+      {
+        "h": "万幸",
+        "p": "wàn xìng",
+        "f": "par chance un miracle"
+      },
+      {
+        "h": "她",
+        "p": "tā",
+        "f": "elle"
+      },
+      {
+        "h": "说",
+        "p": "shuō",
+        "f": "dit"
+      },
+      {
+        "h": "相见恨晚",
+        "p": "xiāng jiàn hèn wǎn",
+        "f": "je regrette que nous ne nous soyons pas rencontrés plus tôt"
+      },
+      {
+        "h": "余生请多指教",
+        "p": "yú shēng qǐng duō zhǐ jiào",
+        "f": "pour le reste de ma vie guide-moi"
+      },
+      {
+        "h": "此生有你",
+        "p": "cǐ shēng yǒu nǐ",
+        "f": "t'avoir dans cette vie"
+      },
+      {
+        "h": "已足够",
+        "p": "yǐ zú gòu",
+        "f": "suffit"
+      }
+    ],
+    "ex": [
+      {
+        "q": "Quelle émotion double domine les retrouvailles après le sacrifice dans ce chapitre ?",
+        "o": [
+          "La colère et le soulagement",
+          "Le soulagement de sa survie et le regret de tout le temps perdu — 庆幸 et 相见恨晚",
+          "La joie pure",
+          "La méfiance"
+        ],
+        "r": 1
+      },
+      {
+        "q": "Comment 庆幸 et 万幸 se renforcent-ils mutuellement ?",
+        "o": [
+          "Ils s'opposent",
+          "庆幸 exprime la joie rétrospective ; 万幸 l'intensifie décuplée — ensemble ils expriment un soulagement immense",
+          "Ils sont redondants",
+          "万幸 minimise 庆幸"
+        ],
+        "r": 1
+      },
+      {
+        "q": "Que signifie 相见恨晚 dans le contexte romantique du slow burn ?",
+        "o": [
+          "Ils se sont rencontrés au bon moment",
+          "Ils regrettent tout le temps perdu en ne se comprenant pas plus tôt — la mélancolie de la tardiveté",
+          "Ils ne veulent pas se voir",
+          "Ils se rencontrent trop tard pour s'aimer"
+        ],
+        "r": 1
+      },
+      {
+        "q": "余生请多指教 — pourquoi cette formule humble est-elle une déclaration d'amour si puissante ?",
+        "o": [
+          "Parce qu'elle est formelle",
+          "Sa simplicité et son humilité rendent la demande de partager le reste de la vie encore plus touchante",
+          "Parce qu'elle est poétique",
+          "Parce qu'elle vient du Japon"
+        ],
+        "r": 1
+      },
+      {
+        "q": "庆幸 vs 万幸 — dans quel contexte préfère-t-on 万幸 ?",
+        "o": [
+          "Quand on est indifférent",
+          "Quand le soulagement est décuplé — on a frôlé de très près la catastrophe absolue",
+          "Quand la situation est ordinaire",
+          "Quand on exprime la politesse"
+        ],
+        "r": 1
+      },
+      {
+        "q": "此生有你，已足够 — quelle philosophie du bonheur cette formule exprime-t-elle ?",
+        "o": [
+          "L'accumulation de biens",
+          "La suffisance de la présence — ta présence dans ma vie suffit à tout le reste",
+          "Le sacrifice total",
+          "L'indépendance absolue"
+        ],
+        "r": 1
+      }
+    ]
+  },
+  {
+    "id": 134,
+    "lvl": "HSK4",
+    "les": {
+      "title": "Leçon 134 — La marche finale (最后一战 / 决一雌雄 / 殊死搏斗)",
+      "gram": "此去 (cǐ qù) = 'ce départ / partir maintenant' (littéraire). Souvent en tête de phrase pour introduire une action de départ chargée d'émotion : 此去经年 (À partir de maintenant, des années s'écouleront). Structure : 此去 + Destination + Résultat attendu. Le registre est épique — 此去 présuppose que le départ est important, peut-être irréversible.",
+      "voc": [
+        {
+          "h": "最后一战",
+          "p": "zuì hòu yī zhàn",
+          "f": "le dernier combat / le combat final",
+          "m": "最后 (dernier) + 一战 (un combat) — le combat qui tranche définitivement."
+        },
+        {
+          "h": "决一雌雄",
+          "p": "jué yī cí xióng",
+          "f": "trancher le masculin et le féminin / décider qui domine",
+          "m": "决 (décision) + 一 (un) + 雌雄 (femelle et mâle) — le duel final qui détermine le dominant."
+        },
+        {
+          "h": "殊死搏斗",
+          "p": "shū sǐ bó dòu",
+          "f": "combat à mort / lutte désespérée",
+          "m": "殊死 (combat mortel) + 搏斗 (lutte) — le combat où l'on risque absolument tout."
+        },
+        {
+          "h": "此去",
+          "p": "cǐ qù",
+          "f": "ce départ / partir maintenant (épique)",
+          "m": "此 (ce/présent) + 去 (partir) — le départ chargé d'une gravité historique."
+        },
+        {
+          "h": "凯歌",
+          "p": "kǎi gē",
+          "f": "chant de victoire / hymne triomphal",
+          "m": "凯 (victoire) + 歌 (chant) — la chanson qui annonce le retour vainqueur."
+        },
+        {
+          "h": "若无归期",
+          "p": "ruò wú guī qī",
+          "f": "si l'on ne revient pas",
+          "m": "若 (si) + 无 (sans) + 归期 (date de retour) — l'éventualité de ne pas revenir."
+        }
+      ]
+    },
+    "bi": {
+      "type": "chengyu",
+      "title": "此去一别，生死两茫茫 (cǐ qù yī bié, shēng sǐ liǎng máng máng)",
+      "ctx": "Ce départ, une séparation — vie et mort dans l'immensité floue. Adaptation de Su Shi (江城子·乙卯正月二十日夜记梦). L'incertitude absolue du retour face à une mission potentiellement mortelle. L'héroïne qui marche vers le combat final avec le 魔帝 incarne ce moment : elle part, et nul ne peut dire avec certitude ce qui reviendra."
+    },
+    "st": "此去最后一战。决一雌雄，殊死搏斗——若无归期，凯歌也要唱响。她走，无所畏惧。",
+    "fr_st": "Ce départ vers le combat final. Trancher qui domine, lutte à mort — même si l'on ne revient pas, le chant de victoire doit résonner. Elle part, sans rien craindre.",
+    "lex": [
+      {
+        "h": "此去",
+        "p": "cǐ qù",
+        "f": "ce départ vers"
+      },
+      {
+        "h": "最后一战",
+        "p": "zuì hòu yī zhàn",
+        "f": "le combat final"
+      },
+      {
+        "h": "决一雌雄",
+        "p": "jué yī cí xióng",
+        "f": "trancher qui domine"
+      },
+      {
+        "h": "殊死搏斗",
+        "p": "shū sǐ bó dòu",
+        "f": "lutte à mort"
+      },
+      {
+        "h": "若无归期",
+        "p": "ruò wú guī qī",
+        "f": "même si l'on ne revient pas"
+      },
+      {
+        "h": "凯歌",
+        "p": "kǎi gē",
+        "f": "le chant de victoire"
+      },
+      {
+        "h": "也要",
+        "p": "yě yào",
+        "f": "doit quand même"
+      },
+      {
+        "h": "唱响",
+        "p": "chàng xiǎng",
+        "f": "résonner"
+      },
+      {
+        "h": "她",
+        "p": "tā",
+        "f": "elle"
+      },
+      {
+        "h": "走",
+        "p": "zǒu",
+        "f": "part"
+      },
+      {
+        "h": "无所畏惧",
+        "p": "wú suǒ wèi jù",
+        "f": "sans rien craindre"
+      }
+    ],
+    "ex": [
+      {
+        "q": "Quel registre émotionnel 此去 établit-il dès l'ouverture de ce chapitre ?",
+        "o": [
+          "La routine",
+          "L'épique et le solennel — ce départ est historique, peut-être irréversible",
+          "La légèreté",
+          "L'urgence tactique"
+        ],
+        "r": 1
+      },
+      {
+        "q": "Que signifie 决一雌雄 au-delà du sens littéral ?",
+        "o": [
+          "Un combat entre femme et homme",
+          "Le duel final qui détermine lequel des deux adversaires domine — la confrontation décisive",
+          "Un tournoi sportif",
+          "Un débat politique"
+        ],
+        "r": 1
+      },
+      {
+        "q": "Comment 若无归期 et 凯歌也要唱响 se complètent-ils dans la logique héroïque ?",
+        "o": [
+          "Ils se contredisent",
+          "La victoire doit être proclamée même si on ne revient pas — la mission dépasse la survie personnelle",
+          "Ils expriment la peur",
+          "Ils expriment l'incertitude"
+        ],
+        "r": 1
+      },
+      {
+        "q": "此去一别，生死两茫茫 — quelle émotion cette adaptation de Su Shi capture-t-elle ?",
+        "o": [
+          "La certitude du retour",
+          "L'incertitude absolue et mélancolique face à un départ potentiellement définitif",
+          "La joie du départ",
+          "La colère contre l'ennemi"
+        ],
+        "r": 1
+      }
+    ]
+  },
+  {
+    "id": 135,
+    "lvl": "HSK4",
+    "les": {
+      "title": "Leçon 135 — L'affrontement cosmique (天地之战 / 翻天覆地 / 道魔之争)",
+      "gram": "千钧之力 (qiān jūn zhī lì) = 'la force de mille catties'. Construction littéraire de mesure hyperbolique — Verbe + 千钧之力 comme objet de force. Mais la structure grammaticale clé est : 以…之力 (yǐ…zhī lì) = 'avec la force de / par la puissance de'. Structure formelle pour qualifier la source de puissance d'une action. Exemple : 以一己之力，撑起苍天 (Par la force d'une seule personne, soutenir le ciel).",
+      "voc": [
+        {
+          "h": "翻天覆地",
+          "p": "fān tiān fù dì",
+          "f": "bouleverser le Ciel et la Terre / renversement cosmique",
+          "m": "翻天 (retourner le Ciel) + 覆地 (bouleverser la Terre) — le changement qui ébranle l'ordre universel."
+        },
+        {
+          "h": "道魔之争",
+          "p": "dào mó zhī zhēng",
+          "f": "le conflit entre la Voie et le Démon",
+          "m": "道 (Voie) + 魔 (Démon) + 之争 (conflit) — la guerre cosmique entre l'ordre et le chaos."
+        },
+        {
+          "h": "以一己之力",
+          "p": "yǐ yī jǐ zhī lì",
+          "f": "par la force d'une seule personne",
+          "m": "以 (avec) + 一己 (un seul soi) + 之力 (la force) — l'exploit solitaire contre l'impossible."
+        },
+        {
+          "h": "撑住",
+          "p": "chēng zhù",
+          "f": "soutenir / tenir / ne pas laisser s'effondrer",
+          "m": "撑 (soutenir par la force) + 住 (tenir) — le geste héroïque qui empêche l'effondrement."
+        },
+        {
+          "h": "苍天",
+          "p": "cāng tiān",
+          "f": "le ciel bleu / le Ciel cosmique",
+          "m": "苍 (bleu-gris profond) + 天 (ciel) — le Ciel dans sa dimension cosmique et morale."
+        },
+        {
+          "h": "毁天灭地",
+          "p": "huǐ tiān miè dì",
+          "f": "détruire le Ciel et anéantir la Terre",
+          "m": "毁天 (détruire le Ciel) + 灭地 (anéantir la Terre) — la menace apocalyptique absolue."
+        }
+      ]
+    },
+    "bi": {
+      "type": "chengyu",
+      "title": "以一当百 (yǐ yī dāng bǎi)",
+      "ctx": "Un seul en valoir cent. La supériorité qualitative absolue qui compense l'infériorité numérique. Dans l'affrontement cosmique contre le 魔帝, l'héroïne n'a pas d'armée capable de suivre — elle affronte 毁天灭地 avec 以一己之力. Ce n'est pas de l'arrogance : c'est la logique de la destinée singulière du 大女主."
+    },
+    "st": "道魔之争，翻天覆地。她以一己之力撑住苍天。魔帝毁天灭地——以一当百，她独撑。",
+    "fr_st": "Le conflit entre la Voie et le Démon bouleverse le Ciel et la Terre. Par la force d'une seule personne, elle soutient le ciel cosmique. L'Empereur Démoniaque cherche à tout anéantir — un seul en valant cent, elle soutient seule.",
+    "lex": [
+      {
+        "h": "道魔之争",
+        "p": "dào mó zhī zhēng",
+        "f": "le conflit entre la Voie et le Démon"
+      },
+      {
+        "h": "翻天覆地",
+        "p": "fān tiān fù dì",
+        "f": "bouleverse le Ciel et la Terre"
+      },
+      {
+        "h": "她",
+        "p": "tā",
+        "f": "elle"
+      },
+      {
+        "h": "以一己之力",
+        "p": "yǐ yī jǐ zhī lì",
+        "f": "par la force d'une seule personne"
+      },
+      {
+        "h": "撑住",
+        "p": "chēng zhù",
+        "f": "soutient"
+      },
+      {
+        "h": "苍天",
+        "p": "cāng tiān",
+        "f": "le ciel cosmique"
+      },
+      {
+        "h": "魔帝",
+        "p": "mó dì",
+        "f": "l'Empereur Démoniaque"
+      },
+      {
+        "h": "毁天灭地",
+        "p": "huǐ tiān miè dì",
+        "f": "cherche à tout anéantir"
+      },
+      {
+        "h": "以一当百",
+        "p": "yǐ yī dāng bǎi",
+        "f": "un seul en valant cent"
+      },
+      {
+        "h": "独撑",
+        "p": "dú chēng",
+        "f": "elle soutient seule"
+      }
+    ],
+    "ex": [
+      {
+        "q": "Quelle est l'échelle de l'affrontement dans ce chapitre ?",
+        "o": [
+          "Un combat personnel",
+          "Un combat cosmique qui ébranle l'ordre universel lui-même",
+          "Une bataille militaire",
+          "Un duel politique"
+        ],
+        "r": 1
+      },
+      {
+        "q": "Comment 以一己之力 élève-t-il l'exploit au niveau mythique ?",
+        "o": [
+          "Il souligne sa faiblesse",
+          "Il exprime que ce que nul autre ne pourrait accomplir à plusieurs, elle le fait seule — la destinée singulière",
+          "Il exprime sa méthode",
+          "Il annonce une aide extérieure"
+        ],
+        "r": 1
+      },
+      {
+        "q": "Que signifie 撑住 dans le contexte cosmique ?",
+        "o": [
+          "Fuir en tenant bon",
+          "Soutenir par la force ce qui s'effondrerait sans elle — le geste héroïque qui empêche l'apocalypse",
+          "Attaquer en tenant la ligne",
+          "Se défendre en reculant"
+        ],
+        "r": 1
+      },
+      {
+        "q": "以一当百 — quel paradoxe cette expression résout-elle pour l'héroïne face au 魔帝 ?",
+        "o": [
+          "Elle a une grande armée",
+          "Face à une puissance infinie, la qualité singulière de l'héroïne compense l'impossibilité numérique",
+          "Elle est aidée par des alliés",
+          "Elle utilise une ruse"
+        ],
+        "r": 1
+      }
+    ]
+  },
+  {
+    "id": 136,
+    "lvl": "HSK4",
+    "les": {
+      "title": "Leçon 136 — Le point de non-retour (孤注一掷 / 背水 / 鱼死网破)",
+      "gram": "管他 (guǎn tā) = 'peu importe ce que c'est / je m'en fiche de'. Familier mais expressif — s'emploie quand on décide de tout ignorer pour se concentrer sur l'essentiel. 管他三七二十一 = 'peu importe les calculs (3×7=21) — on fonce'. Cette formule marque l'abandon de la prudence stratégique pour l'engagement total.",
+      "voc": [
+        {
+          "h": "孤注一掷",
+          "p": "gū zhù yī zhì",
+          "f": "tout miser sur un seul coup",
+          "m": "孤注 (mise solitaire) + 一掷 (un seul lancer) — le pari total, sans filet."
+        },
+        {
+          "h": "鱼死网破",
+          "p": "yú sǐ wǎng pò",
+          "f": "ou le poisson meurt ou le filet se déchire",
+          "m": "鱼死 (poisson mort) + 网破 (filet brisé) — le combat à mort où les deux parties risquent tout."
+        },
+        {
+          "h": "管他",
+          "p": "guǎn tā",
+          "f": "peu importe / je m'en fiche de",
+          "m": "管 (s'occuper de) + 他 (ça/lui) — rejeter toute considération secondaire."
+        },
+        {
+          "h": "破釜",
+          "p": "pò fǔ",
+          "f": "briser les marmites / couper les ponts",
+          "m": "破 (briser) + 釜 (marmite) — éliminer toute possibilité de retraite."
+        },
+        {
+          "h": "壮志凌云",
+          "p": "zhuàng zhì líng yún",
+          "f": "ambition qui touche les nuages",
+          "m": "壮志 (ambition héroïque) + 凌云 (dominer les nuages) — l'aspiration qui dépasse l'horizon."
+        },
+        {
+          "h": "此战必胜",
+          "p": "cǐ zhàn bì shèng",
+          "f": "ce combat doit être victorieux",
+          "m": "此战 (ce combat) + 必胜 (nécessairement victorieux) — la certitude de la victoire comme état d'esprit."
+        }
+      ]
+    },
+    "bi": {
+      "type": "chengyu",
+      "title": "孤注一掷 (gū zhù yī zhì)",
+      "ctx": "Tout miser sur un seul lancer de dés. Le pari total — quand on n'a plus rien à perdre et que tout dépend d'un seul coup. Ce moment de 孤注一掷 est le climax du Mois 5 : l'héroïne concentre toute son énergie, toute sa puissance accumulée en un seul moment. Gagner ou périr — il n'y a plus d'entre-deux."
+    },
+    "st": "管他结果如何，孤注一掷。鱼死网破——此战必胜，壮志凌云。破釜，她全力出击。",
+    "fr_st": "Peu importe le résultat, tout miser sur un seul coup. Ou le poisson meurt ou le filet se déchire — ce combat doit être victorieux, une ambition qui touche les nuages. Briser les marmites — elle attaque avec toutes ses forces.",
+    "lex": [
+      {
+        "h": "管他",
+        "p": "guǎn tā",
+        "f": "peu importe"
+      },
+      {
+        "h": "结果如何",
+        "p": "jié guǒ rú hé",
+        "f": "le résultat"
+      },
+      {
+        "h": "孤注一掷",
+        "p": "gū zhù yī zhì",
+        "f": "tout miser sur un seul coup"
+      },
+      {
+        "h": "鱼死网破",
+        "p": "yú sǐ wǎng pò",
+        "f": "ou le poisson meurt ou le filet se déchire"
+      },
+      {
+        "h": "此战必胜",
+        "p": "cǐ zhàn bì shèng",
+        "f": "ce combat doit être victorieux"
+      },
+      {
+        "h": "壮志凌云",
+        "p": "zhuàng zhì líng yún",
+        "f": "une ambition qui touche les nuages"
+      },
+      {
+        "h": "破釜",
+        "p": "pò fǔ",
+        "f": "briser les marmites"
+      },
+      {
+        "h": "她",
+        "p": "tā",
+        "f": "elle"
+      },
+      {
+        "h": "全力出击",
+        "p": "quán lì chū jī",
+        "f": "attaque avec toutes ses forces"
+      }
+    ],
+    "ex": [
+      {
+        "q": "Quel état d'esprit 管他 révèle-t-il dans ce moment de climax ?",
+        "o": [
+          "La prudence calculée",
+          "L'abandon de toute considération secondaire — on fonce sans calcul",
+          "La peur",
+          "Le doute stratégique"
+        ],
+        "r": 1
+      },
+      {
+        "q": "Que signifie 鱼死网破 comme métaphore du combat final ?",
+        "o": [
+          "Un combat facile",
+          "Un combat où les deux parties risquent tout — pas de victoire propre, seulement la destruction mutuelle ou l'une des deux",
+          "Un combat injuste",
+          "Un combat symbolique"
+        ],
+        "r": 1
+      },
+      {
+        "q": "Comment 孤注一掷 diffère-t-il de 背水一战 comme attitude de pari total ?",
+        "o": [
+          "Ils sont identiques",
+          "背水一战 = position sans retraite choisie tactiquement ; 孤注一掷 = mise de tout sur un seul coup de dés, plus impulsif",
+          "孤注一掷 est plus calculé",
+          "背水一战 est plus désespéré"
+        ],
+        "r": 1
+      },
+      {
+        "q": "壮志凌云 — comment cette image de l'ambition qui touche les nuages justifie-t-elle le risque total ?",
+        "o": [
+          "Elle ne le justifie pas",
+          "Quand l'ambition atteint ce niveau cosmique, le risque total est la seule réponse proportionnée à l'enjeu",
+          "Elle l'interdit",
+          "Elle le minimise"
+        ],
+        "r": 1
+      }
+    ]
+  },
+  {
+    "id": 137,
+    "lvl": "HSK4",
+    "les": {
+      "title": "Leçon 137 — Tribulation XIII — L'Œil du Typhon (Révision J128–136)",
+      "gram": "TRIBULATION : Révision des jours 128 à 136. Structures consolidées : 唯有…才能, 唯独, 哪怕…也罢/也罢, 此去(littéraire), 以…之力, 管他, 其实. Ce bloc concentre les structures du sacrifice, de l'affrontement cosmique et de l'engagement total.",
+      "voc": [
+        {
+          "h": "力挽狂澜",
+          "p": "lì wǎn kuáng lán",
+          "f": "enrayer la vague déchaînée",
+          "m": "力 (force) + 挽 (enrayer) + 狂澜 (vague déchaînée) — retenir l'effondrement par la force pure."
+        },
+        {
+          "h": "九死一生",
+          "p": "jiǔ sǐ yī shēng",
+          "f": "neuf morts pour une survie",
+          "m": "九死 (neuf morts) + 一生 (une vie) — survivre à ce qui aurait dû être fatal."
+        },
+        {
+          "h": "置之死地",
+          "p": "zhì zhī sǐ dì",
+          "f": "se placer dans une position mortelle",
+          "m": "置 (placer) + 之 (cela) + 死地 (terrain de mort) — s'exposer volontairement au danger extrême."
+        },
+        {
+          "h": "哀兵必胜",
+          "p": "āi bīng bì shèng",
+          "f": "l'armée du deuil vaincra toujours",
+          "m": "哀兵 (soldats du deuil) + 必胜 (victoire certaine) — ceux qui combattent pour la survie avec le dos au mur."
+        },
+        {
+          "h": "气吞斗牛",
+          "p": "qì tūn dǒu niú",
+          "f": "souffle qui avale les constellations",
+          "m": "气 (souffle) + 吞 (avaler) + 斗牛 (constellation du Bouvier et du Taureau) — l'aura qui absorbe le cosmos."
+        },
+        {
+          "h": "超凡入圣",
+          "p": "chāo fán rù shèng",
+          "f": "transcender le commun et entrer dans le sacré",
+          "m": "超凡 (dépasser l'ordinaire) + 入圣 (entrer dans le sacré) — l'ascension au-delà de la limite humaine."
+        }
+      ]
+    },
+    "bi": {
+      "type": "chengyu",
+      "title": "九死一生 (jiǔ sǐ yī shēng)",
+      "ctx": "Neuf morts pour une survie. Survivre à ce qui statistiquement aurait dû être fatal — non pas une fois, mais de façon répétée. Qu'on appelle 九死一生 également la vie de l'héroïne jusqu'au Mois 5 : chaque fois qu'elle était censée mourir, elle a survécu et s'est renforcée. Cette survie répétée n'est pas de la chance — c'est la logique de la destinée du 大女主."
+    },
+    "st": "此战九死一生。唯独她以一己之力，力挽狂澜。哪怕置之死地也罢，哪怕九死也罢——唯有置死地，才能超凡入圣。其实，她的气吞斗牛，早已无敌。管他魔帝多强，哀兵必胜。",
+    "fr_st": "Ce combat est à neuf morts pour une survie. Elle seule, par sa seule force, enraye la vague déchaînée. Même se placer dans une position mortelle, qu'il en soit ainsi — seul l'extrême danger permet de transcender le sacré. En fait, son aura qui avale les constellations est déjà invincible depuis longtemps. Peu importe la puissance du Démon — l'armée du deuil vaincra.",
+    "lex": [
+      {
+        "h": "此战",
+        "p": "cǐ zhàn",
+        "f": "ce combat"
+      },
+      {
+        "h": "九死一生",
+        "p": "jiǔ sǐ yī shēng",
+        "f": "à neuf morts pour une survie"
+      },
+      {
+        "h": "唯独",
+        "p": "wéi dú",
+        "f": "elle seule"
+      },
+      {
+        "h": "她",
+        "p": "tā",
+        "f": "elle"
+      },
+      {
+        "h": "以一己之力",
+        "p": "yǐ yī jǐ zhī lì",
+        "f": "par sa seule force"
+      },
+      {
+        "h": "力挽狂澜",
+        "p": "lì wǎn kuáng lán",
+        "f": "enraye la vague déchaînée"
+      },
+      {
+        "h": "哪怕",
+        "p": "nǎ pà",
+        "f": "même"
+      },
+      {
+        "h": "置之死地",
+        "p": "zhì zhī sǐ dì",
+        "f": "se placer dans une position mortelle"
+      },
+      {
+        "h": "也罢",
+        "p": "yě bà",
+        "f": "qu'il en soit ainsi"
+      },
+      {
+        "h": "唯有",
+        "p": "wéi yǒu",
+        "f": "seul"
+      },
+      {
+        "h": "置死地",
+        "p": "zhì sǐ dì",
+        "f": "l'extrême danger"
+      },
+      {
+        "h": "才能",
+        "p": "cái néng",
+        "f": "permet de"
+      },
+      {
+        "h": "超凡入圣",
+        "p": "chāo fán rù shèng",
+        "f": "transcender le sacré"
+      },
+      {
+        "h": "其实",
+        "p": "qí shí",
+        "f": "en fait"
+      },
+      {
+        "h": "的",
+        "p": "de",
+        "f": "(qualification)"
+      },
+      {
+        "h": "气吞斗牛",
+        "p": "qì tūn dǒu niú",
+        "f": "son aura qui avale les constellations"
+      },
+      {
+        "h": "早已无敌",
+        "p": "zǎo yǐ wú dí",
+        "f": "est déjà invincible depuis longtemps"
+      },
+      {
+        "h": "管他",
+        "p": "guǎn tā",
+        "f": "peu importe"
+      },
+      {
+        "h": "魔帝多强",
+        "p": "mó dì duō qiáng",
+        "f": "la puissance du Démon"
+      },
+      {
+        "h": "哀兵必胜",
+        "p": "āi bīng bì shèng",
+        "f": "l'armée du deuil vaincra"
+      }
+    ],
+    "ex": [
+      {
+        "q": "Comment 唯有置死地，才能超凡入圣 reformule-t-il la logique du sacrifice dans le xianxia ?",
+        "o": [
+          "Le danger doit être évité",
+          "Seul l'affrontement de l'extrême permet de transcender les limites humaines — le danger est la condition de l'ascension",
+          "Le sacrifice suffit seul",
+          "La victoire vient sans risque"
+        ],
+        "r": 1
+      },
+      {
+        "q": "Identifiez 哪怕…也罢 répété dans ce chapitre et son effet d'accumulation.",
+        "o": [
+          "哀兵必胜",
+          "哪怕置之死地也罢 — l'acceptation répétée de toutes les alternatives mortelles crée un effet de résolution absolue",
+          "其实，她的气吞斗牛",
+          "管他魔帝多强"
+        ],
+        "r": 1
+      },
+      {
+        "q": "管他 dans 管他魔帝多强 — quel changement d'attitude ce marqueur signale-t-il ?",
+        "o": [
+          "La peur maîtrisée",
+          "L'abandon de toute évaluation comparative — la puissance de l'ennemi n'est plus pertinente",
+          "L'ignorance du danger",
+          "La sous-estimation de l'ennemi"
+        ],
+        "r": 1
+      },
+      {
+        "q": "哀兵必胜 — quel principe psychologique de combat ce chengyu exprime-t-il ?",
+        "o": [
+          "La tristesse affaiblit les soldats",
+          "Ceux qui combattent pour leur survie avec tout à perdre développent une énergie inarrêtable",
+          "Les soldats en deuil perdent leur sang-froid",
+          "La victoire vient toujours aux plus forts"
+        ],
+        "r": 1
+      },
+      {
+        "q": "九死一生 comme description de la vie de l'héroïne — quelle logique narrative révèle-t-elle ?",
+        "o": [
+          "Elle a de la chance",
+          "Sa survie répétée à l'improbable n'est pas de la chance — c'est la logique de la destinée singulière",
+          "Elle est protégée par magie",
+          "Elle évite toujours le danger"
+        ],
+        "r": 1
+      },
+      {
+        "q": "气吞斗牛 — quelle dimension cosmique ajoute l'image des constellations à la description de l'aura ?",
+        "o": [
+          "Elle est très grande",
+          "L'aura de l'héroïne a dépassé l'échelle humaine pour atteindre l'échelle astronomique",
+          "Elle brille dans le noir",
+          "Elle impressionne les ennemis"
+        ],
+        "r": 1
+      }
+    ]
+  },
+  {
+    "id": 138,
+    "lvl": "HSK4",
+    "les": {
+      "title": "Leçon 138 — La percée finale (突破天关 / 化境 / 无上境界)",
+      "gram": "臻于 (zhēn yú) = 'atteindre / parvenir à (un niveau de perfection)'. Verbe littéraire et formel. 臻于完美 = atteindre la perfection. 臻于化境 = atteindre le niveau de la transformation absolue. La structure 臻于 + État idéal décrit l'atteinte d'un niveau que l'on cherchait depuis le début — le point culminant d'une trajectoire.",
+      "voc": [
+        {
+          "h": "突破天关",
+          "p": "tū pò tiān guān",
+          "f": "percer la barrière céleste / transcender la limite divine",
+          "m": "突破 (percer) + 天关 (barrière du Ciel) — briser le plafond cosmique de la cultivation."
+        },
+        {
+          "h": "化境",
+          "p": "huà jìng",
+          "f": "niveau de la transformation / maîtrise absolue",
+          "m": "化 (transformation) + 境 (niveau/royaume) — l'état où l'art devient nature."
+        },
+        {
+          "h": "无上境界",
+          "p": "wú shàng jìng jiè",
+          "f": "niveau suprême / au-delà de toute limite",
+          "m": "无上 (sans au-dessus) + 境界 (niveau de maîtrise) — le sommet absolu."
+        },
+        {
+          "h": "臻于",
+          "p": "zhēn yú",
+          "f": "atteindre / parvenir à (niveau de perfection)",
+          "m": "臻 (atteindre la cime) + 于 (à) — parvenir à un état idéal longtemps cherché."
+        },
+        {
+          "h": "破天",
+          "p": "pò tiān",
+          "f": "percer le Ciel / transcender l'ordre cosmique",
+          "m": "破 (briser) + 天 (Ciel) — aller au-delà de ce que le Ciel imposait comme limite."
+        },
+        {
+          "h": "天地同寿",
+          "p": "tiān dì tóng shòu",
+          "f": "vivre aussi longtemps que le Ciel et la Terre",
+          "m": "天地 (Ciel et Terre) + 同寿 (même longévité) — l'immortalité cosmique."
+        }
+      ]
+    },
+    "bi": {
+      "type": "chengyu",
+      "title": "登峰造极，臻于化境 (dēng fēng zào jí, zhēn yú huà jìng)",
+      "ctx": "Atteindre le sommet absolu, parvenir au niveau de la transformation. La double formule de l'accomplissement ultime en cultivation xianxia : 登峰造极 décrit le sommet de la technique, 臻于化境 décrit l'état où la technique disparaît dans la nature. L'héroïne qui brise la barrière céleste n'a plus de technique — elle est la technique."
+    },
+    "st": "她突破天关。臻于化境——无上境界，登峰造极。她破天，天地同寿可期。",
+    "fr_st": "Elle perce la barrière céleste. Elle atteint le niveau de la transformation — niveau suprême, sommet absolu. Elle transcende le Ciel — l'immortalité cosmique est en vue.",
+    "lex": [
+      {
+        "h": "她",
+        "p": "tā",
+        "f": "elle"
+      },
+      {
+        "h": "突破天关",
+        "p": "tū pò tiān guān",
+        "f": "perce la barrière céleste"
+      },
+      {
+        "h": "臻于化境",
+        "p": "zhēn yú huà jìng",
+        "f": "atteint le niveau de la transformation"
+      },
+      {
+        "h": "无上境界",
+        "p": "wú shàng jìng jiè",
+        "f": "niveau suprême"
+      },
+      {
+        "h": "登峰造极",
+        "p": "dēng fēng zào jí",
+        "f": "sommet absolu"
+      },
+      {
+        "h": "破天",
+        "p": "pò tiān",
+        "f": "transcende le Ciel"
+      },
+      {
+        "h": "天地同寿",
+        "p": "tiān dì tóng shòu",
+        "f": "l'immortalité cosmique"
+      },
+      {
+        "h": "可期",
+        "p": "kě qī",
+        "f": "est en vue"
+      }
+    ],
+    "ex": [
+      {
+        "q": "Quelle percée de cultivation l'héroïne accomplit-elle dans ce chapitre ?",
+        "o": [
+          "Une simple progression de niveau",
+          "La percée de la barrière céleste — transcender la limite imposée par l'ordre cosmique lui-même",
+          "Une victoire militaire",
+          "Une révélation politique"
+        ],
+        "r": 1
+      },
+      {
+        "q": "Comment 臻于 diffère-t-il de 达到 (dá dào) comme verbe d'atteinte ?",
+        "o": [
+          "Ils sont identiques",
+          "臻于 est littéraire et implique l'atteinte d'un état de perfection longuement cherché ; 达到 est neutre",
+          "达到 est plus formel",
+          "臻于 s'utilise pour les distances"
+        ],
+        "r": 1
+      },
+      {
+        "q": "Que signifie 化境 comme niveau ultime de maîtrise ?",
+        "o": [
+          "La maîtrise de plusieurs techniques",
+          "L'état où la technique disparaît dans la nature — on ne fait plus de l'art, on est l'art",
+          "La vitesse extrême",
+          "La puissance maximale"
+        ],
+        "r": 1
+      },
+      {
+        "q": "天地同寿 — quelle promesse ce terme porte-t-il pour l'héroïne ?",
+        "o": [
+          "Une longue vie ordinaire",
+          "L'immortalité cosmique — vivre aussi longtemps que le Ciel et la Terre eux-mêmes",
+          "Une vie protégée",
+          "Une vie heureuse"
+        ],
+        "r": 1
+      }
+    ]
+  },
+  {
+    "id": 139,
+    "lvl": "HSK4",
+    "les": {
+      "title": "Leçon 139 — La défaite du Démon (斩魔 / 镇压 / 天道好还)",
+      "gram": "天道好还 (tiān dào hǎo huán) est une locution : 'la Voie du Ciel aime le retour / le karma cosmique'. Ce n'est pas juste une expression — c'est une loi narrative xianxia. Structure associée : 善有善报，恶有恶报 (le bien est récompensé, le mal est puni). Ce système de rétribution cosmique est le fondement moral du genre xianxia.",
+      "voc": [
+        {
+          "h": "斩魔",
+          "p": "zhǎn mó",
+          "f": "trancher le démon / abattre le mal",
+          "m": "斩 (trancher) + 魔 (démon) — le coup fatal qui met fin à la force démoniaque."
+        },
+        {
+          "h": "镇压",
+          "p": "zhèn yā",
+          "f": "réprimer / écraser / sceller",
+          "m": "镇 (ancrer/sceller) + 压 (écraser) — écraser et sceller définitivement."
+        },
+        {
+          "h": "天道好还",
+          "p": "tiān dào hǎo huán",
+          "f": "la Voie du Ciel rétribue / le karma cosmique",
+          "m": "天道 (Voie du Ciel) + 好还 (aime revenir) — le principe de rétribution cosmique."
+        },
+        {
+          "h": "善恶有报",
+          "p": "shàn è yǒu bào",
+          "f": "le bien et le mal reçoivent leur rétribution",
+          "m": "善恶 (bien et mal) + 有报 (reçoivent réponse) — la loi cosmique de la justice."
+        },
+        {
+          "h": "万劫不复",
+          "p": "wàn jié bù fù",
+          "f": "dix mille catastrophes sans retour / ruine absolue",
+          "m": "万劫 (dix mille catastrophes) + 不复 (sans retour possible) — la condamnation définitive."
+        },
+        {
+          "h": "永镇于此",
+          "p": "yǒng zhèn yú cǐ",
+          "f": "scellé ici pour l'éternité",
+          "m": "永 (éternellement) + 镇 (scellé) + 于此 (ici) — l'emprisonnement éternel."
+        }
+      ]
+    },
+    "bi": {
+      "type": "chengyu",
+      "title": "善有善报，恶有恶报 (shàn yǒu shàn bào, è yǒu è bào)",
+      "ctx": "Le bien est récompensé, le mal est puni. La loi cosmique de rétribution qui gouverne le genre xianxia. Ce n'est pas de la naïveté — c'est le moteur narratif fondamental : les actions ont des conséquences proportionnelles qui reviennent inévitablement. Le 魔帝 qui voulait 毁天灭地 reçoit 万劫不复 — la rétribution à la mesure de son ambition."
+    },
+    "st": "她斩魔成功。魔帝万劫不复，永镇于此。天道好还——善恶有报，此乃天理。",
+    "fr_st": "Elle tranche le démon avec succès. L'Empereur Démoniaque est condamné à dix mille catastrophes sans retour, scellé ici pour l'éternité. La Voie du Ciel rétribue — le bien et le mal reçoivent leur dû, telle est la loi cosmique.",
+    "lex": [
+      {
+        "h": "她",
+        "p": "tā",
+        "f": "elle"
+      },
+      {
+        "h": "斩魔",
+        "p": "zhǎn mó",
+        "f": "tranche le démon"
+      },
+      {
+        "h": "成功",
+        "p": "chéng gōng",
+        "f": "avec succès"
+      },
+      {
+        "h": "魔帝",
+        "p": "mó dì",
+        "f": "l'Empereur Démoniaque"
+      },
+      {
+        "h": "万劫不复",
+        "p": "wàn jié bù fù",
+        "f": "condamné à dix mille catastrophes sans retour"
+      },
+      {
+        "h": "永镇于此",
+        "p": "yǒng zhèn yú cǐ",
+        "f": "scellé ici pour l'éternité"
+      },
+      {
+        "h": "天道好还",
+        "p": "tiān dào hǎo huán",
+        "f": "la Voie du Ciel rétribue"
+      },
+      {
+        "h": "善恶有报",
+        "p": "shàn è yǒu bào",
+        "f": "le bien et le mal reçoivent leur dû"
+      },
+      {
+        "h": "此乃天理",
+        "p": "cǐ nǎi tiān lǐ",
+        "f": "telle est la loi cosmique"
+      }
+    ],
+    "ex": [
+      {
+        "q": "Quel principe cosmique le sort du 魔帝 illustre-t-il ?",
+        "o": [
+          "Le plus fort gagne toujours",
+          "善有善报，恶有恶报 — la rétribution cosmique proportionnelle à ses ambitions",
+          "La victoire est arbitraire",
+          "La chance décide de tout"
+        ],
+        "r": 1
+      },
+      {
+        "q": "Que signifie 万劫不复 comme condamnation ?",
+        "o": [
+          "Une punition temporaire",
+          "La ruine absolue et définitive — dix mille catastrophes sans possibilité de retour",
+          "Un emprisonnement libérable",
+          "Un exil temporaire"
+        ],
+        "r": 1
+      },
+      {
+        "q": "Comment 天道好还 fonctionne-t-il comme loi narrative du xianxia ?",
+        "o": [
+          "C'est une superstition",
+          "C'est le moteur narratif fondamental — les actions ont des conséquences proportionnelles qui reviennent inévitablement",
+          "C'est une règle de combat",
+          "C'est une formule polie"
+        ],
+        "r": 1
+      },
+      {
+        "q": "此乃天理 — quel registre d'autorité 乃 confère-t-il à cette affirmation ?",
+        "o": [
+          "Un registre quotidien",
+          "Un registre solennel et cosmique — la loi est affirmée avec l'autorité de l'ordre universel lui-même",
+          "Un registre juridique",
+          "Un registre militaire"
+        ],
+        "r": 1
+      }
+    ]
+  },
+  {
+    "id": 140,
+    "lvl": "HSK4",
+    "les": {
+      "title": "Leçon 140 — L'ascension (飞升 / 封神 / 化仙)",
+      "gram": "于是乎 (yú shì hū) = 'et ainsi / c'est pourquoi / il en résulta que' (littéraire solennel). Version renforcée de 于是 — 乎 est une particule archaïque qui élève le registre au niveau des textes classiques. Exemple : 于是乎，天下归一 (Et ainsi, l'Empire fut unifié). C'est la formule de la conclusion cosmique — ce qui devait arriver arrive.",
+      "voc": [
+        {
+          "h": "飞升",
+          "p": "fēi shēng",
+          "f": "ascension / s'élever / accéder à l'immortalité",
+          "m": "飞 (voler) + 升 (monter) — s'élever physiquement vers le divin."
+        },
+        {
+          "h": "封神",
+          "p": "fēng shén",
+          "f": "être divinisé / recevoir le rang divin",
+          "m": "封 (conférer un titre) + 神 (divinité) — recevoir le titre et le rang de divinité."
+        },
+        {
+          "h": "化仙",
+          "p": "huà xiān",
+          "f": "se transformer en immortel",
+          "m": "化 (se transformer) + 仙 (immortel) — devenir un être de l'au-delà."
+        },
+        {
+          "h": "于是乎",
+          "p": "yú shì hū",
+          "f": "et ainsi / il en résulta que (solennel classique)",
+          "m": "于是 (ainsi) + 乎 (particule classique) — la conclusion inévitable avec autorité cosmique."
+        },
+        {
+          "h": "位列仙班",
+          "p": "wèi liè xiān bān",
+          "f": "rejoindre les rangs des immortels",
+          "m": "位列 (prendre rang) + 仙班 (cohorte des immortels) — être officiellement compté parmi les divins."
+        },
+        {
+          "h": "证道成仙",
+          "p": "zhèng dào chéng xiān",
+          "f": "prouver sa voie et devenir immortel",
+          "m": "证道 (prouver/témoigner de la Voie) + 成仙 (devenir immortel) — l'aboutissement de toute cultivation."
+        }
+      ]
+    },
+    "bi": {
+      "type": "chengyu",
+      "title": "修成正果 (xiū chéng zhèng guǒ)",
+      "ctx": "Cultiver et obtenir le vrai fruit. L'expression bouddhiste/taoïste de l'aboutissement de la cultivation — obtenir le fruit réel de tous ses efforts. Utilisée aussi dans le contexte romantique : 修成正果 = voir sa relation aboutir après une longue cultivation. Dans 大女主, les deux dimensions se superposent — l'héroïne obtient à la fois l'immortalité spirituelle et l'union avec le prince."
+    },
+    "st": "她证道成仙，位列仙班。于是乎，化仙飞升，封神。修成正果——双修圆满。",
+    "fr_st": "Elle prouve sa voie et devient immortelle, rejoignant les rangs des divins. Et ainsi, elle se transforme en immortelle et s'élève, divinisée. Le vrai fruit de la cultivation — double accomplissement, parfait.",
+    "lex": [
+      {
+        "h": "她",
+        "p": "tā",
+        "f": "elle"
+      },
+      {
+        "h": "证道成仙",
+        "p": "zhèng dào chéng xiān",
+        "f": "prouve sa voie et devient immortelle"
+      },
+      {
+        "h": "位列仙班",
+        "p": "wèi liè xiān bān",
+        "f": "rejoignant les rangs des divins"
+      },
+      {
+        "h": "于是乎",
+        "p": "yú shì hū",
+        "f": "et ainsi"
+      },
+      {
+        "h": "化仙",
+        "p": "huà xiān",
+        "f": "elle se transforme en immortelle"
+      },
+      {
+        "h": "飞升",
+        "p": "fēi shēng",
+        "f": "s'élève"
+      },
+      {
+        "h": "封神",
+        "p": "fēng shén",
+        "f": "divinisée"
+      },
+      {
+        "h": "修成正果",
+        "p": "xiū chéng zhèng guǒ",
+        "f": "le vrai fruit de la cultivation"
+      },
+      {
+        "h": "双修圆满",
+        "p": "shuāng xiū yuán mǎn",
+        "f": "double accomplissement parfait"
+      }
+    ],
+    "ex": [
+      {
+        "q": "Que représente 证道成仙 comme aboutissement de la cultivation ?",
+        "o": [
+          "Un niveau de combat supérieur",
+          "L'accomplissement ultime — prouver par sa vie entière la validité de sa Voie et en obtenir l'immortalité",
+          "Une victoire politique",
+          "Un titre honorifique"
+        ],
+        "r": 1
+      },
+      {
+        "q": "Comment 于是乎 renforce-t-il 于是 dans un récit épique ?",
+        "o": [
+          "Ils sont identiques",
+          "于是乎 ajoute la particule classique 乎 qui élève la conclusion au registre des textes anciens — la gravité cosmique",
+          "于是 est plus solennel",
+          "乎 est décoratif"
+        ],
+        "r": 1
+      },
+      {
+        "q": "Que signifie 修成正果 dans ses deux dimensions simultanées ?",
+        "o": [
+          "Uniquement la cultivation spirituelle",
+          "L'aboutissement de la cultivation spirituelle ET l'accomplissement de la relation romantique — les deux dimensions du 大女主",
+          "Uniquement la romance",
+          "Un titre politique"
+        ],
+        "r": 1
+      },
+      {
+        "q": "双修圆满 — quelle double complétude ce terme célèbre-t-il en conclusion du Mois 5 ?",
+        "o": [
+          "Deux victoires militaires",
+          "La complétude spirituelle (immortalité) et la complétude relationnelle (union) — les deux voies de cultivation parallèles aboutissent ensemble",
+          "Deux alliances",
+          "Deux batailles gagnées"
+        ],
+        "r": 1
+      },
+      {
+        "q": "飞升 — dans la tradition taoïste, que signifie physiquement cette ascension ?",
+        "o": [
+          "Un voyage lointain",
+          "Le corps physique s'élève vers le Ciel divin — l'immortalité par transformation du corps même",
+          "Une mort ordinaire",
+          "Un rêve mystique"
+        ],
+        "r": 1
+      },
+      {
+        "q": "封神 — quel niveau hiérarchique ce terme implique-t-il dans le panthéon xianxia ?",
+        "o": [
+          "Un simple titre honorifique",
+          "Recevoir officiellement un titre et une fonction dans l'ordre divin — être intégré au panthéon cosmique",
+          "Un titre militaire",
+          "Un titre impérial"
+        ],
+        "r": 1
+      }
+    ]
+  },
+  {
+    "id": 141,
+    "lvl": "HSK4",
+    "les": {
+      "title": "Leçon 141 — La déclaration impériale (诏书 / 昭告天下 / 开国建制)",
+      "gram": "兹 (zī) = 'ici / en ce moment / par le présent' (particule impériale archaïque). 兹命 = 'par le présent nous ordonnons'. 兹宣告 = 'nous proclamons par le présent'. Cette particule est la marque des édits impériaux (诏书) — quand l'héroïne parle en qualité de souveraine, elle passe au registre de 兹. Exemple : 兹宣告，天下归一 (Par le présent, nous proclamons l'unification de l'Empire).",
+      "voc": [
+        {
+          "h": "诏书",
+          "p": "zhào shū",
+          "f": "édit impérial / décret souverain",
+          "m": "诏 (décret royal) + 书 (écrit) — la parole du souverain mise par écrit et promulguée."
+        },
+        {
+          "h": "昭告天下",
+          "p": "zhāo gào tiān xià",
+          "f": "proclamer à tout l'Empire",
+          "m": "昭 (clarifier/illuminer) + 告 (annoncer) + 天下 (sous le Ciel) — la proclamation officielle et universelle."
+        },
+        {
+          "h": "开国建制",
+          "p": "kāi guó jiàn zhì",
+          "f": "fonder un État et établir ses institutions",
+          "m": "开国 (fonder l'État) + 建制 (établir le système) — l'acte fondateur d'une nouvelle ère."
+        },
+        {
+          "h": "兹",
+          "p": "zī",
+          "f": "par le présent / en ce moment (impérial)",
+          "m": "Particule impériale archaïque — la voix du souverain qui prend force de loi."
+        },
+        {
+          "h": "百年基业",
+          "p": "bǎi nián jī yè",
+          "f": "fondation pour cent ans / héritage durable",
+          "m": "百年 (cent ans) + 基业 (fondation) — la construction qui durera des générations."
+        },
+        {
+          "h": "万世流芳",
+          "p": "wàn shì liú fāng",
+          "f": "parfum qui se répand pour dix mille générations",
+          "m": "万世 (dix mille générations) + 流芳 (diffuser le parfum) — la gloire qui traverse l'éternité."
+        }
+      ]
+    },
+    "bi": {
+      "type": "chengyu",
+      "title": "开天辟地 (kāi tiān pì dì)",
+      "ctx": "Ouvrir le Ciel et fendre la Terre — la Création. Expression de ce qui est absolument sans précédent, de ce qui inaugure une ère entière. La fondation du nouvel Empire par l'héroïne est un acte 开天辟地 : elle ne succède pas à l'ordre ancien, elle crée un ordre nouveau qui n'existait pas."
+    },
+    "st": "兹宣告：新朝开国。昭告天下，开天辟地之举。百年基业，万世流芳——她建制于此。",
+    "fr_st": "Par le présent nous proclamons : fondation du nouvel Empire. Proclamé à tout l'Empire — un acte sans précédent qui inaugure une ère. Une fondation pour cent ans, une gloire pour dix mille générations — elle établit l'ordre ici.",
+    "lex": [
+      {
+        "h": "兹宣告",
+        "p": "zī xuān gào",
+        "f": "par le présent nous proclamons"
+      },
+      {
+        "h": "新朝开国",
+        "p": "xīn cháo kāi guó",
+        "f": "fondation du nouvel Empire"
+      },
+      {
+        "h": "昭告天下",
+        "p": "zhāo gào tiān xià",
+        "f": "proclamé à tout l'Empire"
+      },
+      {
+        "h": "开天辟地之举",
+        "p": "kāi tiān pì dì zhī jǔ",
+        "f": "un acte sans précédent"
+      },
+      {
+        "h": "百年基业",
+        "p": "bǎi nián jī yè",
+        "f": "une fondation pour cent ans"
+      },
+      {
+        "h": "万世流芳",
+        "p": "wàn shì liú fāng",
+        "f": "une gloire pour dix mille générations"
+      },
+      {
+        "h": "她",
+        "p": "tā",
+        "f": "elle"
+      },
+      {
+        "h": "建制于此",
+        "p": "jiàn zhì yú cǐ",
+        "f": "établit l'ordre ici"
+      }
+    ],
+    "ex": [
+      {
+        "q": "Quel acte historique l'héroïne accomplit-elle dans ce chapitre ?",
+        "o": [
+          "Une victoire militaire supplémentaire",
+          "La fondation officielle d'un nouvel Empire — un acte 开天辟地 qui inaugure une ère",
+          "Une alliance internationale",
+          "Un mariage impérial"
+        ],
+        "r": 1
+      },
+      {
+        "q": "Comment 兹 confère-t-il une autorité particulière à une proclamation ?",
+        "o": [
+          "C'est un mot de politesse",
+          "C'est la particule impériale archaïque — la voix du souverain qui prend force de loi cosmique",
+          "C'est un marqueur temporel",
+          "C'est une formule de conclusion"
+        ],
+        "r": 1
+      },
+      {
+        "q": "Que signifie 开天辟地 comme qualificatif d'un acte fondateur ?",
+        "o": [
+          "Un acte courageux",
+          "Un acte absolument sans précédent qui crée quelque chose qui n'existait pas — comme la Création elle-même",
+          "Un acte brutal",
+          "Un acte symbolique"
+        ],
+        "r": 1
+      },
+      {
+        "q": "万世流芳 — quelle ambition temporelle implique cette formule pour l'œuvre de l'héroïne ?",
+        "o": [
+          "Une gloire éphémère",
+          "La gloire qui traverse dix mille générations — l'immortalité par l'œuvre créée",
+          "Une gloire personnelle",
+          "Une gloire militaire"
+        ],
+        "r": 1
+      }
+    ]
+  },
+  {
+    "id": 142,
+    "lvl": "HSK4",
+    "les": {
+      "title": "Leçon 142 — La justice pour tous (天下为公 / 庶民皆平 / 仁政)",
+      "gram": "所谓…无非是… + 而是 (suǒ wèi…wú fēi shì…ér shì) = 'ce qu'on appelle A n'est pas B, mais C'. Triple structure de redéfinition : démystification de A, rejet de B comme réponse, affirmation de C comme vraie réponse. Exemple : 所谓权力，无非不是统治，而是服务 (Ce qu'on appelle le pouvoir n'est pas la domination — c'est le service). La philosophie politique de l'héroïne.",
+      "voc": [
+        {
+          "h": "天下为公",
+          "p": "tiān xià wéi gōng",
+          "f": "le monde appartient à tous / le bien commun",
+          "m": "天下 (sous le Ciel) + 为公 (pour le bien commun) — le monde n'est pas propriété du souverain."
+        },
+        {
+          "h": "庶民皆平",
+          "p": "shù mín jiē píng",
+          "f": "tous les gens du commun sont égaux",
+          "m": "庶民 (gens du commun) + 皆平 (tous égaux) — l'idéal confucéen de l'égalité civique."
+        },
+        {
+          "h": "仁政",
+          "p": "rén zhèng",
+          "f": "gouvernement bienveillant / politique humaniste",
+          "m": "仁 (bienveillance) + 政 (gouvernement) — le gouvernement fondé sur l'amour du peuple."
+        },
+        {
+          "h": "而是",
+          "p": "ér shì",
+          "f": "mais c'est / mais plutôt",
+          "m": "而 (mais) + 是 (être) — la véritable réponse après le rejet de la fausse."
+        },
+        {
+          "h": "民心所向",
+          "p": "mín xīn suǒ xiàng",
+          "f": "la direction des cœurs du peuple",
+          "m": "民心 (cœur du peuple) + 所向 (vers quoi cela pointe) — la légitimité populaire authentique."
+        },
+        {
+          "h": "水能载舟，亦能覆舟",
+          "p": "shuǐ néng zài zhōu, yì néng fù zhōu",
+          "f": "l'eau peut porter le bateau mais aussi le renverser",
+          "m": "水能载舟 (l'eau porte le bateau) + 亦能覆舟 (peut aussi le renverser) — le peuple soutient ou renverse le souverain."
+        }
+      ]
+    },
+    "bi": {
+      "type": "chengyu",
+      "title": "天下为公 (tiān xià wéi gōng)",
+      "ctx": "Le monde appartient à tous. Tiré de Li Yun (礼记) : 大道之行也，天下为公 (Quand la grande Voie est en marche, le monde est commun à tous). L'idéal politique suprême de la tradition confucéenne : le souverain n'est pas propriétaire de l'Empire, il en est le gardien au service du peuple. L'héroïne fonde son Empire sur ce principe — non le pouvoir pour soi, mais le pouvoir pour tous."
+    },
+    "st": "所谓权力，无非不是统治，而是服务。天下为公，仁政施行——民心所向，方能长治久安。",
+    "fr_st": "Ce qu'on appelle le pouvoir n'est pas la domination — c'est le service. Le monde appartient à tous, le gouvernement bienveillant s'exerce — là où vont les cœurs du peuple, là seulement on peut gouverner durablement.",
+    "lex": [
+      {
+        "h": "所谓",
+        "p": "suǒ wèi",
+        "f": "ce qu'on appelle"
+      },
+      {
+        "h": "权力",
+        "p": "quán lì",
+        "f": "le pouvoir"
+      },
+      {
+        "h": "无非不是",
+        "p": "wú fēi bù shì",
+        "f": "n'est pas"
+      },
+      {
+        "h": "统治",
+        "p": "tǒng zhì",
+        "f": "la domination"
+      },
+      {
+        "h": "而是",
+        "p": "ér shì",
+        "f": "c'est"
+      },
+      {
+        "h": "服务",
+        "p": "fú wù",
+        "f": "le service"
+      },
+      {
+        "h": "天下为公",
+        "p": "tiān xià wéi gōng",
+        "f": "le monde appartient à tous"
+      },
+      {
+        "h": "仁政",
+        "p": "rén zhèng",
+        "f": "le gouvernement bienveillant"
+      },
+      {
+        "h": "施行",
+        "p": "shī xíng",
+        "f": "s'exerce"
+      },
+      {
+        "h": "民心所向",
+        "p": "mín xīn suǒ xiàng",
+        "f": "là où vont les cœurs du peuple"
+      },
+      {
+        "h": "方能",
+        "p": "fāng néng",
+        "f": "seulement alors on peut"
+      },
+      {
+        "h": "长治久安",
+        "p": "cháng zhì jiǔ ān",
+        "f": "gouverner durablement"
+      }
+    ],
+    "ex": [
+      {
+        "q": "Quelle philosophie politique l'héroïne proclame-t-elle dans ce chapitre ?",
+        "o": [
+          "La domination absolue du souverain",
+          "Le pouvoir comme service — le monde appartient à tous, pas au souverain",
+          "La loi du plus fort",
+          "La dictature éclairée"
+        ],
+        "r": 1
+      },
+      {
+        "q": "Comment la triple structure 所谓…无非不是…而是 reformule-t-elle le concept de pouvoir ?",
+        "o": [
+          "Elle le confirme",
+          "Elle démystifie A, rejette B (domination) et affirme C (service) comme vraie nature du pouvoir",
+          "Elle l'affaiblit",
+          "Elle le complique"
+        ],
+        "r": 1
+      },
+      {
+        "q": "Que signifie 水能载舟，亦能覆舟 comme avertissement pour le gouvernant ?",
+        "o": [
+          "L'eau est dangereuse",
+          "Le peuple soutient le souverain mais peut aussi le renverser — la légitimité est conditionnelle",
+          "L'armée navale est puissante",
+          "Le commerce maritime est vital"
+        ],
+        "r": 1
+      },
+      {
+        "q": "民心所向 — pourquoi la légitimité populaire est-elle plus durable que la légitimité militaire ?",
+        "o": [
+          "Elle est plus facile à obtenir",
+          "Un peuple qui soutient volontairement son gouvernant est une force qu'aucune armée ne peut vaincre",
+          "Elle est plus spectaculaire",
+          "Elle est plus ancienne"
+        ],
+        "r": 1
+      }
+    ]
+  },
+  {
+    "id": 143,
+    "lvl": "HSK4",
+    "les": {
+      "title": "Leçon 143 — Les deux ensemble (携手 / 共治 / 并驾齐驱)",
+      "gram": "相得益彰 (xiāng dé yì zhāng) est une locution : 'se mettre mutuellement en valeur / chacun fait briller l'autre'. Structure associée : 二者相辅相成，相得益彰 (Les deux se complètent et se mettent mutuellement en valeur). Cette structure de réciprocité est la formule de la co-gouvernance de l'héroïne et du prince — ensemble ils sont plus que chacun séparément.",
+      "voc": [
+        {
+          "h": "携手",
+          "p": "xié shǒu",
+          "f": "main dans la main / ensemble",
+          "m": "携 (porter avec soi) + 手 (main) — avancer ensemble en se tenant la main."
+        },
+        {
+          "h": "共治",
+          "p": "gòng zhì",
+          "f": "co-gouverner / diriger ensemble",
+          "m": "共 (ensemble) + 治 (gouverner) — le pouvoir partagé et exercé à deux."
+        },
+        {
+          "h": "并驾齐驱",
+          "p": "bìng jià qí qū",
+          "f": "côte à côte / au même niveau / d'égal à égal",
+          "m": "并驾 (atteler côte à côte) + 齐驱 (galoper ensemble au même rythme) — deux forces égales qui avancent ensemble."
+        },
+        {
+          "h": "相得益彰",
+          "p": "xiāng dé yì zhāng",
+          "f": "se mettre mutuellement en valeur",
+          "m": "相得 (s'obtenir mutuellement) + 益彰 (davantage en lumière) — l'amplification mutuelle des qualités."
+        },
+        {
+          "h": "执子之手",
+          "p": "zhí zǐ zhī shǒu",
+          "f": "tenir ta main",
+          "m": "执 (tenir) + 子 (toi/vous) + 之手 (la main) — la formule du Livre des Odes pour l'engagement romantique."
+        },
+        {
+          "h": "与子偕老",
+          "p": "yǔ zǐ xié lǎo",
+          "f": "vieillir avec toi",
+          "m": "与子 (avec toi) + 偕老 (vieillir ensemble) — la promesse de passer toute une vie ensemble."
+        }
+      ]
+    },
+    "bi": {
+      "type": "chengyu",
+      "title": "执子之手，与子偕老 (zhí zǐ zhī shǒu, yǔ zǐ xié lǎo)",
+      "ctx": "Tenir ta main et vieillir avec toi. Tiré du Livre des Odes (詩經 · 邶風 · 擊鼓) — l'un des plus anciens serments d'amour de la littérature chinoise. Un soldat promet à sa bien-aimée de vieillir ensemble. En 大女主, cette formule de 3000 ans prend une dimension supplémentaire : non seulement ils vieillissent ensemble, ils gouvernent ensemble — 执子之手，与子共治天下."
+    },
+    "st": "她与他携手共治。并驾齐驱，相得益彰。执子之手，与子偕老——亦与子共治天下。",
+    "fr_st": "Elle gouverne avec lui main dans la main. D'égal à égal, se mettant mutuellement en valeur. Tenir ta main et vieillir avec toi — et aussi gouverner le monde avec toi.",
+    "lex": [
+      {
+        "h": "她",
+        "p": "tā",
+        "f": "elle"
+      },
+      {
+        "h": "与他",
+        "p": "yǔ tā",
+        "f": "avec lui"
+      },
+      {
+        "h": "携手",
+        "p": "xié shǒu",
+        "f": "main dans la main"
+      },
+      {
+        "h": "共治",
+        "p": "gòng zhì",
+        "f": "gouverne"
+      },
+      {
+        "h": "并驾齐驱",
+        "p": "bìng jià qí qū",
+        "f": "d'égal à égal"
+      },
+      {
+        "h": "相得益彰",
+        "p": "xiāng dé yì zhāng",
+        "f": "se mettant mutuellement en valeur"
+      },
+      {
+        "h": "执子之手",
+        "p": "zhí zǐ zhī shǒu",
+        "f": "tenir ta main"
+      },
+      {
+        "h": "与子偕老",
+        "p": "yǔ zǐ xié lǎo",
+        "f": "vieillir avec toi"
+      },
+      {
+        "h": "亦",
+        "p": "yì",
+        "f": "et aussi"
+      },
+      {
+        "h": "与子共治天下",
+        "p": "yǔ zǐ gòng zhì tiān xià",
+        "f": "gouverner le monde avec toi"
+      }
+    ],
+    "ex": [
+      {
+        "q": "Quel modèle de gouvernance l'héroïne établit-elle avec le prince ?",
+        "o": [
+          "Une domination unilatérale",
+          "Une co-gouvernance d'égal à égal — 并驾齐驱 et 相得益彰",
+          "Une délégation totale",
+          "Une séparation des rôles stricte"
+        ],
+        "r": 1
+      },
+      {
+        "q": "Comment 相得益彰 décrit-il leur complémentarité ?",
+        "o": [
+          "L'un est plus fort que l'autre",
+          "Chacun amplifie les qualités de l'autre — ensemble ils brillent davantage que séparément",
+          "Ils sont identiques",
+          "L'un compense les faiblesses de l'autre"
+        ],
+        "r": 1
+      },
+      {
+        "q": "D'où vient 执子之手，与子偕老 et quelle ancienneté lui confère ce texte ?",
+        "o": [
+          "Des Trois Royaumes",
+          "Du Livre des Odes (3000 ans) — l'un des plus anciens serments d'amour de la littérature chinoise",
+          "De Du Fu",
+          "De Su Shi"
+        ],
+        "r": 1
+      },
+      {
+        "q": "与子共治天下 — comment cette adaptation de 执子之手 reflète-t-elle la spécificité 大女主 ?",
+        "o": [
+          "Elle le romantise davantage",
+          "Elle double la promesse romantique d'une dimension politique — ce n'est pas seulement vivre ensemble mais co-créer ensemble",
+          "Elle le simplifie",
+          "Elle le rend formel"
+        ],
+        "r": 1
+      }
+    ]
+  },
+  {
+    "id": 144,
+    "lvl": "HSK4",
+    "les": {
+      "title": "Leçon 144 — Le bilan d'une vie (回首往事 / 沧海桑田 / 如今)",
+      "gram": "弹指一挥间 (tán zhǐ yī huī jiān) = 'le temps d'un claquement de doigts'. Métaphore bouddhiste de l'impermanence — la rapidité avec laquelle le temps passe. Structure associée : 回首间 (huí shǒu jiān) = 'en se retournant'. Ces formules de retrospection temporelle permettent de contempler le chemin parcouru.",
+      "voc": [
+        {
+          "h": "回首",
+          "p": "huí shǒu",
+          "f": "se retourner / regarder en arrière",
+          "m": "回 (revenir) + 首 (tête) — tourner la tête vers le passé."
+        },
+        {
+          "h": "沧海桑田",
+          "p": "cāng hǎi sāng tián",
+          "f": "la mer devient champ de mûriers / tout change",
+          "m": "沧海 (mer bleue) + 桑田 (champ de mûriers) — le changement total qui rend l'ancien méconnaissable."
+        },
+        {
+          "h": "弹指一挥间",
+          "p": "tán zhǐ yī huī jiān",
+          "f": "le temps d'un claquement de doigts",
+          "m": "弹指 (claquer les doigts) + 一挥间 (en un geste) — la rapidité vertigineuse du temps."
+        },
+        {
+          "h": "如今",
+          "p": "rú jīn",
+          "f": "aujourd'hui / maintenant / à présent",
+          "m": "如 (comme) + 今 (maintenant) — le présent comparé à ce qui était avant."
+        },
+        {
+          "h": "往昔",
+          "p": "wǎng xī",
+          "f": "jadis / autrefois / le passé révolu",
+          "m": "往 (aller vers le passé) + 昔 (jadis) — le passé lointain et définitivement révolu."
+        },
+        {
+          "h": "心中有数",
+          "p": "xīn zhōng yǒu shù",
+          "f": "avoir une idée claire / savoir où on en est",
+          "m": "心中 (dans le cœur) + 有数 (avoir le compte) — avoir intégré la situation dans sa pleine mesure."
+        }
+      ]
+    },
+    "bi": {
+      "type": "chengyu",
+      "title": "沧海桑田 (cāng hǎi sāng tián)",
+      "ctx": "La mer bleue devient champ de mûriers. Expression de la transformation radicale du temps — ce qui était mer est devenu terre, ce qui était champ est devenu mer. Utilisée pour contempler des changements si profonds que le monde est devenu méconnaissable. En se retournant sur son parcours depuis le Jour 1, l'héroïne réalise : elle aussi est 沧海桑田 — elle ne reconnaît plus la personne qu'elle était."
+    },
+    "st": "回首往昔，弹指一挥间。沧海桑田——如今的她，早已不是昔日之人。心中有数，坦然微笑。",
+    "fr_st": "En regardant en arrière vers le passé — le temps d'un claquement de doigts. Tout a changé — celle qu'elle est aujourd'hui n'a plus rien à voir avec celle d'hier. Elle le sait pleinement, et sourit avec sérénité.",
+    "lex": [
+      {
+        "h": "回首",
+        "p": "huí shǒu",
+        "f": "en regardant en arrière"
+      },
+      {
+        "h": "往昔",
+        "p": "wǎng xī",
+        "f": "vers le passé"
+      },
+      {
+        "h": "弹指一挥间",
+        "p": "tán zhǐ yī huī jiān",
+        "f": "le temps d'un claquement de doigts"
+      },
+      {
+        "h": "沧海桑田",
+        "p": "cāng hǎi sāng tián",
+        "f": "tout a changé"
+      },
+      {
+        "h": "如今的她",
+        "p": "rú jīn de tā",
+        "f": "celle qu'elle est aujourd'hui"
+      },
+      {
+        "h": "早已",
+        "p": "zǎo yǐ",
+        "f": "n'a plus rien à voir avec"
+      },
+      {
+        "h": "不是",
+        "p": "bù shì",
+        "f": "n'est plus"
+      },
+      {
+        "h": "昔日之人",
+        "p": "xī rì zhī rén",
+        "f": "celle d'hier"
+      },
+      {
+        "h": "心中有数",
+        "p": "xīn zhōng yǒu shù",
+        "f": "elle le sait pleinement"
+      },
+      {
+        "h": "坦然",
+        "p": "tǎn rán",
+        "f": "avec sérénité"
+      },
+      {
+        "h": "微笑",
+        "p": "wēi xiào",
+        "f": "sourit"
+      }
+    ],
+    "ex": [
+      {
+        "q": "Quelle posture intérieure domine ce chapitre de rétrospection ?",
+        "o": [
+          "Le regret",
+          "La sérénité — elle contemple le chemin parcouru avec un sourire calme et conscient",
+          "La tristesse",
+          "La fierté arrogante"
+        ],
+        "r": 1
+      },
+      {
+        "q": "Comment 弹指一挥间 exprime-t-il la nature du temps ?",
+        "o": [
+          "Le temps passe lentement",
+          "Le temps passe avec une rapidité vertigineuse — d'un claquement de doigts, une vie entière",
+          "Le temps s'arrête",
+          "Le temps revient en arrière"
+        ],
+        "r": 1
+      },
+      {
+        "q": "Que signifie 沧海桑田 quand appliqué à la transformation de l'héroïne elle-même ?",
+        "o": [
+          "Elle a vieilli physiquement",
+          "Elle est devenue quelqu'un de si différent qu'elle ne reconnaît plus qui elle était — changement total",
+          "Elle a changé de coiffure",
+          "Elle a perdu ses amis"
+        ],
+        "r": 1
+      },
+      {
+        "q": "心中有数 — quelle qualité intérieure cela révèle-t-il ?",
+        "o": [
+          "La certitude arrogante",
+          "La conscience lucide et sereine de sa propre transformation — savoir exactement où on en est",
+          "L'incertitude",
+          "La confiance aveugle"
+        ],
+        "r": 1
+      }
+    ]
+  },
+  {
+    "id": 145,
+    "lvl": "HSK4",
+    "les": {
+      "title": "Leçon 145 — Le legs aux générations (传承 / 教化 / 流芳百世)",
+      "gram": "俾使 (bǐ shǐ) = 'afin que / pour que' (archaïque impérial). Version très formelle de 使 dans les édits. 但愿 (dàn yuàn) = 'si seulement / j'espère que' — exprime un souhait sincère. 但愿…能 = 'j'espère que…puisse'. Ces expressions de vœux solennels sont la langue du legs — ce que le souverain espère transmettre aux générations suivantes.",
+      "voc": [
+        {
+          "h": "传承",
+          "p": "chuán chéng",
+          "f": "transmettre / héritage / transmission",
+          "m": "传 (transmettre) + 承 (recevoir et continuer) — le relais entre générations."
+        },
+        {
+          "h": "教化",
+          "p": "jiào huà",
+          "f": "éduquer et transformer / civiliser",
+          "m": "教 (enseigner) + 化 (transformer) — l'éducation qui transforme profondément."
+        },
+        {
+          "h": "流芳百世",
+          "p": "liú fāng bǎi shì",
+          "f": "parfum qui se répand pour cent générations",
+          "m": "流芳 (diffuser le parfum) + 百世 (cent générations) — la gloire qui transcende le temps."
+        },
+        {
+          "h": "但愿",
+          "p": "dàn yuàn",
+          "f": "j'espère que / si seulement",
+          "m": "但 (seulement) + 愿 (souhaiter) — le vœu sincère et humble."
+        },
+        {
+          "h": "薪火相传",
+          "p": "xīn huǒ xiāng chuán",
+          "f": "le feu se transmet de flambeau en flambeau",
+          "m": "薪火 (bois et feu) + 相传 (se transmettre mutuellement) — la continuité de la lumière entre générations."
+        },
+        {
+          "h": "继往开来",
+          "p": "jì wǎng kāi lái",
+          "f": "continuer le passé et ouvrir l'avenir",
+          "m": "继往 (continuer le passé) + 开来 (ouvrir vers l'avenir) — la jonction entre héritage et innovation."
+        }
+      ]
+    },
+    "bi": {
+      "type": "chengyu",
+      "title": "薪火相传 (xīn huǒ xiāng chuán)",
+      "ctx": "Le feu se transmet de flambeau en flambeau. La métaphore de la continuité culturelle et intellectuelle : la lumière ne s'éteint jamais si on prend soin de la transmettre avant qu'elle ne s'épuise. L'héroïne ne construit pas pour elle-même — elle construit pour que la flamme qu'elle porte puisse être transmise indéfiniment à travers les générations."
+    },
+    "st": "但愿传承久远，薪火相传。她继往开来——教化天下，流芳百世。",
+    "fr_st": "J'espère que la transmission durera longtemps, que le feu se passe de flambeau en flambeau. Elle continue le passé et ouvre l'avenir — éduquer et transformer l'Empire, une gloire pour cent générations.",
+    "lex": [
+      {
+        "h": "但愿",
+        "p": "dàn yuàn",
+        "f": "j'espère que"
+      },
+      {
+        "h": "传承",
+        "p": "chuán chéng",
+        "f": "la transmission"
+      },
+      {
+        "h": "久远",
+        "p": "jiǔ yuǎn",
+        "f": "durera longtemps"
+      },
+      {
+        "h": "薪火相传",
+        "p": "xīn huǒ xiāng chuán",
+        "f": "que le feu se passe de flambeau en flambeau"
+      },
+      {
+        "h": "她",
+        "p": "tā",
+        "f": "elle"
+      },
+      {
+        "h": "继往开来",
+        "p": "jì wǎng kāi lái",
+        "f": "continue le passé et ouvre l'avenir"
+      },
+      {
+        "h": "教化天下",
+        "p": "jiào huà tiān xià",
+        "f": "éduquer et transformer l'Empire"
+      },
+      {
+        "h": "流芳百世",
+        "p": "liú fāng bǎi shì",
+        "f": "une gloire pour cent générations"
+      }
+    ],
+    "ex": [
+      {
+        "q": "Quelle perspective temporelle l'héroïne adopte-t-elle dans ce chapitre ?",
+        "o": [
+          "Le présent immédiat",
+          "Le legs aux générations futures — elle construit pour que la flamme soit transmise indéfiniment",
+          "La vengeance passée",
+          "La victoire présente"
+        ],
+        "r": 1
+      },
+      {
+        "q": "Comment 但愿 exprime-t-il le vœu du souverain différemment d'un ordre ?",
+        "o": [
+          "Il est plus autoritaire",
+          "Il est humble et sincère — un espoir, pas une certitude ou un commandement",
+          "Il est plus formel",
+          "Il est plus puissant"
+        ],
+        "r": 1
+      },
+      {
+        "q": "Que signifie 薪火相传 comme métaphore de la transmission culturelle ?",
+        "o": [
+          "Le feu s'éteint",
+          "La lumière ne s'éteint jamais si on prend soin de la transmettre avant qu'elle ne s'épuise",
+          "Le feu brûle tout",
+          "La flamme appartient à un seul"
+        ],
+        "r": 1
+      },
+      {
+        "q": "继往开来 — quelle double responsabilité ce chengyu exprime-t-il ?",
+        "o": [
+          "Oublier le passé",
+          "Honorer ce qui a été construit avant tout en l'ouvrant vers de nouvelles directions — la jonction héritage/innovation",
+          "Répéter le passé indéfiniment",
+          "Rompre avec le passé"
+        ],
+        "r": 1
+      }
+    ]
+  },
+  {
+    "id": 146,
+    "lvl": "HSK4",
+    "les": {
+      "title": "Leçon 146 — La sagesse comme héritage (智慧 / 道学 / 格物致知)",
+      "gram": "盖因 (gài yīn) = 'car / parce que / la raison fondamentale étant que' (littéraire formel). Introduit une explication causale dans un registre élevé. Plus solennel que 因为. Exemple : 盖因天道循环，祸福相依 (Car la Voie du Ciel est cyclique, malheur et bonheur se dépendent). La langue des textes philosophiques et des mémoires impériaux.",
+      "voc": [
+        {
+          "h": "格物致知",
+          "p": "gé wù zhì zhī",
+          "f": "investiguer les choses pour atteindre la connaissance",
+          "m": "格物 (étudier les choses) + 致知 (parvenir à la connaissance) — la méthode empirique confucéenne."
+        },
+        {
+          "h": "道学",
+          "p": "dào xué",
+          "f": "étude de la Voie / philosophie taoïste-confucéenne",
+          "m": "道 (Voie) + 学 (étude) — la sagesse qui cherche le principe universel derrière les phénomènes."
+        },
+        {
+          "h": "盖因",
+          "p": "gài yīn",
+          "f": "car / parce que (littéraire solennel)",
+          "m": "盖 (couvrir/expliquer) + 因 (cause) — l'explication fondamentale et solennelle."
+        },
+        {
+          "h": "知行合一",
+          "p": "zhī xíng hé yī",
+          "f": "unité du savoir et de l'action",
+          "m": "知 (savoir) + 行 (agir) + 合一 (fusionner) — le principe de Wang Yangming : connaître vraiment c'est agir."
+        },
+        {
+          "h": "博学笃志",
+          "p": "bó xué dǔ zhì",
+          "f": "vaste savoir et volonté ferme",
+          "m": "博学 (savoir étendu) + 笃志 (volonté ferme) — les deux piliers du sage confucéen."
+        },
+        {
+          "h": "慎终追远",
+          "p": "shèn zhōng zhuī yuǎn",
+          "f": "honorer la fin avec soin et vénérer les anciens",
+          "m": "慎终 (prendre soin de la fin) + 追远 (chercher les lointains/ancêtres) — le respect de la continuité."
+        }
+      ]
+    },
+    "bi": {
+      "type": "chengyu",
+      "title": "知行合一 (zhī xíng hé yī)",
+      "ctx": "L'unité du savoir et de l'action. Principe de Wang Yangming (néo-confucéisme Ming) : la vraie connaissance et l'action juste sont inséparables — celui qui sait vraiment agit, et celui qui n'agit pas ne sait pas vraiment. L'héroïne incarne parfaitement 知行合一 : tout ce qu'elle a appris, elle l'a vécu, et tout ce qu'elle a vécu est devenu sagesse."
+    },
+    "st": "盖因知行合一，她臻于大智。格物致知，博学笃志——道学深厚，她所留之遗产，永传后世。",
+    "fr_st": "Car l'unité du savoir et de l'action la porte à la grande sagesse. Investiguer pour connaître, savoir étendu et volonté ferme — sa sagesse est profonde, l'héritage qu'elle laisse sera transmis éternellement.",
+    "lex": [
+      {
+        "h": "盖因",
+        "p": "gài yīn",
+        "f": "car"
+      },
+      {
+        "h": "知行合一",
+        "p": "zhī xíng hé yī",
+        "f": "l'unité du savoir et de l'action"
+      },
+      {
+        "h": "她",
+        "p": "tā",
+        "f": "elle"
+      },
+      {
+        "h": "臻于",
+        "p": "zhēn yú",
+        "f": "la porte à"
+      },
+      {
+        "h": "大智",
+        "p": "dà zhì",
+        "f": "la grande sagesse"
+      },
+      {
+        "h": "格物致知",
+        "p": "gé wù zhì zhī",
+        "f": "investiguer pour connaître"
+      },
+      {
+        "h": "博学笃志",
+        "p": "bó xué dǔ zhì",
+        "f": "savoir étendu et volonté ferme"
+      },
+      {
+        "h": "道学深厚",
+        "p": "dào xué shēn hòu",
+        "f": "sa sagesse est profonde"
+      },
+      {
+        "h": "所留之遗产",
+        "p": "suǒ liú zhī yí chǎn",
+        "f": "l'héritage qu'elle laisse"
+      },
+      {
+        "h": "永传后世",
+        "p": "yǒng chuán hòu shì",
+        "f": "sera transmis éternellement"
+      }
+    ],
+    "ex": [
+      {
+        "q": "Comment 知行合一 décrit-il la trajectoire entière de l'héroïne ?",
+        "o": [
+          "Elle a étudié sans agir",
+          "Tout ce qu'elle a appris s'est traduit en action, et tout ce qu'elle a vécu est devenu sagesse — l'unité parfaite",
+          "Elle a agi sans réfléchir",
+          "Elle a séparé théorie et pratique"
+        ],
+        "r": 1
+      },
+      {
+        "q": "Comment 盖因 diffère-t-il de 因为 dans son registre ?",
+        "o": [
+          "Ils sont identiques",
+          "盖因 est littéraire et solennel — la langue des textes philosophiques et des mémoires impériaux",
+          "因为 est plus formel",
+          "盖因 est plus courant"
+        ],
+        "r": 1
+      },
+      {
+        "q": "Que signifie 格物致知 comme méthode de connaissance ?",
+        "o": [
+          "La méditation seule",
+          "Étudier les choses concrètes du monde pour en extraire la connaissance — la méthode empirique confucéenne",
+          "La lecture des classiques uniquement",
+          "L'intuition mystique"
+        ],
+        "r": 1
+      },
+      {
+        "q": "知行合一 selon Wang Yangming — pourquoi celui qui n'agit pas ne 'sait' pas vraiment ?",
+        "o": [
+          "Car l'action est plus importante que le savoir",
+          "Car la vraie connaissance est inséparable de l'action — ne pas agir selon ce qu'on sait signifie qu'on ne sait pas vraiment",
+          "Car le savoir est inutile",
+          "Car l'action précède le savoir"
+        ],
+        "r": 1
+      }
+    ]
+  },
+  {
+    "id": 147,
+    "lvl": "HSK4",
+    "les": {
+      "title": "Leçon 147 — Tribulation XIV — La Dernière Épreuve (Révision J138–146)",
+      "gram": "TRIBULATION : Révision des jours 138 à 146. Structures finales HSK4 : 臻于, 于是乎, 兹(impérial), 所谓…无非不是…而是, 弹指一挥间, 但愿, 盖因, 知行合一. Ce bloc assemble le registre de la conclusion épique — la langue de l'Histoire.",
+      "voc": [
+        {
+          "h": "集大成者",
+          "p": "jí dà chéng zhě",
+          "f": "celui qui accomplit la grande synthèse",
+          "m": "集 (rassembler) + 大成 (le grand accomplissement) + 者 (celui qui) — celui qui réunit et parfait tout ce qui précède."
+        },
+        {
+          "h": "承前启后",
+          "p": "chéng qián qǐ hòu",
+          "f": "hériter du passé et ouvrir vers l'avenir",
+          "m": "承前 (hériter du passé) + 启后 (ouvrir l'avenir) — la fonction de pont entre générations."
+        },
+        {
+          "h": "立言立德立功",
+          "p": "lì yán lì dé lì gōng",
+          "f": "les trois immortalités : parole, vertu, action",
+          "m": "立言 (fonder sa parole) + 立德 (établir sa vertu) + 立功 (accomplir ses mérites) — les trois façons d'être immortel."
+        },
+        {
+          "h": "超越时代",
+          "p": "chāo yuè shí dài",
+          "f": "transcender son époque",
+          "m": "超越 (dépasser) + 时代 (époque) — être plus grand que le temps dans lequel on vit."
+        },
+        {
+          "h": "亘古长存",
+          "p": "gèn gǔ cháng cún",
+          "f": "persister depuis l'Antiquité jusqu'à l'éternité",
+          "m": "亘古 (depuis l'Antiquité) + 长存 (persister toujours) — l'existence qui traverse toutes les époques."
+        },
+        {
+          "h": "大道至简",
+          "p": "dà dào zhì jiǎn",
+          "f": "la grande Voie est d'une simplicité absolue",
+          "m": "大道 (grande Voie) + 至简 (l'absolu de la simplicité) — la vérité profonde n'a pas besoin de complications."
+        }
+      ]
+    },
+    "bi": {
+      "type": "chengyu",
+      "title": "立言立德立功 (lì yán lì dé lì gōng)",
+      "ctx": "Les Trois Immortalités de Zuo Qiuming : fonder sa parole (écrire ce qui reste), établir sa vertu (être un exemple moral), accomplir ses mérites (agir pour l'Histoire). Celui qui accomplit les trois est véritablement immortel — non par magie, mais par l'impact durable de son existence. La grande héroïne a accompli les trois."
+    },
+    "st": "盖因她集大成，臻于化境，于是乎兹宣告：她承前启后，立言立德立功。弹指一挥间，她超越时代。但愿大道至简，薪火相传，亘古长存。她所谓之功业，无非不是权力，而是人类精神的传承。",
+    "fr_st": "Car elle accomplit la grande synthèse et atteint la transformation absolue — et ainsi nous proclamons : elle hérite du passé et ouvre l'avenir, fondant sa parole, sa vertu et ses mérites. En un claquement de doigts, elle transcende son époque. J'espère que la grande Voie dans sa simplicité, le feu transmis de flambeau en flambeau, persistera depuis l'Antiquité jusqu'à l'éternité. Ce qu'on appelle son œuvre n'est pas le pouvoir — c'est la transmission de l'esprit humain.",
+    "lex": [
+      {
+        "h": "盖因",
+        "p": "gài yīn",
+        "f": "car"
+      },
+      {
+        "h": "她",
+        "p": "tā",
+        "f": "elle"
+      },
+      {
+        "h": "集大成",
+        "p": "jí dà chéng",
+        "f": "accomplit la grande synthèse"
+      },
+      {
+        "h": "臻于化境",
+        "p": "zhēn yú huà jìng",
+        "f": "atteint la transformation absolue"
+      },
+      {
+        "h": "于是乎",
+        "p": "yú shì hū",
+        "f": "et ainsi"
+      },
+      {
+        "h": "兹宣告",
+        "p": "zī xuān gào",
+        "f": "nous proclamons"
+      },
+      {
+        "h": "承前启后",
+        "p": "chéng qián qǐ hòu",
+        "f": "hérite du passé et ouvre l'avenir"
+      },
+      {
+        "h": "立言立德立功",
+        "p": "lì yán lì dé lì gōng",
+        "f": "fondant sa parole sa vertu et ses mérites"
+      },
+      {
+        "h": "弹指一挥间",
+        "p": "tán zhǐ yī huī jiān",
+        "f": "en un claquement de doigts"
+      },
+      {
+        "h": "超越时代",
+        "p": "chāo yuè shí dài",
+        "f": "transcende son époque"
+      },
+      {
+        "h": "但愿",
+        "p": "dàn yuàn",
+        "f": "j'espère que"
+      },
+      {
+        "h": "大道至简",
+        "p": "dà dào zhì jiǎn",
+        "f": "la grande Voie dans sa simplicité"
+      },
+      {
+        "h": "薪火相传",
+        "p": "xīn huǒ xiāng chuán",
+        "f": "le feu transmis de flambeau en flambeau"
+      },
+      {
+        "h": "亘古长存",
+        "p": "gèn gǔ cháng cún",
+        "f": "persistera depuis l'Antiquité"
+      },
+      {
+        "h": "所谓之功业",
+        "p": "suǒ wèi zhī gōng yè",
+        "f": "ce qu'on appelle son œuvre"
+      },
+      {
+        "h": "无非不是",
+        "p": "wú fēi bù shì",
+        "f": "n'est pas"
+      },
+      {
+        "h": "权力",
+        "p": "quán lì",
+        "f": "le pouvoir"
+      },
+      {
+        "h": "而是",
+        "p": "ér shì",
+        "f": "c'est"
+      },
+      {
+        "h": "人类精神的传承",
+        "p": "rén lèi jīng shén de chuán chéng",
+        "f": "la transmission de l'esprit humain"
+      }
+    ],
+    "ex": [
+      {
+        "q": "Comment 立言立德立功 constitue-t-il la définition de l'immortalité selon Zuo Qiuming ?",
+        "o": [
+          "L'immortalité physique",
+          "L'impact durable à travers la parole, la vertu et l'action — trois façons de persister au-delà de la vie",
+          "L'immortalité par la magie",
+          "L'immortalité par la richesse"
+        ],
+        "r": 1
+      },
+      {
+        "q": "Identifiez 所谓…无非不是…而是 dans ce chapitre et ce qu'il redéfinit.",
+        "o": [
+          "于是乎兹宣告",
+          "她所谓之功业，无非不是权力，而是人类精神的传承",
+          "盖因她集大成",
+          "弹指一挥间，她超越时代"
+        ],
+        "r": 1
+      },
+      {
+        "q": "Comment 于是乎 et 兹 combinés créent-ils l'effet d'une proclamation historique ?",
+        "o": [
+          "Ils s'annulent",
+          "于是乎 établit la logique cosmique de la conclusion ; 兹 confère l'autorité impériale à la proclamation — ensemble c'est l'écho de l'Histoire",
+          "Ils créent une question",
+          "Ils expriment l'hésitation"
+        ],
+        "r": 1
+      },
+      {
+        "q": "大道至简 — quelle vérité philosophique cette formule exprime-t-elle ?",
+        "o": [
+          "Les grandes vérités sont compliquées",
+          "La vérité profonde et universelle n'a pas besoin de complications — la sagesse ultime est simple",
+          "La simplicité est une faiblesse",
+          "Les grandes vérités sont secretes"
+        ],
+        "r": 1
+      },
+      {
+        "q": "盖因 dans ce chapitre — comment justifie-t-il 臻于化境 ?",
+        "o": [
+          "Il l'annonce sans explication",
+          "Il en donne la raison causale profonde — c'est la grande synthèse accomplie qui rend la transformation possible",
+          "Il le contredit",
+          "Il le minimise"
+        ],
+        "r": 1
+      },
+      {
+        "q": "亘古长存 — quelle dimension temporelle absolue cette formule évoque-t-elle ?",
+        "o": [
+          "Une longue durée",
+          "L'existence qui traverse toutes les époques depuis l'Antiquité jusqu'à l'éternité — au-delà du temps humain",
+          "Une durée de cent ans",
+          "Une durée millénaire"
+        ],
+        "r": 1
+      }
+    ]
+  },
+  {
+    "id": 148,
+    "lvl": "HSK4",
+    "les": {
+      "title": "Leçon 148 — Le crépuscule de la gloire (盛极而衰 / 月满则亏 / 知足常乐)",
+      "gram": "物极必反 (wù jí bì fǎn) est une loi philosophique : 'les choses poussées à l'extrême se retournent inévitablement'. Principe taoïste fondamental. Structure associée : 月满则亏，水满则溢 (La lune pleine décline, l'eau à ras bord déborde). Ces formules de cyclicité cosmique enseignent l'équilibre — l'héroïne sage sait quand s'arrêter.",
+      "voc": [
+        {
+          "h": "盛极而衰",
+          "p": "shèng jí ér shuāi",
+          "f": "l'apogée annonce le déclin",
+          "m": "盛极 (comble de la prospérité) + 而衰 (et décline) — la loi des cycles."
+        },
+        {
+          "h": "月满则亏",
+          "p": "yuè mǎn zé kuī",
+          "f": "la lune pleine décline ensuite",
+          "m": "月满 (lune pleine) + 则亏 (alors diminue) — le cycle inévitable de la nature."
+        },
+        {
+          "h": "知足常乐",
+          "p": "zhī zú cháng lè",
+          "f": "savoir se contenter apporte la joie permanente",
+          "m": "知足 (connaître la suffisance) + 常乐 (joie permanente) — le bonheur de celui qui n'est pas dans l'excès."
+        },
+        {
+          "h": "物极必反",
+          "p": "wù jí bì fǎn",
+          "f": "poussé à l'extrême, tout se retourne",
+          "m": "物极 (chose à l'extrême) + 必反 (se retourne nécessairement) — la loi taoïste du renversement."
+        },
+        {
+          "h": "急流勇退",
+          "p": "jí liú yǒng tuì",
+          "f": "se retirer courageusement au sommet",
+          "m": "急流 (courant rapide) + 勇退 (se retirer courageusement) — la sagesse de s'arrêter quand on est au sommet."
+        },
+        {
+          "h": "功成身退",
+          "p": "gōng chéng shēn tuì",
+          "f": "une fois le mérite accompli, se retirer",
+          "m": "功成 (mérite accompli) + 身退 (soi-même se retire) — la sagesse taoïste du sage qui s'efface."
+        }
+      ]
+    },
+    "bi": {
+      "type": "chengyu",
+      "title": "功成身退，天之道也 (gōng chéng shēn tuì, tiān zhī dào yě)",
+      "ctx": "Une fois le mérite accompli, se retirer — c'est la Voie du Ciel. Laozi, Tao Te Ching chapitre 9. Le sage qui s'accroche au pouvoir après avoir accompli sa mission contrevient à la Voie du Ciel. L'héroïne arrive à ce point : son œuvre est accomplie, l'Empire est fondé, la paix est établie. La question de la retraite volontaire se pose — et c'est la plus haute sagesse de pouvoir la poser."
+    },
+    "st": "盛极而衰，月满则亏。她深知此理——急流勇退，功成身退乃天之道。知足常乐，物极必反。",
+    "fr_st": "L'apogée annonce le déclin, la lune pleine décline. Elle comprend profondément ce principe — se retirer courageusement au sommet, s'effacer après l'accomplissement, c'est la Voie du Ciel. Savoir se contenter apporte la joie permanente, tout poussé à l'extrême se retourne.",
+    "lex": [
+      {
+        "h": "盛极而衰",
+        "p": "shèng jí ér shuāi",
+        "f": "l'apogée annonce le déclin"
+      },
+      {
+        "h": "月满则亏",
+        "p": "yuè mǎn zé kuī",
+        "f": "la lune pleine décline"
+      },
+      {
+        "h": "她",
+        "p": "tā",
+        "f": "elle"
+      },
+      {
+        "h": "深知",
+        "p": "shēn zhī",
+        "f": "comprend profondément"
+      },
+      {
+        "h": "此理",
+        "p": "cǐ lǐ",
+        "f": "ce principe"
+      },
+      {
+        "h": "急流勇退",
+        "p": "jí liú yǒng tuì",
+        "f": "se retirer courageusement au sommet"
+      },
+      {
+        "h": "功成身退",
+        "p": "gōng chéng shēn tuì",
+        "f": "s'effacer après l'accomplissement"
+      },
+      {
+        "h": "乃天之道",
+        "p": "nǎi tiān zhī dào",
+        "f": "c'est la Voie du Ciel"
+      },
+      {
+        "h": "知足常乐",
+        "p": "zhī zú cháng lè",
+        "f": "savoir se contenter apporte la joie permanente"
+      },
+      {
+        "h": "物极必反",
+        "p": "wù jí bì fǎn",
+        "f": "tout poussé à l'extrême se retourne"
+      }
+    ],
+    "ex": [
+      {
+        "q": "Quelle sagesse taoïste ce chapitre enseigne-t-il à l'héroïne au sommet de sa gloire ?",
+        "o": [
+          "S'accrocher au pouvoir pour le préserver",
+          "Se retirer volontairement après l'accomplissement — c'est la plus haute sagesse",
+          "Continuer à conquérir",
+          "Déléguer sans se retirer"
+        ],
+        "r": 1
+      },
+      {
+        "q": "Comment 月满则亏 s'applique-t-il à la situation de l'héroïne ?",
+        "o": [
+          "Elle va déclin physiquement",
+          "Au sommet de la gloire, la seule direction est le déclin si on ne sait pas s'arrêter volontairement",
+          "La lune lui inspire",
+          "Sa santé décline"
+        ],
+        "r": 1
+      },
+      {
+        "q": "Que signifie 急流勇退 comme acte de courage paradoxal ?",
+        "o": [
+          "Fuir sous la pression",
+          "Se retirer courageusement au sommet — l'acte le plus difficile et le plus sage",
+          "S'arrêter par fatigue",
+          "Renoncer par faiblesse"
+        ],
+        "r": 1
+      },
+      {
+        "q": "功成身退，天之道也 — pourquoi Laozi considère-t-il ce retrait comme 'la Voie du Ciel' ?",
+        "o": [
+          "Car le pouvoir est mauvais",
+          "Car s'accrocher après l'accomplissement contrevient au cycle naturel — le sage suit la Voie, pas l'ego",
+          "Car l'Empire n'en a plus besoin",
+          "Car elle veut se reposer"
+        ],
+        "r": 1
+      }
+    ]
+  },
+  {
+    "id": 149,
+    "lvl": "HSK4",
+    "les": {
+      "title": "Leçon 149 — La dernière nuit (今宵 / 执手相看 / 无言胜有言)",
+      "gram": "无言胜有言 (wú yán shèng yǒu yán) = 'le silence vaut plus que les paroles'. Structure de comparaison paradoxale : A > B alors que A = l'absence de B. Associé à : 此处无声胜有声 (ici le silence vaut le son) — Du Fu. En 大女主, la dernière nuit avant le grand dénouement est toujours en silence — les deux protagonistes n'ont plus besoin de mots.",
+      "voc": [
+        {
+          "h": "今宵",
+          "p": "jīn xiāo",
+          "f": "ce soir / cette nuit (littéraire)",
+          "m": "今 (maintenant) + 宵 (nuit) — cette nuit précise, avec toute sa charge émotionnelle."
+        },
+        {
+          "h": "执手相看",
+          "p": "zhí shǒu xiāng kàn",
+          "f": "se tenir par la main et se regarder",
+          "m": "执手 (tenir la main) + 相看 (se regarder mutuellement) — le regard partagé en silence."
+        },
+        {
+          "h": "无言胜有言",
+          "p": "wú yán shèng yǒu yán",
+          "f": "le silence vaut plus que les paroles",
+          "m": "无言 (sans paroles) + 胜 (surpasser) + 有言 (avec paroles) — quand les mots ne peuvent plus rien ajouter."
+        },
+        {
+          "h": "泪光",
+          "p": "lèi guāng",
+          "f": "lueur de larme / éclat de pleur",
+          "m": "泪 (larme) + 光 (lumière) — la larme qui brille avant de couler."
+        },
+        {
+          "h": "此刻永恒",
+          "p": "cǐ kè yǒng héng",
+          "f": "cet instant est éternel",
+          "m": "此刻 (cet instant) + 永恒 (éternel) — la fixation d'un moment dans l'éternité."
+        },
+        {
+          "h": "凝固",
+          "p": "níng gù",
+          "f": "se solidifier / se figer / cristalliser",
+          "m": "凝 (se condenser) + 固 (se solidifier) — le moment qui se fige et ne passera jamais."
+        }
+      ]
+    },
+    "bi": {
+      "type": "chengyu",
+      "title": "执手相看泪眼，竟无语凝噎 (zhí shǒu xiāng kàn lèi yǎn, jìng wú yǔ níng yē)",
+      "ctx": "Se tenir par la main, se regarder les yeux mouillés, et finalement sans voix, la gorge serrée. Vers de Liu Yong (柳永 · 雨霖铃) — l'un des poèmes de séparation les plus célèbres de la littérature Tang-Song. La scène de séparation ultime où les mots s'avèrent impossibles. L'héroïne et le prince vivent exactement ce moment avant l'ultime confrontation — même les immortels n'ont pas de mots pour certains silences."
+    },
+    "st": "今宵，执手相看。无言胜有言——泪光中，此刻凝固，永恒。竟无语凝噎，心已相通。",
+    "fr_st": "Ce soir, ils se tiennent par la main et se regardent. Le silence vaut plus que les paroles — dans l'éclat des larmes, cet instant se fige, éternel. Finalement sans voix, la gorge serrée — leurs cœurs communient sans mots.",
+    "lex": [
+      {
+        "h": "今宵",
+        "p": "jīn xiāo",
+        "f": "ce soir"
+      },
+      {
+        "h": "执手相看",
+        "p": "zhí shǒu xiāng kàn",
+        "f": "ils se tiennent par la main et se regardent"
+      },
+      {
+        "h": "无言胜有言",
+        "p": "wú yán shèng yǒu yán",
+        "f": "le silence vaut plus que les paroles"
+      },
+      {
+        "h": "泪光中",
+        "p": "lèi guāng zhōng",
+        "f": "dans l'éclat des larmes"
+      },
+      {
+        "h": "此刻",
+        "p": "cǐ kè",
+        "f": "cet instant"
+      },
+      {
+        "h": "凝固",
+        "p": "níng gù",
+        "f": "se fige"
+      },
+      {
+        "h": "永恒",
+        "p": "yǒng héng",
+        "f": "éternel"
+      },
+      {
+        "h": "竟无语凝噎",
+        "p": "jìng wú yǔ níng yē",
+        "f": "finalement sans voix la gorge serrée"
+      },
+      {
+        "h": "心已相通",
+        "p": "xīn yǐ xiāng tōng",
+        "f": "leurs cœurs communient sans mots"
+      }
+    ],
+    "ex": [
+      {
+        "q": "Quel état de communion les deux protagonistes atteignent-ils dans ce dernier soir ?",
+        "o": [
+          "Un accord politique final",
+          "La communion silencieuse — leurs cœurs se comprennent au-delà de tout langage",
+          "Une réconciliation",
+          "Une déclaration solennelle"
+        ],
+        "r": 1
+      },
+      {
+        "q": "Comment 无言胜有言 transcende-t-il la limite du langage ?",
+        "o": [
+          "Il prouve que les mots sont inutiles",
+          "Il révèle que certains états de compréhension mutuelle dépassent ce que les mots peuvent exprimer",
+          "Il refuse la communication",
+          "Il valorise le silence en toutes circonstances"
+        ],
+        "r": 1
+      },
+      {
+        "q": "D'où vient 执手相看泪眼，竟无语凝噎 et quel sentiment décrit-il ?",
+        "o": [
+          "De Du Fu, décrivant la guerre",
+          "De Liu Yong (雨霖铃), décrivant la séparation où les mots s'avèrent impossibles face à l'émotion",
+          "De Wang Wei, décrivant la nature",
+          "De Li Bai, décrivant la lune"
+        ],
+        "r": 1
+      },
+      {
+        "q": "今宵 vs 今晚 — quelle différence de registre ces deux mots expriment-ils ?",
+        "o": [
+          "Ils sont identiques",
+          "今宵 est littéraire et poétique — il charge la nuit d'une dimension émotionnelle que 今晚 (courant) ne porte pas",
+          "今晚 est plus formel",
+          "今宵 est archaïque et peu compris"
+        ],
+        "r": 1
+      }
+    ]
+  },
+  {
+    "id": 150,
+    "lvl": "HSK4",
+    "les": {
+      "title": "BOSS BATTLE — Reconquête de la Citadelle Impériale (Révision complète Mois 5)",
+      "gram": "BOSS BATTLE : Mobilisation de TOUTES les structures du Mois 5. La reconquête de la citadelle impériale, la victoire sur les rebelles, et l'entrée dans le Mois 6 — le dernier arc. Toutes les structures HSK4 sont mobilisées : 随着, 非但…反而, 骨子里, 凭借, 唯有…才能, 兹, 盖因, 臻于, 于是乎, 物极必反, 知足常乐.",
+      "voc": [
+        {
+          "h": "凯歌高奏",
+          "p": "kǎi gē gāo zòu",
+          "f": "l'hymne de victoire résonne haut",
+          "m": "凯歌 (hymne triomphal) + 高奏 (jouer haut) — la célébration éclatante de la victoire."
+        },
+        {
+          "h": "威加海内",
+          "p": "wēi jiā hǎi nèi",
+          "f": "l'autorité couvre tout l'Empire",
+          "m": "威 (autorité) + 加 (couvrir) + 海内 (à l'intérieur des mers) — le rayonnement total du pouvoir."
+        },
+        {
+          "h": "归来兮",
+          "p": "guī lái xī",
+          "f": "je reviens ! (épique poétique)",
+          "m": "归来 (revenir) + 兮 (particule épique archaïque) — le retour proclamé avec éclat."
+        },
+        {
+          "h": "光复旧山河",
+          "p": "guāng fù jiù shān hé",
+          "f": "restaurer les anciennes terres et fleuves",
+          "m": "光复 (restaurer) + 旧山河 (anciennes montagnes et fleuves) — la reconquête du territoire originel."
+        },
+        {
+          "h": "功德圆满",
+          "p": "gōng dé yuán mǎn",
+          "f": "mérites et vertus pleinement accomplis",
+          "m": "功德 (mérites et vertus) + 圆满 (pleinement accompli) — la complétude parfaite."
+        },
+        {
+          "h": "上下同心",
+          "p": "shàng xià tóng xīn",
+          "f": "les hauts et les bas du même cœur / unité nationale",
+          "m": "上下 (haut et bas) + 同心 (même cœur) — l'unité totale de la société."
+        }
+      ]
+    },
+    "bi": {
+      "type": "chengyu",
+      "title": "山河壮丽，威加四海 (shān hé zhuàng lì, wēi jiā sì hǎi)",
+      "ctx": "Montagnes et fleuves magnifiques, autorité qui couvre les quatre mers. La vision finale du souverain qui contemple son Empire unifié et pacifié. Adaptation de Liu Bang (汉高祖) dans son ode de victoire 大风歌. L'héroïne, en reconquérant la citadelle et en parachevant l'unification, peut enfin contempler ce paysage — et ressentir que le chemin depuis le Jour 1 avait exactement ce but."
+    },
+    "st": "光复旧山河。随着她凯歌高奏，威加四海。非但未失，反而功德圆满。盖因她臻于化境，唯有如此方能上下同心。于是乎，兹宣告：归来兮！凭借她骨子里的大义，物极必反后，知足常乐。她回首，弹指一挥间——百日之旅，已成百年基业。执子之手，与子共治——天地同寿，海枯石烂，此情不渝。山河壮丽，威加四海——她乃万古流芳之大女主。",
+    "fr_st": "Les anciennes terres sont restaurées. Au fur et à mesure que son hymne de victoire résonne, l'autorité couvre les quatre mers. Non seulement rien n'est perdu — au contraire, mérites et vertus sont pleinement accomplis. Car elle a atteint la transformation absolue, seule cette voie permettait l'unité de tous. Et ainsi, par le présent nous proclamons : je reviens ! Grâce à la grande justice ancrée au fond d'elle, après le retournement de l'extrême, la joie de la suffisance. Elle se retourne — en un claquement de doigts, le voyage de cent jours est devenu la fondation de cent ans. Tenir ta main, gouverner le monde avec toi — l'immortalité cosmique, même quand la mer s'assèche et les pierres se dissolvent, ce sentiment est inébranlable. Montagnes et fleuves magnifiques, autorité qui couvre les quatre mers — elle est la Grande Héroïne dont la gloire brillera pour dix mille générations.",
+    "lex": [
+      {
+        "h": "光复旧山河",
+        "p": "guāng fù jiù shān hé",
+        "f": "les anciennes terres sont restaurées"
+      },
+      {
+        "h": "随着",
+        "p": "suí zhe",
+        "f": "au fur et à mesure que"
+      },
+      {
+        "h": "她",
+        "p": "tā",
+        "f": "elle"
+      },
+      {
+        "h": "凯歌高奏",
+        "p": "kǎi gē gāo zòu",
+        "f": "son hymne de victoire résonne"
+      },
+      {
+        "h": "威加四海",
+        "p": "wēi jiā sì hǎi",
+        "f": "l'autorité couvre les quatre mers"
+      },
+      {
+        "h": "非但",
+        "p": "fēi dàn",
+        "f": "non seulement"
+      },
+      {
+        "h": "未失",
+        "p": "wèi shī",
+        "f": "rien n'est perdu"
+      },
+      {
+        "h": "反而",
+        "p": "fǎn ér",
+        "f": "au contraire"
+      },
+      {
+        "h": "功德圆满",
+        "p": "gōng dé yuán mǎn",
+        "f": "mérites et vertus sont pleinement accomplis"
+      },
+      {
+        "h": "盖因",
+        "p": "gài yīn",
+        "f": "car"
+      },
+      {
+        "h": "臻于化境",
+        "p": "zhēn yú huà jìng",
+        "f": "elle a atteint la transformation absolue"
+      },
+      {
+        "h": "唯有如此",
+        "p": "wéi yǒu rú cǐ",
+        "f": "seule cette voie"
+      },
+      {
+        "h": "方能",
+        "p": "fāng néng",
+        "f": "permettait"
+      },
+      {
+        "h": "上下同心",
+        "p": "shàng xià tóng xīn",
+        "f": "l'unité de tous"
+      },
+      {
+        "h": "于是乎",
+        "p": "yú shì hū",
+        "f": "et ainsi"
+      },
+      {
+        "h": "兹宣告",
+        "p": "zī xuān gào",
+        "f": "par le présent nous proclamons"
+      },
+      {
+        "h": "归来兮",
+        "p": "guī lái xī",
+        "f": "je reviens"
+      },
+      {
+        "h": "凭借",
+        "p": "píng jiè",
+        "f": "grâce à"
+      },
+      {
+        "h": "骨子里的",
+        "p": "gǔ zi lǐ de",
+        "f": "la grande justice ancrée au fond d'elle"
+      },
+      {
+        "h": "大义",
+        "p": "dà yì",
+        "f": "grande justice"
+      },
+      {
+        "h": "物极必反后",
+        "p": "wù jí bì fǎn hòu",
+        "f": "après le retournement de l'extrême"
+      },
+      {
+        "h": "知足常乐",
+        "p": "zhī zú cháng lè",
+        "f": "la joie de la suffisance"
+      },
+      {
+        "h": "回首",
+        "p": "huí shǒu",
+        "f": "elle se retourne"
+      },
+      {
+        "h": "弹指一挥间",
+        "p": "tán zhǐ yī huī jiān",
+        "f": "en un claquement de doigts"
+      },
+      {
+        "h": "百日之旅",
+        "p": "bǎi rì zhī lǚ",
+        "f": "le voyage de cent jours"
+      },
+      {
+        "h": "已成",
+        "p": "yǐ chéng",
+        "f": "est devenu"
+      },
+      {
+        "h": "百年基业",
+        "p": "bǎi nián jī yè",
+        "f": "la fondation de cent ans"
+      },
+      {
+        "h": "执子之手",
+        "p": "zhí zǐ zhī shǒu",
+        "f": "tenir ta main"
+      },
+      {
+        "h": "与子共治",
+        "p": "yǔ zǐ gòng zhì",
+        "f": "gouverner avec toi"
+      },
+      {
+        "h": "天地同寿",
+        "p": "tiān dì tóng shòu",
+        "f": "l'immortalité cosmique"
+      },
+      {
+        "h": "海枯石烂",
+        "p": "hǎi kū shí làn",
+        "f": "même quand la mer s'assèche et les pierres se dissolvent"
+      },
+      {
+        "h": "此情不渝",
+        "p": "cǐ qíng bù yú",
+        "f": "ce sentiment est inébranlable"
+      },
+      {
+        "h": "山河壮丽",
+        "p": "shān hé zhuàng lì",
+        "f": "montagnes et fleuves magnifiques"
+      },
+      {
+        "h": "乃",
+        "p": "nǎi",
+        "f": "elle est"
+      },
+      {
+        "h": "万古流芳之",
+        "p": "wàn gǔ liú fāng zhī",
+        "f": "dont la gloire brillera pour dix mille générations"
+      },
+      {
+        "h": "大女主",
+        "p": "dà nǚ zhǔ",
+        "f": "la Grande Héroïne"
+      }
+    ],
+    "ex": [
+      {
+        "q": "Quels trois niveaux d'accomplissement ce Boss Battle conclut-il ?",
+        "o": [
+          "Politique, militaire, personnel",
+          "Militaire (reconquête), politique (unification), spirituel (immortalité) — les trois dimensions de la 大女主",
+          "Romantique, politique, familial",
+          "Cultivation, guerre, paix"
+        ],
+        "r": 1
+      },
+      {
+        "q": "Comment 随着…非但…反而 structure-t-il la dynamique de la victoire finale ?",
+        "o": [
+          "Il exprime la défaite",
+          "随着 montre la progression cumulative ; 非但…反而 montre que chaque obstacle s'est retourné en avantage — la victoire s'auto-alimente",
+          "Il exprime l'incertitude",
+          "Il compare deux victoires"
+        ],
+        "r": 1
+      },
+      {
+        "q": "盖因…唯有…方能— comment cette triple structure causale justifie-t-elle la méthode de l'héroïne ?",
+        "o": [
+          "Elle explique une coïncidence",
+          "Elle établit une chaîne causale : car elle a atteint X (盖因臻于), seule cette voie (唯有) permettait Y (方能)",
+          "Elle exprime le doute",
+          "Elle compare deux méthodes"
+        ],
+        "r": 1
+      },
+      {
+        "q": "归来兮 — d'où vient la particule 兮 et quelle fonction épique a-t-elle ?",
+        "o": [
+          "C'est une particule moderne",
+          "兮 est une particule archaïque des Chants de Chu (楚辞) — elle élève le discours au niveau de l'épopée cosmique",
+          "C'est une faute de grammaire",
+          "Elle exprime la surprise"
+        ],
+        "r": 1
+      },
+      {
+        "q": "海枯石烂，此情不渝— comment cette formule clôt-elle l'arc romantique du slow burn ?",
+        "o": [
+          "Elle exprime l'incertitude",
+          "Elle scelle l'engagement dans l'éternité — même l'impossible (mer asséchée, pierres dissoutes) ne peut défaire ce lien",
+          "Elle annonce une séparation",
+          "Elle exprime la tristesse"
+        ],
+        "r": 1
+      },
+      {
+        "q": "物极必反后，知足常乐 — quelle sagesse taoïste l'héroïne a-t-elle intégrée au sommet de sa gloire ?",
+        "o": [
+          "S'accrocher au pouvoir",
+          "L'extrême se retourne — la sagesse du 知足 (savoir se contenter) protège de la décadence qui suit l'apogée",
+          "Continuer à conquérir",
+          "Déléguer tout pouvoir"
+        ],
+        "r": 1
+      },
+      {
+        "q": "弹指一挥间 + 百日之旅→百年基业 — quelle transformation temporelle ce contraste exprime-t-il ?",
+        "o": [
+          "Le temps est long",
+          "En un claquement de doigts subjectif, l'effort d'une vie entière a créé une fondation qui durera des siècles — le retournement du temps",
+          "Le temps est court",
+          "La fondation est fragile"
+        ],
+        "r": 1
+      },
+      {
+        "q": "山河壮丽，威加四海 — en quoi cette adaptation de Liu Bang (汉高祖) confère-t-elle une profondeur historique à la victoire de l'héroïne ?",
+        "o": [
+          "C'est une coïncidence",
+          "Elle inscrit sa victoire dans la lignée des grandes fondations impériales de l'Histoire chinoise — résonance cosmique et historique simultanée",
+          "Liu Bang était une femme",
+          "L'héroïne cite Liu Bang directement"
+        ],
+        "r": 1
+      }
+    ]
+  }
+]
